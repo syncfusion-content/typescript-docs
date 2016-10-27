@@ -2,21 +2,31 @@
 layout: post
 title: Ribbon - Getting Started for Typescript Ribbon
 description: Getting-Started
-documentation: ug
+documentation: UG
 platform: Typescript
 keywords: getting started,ribbon getting started
 ---
 
 # Getting Started
 
-This section explains briefly how to create a `Ribbon`.
+
+For common steps of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+
+The default type definition file ej.web.all.d.ts needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
+
+The important step you need to do is to copy the ej.web.all.d.ts file into your project and then need to refer it in your TypeScript application (app.ts file), so that you will get the intelliSense support and also the compile time type-checking.
+
+You can find the ej.web.all.d.ts file in the following location,
+
+(installed location)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\typescript
+
+Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.d.ts file in your TypeScript application, which can be downloaded from [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
 ## Script & CSS Reference 
 
 Ribbon have the following list of external script dependencies and these should be referred before `ej` Script files
 
 * [`jQuery`](http://jquery.com) 1.7.1 and later versions
-* [`jQuery.easing`](http://gsgd.co.uk/sandbox/jquery/easing) - to support the animation effects in the components.
 
 Also Ribbon have internal dependencies which includes `ej.core` libraries and [`child controls`](http://help.syncfusion.com/js/api/ejribbon#requires). For getting started, you can refer `ej.web.all.min.js` which includes `ej.core` and all Syncfusion JavaScript controls.
 
@@ -28,25 +38,23 @@ Create a basic HTML file as shown below to create your Ribbon.
 
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-    <title>Ribbon Control</title>
-    <!-- style sheet for default theme(flat azure) -->
-    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
-    <!—jQuery dependency scripts-->
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"></script>
-    <!— ej script to render JavaScript control-->
-    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
-    </head>
-    <body>
-    </body>
+        <head>
+            <title>Ribbon - Getting Started</title>
+            <!-- style sheet for default theme(flat azure) -->
+            <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+            <!—jQuery dependency scripts-->
+            <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>    
+            <!— ej script to render JavaScript control-->
+            <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
+        </head>
+        <body>
+        </body>
     </html>
 
 {% endhighlight %}
 
-
 N> 1. In case if you don’t want to use `ej.web.all.min.js` file, you can use our [`custom script generator`](http://help.syncfusion.com/js/api/ejribbon#requires) to create custom script file with required controls and its dependencies only
-N> 2. Ribbon’s sample level icons can be loaded using `ej.icons.CSS` from the location **(installed location)**\ Syncfusion\Essential Studio\13.2.0.29\JavaScript\assets\css\web\ribbon-css”
+N> 2. Ribbon’s sample level icons can be loaded using `ej.icons.CSS` from the location **(installed location)**\ Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\css\web\ribbon-css”
 
 
 ## Control Initialization
@@ -75,24 +83,25 @@ Define the Application Tab with [`type`](http://help.syncfusion.com/js/api/ejrib
             </ul>
         </li>
     </ul>
+    <ul id="pasteSplit">
+        <li><a>Paste</a></li>
+    </ul>
             
 {% endhighlight %}
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts" />
-/// <reference path="../tsfiles/ej.web.all.d.ts" />
+    /// <reference path="../tsfiles/jquery.d.ts" />
+    /// <reference path="../tsfiles/ej.web.all.d.ts" />
     module RibbonComponent {
-    $(function () {
-        var sample = new ej.Ribbon($("#defaultRibbon"), {
-        width: "100%",
-        applicationTab: {
-                 type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
-            },
-        
-        
+        $(function () {
+            var sample = new ej.Ribbon($("#defaultRibbon"), {
+            width: "100%",
+            applicationTab: {
+                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                }
+            });
         });
-    });
     }
 
 {% endhighlight %}
@@ -108,18 +117,15 @@ Tab is a set of related groups which are combined into single item. For creating
 {% highlight html %}
 
 	module RibbonComponent {
-    $(function () {
-        var sample = new ej.Ribbon($("#defaultRibbon"), {
-        width: "100%",
-        applicationTab: {
-                 type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
-            },
-             tabs: [{
-                    id: "home", text: "HOME",
+        $(function () {
+            var sample = new ej.Ribbon($("#defaultRibbon"), {
+            width: "100%",
+            applicationTab: {
+                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
                 },
-            ],
+                tabs: [{ id: "home", text: "HOME" }]
+            });
         });
-    });
     }
 
 {% endhighlight %}
@@ -135,31 +141,31 @@ Create group item with [`text`](http://help.syncfusion.com/js/api/ejribbon#membe
 {% highlight html %}
 
 	module RibbonComponent {
-    $(function () {
-        var sample = new ej.Ribbon($("#defaultRibbon"), {
-        width: "100%",
-        applicationTab: {
-                 type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
-            },
-            tabs: [{
-                    id: "home", text: "HOME", groups: [{
-                            text: "New", alignType: ej.Ribbon.AlignType.Rows, content: [{
-                                    groups: [{
-                                            id: "new",
-                                            text: "New",
-                                            buttonSettings: {
-                                                contentType: ej.ContentType.ImageOnly,
-                                                prefixIcon: "e-icon e-ribbon e-new"
-                                            }
-                                        }
-                                    ],
-                                }]
-                        },                                     
-                  ]
+        $(function () {
+            var sample = new ej.Ribbon($("#defaultRibbon"), {
+                width: "100%",
+                applicationTab: {
+                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
                 },
-            ],
+                tabs: 
+                [{
+                    id: "home", text: "HOME",
+                    groups: [{
+                        text: "New", alignType: ej.Ribbon.AlignType.Rows, 
+                        content: [{
+                            groups: [{
+                                    id: "new",
+                                    text: "New",
+                                    buttonSettings: {
+                                        contentType: ej.ContentType.ImageOnly,
+                                        prefixIcon: "e-icon e-ribbon e-new"
+                                    }
+                            }]
+                        }]
+                    }]
+                }]
+            });
         });
-    });
     }
 
 {% endhighlight %}
@@ -173,55 +179,49 @@ Syncfusion JavaScript Controls can be added to group’s content with correspond
 {% highlight html %}
 
     module RibbonComponent {
-    $(function () {
-        var sample = new ej.Ribbon($("#defaultRibbon"), {
-        width: "100%",
-        applicationTab: {
-                 type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
-            },
+        $(function () {
+            var sample = new ej.Ribbon($("#defaultRibbon"), {
+                width: "100%",
+                applicationTab: {
+                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                },
                 tabs: [{
-                id: "home", text: "HOME", groups: [{
-                    text: "SplitButton & Dropdown", alignType: ej.Ribbon.AlignType.Columns, content: [{
-                        groups: [{
-                            id: "paste",
-                            text: "paste",
-                            splitButtonSettings: {
-                                contentType: ej.ContentType.ImageOnly,
-                                prefixIcon: "e-icon e-ribbon e-ribbonpaste",
-                                targetID: "pasteSplit",
-                                buttonMode: "dropdown",
-                                arrowPosition: ej.ArrowPosition.Bottom,
-                            }
-                        }
-                        ],
-                        defaults: {
-                            type: ej.Ribbon.Type.SplitButton,
-                            width: 50,
-                            height: 70
-                        }
-                    },
-
-                    {
-                        groups: [{
-                            id: "fontfamily",
-                            type: ej.Ribbon.Type.DropDownList,
-                            dropdownSettings: {
-                                dataSource: fontfamily,
-                                text: "Segoe UI",
-                                width: 150
+                    id: "home", text: "HOME", 
+                    groups: [{
+                        text: "SplitButton & Dropdown", alignType: ej.Ribbon.AlignType.Columns,
+                        content: [{
+                            groups: [{
+                                id: "paste",
+                                text: "paste",
+                                splitButtonSettings: {
+                                    contentType: ej.ContentType.ImageOnly,
+                                    prefixIcon: "e-icon e-ribbon e-ribbonpaste",
+                                    targetID: "pasteSplit",
+                                    buttonMode: "dropdown",
+                                    arrowPosition: ej.ArrowPosition.Bottom,
+                                }
+                            }],
+                            defaults: {
+                                type: ej.Ribbon.Type.SplitButton,
+                                width: 50,
+                                height: 70
                             }
                         },
-                           ],
-                        
-                    },
-
-                        ]
-                },
-                  ]
-                },
-            ],
+                        {
+                            groups: [{
+                                id: "fontfamily",
+                                type: ej.Ribbon.Type.DropDownList,
+                                dropdownSettings: {
+                                    dataSource: fontfamily,
+                                    text: "Segoe UI",
+                                    width: 150
+                                }
+                            }]
+                        }]
+                    }]
+                }]
+            });
         });
-    });
     }
   
 {% endhighlight %}

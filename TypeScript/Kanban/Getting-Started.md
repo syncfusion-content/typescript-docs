@@ -2,12 +2,24 @@
 layout: post
 title: Kanban - Getting-Started
 description: Getting-Started
-documentation: ug
+documentation: UG
 platform: Typescript
 keywords: getting started,kanban getting started
 ---
 
 # Getting Started
+
+For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+
+The default type definition file ej.web.all.d.ts needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
+
+The important step you need to do is to copy the ej.web.all.d.ts file into your project and then need to refer it in your TypeScript application (app.ts file), so that you will get the intelliSense support and also the compile time type-checking.
+
+You can find the ej.web.all.d.ts file in the following location,
+
+(installed location)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\typescript
+
+Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.d.ts file in your TypeScript application, which can be downloaded from [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
 ## Preparing HTML document
 
@@ -15,7 +27,6 @@ The Kanban control has the following list of external JavaScript dependencies.
 
 * [`jQuery 1.7.1`](http://jquery.com) and later versions
 * [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
-* [`jQuery.easing`](http://gsgd.co.uk/sandbox/jquery/easing) - to support animation effects in the components
 
 ## Adding Script Reference
 
@@ -52,6 +63,14 @@ Refer to the internal dependencies in the following table.
       </td>
       <td>
           It is referred when using touch functionalities in Kanban.
+      </td>
+   </tr>   
+   <tr>
+      <td>
+        ej.draggable.min.js 
+      </td>
+      <td>
+          It is referred when using drag and drop in Kanban.
       </td>
    </tr>
    <tr>
@@ -150,7 +169,6 @@ Refer to the internal dependencies in the following table.
    </tr>
 </table>
 
-
 To get started, you can use the `ej.web.all.min.js` file that encapsulates all the `ej` controls and frameworks in one single file. So the complete boilerplate code is
 
 
@@ -158,23 +176,22 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
     <!DOCTYPE html>
     <html>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Essential Studio for JavaScript">
-    <meta name="author" content="Syncfusion">
-    <title></title>
-    <!-- Essential Studio for JavaScript  theme reference -->
-    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
-    <!-- Essential Studio for JavaScript  script references -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.easing.1.3.min.js"> </script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
-    <!-- Add your custom scripts here -->
-    </head>
-    <body>
-    </body>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Essential Studio for JavaScript">
+            <meta name="author" content="Syncfusion">
+            <title></title>
+            <!-- Essential Studio for JavaScript  theme reference -->
+            <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
+            <!-- Essential Studio for JavaScript  script references -->
+            <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
+            <script src="http://cdn.syncfusion.com/js/assets/external/jquery.globalize.min.js"></script>
+            <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+            <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
+            <!-- Add your custom scripts here -->
+        </head>
+        <body>
+        </body>
     </html>
 
 {% endhighlight %}
@@ -188,14 +205,15 @@ The Kanban can be created from a HTML `DIV` element with the HTML `id` attribute
     /// <reference path="tsfiles/jquery.d.ts" />
     /// <reference path="tsfiles/ej.web.all.d.ts" />
     module KanbanComponent {
-    $(function () {
-        var sample = new ej.Kanban($("#Kanban"), {
-        columns: [
-                { headerText: "Backlog", key: "Open" },
-                { headerText: "In Progress", key: "InProgress" },
-                { headerText: "Done", key: "Close" }
-            ],});
-    });
+        $(function () {
+            var sample = new ej.Kanban($("#Kanban"), {
+            columns: [
+                    { headerText: "Backlog", key: "Open" },
+                    { headerText: "In Progress", key: "InProgress" },
+                    { headerText: "Done", key: "Close" }
+                ]
+                });
+        });
     } 
 
 {% endhighlight %}
@@ -209,15 +227,16 @@ The Kanban can be created from a HTML `DIV` element with the HTML `id` attribute
 {% highlight html %}
 
     module KanbanComponent {
-    $(function () {
-        var sample = new ej.Kanban($("#Kanban"), {
-        dataSource: new ej.DataManager(window["kanbanData"]).executeLocal(new ej.Query().take(20)),
-        columns: [
-                { headerText: "Backlog", key: "Open" },
-                { headerText: "In Progress", key: "InProgress" },
-                { headerText: "Done", key: "Close" }
-            ],});
-    });
+        $(function () {
+            var sample = new ej.Kanban($("#Kanban"), {
+            dataSource: new ej.DataManager(window["kanbanData"]).executeLocal(new ej.Query().take(20)),
+            columns: [
+                    { headerText: "Backlog", key: "Open" },
+                    { headerText: "In Progress", key: "InProgress" },
+                    { headerText: "Done", key: "Close" }
+                ]
+            });
+        });
     }
 
 {% endhighlight %}
@@ -235,23 +254,27 @@ In order to display cards in Kanban control, you need to map the database fields
 
 {% highlight html %}
 
+    declare var window:myWindow;
+    export interface myWindow extends Window{
+        kanbanData:any;
+    }
     module KanbanComponent {
-    $(function () {
-        var sample = new ej.Kanban($("#Kanban"), {
-        dataSource: new ej.DataManager(window["kanbanData"]).executeLocal(new ej.Query().take(20)),
-        columns: [
-                { headerText: "Backlog", key: "Open" },
-                { headerText: "In Progress", key: "InProgress" },
-                { headerText: "Done", key: "Close" }
-            ],
-            keyField: "Status",
-            allowTitle: true,
-            fields: {
-                content: "Summary",
-                primaryKey: "Id",
-            }
+        $(function () {
+            var sample = new ej.Kanban($("#Kanban"), {
+            dataSource: new ej.DataManager(<any>window["kanbanData"]).executeLocal(new ej.Query().take(20)),
+            columns: [
+                    { headerText: "Backlog", key: "Open" },
+                    { headerText: "In Progress", key: "InProgress" },
+                    { headerText: "Done", key: "Close" }
+                ],
+                keyField: "Status",
+                allowTitle: true,
+                fields: {
+                    content: "Summary",
+                    primaryKey: "Id",
+                }
             });
-    });
+        });
     }
 
 {% endhighlight %}
@@ -267,24 +290,28 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
 
 {% highlight html %}
 
+    declare var window:myWindow;
+    export interface myWindow extends Window{
+        kanbanData:any;
+    }
     module KanbanComponent {
-    $(function () {
-        var sample = new ej.Kanban($("#Kanban"), {
-        dataSource: new ej.DataManager(window["kanbanData"]).executeLocal(new ej.Query().take(20)),
-        columns: [
-                { headerText: "Backlog", key: "Open" },
-                { headerText: "In Progress", key: "InProgress" },
-                { headerText: "Done", key: "Close" }
-            ],
-            keyField: "Status",
-            allowTitle: true,
-            fields: {
-                content: "Summary",
-                swimlaneKey: "Assignee",
-                primaryKey: "Id",
-            }
+        $(function () {
+            var sample = new ej.Kanban($("#Kanban"), {
+            dataSource: new ej.DataManager(<any>window["kanbanData"]).executeLocal(new ej.Query().take(20)),
+            columns: [
+                    { headerText: "Backlog", key: "Open" },
+                    { headerText: "In Progress", key: "InProgress" },
+                    { headerText: "Done", key: "Close" }
+                ],
+                keyField: "Status",
+                allowTitle: true,
+                fields: {
+                    content: "Summary",
+                    swimlaneKey: "Assignee",
+                    primaryKey: "Id",
+                }
             });
-    });
+        });
     }
 
 {% endhighlight %} 
@@ -298,29 +325,33 @@ Filters allows to filter the collection of cards from `dataSource` which meets t
  
 {% highlight html %}
 
-    module KanbanComponent {
-    $(function () {
-        var sample = new ej.Kanban($("#Kanban"), {
-           dataSource: new ej.DataManager(window["kanbanData"]).executeLocal(new ej.Query().take(20)),
-            columns: [
-                { headerText: "Backlog", key: "Open" },
-                { headerText: "In Progress", key: "InProgress" },
-                { headerText: "Done", key: "Close" }
-            ],
-            keyField: "Status",
-            fields: {
-                content: "Summary",
-                primaryKey: "Id",
-                swimlaneKey: "Assignee"
-            },
-			 filterSettings: [                             
-                                { text: "Janet Issues", query: new ej.Query().where("Assignee", "equal", "Janet Leverling") },
-                                { text: "Closed Issues", query: new ej.Query().where("Status", "equal", "Close") }
-                        ]       
-            
-        });
-    });
+    declare var window:myWindow;
+    export interface myWindow extends Window{
+        kanbanData:any;
     }
+    module KanbanComponent {
+        $(function () {
+            var sample = new ej.Kanban($("#Kanban"), {
+            dataSource: new ej.DataManager(<any>window["kanbanData"]).executeLocal(new ej.Query().take(20)),
+                columns: [
+                    { headerText: "Backlog", key: "Open" },
+                    { headerText: "In Progress", key: "InProgress" },
+                    { headerText: "Done", key: "Close" }
+                ],
+                keyField: "Status",
+                fields: {
+                    content: "Summary",
+                    primaryKey: "Id",
+                    swimlaneKey: "Assignee"
+                },
+                filterSettings: [                             
+                    { text: "Janet Issues", query: new ej.Query().where("Assignee", "equal", "Janet Leverling") },
+                    { text: "Closed Issues", query: new ej.Query().where("Status", "equal", "Close") }
+                ]
+            });
+        });
+    }
+
 {% endhighlight %} 
 
 ![](Getting-Started_images/Getting_Started_img5.PNG)
