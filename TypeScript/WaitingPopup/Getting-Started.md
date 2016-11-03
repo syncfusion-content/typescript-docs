@@ -5,7 +5,7 @@ description: getting started
 platform: TypeScript
 control: WaitingPopup
 documentation: ug
-keywords:ejwaitingpopup, js waitingpopup, waitingpopup
+keywords: ejwaitingpopup, js waitingpopup, waitingpopup
 ---
 
 # Getting Started

@@ -5,7 +5,7 @@ description: getting started
 platform: TypeScript
 control: Toolbar
 documentation: ug
-keywords:ejtoolbar, js toolbar, toolbar
+keywords: ejtoolbar, js toolbar, toolbar
 ---
 
 # Getting Started
