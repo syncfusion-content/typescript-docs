@@ -5,7 +5,7 @@ description: getting started
 platform: Typescript
 control: Rating
 documentation: ug
-keywords:ejrating, js rating, rating
+keywords: ejrating, js rating, rating
 ---
 
 # Getting Started

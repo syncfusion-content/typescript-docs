@@ -2,7 +2,7 @@
 layout: post
 title: Getting-Started for TagCloud
 description: getting started for TagCloud
-platform:Typescript
+platform: Typescript
 control: TagCloud
 documentation: ug
 keywords: TagCloud,js tagcloud,ejtagcloud
