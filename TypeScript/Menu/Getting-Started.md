@@ -2,10 +2,10 @@
 layout: post
 title: Getting-Started for Menu
 description: getting started for Menu
-platform:Typescript
+platform: Typescript
 control: Menu
 documentation: ug
-keywords:ejmenu, js menu, menu
+keywords: ejmenu, js menu, menu
 ---
 
 # Getting Started 
@@ -33,6 +33,9 @@ Create an **HTML** page and add the scripts references in the order mentioned 
       <body>
       </body>
       </html>
+
+{% endhighlight %}
+
 
 Adding element for **Menu** rendering.
 

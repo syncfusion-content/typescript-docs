@@ -1,10 +1,10 @@
 ---
 title: Getting Started for Accordion
 description: Getting Started for  Accordion
-platform:Typescript
+platform: Typescript
 control: Accordion
 documentation: Ug
-keywords:ejaccordion, js accordion, accordion
+keywords: ejaccordion, js accordion, accordion
 ---
 # Getting started
 

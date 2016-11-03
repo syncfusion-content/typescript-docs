@@ -2,10 +2,10 @@
 layout: post
 title: Getting-Started for Upload box
 description: getting started for Upload box
-platform:Typescript
+platform: Typescript
 control: Uploadbox
 documentation: ug
-keywords:Uploadbox,js uploadbox,ejuploadbox
+keywords: Uploadbox,js uploadbox,ejuploadbox
 ---
 
 # Getting Started

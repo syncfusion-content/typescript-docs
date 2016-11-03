@@ -2,7 +2,7 @@
 layout: post
 title: Getting Started for DropDownList
 description: Getting Started for DropDownList
-platform:Typescript
+platform: Typescript
 control: DropDownList
 documentation: ug
 keywords: DropDownList, js dropdown, Populating data
