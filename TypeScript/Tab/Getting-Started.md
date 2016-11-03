@@ -5,7 +5,7 @@ description: getting started
 platform: Typescript
 control: Tab Control
 documentation: ug
-keywords:ejtab, js tab, tab
+keywords: ejtab, js tab, tab
 ---
 
 # Getting Started 

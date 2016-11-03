@@ -5,7 +5,7 @@ description: getting started
 platform: TypeScript
 control: ProgressBar
 documentation: ug
-keywords:ejprogressbar, js progressbar, progressbar
+keywords: ejprogressbar, js progressbar, progressbar
 ---
 
 # Getting Started
