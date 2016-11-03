@@ -2,7 +2,7 @@
 layout: post
 title: Overview
 description: overview
-platform:Typescript
+platform: Typescript
 control: Uploadbox
 documentation: ug
 ---

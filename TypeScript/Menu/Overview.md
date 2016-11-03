@@ -2,7 +2,7 @@
 layout: post
 title: Overview
 description: overview
-platform:Typescript
+platform: Typescript
 control: Menu
 documentation: ug
 keywords: Menu features, key features, Menu overview
