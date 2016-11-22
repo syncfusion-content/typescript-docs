@@ -9,11 +9,11 @@ keywords: ejPdfViewer, PDF viewer, js pdfviewer
 
 # Getting Started
 
-This section explains briefly about how to create a PDF viewer your web application Typescript.
+This section explains briefly about how to integrate a PDF viewer control in your Typescript web application.
 
-For common steps of typescript , you can also refer [here](https://help.syncfusion.com/js/typescript).
+For common steps to create a project in typescript, you can refer it from [here](https://help.syncfusion.com/js/typescript).
 
-The default type definition file ej.web.all.d.ts needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
+The default type definition file ej.web.all.d.ts needs to be included the support for type-checking while initializing any of the Syncfusion widgets. 
 
 The important step you need to do is to copy the ej.web.all.d.ts file into your project and then need to refer it in your TypeScript application (app.ts file), so that you will get the intelliSense support and also the compile time type-checking.
 
@@ -25,7 +25,7 @@ Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.
 
 ## Script and CSS Reference
 
-Add the scripts and CSS references to the “index.html” page as the order mentioned in the following code example.
+Add the scripts and CSS references to the “index.html” page in the order mentioned in the following code example.
 
 {% highlight html %}
 
