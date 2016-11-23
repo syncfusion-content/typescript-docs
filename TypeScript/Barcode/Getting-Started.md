@@ -22,7 +22,7 @@ The Syncfusion Essential JS Barcode widget enables rendering of one dimension an
 
 ## Create Barcode in Typescript
 
-Create an **HTML** page and add the scripts references in the order mentioned in the following code example.
+Create an HTML page and add the scripts references in the order mentioned in the following code example.
 
 {% highlight html %}
 
