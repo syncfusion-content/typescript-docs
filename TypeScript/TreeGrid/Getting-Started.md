@@ -18,7 +18,7 @@ The **Essential Typescript TreeGrid** has been designed to represent and edit th
 
 This section explains how to create a TreeGrid widget in your application with hierarchical data source and enable sorting and editing. The following screenshot displays the output.
 
-![](/Getting-Started_images/Getting-Started_img1.png)
+![](Getting-Started_images/Getting-Started_img1.png)
 
 It is necessary to copy the ej.web.all.d.ts file into your project and then need to refer it in your TypeScript application (app.ts file), so that you will get the intelliSense support and also the compile time type-checking.
 
@@ -81,7 +81,7 @@ module TreeGridComponent {
 
 {% endhighlight %}
 
-![](/js/TreeGrid/Getting-Started_images/Getting-Started_img2.png)
+![](Getting-Started_images/Getting-Started_img2.png)
 
 TreeGrid with empty datasource 
 {:.caption}
@@ -193,7 +193,7 @@ module TreeGridComponent {
 
 TreeGrid widget is displayed as the output in the following screenshot.
 
-![](/js/TreeGrid/Getting-Started_images/Getting-Started_img3.png)
+![](Getting-Started_images/Getting-Started_img3.png)
 
 ### Enable Sorting
 
@@ -217,7 +217,7 @@ module TreeGridComponent {
 }
 {% endhighlight %}
 
-![](/js/TreeGrid/Getting-Started_images/Getting-Started_img4.png)
+![](Getting-Started_images/Getting-Started_img4.png)
 
 ### Enable Editing
 
@@ -276,5 +276,5 @@ module TreeGridComponent {
 
 The output of the DateTimePicker editor in TreeGrid control is as follows.
 
-![](/js/TreeGrid/Getting-Started_images/Getting-Started_img5.png)
+![](Getting-Started_images/Getting-Started_img5.png)
 
