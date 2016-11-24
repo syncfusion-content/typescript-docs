@@ -8,7 +8,7 @@ documentation: ug
 ---
 # Overview
 
-The Grid control for Typescript is an efficient display engine for tabular data. It will pull data from a datasource, such as array of JSON objects, OData web services, or ej.DataManager; binding data fields to columns and displaying a column header to identify the field. It is a feature-rich control that provides extensive appearance customization options with support for grouped records. This Grid is very useful for generating complex grid-based reports with rich formatting. The most important features available in the Grid control for Typescript are paging, sorting, filtering, searching, grouping, and editing
+The Grid control for TypeScript is an efficient display engine for tabular data. It will pull data from a datasource, such as array of JSON objects, OData web services, or ej.DataManager; binding data fields to columns and displaying a column header to identify the field. It is a feature-rich control that provides extensive appearance customization options with support for grouped records. This Grid is very useful for generating complex grid-based reports with rich formatting. The most important features available in the Grid control for TypeScript are paging, sorting, filtering, searching, grouping, and editing
 
 **Key Features**
 
