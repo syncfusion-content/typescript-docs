@@ -9,8 +9,8 @@ documentation: ug
 
 # Getting Started
 
-**Splitter** component consists of movable split bar(s) that divides a container's display area into two or more resizable and collapsible panels. 
-From the following guidelines, you can create a Splitter, add Tree view in the Splitter and set actions to view the image. It is used to split the document or image and Expand or Collapse in the Splitter. The following screenshot demonstrates the functionality of Splitter component.
+**Splitter** control consists of movable split bar(s) that divides a container's display area into two or more resizable and collapsible panels. 
+From the following guidelines, you can create a Splitter, add Tree view in the Splitter and set actions to view the image. It is used to split the document or image and Expand or Collapse in the Splitter. The following screenshot demonstrates the functionality of Splitter control.
 
 ![](getting-started_images\getting-started_img1.png)
 
@@ -122,7 +122,7 @@ Add the following styles to show the Splitter control in horizontal order.
 
 ## Configure Tree View 
 
-For adding Tree View component, you have to use **ul** element to corresponding element.
+For adding Tree View control, you have to use **ul** element to corresponding element.
 
 Add the following code example in HTML file to configure Tree View.
 
@@ -185,5 +185,5 @@ The following screenshot is the output for the above code.
 
 
 
-> _Note:> You can find the_ Splitter_ _properties from the_ [API reference](https://help.syncfusion.com/api/js/ejsplitter) _document_ 
+> _Note:> You can find the_ Splitter_ properties from the_ [API reference](https://help.syncfusion.com/api/js/ejsplitter) _document_ 
 

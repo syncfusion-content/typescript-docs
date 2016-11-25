@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-Using the following steps, you can create a Typescript **RadialMenu** component. The basic rendering of Typescript RadialMenu is achieved with default functionality.
+Using the following steps, you can create a Typescript **RadialMenu** control. The basic rendering of Typescript RadialMenu is achieved with default functionality.
 
 ![](Getting_Started_images\Getting-Started_img1.png)
 
@@ -194,7 +194,7 @@ Run the above code and select any text inside the target. The settings icon is d
 ## RadialMenu item functionalities
 
 
-You can set the functionalities for each item and define click function by using **data-ej-click** attribute. Refer to the following code example. Define the click function for Radial Menu component items as follows.
+You can set the functionalities for each item and define click function by using **data-ej-click** attribute. Refer to the following code example. Define the click function for Radial Menu control items as follows.
 
 
 {% highlight html %}
@@ -251,7 +251,7 @@ Refer to the following code example to add functionalities for each items in **c
 
 {% endhighlight %}
 
-Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the RadialMenu component. Click **bold** item in Radialmenu component, to render the following output.
+Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the RadialMenu control. Click **bold** item in Radialmenu control, to render the following output.
 
 
 ![](Getting_Started_images\Getting_Started_img3.png)
