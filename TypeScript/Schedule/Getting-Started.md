@@ -119,7 +119,7 @@ module ScheduleComponent {
 
 Now build your application, so that the `app.js` file is automatically generated from the above typescript file and got added to your project. Now, whatever code changes that you make in `app.ts` file will be reflected in `app.js` file automatically on every successful compilation.
 
-## Setting timeZone
+## Setting TimeZone
 
 Initially, the system timezone is preferred as the Schedule's default timezone. When some specific timezone is explicitly defined to the Schedule, it will be set to it. 
 
