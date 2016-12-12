@@ -13,19 +13,30 @@ This section explains you the steps required to populate the Spreadsheet with da
 
 ## Adding Script Reference
 
-Create an **HTML** page and add the scripts references in the order mentioned in the following code example.
+You can create a Typescript application with the help of the given [Typescript Getting Started Documentation.](https://help.syncfusion.com/js/typescript)
+
+Inorder to get intellisense support and compile time type-checking, we need to follow the below steps,
+
+1. Copy the `ej.web.all.d.ts` file from the below location into your project,
+
+   (installed location)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\typescript
+2. Refer the file in your typescript application(app.ts file).
+
+It is also necessary to refer `jquery.d.ts` in typescript application, which can be downloaded [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
+
+Add the scripts references in the order mentioned in the following code example.
 
 {% highlight html %}
 
 <!DOCTYPE html>
 <html>
 <head>
-        <link href="http://cdn.syncfusion.com/14.3.0.49/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+        <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js" type="text/javascript"></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
         <script src="http://js.syncfusion.com/demos/web/scripts/xljsondata.js" type="text/javascript"></script>
-        <script src="http://cdn.syncfusion.com/14.3.0.49/js/web/ej.web.all.min.js" type="text/javascript"></script>
+        <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
         <script src="app.js"></script> 
 </head>
 <body>
@@ -34,11 +45,11 @@ Create an **HTML** page and add the scripts references in the order mentioned 
 
 {% endhighlight %}
 
-In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](http://csg.syncfusion.com/# "") utility to generate a custom script file with the required widgets for deployment purpose.
+In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](http://csg.syncfusion.com/) utility to generate a custom script file with the required widgets for deployment purpose.
 
 **Note:**
 
-* For details about Spreadsheet internal and external dependencies refer following [link](https://help.syncfusion.com/js/spreadsheet/dependencies# "")
+* For details about Spreadsheet internal and external dependencies refer following [link](https://help.syncfusion.com/js/spreadsheet/dependencies)
 
 ## Initialize Spreadsheet
 
@@ -55,12 +66,12 @@ Add a `div` container to render the Spreadsheet.
 
 {% endhighlight %}
 
-Initialize the Spreadsheet in ts file by using the `ej.Spreadsheet` method. The Spreadsheet is rendered based on default `width` and `height`. You can also customize the Spreadsheet dimension by setting the `width` and `height` property in `scrollSettings`.
+Initialize the Spreadsheet in `app.ts` file by using the `ej.Spreadsheet` method. The Spreadsheet is rendered based on default `width` and `height`. You can also customize the Spreadsheet dimension by setting the `width` and `height` property in `scrollSettings`.
 
-{% highlight html %}
+{% highlight js %}
 
-/// <reference path="tsfiles/jquery.d.ts" />
-/// <reference path="tsfiles/ej.web.all.d.ts" />
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 module SpreadsheetComponent {
     $(function () {
         var sample = new ej.Spreadsheet($("#Spreadsheet"), {});
@@ -75,9 +86,9 @@ Now, the Spreadsheet is rendered with default row and column count.
 
 ## Populate Spreadsheet with data
 
-Now, this section explains how to populate JSON data to the Spreadsheet. You can set`dataSource` property in `sheet` settings to populate JSON data in Spreadsheet.
+Now, this section explains how to populate JSON data to the Spreadsheet. You can set `dataSource` property in `sheet` settings to populate JSON data in Spreadsheet.
 
-{% highlight html %}
+{% highlight js %}
 
 module SpreadsheetComponent {
     $(function () {
@@ -98,7 +109,7 @@ Conditional formatting helps you to apply formats to a cell or range with certai
 
 To apply conditional formats for a range use `cFormatRule` property. The following code example illustrates this,
 
-{% highlight html %}
+{% highlight js %}
 
 module SpreadsheetComponent {
     $(function () {
@@ -119,7 +130,7 @@ module SpreadsheetComponent {
 
 The Spreadsheet can save its data, style, format into an excel file. To enable save option in Spreadsheet set `allowExporting` option in `exportSettings` as `true`. Since Spreadsheet uses server side helper to save documents set `excelUrl` in `exportSettings` option. The following code example illustrates this,
 
-{% highlight html %}
+{% highlight js %}
 
 module SpreadsheetComponent {
     $(function () {
