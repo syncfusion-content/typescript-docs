@@ -15,6 +15,8 @@ This section explains you the steps required to populate the Spreadsheet with da
 
 You can create a Typescript application with the help of the given [Typescript Getting Started Documentation.](https://help.syncfusion.com/js/typescript)
 
+In your TypeScript app folder, create “app.ts” file.
+
 Inorder to get intellisense support and compile time type-checking, we need to follow the below steps,
 
 1. Copy the `ej.web.all.d.ts` file from the below location into your project,
@@ -22,7 +24,7 @@ Inorder to get intellisense support and compile time type-checking, we need to f
    (installed location)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\typescript
 2. Refer the file in your typescript application(app.ts file).
 
-It is also necessary to refer `jquery.d.ts` in typescript application, which can be downloaded [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
+It is also necessary to refer `jquery.d.ts` in typescript application(app.ts file), which can be downloaded [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
 Add the scripts references in the order mentioned in the following code example.
 
@@ -66,7 +68,7 @@ Add a `div` container to render the Spreadsheet.
 
 {% endhighlight %}
 
-Initialize the Spreadsheet in `app.ts` file by using the `ej.Spreadsheet` method. The Spreadsheet is rendered based on default `width` and `height`. You can also customize the Spreadsheet dimension by setting the `width` and `height` property in `scrollSettings`.
+Initialize the Spreadsheet in `app.ts` file by using the `ej.Spreadsheet` method. The Spreadsheet is rendered based on default width and height. You can also customize the Spreadsheet dimension by setting the `width` and `height` property in `scrollSettings`.
 
 {% highlight js %}
 
@@ -79,6 +81,8 @@ module SpreadsheetComponent {
 }
 
 {% endhighlight %}
+
+Finally build your application, so that the “app.js” file is automatically generated and got added to your project (User have nothing to do with this file). Now, whatever code changes that you make in app.ts file will be reflected in app.js file automatically.
 
 Now, the Spreadsheet is rendered with default row and column count.
 
