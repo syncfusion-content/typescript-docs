@@ -139,8 +139,12 @@ The Spreadsheet can save its data, style, format into an excel file. To enable s
 module SpreadsheetComponent {
     $(function () {
         var sample = new ej.Spreadsheet($("#Spreadsheet"), {
+            sheets: [{
+                rangeSettings: [{ dataSource: (<any>window).defaultData }],
+                cFormatRule: [{ action: ej.Spreadsheet.CFormatRule.GreaterThan, inputs: ["10"], color: ej.Spreadsheet.CFormatHighlightColor.RedFill, range: "D2:D8" }]
+            }],
             exportSettings: {
-                excelUrl:"http://js.syncfusion.com/demos/ejservices/api/JSXLExport/ExportToExcel"
+                excelUrl:"http://js.syncfusion.com/demos/ejservices/api/Spreadsheet/ExcelExport"
             }
         });
     });
