@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Overview | Radiobutton | Typescript | Syncfusion
+title: Overview | RadioButton | TypeScript | Syncfusion
 description: overview
-platform: Typescript
+platform: TypeScript
 control: RadioButton
 documentation: ug
 ---

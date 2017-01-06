@@ -2,7 +2,7 @@
 layout: post
 title: getting-started
 description: getting started
-platform: typescript
+platform: TypeScript
 control: ToggleButton
 documentation: ug
 ---
@@ -10,44 +10,25 @@ documentation: ug
 # Getting Started
 
 
-Using the following steps, you can create a **Typescript** ToggleButton component.
+Using the following steps, you can create a **TypeScript** ToggleButton component.
 
-## Creating an ToggleButton in Typescript
-
-
-You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation](https://help.syncfusion.com/js/typescript).
-
- Within an index.html file and add the scripts references in the order mentioned in the following code example.
-
-{% highlight html %}
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Typescript Application</title>
-<link href="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
-<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-<script src="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/ej.web.all.min.js" type="text/javascript"></script>
-
-</head>
-<body>
-<!--Add ToggleButton sample  here-->
-</body>
-</html>
+## Creating an ToggleButton in TypeScript
 
 
-{% endhighlight %}
+You can create a **TypeScript** application with the help of the given [TypeScript Getting Started Documentation](https://help.syncfusion.com/js/typescript).
+
+ 
 
 
 
-This can be created from a `input` element with the HTML `id` attribute and pre-defined options set to it.
+To create a ToggleButton,include a `input` element with the HTML `id` attribute and pre-defined options set to it.
 
 
 {% highlight html %}
 
-<input type="checkbox" id="togglebtn">
-<label for="togglebtn">Toggle</label>
-<script src="app.js"></script>
+        <input type="checkbox" id="togglebtn">
+        <label for="togglebtn">Toggle</label>
+        <script src="app.js"></script>
 
 {% endhighlight %}
 
@@ -59,20 +40,20 @@ This can be created from a `input` element with the HTML `id` attribute and pre-
 
 {% highlight js %}
 
-/// <reference path="jquery.d.ts" />  
-/// <reference path="ej.web.all.d.ts" />
+        /// <reference path="jquery.d.ts" />  
+        /// <reference path="ej.web.all.d.ts" />
 
-module ToggleButtonComponent {
-    var toggleObj = new ej.ToggleButton($("#togglebtn"), {
-            defaultText: "Play",
-            activeText: "Pause",
-            defaultPrefixIcon: "e-icon e-mediaplay",
-            activePrefixIcon: "e-icon e-mediapause",
-            showRoundedCorner: true,
-            size: "large",
-            contentType: "textandimage",
-        })
-}
+        module ToggleButtonComponent {
+            var toggleObj = new ej.ToggleButton($("#togglebtn"), {
+                    defaultText: "Play",
+                    activeText: "Pause",
+                    defaultPrefixIcon: "e-icon e-mediaplay",
+                    activePrefixIcon: "e-icon e-mediapause",
+                    showRoundedCorner: true,
+                    size: "large",
+                    contentType: "textandimage",
+                })
+        }
 
 {% endhighlight %}
 

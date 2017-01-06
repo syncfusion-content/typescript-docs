@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Overview
-description: overview
-platform: typescript
+description: Overview
+platform: TypeScript
 control: ColorPicker
 documentation: ug
 ---

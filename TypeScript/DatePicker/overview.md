@@ -2,7 +2,7 @@
 layout: post
 title: Overview of DatePicker with Tyepscript framework
 description: About TypeScript DatePicker
-platform: js
+platform: TypeScript
 control: Angular 2 DatePicker
 documentation: ug
 ---
