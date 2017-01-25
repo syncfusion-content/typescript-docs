@@ -2,7 +2,7 @@
 layout: post
 title: overview
 description: overview
-platform: typescript
+platform: TypeScript
 control: Scroller
 documentation: ug
 ---

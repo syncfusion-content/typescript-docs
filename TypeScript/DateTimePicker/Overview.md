@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Overview | DateTimePicker | typescript | Syncfusion
+title: Overview | DateTimePicker | TypeScript | Syncfusion
 description: overview
-platform: typescript
+platform: TypeScript
 control: DateTimePicker
 documentation: ug
 ---

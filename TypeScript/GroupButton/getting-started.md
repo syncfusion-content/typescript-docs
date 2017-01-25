@@ -1,15 +1,15 @@
 ---
 layout: post
-title: creating a groupbutton in typescript
-description: creating a groupbutton in typescript
-platform: js
-control: Group Button
+title: creating a GroupButton in TypeScript
+description: creating a GroupButton in TypeScript
+platform: TypeScript
+control: GroupButton
 documentation: ug
 ---
 
-## Creating a GroupButton in Typescript
+## Creating a GroupButton in TypeScript
 
-You can create a **Typescript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).In application, Within an index.html file add the scripts references in the order mentioned in the above link.
+You can create a **TypeScript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).In application, Within an index.html file add the scripts references in the order mentioned in the above link.
 
 This can be created from an input element with the HTML id attribute and pre-defined options set to it.
 
@@ -67,9 +67,9 @@ Now build your application, so that the **app.js** is automatically generated an
 
 
 
-## Configuring APIs in Group Button
+## Configuring APIs in GroupButton
 
-All GroupButton properties, can be configured and used in typescript platform, with types sepcfication. Please refer the below code example to know the configurng the APIs of group button in typescript platform
+All GroupButton properties, can be configured and used in TypeScript platform, with types specification. Please refer the below code example to know the configuring the APIs of GroupButton in typescript platform
 
 {% highlight javascript %}
 

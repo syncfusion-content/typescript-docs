@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Behavior-Settings
-description: behavior settings
-platform: typescript
+description: Behavior Settings
+platform: TypeScript
 control: ColorPicker
 documentation: ug
 ---
@@ -19,8 +19,8 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-<input id="colorpick" type="text" />
-<script src="app.js"></script>
+        <input id="colorpick" type="text" />
+        <script src="app.js"></script>
 
 {% endhighlight %}
 
@@ -30,21 +30,21 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight js %}
 
-/// <reference path="jquery.d.ts" />  
-/// <reference path="ej.web.all.d.ts" />
+            /// <reference path="jquery.d.ts" />  
+            /// <reference path="ej.web.all.d.ts" />
 
-module ColorPickerComponent {
-    var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-            value: "#278787",
-            showPreview: true
-        })
-}
+            module ColorPickerComponent {
+                var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+                        value: "#278787",
+                        showPreview: true
+                    })
+            }
 
 {% endhighlight %}
 
 The following screenshot displays the output of the above code example.
 
-![](/TypeScript/ColorPicker/Behavior-Settings_images/Behavior-Settings_img1.png) 
+![](Behavior-Settings_images/Behavior-Settings_img1.png) 
 
 ## showRecentColors
 
@@ -57,8 +57,8 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-<input id="colorpick" type="text" />
-<script src="app.js"></script>
+        <input id="colorpick" type="text" />
+        <script src="app.js"></script>
 
 {% endhighlight %}
 
@@ -68,22 +68,22 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight js %}
 
-/// <reference path="jquery.d.ts" />  
-/// <reference path="ej.web.all.d.ts" />
+        /// <reference path="jquery.d.ts" />  
+        /// <reference path="ej.web.all.d.ts" />
 
-module ColorPickerComponent {
-    var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-            value: "#278787",
-            showRecentColors: true
-        })
-}
+        module ColorPickerComponent {
+            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+                    value: "#278787",
+                    showRecentColors: true
+                })
+        }
 
 {% endhighlight %}
 
 
 The following screenshot displays the output of the above code example.
 
-![](/TypeScript/ColorPicker/Behavior-Settings_images/Behavior-Settings_img2.png) 
+![](Behavior-Settings_images/Behavior-Settings_img2.png) 
 
 
 ## enableOpacity
@@ -97,8 +97,8 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-<input id="colorpick" type="text" />
-<script src="app.js"></script>
+        <input id="colorpick" type="text" />
+        <script src="app.js"></script>
 
 {% endhighlight %}
 
@@ -108,22 +108,22 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight js %}
 
-/// <reference path="jquery.d.ts" />  
-/// <reference path="ej.web.all.d.ts" />
+        /// <reference path="jquery.d.ts" />  
+        /// <reference path="ej.web.all.d.ts" />
 
-module ColorPickerComponent {
-    var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-            value: "#278787",
-            enableOpacity: false
-        })
-}
+        module ColorPickerComponent {
+            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+                    value: "#278787",
+                    enableOpacity: false
+                })
+        }
 
 {% endhighlight %}
 
 
 The following screenshot displays the output of the above code example.
 
-![](/TypeScript/ColorPicker/Behavior-Settings_images/Behavior-Settings_img3.png) 
+![](Behavior-Settings_images/Behavior-Settings_img3.png) 
 
 ## columns
 
@@ -135,8 +135,8 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-<input id="colorpick" type="text" />
-<script src="app.js"></script>
+        <input id="colorpick" type="text" />
+        <script src="app.js"></script>
 
 {% endhighlight %}
 
@@ -146,20 +146,20 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight js %}
 
-/// <reference path="jquery.d.ts" />  
-/// <reference path="ej.web.all.d.ts" />
+        /// <reference path="jquery.d.ts" />  
+        /// <reference path="ej.web.all.d.ts" />
 
-module ColorPickerComponent {
-    var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-            value: "#278787",
-            columns: 9
-        })
-}
+        module ColorPickerComponent {
+            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+                    value: "#278787",
+                    columns: 9
+                })
+        }
 
 {% endhighlight %}
 
 
 The following screenshot displays the output of the above code example.
 
-![](/TypeScript/ColorPicker/Behavior-Settings_images/Behavior-Settings_img4.png) 
+![](Behavior-Settings_images/Behavior-Settings_img4.png) 
 

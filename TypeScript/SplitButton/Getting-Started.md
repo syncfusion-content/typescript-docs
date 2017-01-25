@@ -1,29 +1,29 @@
 ---
 layout: post
-title: create a simple splitButton in typescript
-description: create a simple splitButton in typescript
-platform: typescript
+title: create a simple SplitButton in TypeScript
+description: create a simple SplitButton in TypeScript
+platform: TypeScript
 control: Overview
 documentation: ug
 ---
 
-## Create a simple SplitButton in Typescript
+## Create a simple SplitButton in TypeScript
 
-You can create a **Typescript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).
+You can create a **TypeScript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).
 
 Create an **HTML** page and add the scripts references in the order, mentioned in the above link Create the **SplitButton** control as follows.
 
 
 {% highlight html %}
 
-<body>
-   <button id="splitbuttonnormal"></button>
-       <ul id="menu1">
-         <li><span>User</span></li>
-         <li><span>Guest</span></li>
-         <li><span>Admin</span></li>
-       </ul>
-</body>
+        <body>
+        <button id="splitbuttonnormal"></button>
+            <ul id="menu1">
+                <li><span>User</span></li>
+                <li><span>Guest</span></li>
+                <li><span>Admin</span></li>
+            </ul>
+        </body>
 
 {% endhighlight %}
 
@@ -31,16 +31,16 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 {% highlight javascript %}
 
 
-/// <reference path="tsfiles/jquery.d.ts" />
-/// <reference path="tsfiles/ej.web.all.d.ts" />
+        /// <reference path="tsfiles/jquery.d.ts" />
+        /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
-    $(function () {
-         var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
-            targetID: "menu1"
-        });
-    });
-}
+        module ButtonComponent {
+            $(function () {
+                var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
+                    targetID: "menu1"
+                });
+            });
+        }
 
 {% endhighlight %}
 
@@ -55,25 +55,25 @@ You can execute the above code example to display the **SplitButton** control.
 
 This section encompasses the details on how you can configure the SplitButton control in your application and customize it with various properties such as various size, resizing the**SplitButton** according to your requirement.
 
-To render the splitButton with required text, size and with rounded corner add the following code example in your TS file.
+To render the SplitButton with required text, size and with rounded corner add the following code example in your TS file.
 
 
 
-/// <reference path="tsfiles/jquery.d.ts" />
-/// <reference path="tsfiles/ej.web.all.d.ts" />
+        /// <reference path="tsfiles/jquery.d.ts" />
+        /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
-    $(function () {
-        var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
-            showRoundedCorner: true,
-            size: "large",
-            prefixIcon: "e-icon e-key",
-            targetID: "menu1",
-            contentType: "textandimage",
-            text: "login"
-        });
-    });
-}
+        module ButtonComponent {
+            $(function () {
+                var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
+                    showRoundedCorner: true,
+                    size: "large",
+                    prefixIcon: "e-icon e-key",
+                    targetID: "menu1",
+                    contentType: "textandimage",
+                    text: "login"
+                });
+            });
+        }
 
 
 

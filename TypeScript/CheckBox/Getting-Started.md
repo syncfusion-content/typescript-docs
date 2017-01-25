@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Getting Started | CheckBox | Typescript | Syncfusion
-description: getting started
-platform: typescript
+title: Getting Started | CheckBox | TypesScript | Syncfusion
+description: Getting Started
+platform: TypeScript
 control: CheckBox
 documentation: ug
 ---
 
 # Getting Started
 
-This section discloses the details on how to render and configure a CheckBox component in a typescript application.
+This section discloses the details on how to render and configure a CheckBox component in a TypeScript application.
 
 ## Create your first CheckBox	
 
-1. Create a Typescript application and refer the dependent modules, script and CSS with the help of given Getting started document.
+1. Create a TypeScript application and refer the dependent modules, script and CSS with the help of given getting started document.
 
 2. In the index.HTML file, add the input element for rendering CheckBox component as given below.
 
@@ -58,12 +58,12 @@ This section discloses the details on how to render and configure a CheckBox com
 
 {% endhighlight %} 
 
-3. Create a typescript file named "app.ts" file and refer the required definition files as given below.
+3. Create a TypeScript file named "app.ts" file and refer the required definition files as given below.
 
 {% highlight JS %}
 
-/// <reference path="tsfiles/jquery.d.ts" />
-/// <reference path="tsfiles/ej.web.all.d.ts" />
+        /// <reference path="tsfiles/jquery.d.ts" />
+        /// <reference path="tsfiles/ej.web.all.d.ts" />
 
 {% endhighlight %} 
 
@@ -71,35 +71,35 @@ This section discloses the details on how to render and configure a CheckBox com
 
 {% highlight javascript %}
 
-/// <reference path="jquery.d.ts" />
-/// <reference path="ej.web.all.d.ts" /> 
-module AppComponent {
-    $(function () {
-        new ej.CheckBox($("#Checkbox1"), {
-            value: "Music", name: "Hobbies", size: "small",
-            enableTriState: true, checked: true
-        });
-        new ej.CheckBox($("#Checkbox2"), {
-            value: "sports", name: "Hobbies", size: "small",
-            enableTriState: true, checkState: "indeterminate"
-        });
-        new ej.CheckBox($("#Checkbox3"), {
-            value: "Bike riding", name: "Hobbies", size: "small",
-            enableTriState: true
-        });
-        new ej.CheckBox($("#Checkbox4"), {
-            value: "Google", name: "SearchEngines", size: "medium",
-            enableTriState: true, checked: true
-        });
-        new ej.CheckBox($("#Checkbox5"), {
-            value: "Yahoo", name: "SearchEngines", size: "medium",
-            enableTriState: true, checkState: "indeterminate"
-        });
-        new ej.CheckBox($("#Checkbox6"), {
-            value: "Bing", name: "SearchEngines", size: "medium",
-            enableTriState: true
-        });
-    }
+        /// <reference path="jquery.d.ts" />
+        /// <reference path="ej.web.all.d.ts" /> 
+        module AppComponent {
+            $(function () {
+                new ej.CheckBox($("#Checkbox1"), {
+                    value: "Music", name: "Hobbies", size: "small",
+                    enableTriState: true, checked: true
+                });
+                new ej.CheckBox($("#Checkbox2"), {
+                    value: "sports", name: "Hobbies", size: "small",
+                    enableTriState: true, checkState: "indeterminate"
+                });
+                new ej.CheckBox($("#Checkbox3"), {
+                    value: "Bike riding", name: "Hobbies", size: "small",
+                    enableTriState: true
+                });
+                new ej.CheckBox($("#Checkbox4"), {
+                    value: "Google", name: "SearchEngines", size: "medium",
+                    enableTriState: true, checked: true
+                });
+                new ej.CheckBox($("#Checkbox5"), {
+                    value: "Yahoo", name: "SearchEngines", size: "medium",
+                    enableTriState: true, checkState: "indeterminate"
+                });
+                new ej.CheckBox($("#Checkbox6"), {
+                    value: "Bing", name: "SearchEngines", size: "medium",
+                    enableTriState: true
+                });
+            }
 
 {% endhighlight %} 
 
