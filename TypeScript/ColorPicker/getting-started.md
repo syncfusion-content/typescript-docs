@@ -14,42 +14,33 @@ Using the following steps, you can create a **TypeScript** ColorPicker component
 
 ## Creating an ColorPicker in TypeScript
 
-
 You can create a **TypeScript** application with the help of the given [TypeScript Getting Started Documentation](https://help.syncfusion.com/js/typescript).
-
 
 To create a ColorPicker, add a `input` element with the HTML `id` attribute and pre-defined options set to it.
 
-
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
-        <script src="app.js"></script>
+ <input id="colorpick" type="text" />
+ <script src="app.js"></script>       
 
 {% endhighlight %}
 
-
-
 * Create app.ts file and use the below content
-
-
 
 {% highlight js %}
 
-        /// <reference path="jquery.d.ts" />  
-        /// <reference path="ej.web.all.d.ts" />
-
-        module ColorPickerComponent {
-            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-                    value: "#278787"
-                })
-        }
+ ///<reference path="jquery.d.ts" />
+ ///<reference path="ej.web.all.d.ts" />
+      module ColorPickerComponent {
+          var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+                value: "#278787"
+           })
+       }        
 
 {% endhighlight %}
 
 
 * Now build your application, so that the **app.ts** file will compiled and automtically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the aplication.
-
 
 Execution of above code will render the following output.
 

@@ -19,27 +19,24 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
-        <script src="app.js"></script>
-
+    <input id="colorpick" type="text" />
+    <script src="app.js"></script>
+    
 {% endhighlight %}
-
 
 * Create app.ts file and use the below content
 
-
 {% highlight js %}
 
-            /// <reference path="jquery.d.ts" />  
-            /// <reference path="ej.web.all.d.ts" />
-
-            module ColorPickerComponent {
-                var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-                        value: "#278787",
-                        showPreview: true
-                    })
-            }
-
+    /// <reference path="jquery.d.ts" />
+    /// <reference path="ej.web.all.d.ts" />
+    
+    module ColorPickerComponent {
+        var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+        value: "#278787",
+        showPreview: true
+    })
+    }
 {% endhighlight %}
 
 The following screenshot displays the output of the above code example.
@@ -54,37 +51,32 @@ The **showRecentColors** property is Boolean type and its default value is false
 
 In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** widget.
 
-
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
-        <script src="app.js"></script>
-
+    <input id="colorpick" type="text" />
+    <script src="app.js"></script>
+   
 {% endhighlight %}
-
 
 * Create app.ts file and use the below content
 
-
 {% highlight js %}
 
-        /// <reference path="jquery.d.ts" />  
-        /// <reference path="ej.web.all.d.ts" />
+    /// <reference path="jquery.d.ts" />
+    /// <reference path="ej.web.all.d.ts" />
 
-        module ColorPickerComponent {
-            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-                    value: "#278787",
-                    showRecentColors: true
-                })
-        }
+    module ColorPickerComponent {
+        var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+        value: "#278787",
+        showRecentColors: true
+    })
+    }      
 
 {% endhighlight %}
-
 
 The following screenshot displays the output of the above code example.
 
 ![](Behavior-Settings_images/Behavior-Settings_img2.png) 
-
 
 ## enableOpacity
 
@@ -94,32 +86,28 @@ The **enableOpacity** property is Boolean type and its default value is true.
 
 In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** widget
 
-
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
-        <script src="app.js"></script>
+    <input id="colorpick" type="text" />
+    <script src="app.js"></script>      
 
 {% endhighlight %}
-
 
 * Create app.ts file and use the below content
 
-
 {% highlight js %}
 
-        /// <reference path="jquery.d.ts" />  
-        /// <reference path="ej.web.all.d.ts" />
+    /// <reference path="jquery.d.ts" />
+    /// <reference path="ej.web.all.d.ts" />
 
-        module ColorPickerComponent {
-            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-                    value: "#278787",
-                    enableOpacity: false
-                })
-        }
+    module ColorPickerComponent {
+        var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+        value: "#278787",
+        enableOpacity: false
+    })
+    }
 
 {% endhighlight %}
-
 
 The following screenshot displays the output of the above code example.
 
@@ -135,29 +123,26 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
-        <script src="app.js"></script>
+    <input id="colorpick" type="text" />
+    <script src="app.js"></script>
 
 {% endhighlight %}
-
 
 * Create app.ts file and use the below content
 
-
 {% highlight js %}
 
-        /// <reference path="jquery.d.ts" />  
-        /// <reference path="ej.web.all.d.ts" />
+    /// <reference path="jquery.d.ts" />
+    /// <reference path="ej.web.all.d.ts" />
 
-        module ColorPickerComponent {
-            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
-                    value: "#278787",
-                    columns: 9
-                })
-        }
+    module ColorPickerComponent {
+        var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+        value: "#278787",
+        columns: 9
+    })
+    }          
 
 {% endhighlight %}
-
 
 The following screenshot displays the output of the above code example.
 

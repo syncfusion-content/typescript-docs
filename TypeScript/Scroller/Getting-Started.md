@@ -9,9 +9,9 @@ documentation: ug
 
 ## Create a simple Scroller in TypeScript
 
-You can create a **TypeScript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).
+You can create a **TypeScript** application with the help of the given [getting started documentation](https://help.syncfusion.com/js/typescript).
 
-Create an **HTML** page and add the scripts references in the order, mentioned in the above link Create the **Scroller** control as follows.
+* Create an **HTML** page and add the scripts references in the order, mentioned in the above link Create the **Scroller** control as follows.
 
 {% highlight html %}
 
@@ -52,20 +52,22 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
 {% endhighlight %}
 
+* Create app.ts file and use the below content
+
 {% highlight javascript %}
 
-        /// <reference path="tsfiles/jquery.d.ts" />
-        /// <reference path="tsfiles/ej.web.all.d.ts" />
+    /// <reference path="tsfiles/jquery.d.ts" />
+    /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-        module ScrollerComponent {
-            $(function () {
-                var scrollerSample = new ej.Scroller($("#scrollcontent"), {
-                    height: "300px",
-                    width: "100%"
-                });
+    module ScrollerComponent {
+        $(function () {
+            var scrollerSample = new ej.Scroller($("#scrollcontent"), {
+                height: "300px",
+                width: "100%"
             });
-        }
-
+        });
+    }
+       
 {% endhighlight %}
 
 You can execute the above code example to display the **Scroller** control.
