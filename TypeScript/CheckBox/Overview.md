@@ -9,7 +9,7 @@ documentation: ug
 
 # Overview
 
-**CheckBox** component is an input component with trendy look and appearance used to input multiple options from the user.
+**CheckBox** component is an input component with trendy look and appearance used to input multiple options from the user. This control allows you to select true, false or an intermediate option. These checkboxes are supported with themes.
 
 ## Key Features
 

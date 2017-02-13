@@ -9,7 +9,7 @@ documentation: ug
 
 # Overview
 
-The **RadioButton** component allows you to pick an option from multiple options to perform an action based on selection.  
+The **RadioButton** component allows you to pick an option from multiple options to perform an action based on selection. This control allows you to select true/false. These RadioButtons are supported with themes.
 
 **Key Features**
 

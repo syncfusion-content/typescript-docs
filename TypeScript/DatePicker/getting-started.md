@@ -31,28 +31,17 @@ Also, Reference path should be included in the TypeScript definitions of the EJ 
 
 {% highlight javascript %}
 
-    /// <reference path="tsfiles/jquery.d.ts" >;
-
-    /// <reference path="tsfiles/ej.web.all.d.ts" />;
-
-
-
+    /// <reference path="tsfiles/jquery.d.ts">;
+    /// <reference path="tsfiles/ej.web.all.d.ts" />
     module DatePickerComponent {
-
         $(function () {
-
             var dateSample = new ej.DatePicker($("#datepick"), {
-
-                value: new Date()
-
-            });
-
-        });   
-
-    }
+            value: new Date()
+        });
+        });
+     }
 
 {% endhighlight %}
-
 
 Compile and build the application. In compilation time the app.js will be generated which can be referred in index page to render the EJ component.
 
@@ -68,47 +57,27 @@ To set the minimum date value of the DatePicker, you can use the minDate propert
 
 {% highlight javascript %}
 
-module DatePickerComponent {
-
-    $(function () {
-
-        var dateSample = new ej.DatePicker($("#datepick"), {
-
+     module DatePickerComponent {
+        $(function () {
+            var dateSample = new ej.DatePicker($("#datepick"), {
             value: new Date(),
-
             minDate: new Date("11/11/2012"),
-
-
-
-        });
-
-    });   
-
-    }
+             });
+         });
+       }
 
 {% endhighlight %}
 
-
-To set the maximum value of the Textbox, you can use the maxDate property. Data type of this property is “Date/String”.
+To set the maximum value of DatePicker, you can use the maxDate property. Data type of this property is “Date/String”.
 
 {% highlight javascript %}
 
-module DatePickerComponent {
-
-    $(function () {
-
-        var dateSample = new ej.DatePicker($("#datepick"), {
-
+     module DatePickerComponent {
+       $(function () {
+            var dateSample = new ej.DatePicker($("#datepick"), {
             value: new Date(),
-
             maxDate: new Date("11/11/2019"),
-
-
-
-        });
-
-    });   
-
-    }
-
+             });
+        });   
+     }
 {% endhighlight %}

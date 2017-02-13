@@ -13,13 +13,13 @@ This section discloses the details on how to render and configure a CheckBox com
 
 ## Create your first CheckBox	
 
-1. Create a TypeScript application and refer the dependent modules, script and CSS with the help of given getting started document.
+* Create a TypeScript application and refer the dependent modules, script and CSS with the help of given [getting started document](https://help.syncfusion.com/js/typescript).
 
-2. In the index.HTML file, add the input element for rendering CheckBox component as given below.
+* In the index.HTML file, add the input element for rendering CheckBox component as given below.
 
 {% highlight html %}
 
- <div>
+    <div>
         Hobbies <br /><br />
         <table>
             <tr>
@@ -58,21 +58,12 @@ This section discloses the details on how to render and configure a CheckBox com
 
 {% endhighlight %} 
 
-3. Create a TypeScript file named "app.ts" file and refer the required definition files as given below.
-
-{% highlight JS %}
-
-        /// <reference path="tsfiles/jquery.d.ts" />
-        /// <reference path="tsfiles/ej.web.all.d.ts" />
-
-{% endhighlight %} 
-
-4. Now, initialize the CheckBox component by using ej.CheckBox method. 
+* Create app.ts file and use the below content
 
 {% highlight javascript %}
 
-        /// <reference path="jquery.d.ts" />
-        /// <reference path="ej.web.all.d.ts" /> 
+    /// <reference path="jquery.d.ts" />
+    /// <reference path="ej.web.all.d.ts" /> 
         module AppComponent {
             $(function () {
                 new ej.CheckBox($("#Checkbox1"), {
@@ -113,8 +104,9 @@ tsc
 
 {% endhighlight %} 
 
-This command compiles the app.ts file to generate a JS file named app.js file. 
-Refer the app.js file in index.html and browse the html file to see the following output.
+Now build your application, so that the app.ts file will compiled and automtically generated the app.js file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in app.ts file will be reflected in app.js file by compiling build the aplication.
+
+Execution of above code will render the following output.
 
 ![](Getting-Started_images/checkbox.png) 
 

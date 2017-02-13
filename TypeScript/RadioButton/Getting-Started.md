@@ -9,32 +9,32 @@ documentation: ug
 
 # Getting Started
 
-This section discloses the details on how to render and configure a RadioButton component in a TypeScript application.
+This section discloses the details on how to render and configure a **RadioButton component** in a TypeScript application.
 
 ## Create your first Radio Button	
 
-1. Create a TypeScript application and refer the dependent modules, script and CSS with the help of given Getting started document.
+* Create a TypeScript application and refer the dependent modules, script and CSS with the help of given [Getting started documentation](https://help.syncfusion.com/js/typescript).
 
-2. In the index.HTML file, add the input element for rendering RadioButton component as given below.
+* In the index.HTML file, add the below input element for rendering RadioButton component,
 
 {% highlight html %}
 
-        <div>
+    <div>
         <br />
         Category
         <br />
         <br />
-        <table >
-        <tr>
-        <td>
-        <input type="radio" id="Radio1" />
-        <label for="Radio1">Fresher</label>
-        </td>
-        <td  colspan="2">
-        <input type="radio" id="Radio2" />
-        <label for="Radio2">Experienced</label>
-        </td>
-        </tr>
+        <table>
+            <tr>
+                <td>
+                    <input type="radio" id="Radio1" />
+                    <label for="Radio1">Fresher</label>
+                </td>
+                <td colspan="2">
+                    <input type="radio" id="Radio2" />
+                    <label for="Radio2">Experienced</label>
+                </td>
+            </tr>
         </table>
         <br />
         <br />
@@ -42,49 +42,42 @@ This section discloses the details on how to render and configure a RadioButton 
         <br />
         <br />
         <table>
-        <tr>
-        <td>
-        <input type="radio" id="Radio3" />
-        <label for="Radio3">1+ years</label>
-        </td>
-        <td colspan="2">
-        <input type="radio" id="Radio4" />
-        <label for="Radio4">2.5+years</label>
-        </td>
-        <td colspan="2">
-        <input type="radio" id="Radio5" />
-        <label for="Radio5">5+years</label>
-        </td>
-        </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="Radio3" />
+                    <label for="Radio3">1+ years</label>
+                </td>
+                <td colspan="2">
+                    <input type="radio" id="Radio4" />
+                    <label for="Radio4">2.5+years</label>
+                </td>
+                <td colspan="2">
+                    <input type="radio" id="Radio5" />
+                    <label for="Radio5">5+years</label>
+                </td>
+            </tr>
         </table>
-        </div>
+    </div>      
 
 {% endhighlight %} 
 
-3. Create a TypeScript file named "app.ts" file and refer the required definition files as given below.
+* Create app.ts file and use the below content
 
 {% highlight JS %}
 
-        /// <reference path="tsfiles/jquery.d.ts" />
-        /// <reference path="tsfiles/ej.web.all.d.ts" />
+    /// <reference path="tsfiles/jquery.d.ts" />
+    /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-{% endhighlight %} 
-
-4. Now, initialize the RadioButton component by using ej.RadioButton method. 
-
-{% highlight JS %}
-
-        /// <reference path="tsfiles/jquery.d.ts" />
-        /// <reference path="tsfiles/ej.web.all.d.ts" />
-
-        module AppComponent { 
+    module AppComponent { 
         $(function () {
-        new ej.RadioButton($("#Radio1"),{value:"Fresher", name:"Category", size:"small" });
-        new ej.RadioButton($("#Radio2"),{value:"Experienced", name:"Category", size: "small", checked:true });
-        new ej.RadioButton($("#Radio3"),{value:"1+ years", name:"Experienced", size:"medium", checked: true });
-        new ej.RadioButton($("#Radio4"),{value:"2.5+ years", name:"Experienced",size:"medium" });
-        new ej.RadioButton($("#Radio5"), {value:"5+ years", name:"Experienced", size:"medium"}); 
-        }
+            new ej.RadioButton($("#Radio1"),{value:"Fresher", name:"Category", size:"small" });
+            new ej.RadioButton($("#Radio2"),{value:"Experienced", name:"Category", size: "small", checked:true });
+            new ej.RadioButton($("#Radio3"),{value:"1+ years", name:"Experienced", size:"medium", checked: true });
+            new ej.RadioButton($("#Radio4"),{value:"2.5+ years", name:"Experienced",size:"medium" });
+            new ej.RadioButton($("#Radio5"), {value:"5+ years", name:"Experienced", size:"medium"}); 
+        });
+    }     
+
 {% endhighlight %} 
 
 ### Run the application
@@ -93,11 +86,12 @@ To run the application, navigate the project folder and open command prompt wind
 
 {% highlight JS %}
 
-tsc
+    tsc
 
 {% endhighlight %} 
 
-This command compiles the app.ts file to generate a JS file named app.js file. 
-Refer the app.js file in index.html and browse the HTML file to see the following output.
+Now build your application, so that the app.ts file will compiled and automtically generated the app.js file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in app.ts file will be reflected in app.js file by compiling build the aplication.
+
+Execution of above code will render the following output.
 
 ![](Getting-Started_images/radiobutton.png) 
