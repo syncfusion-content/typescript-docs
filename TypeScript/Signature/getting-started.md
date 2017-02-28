@@ -2,8 +2,8 @@
 layout: post
 title: getting started
 description: getting started
-platform: js
-control: Control Name undefined
+platform: Typescript
+control: Signature
 documentation: ug
 ---
 
