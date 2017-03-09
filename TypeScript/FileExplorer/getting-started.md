@@ -105,13 +105,13 @@ The resize behavior can be enabled through the enableResize property.
 module ExplorerComponent {
      $(function () {
         var file = new ej.FileExplorer($("#fileExplorer"), {
-            path: "http://mvc.syncfusion.com/ODataServices/FileBrowser/",
+            path: "http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/",
             width: "100%",
             minWidth: "150px",
             layout: "tile",
             isResponsive: true,
             enableResize: true,
-            ajaxAction: "http://mvc.syncfusion.com/OdataServices/fileExplorer/fileoperation/PerformAction"
+            ajaxAction: "http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations"
         });
     });
 }
