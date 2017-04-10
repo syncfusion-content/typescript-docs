@@ -105,7 +105,7 @@ The DropDownList can be created from a HTML ‘input’ element with the HTML 'i
 
 ## Populating data
 
-The DropDownList can be bounded to both local array and remote data services .You can bind data to DropDownList through services using  [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property 
+The DropDownList can be bounded to both local array and remote data services .You can bind data to DropDownList through services or local data using  [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property 
  
 {% highlight html %}
 
@@ -121,12 +121,16 @@ The DropDownList can be bounded to both local array and remote data services .Yo
      /// <reference path="tsfiles/ej.web.all.d.ts" />
       module DropDownListComponent {
         $(function () {
-        var sample = new ej.DropDownList($("#dropdown1"), {
-            dataSource: new ej.DataManager({ url: 'http://mvc.syncfusion.com/Services/Northwnd.svc/Customers'}),
-            fields: {text: "CustomerID" }
-               });
-        
-           });
+         var customers = [
+        { id: "1", text: "ALFKI" }, { id: "2", text: "ANATR" }, { id: "3", text: "ANTON" },
+        { id: "4", text: "AROUT" }, { id: "5", text: "BERGS" }, { id: "6", text: "BLAUS" }
+          ];
+
+    var sample = new ej.DropDownList($("#dropdown1"), {
+        dataSource: new ej.DataManager(customers),
+        fields: { id: "id", text: "text", value: "text" }
+    });
+    
       }
 {% endhighlight %}
 	
