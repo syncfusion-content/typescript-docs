@@ -213,7 +213,7 @@ module GridComponent {
 
 ## Data Binding
 
-[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by uby assigning a JSON array to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
+[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by by assigning a array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 {% highlight html %}
 
@@ -235,9 +235,9 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-          //The datasource "window['employeeView'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
-          dataSource: window["employeeView"];  
-          columns: ["EmployeeID", "FirstName", "LastName", "City", "Country"];       
+          //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+          dataSource: window["gridData"];  
+          columns: ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
       });
     });
 }
