@@ -213,7 +213,7 @@ module GridComponent {
 
 ## Data Binding
 
-[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by using the [`ej.DataManager`](http://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding.  To set the data source to the grid, the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property is assigned with the instance of the `ej.DataManger`. For demonstration purpose, [Northwind OData service](http://mvc.syncfusion.com/Services/Northwnd.svc/) is used in this tutorial. Refer to the following code example.
+[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning an array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 {% highlight html %}
 
@@ -235,7 +235,9 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-          dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods")         
+          //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+          dataSource: window["gridData"];  
+          columns: ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
       });
     });
 }
@@ -245,9 +247,6 @@ module GridComponent {
 
 ![](Getting-started_images/Getting-started_img2.png)
 {:.image }
-
-
-N> ODataAdaptor is the default adaptor for the DataManager. On binding to other web services, proper [data adaptor](http://help.syncfusion.com/js/datamanager/data-adaptors)  needs to be set on `adaptor` option of the DataManager.
 
 ## Enable Paging
 
@@ -273,7 +272,9 @@ N> ODataAdaptor is the default adaptor for the DataManager. On binding to other 
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods"),
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            dataSource: window["gridData"],
+            columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
             pageSettings: { pageSize: 8 }         
       });
@@ -313,7 +314,9 @@ N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods"),
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            dataSource: window["gridData"],
+            columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
             pageSettings: { pageSize: 8 },
             allowFiltering: true         
@@ -352,7 +355,9 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods"),
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            dataSource: window["gridData"],
+            columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
             pageSettings: { pageSize: 8 },           
             allowGrouping: true       
@@ -389,11 +394,13 @@ Refer to the following code example for initial grouping.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods"),
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            dataSource: window["gridData"],
+            columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
             pageSettings: { pageSize: 8 },           
             allowGrouping: true,
-            groupSettings: { groupedColumns: ["ItemType"] }       
+            groupSettings: { groupedColumns: ["ShipCountry", "CustomerID"] }       
       });
     });
 }
@@ -429,17 +436,19 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            dataSource: new ej.DataManager("http://mvc.syncfusion.com/Services/Northwnd.svc/Foods"),
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            dataSource: window["gridData"],
+            columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
             pageSettings: { pageSize: 8 },           
             allowGrouping: true,
-            groupSettings: { groupedColumns: ["ItemType"] },
+            groupSettings: { groupedColumns: ["CustomerID"] },
             showSummary: true,
             summaryRows: [
                 {
                   	title: "Sum",
                   	summaryColumns: [
-                    { summaryType: ej.Grid.SummaryType.Sum, displayColumn: "Stock", dataMember: "Stock" }
+                    { summaryType: ej.Grid.SummaryType.Sum, displayColumn: "Freight", dataMember: "Freight" }
               	  ]
               }
            ]       
