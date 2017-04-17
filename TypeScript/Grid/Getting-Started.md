@@ -213,7 +213,7 @@ module GridComponent {
 
 ## Data Binding
 
-[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by by assigning a array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
+[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by by assigning an array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 {% highlight html %}
 
