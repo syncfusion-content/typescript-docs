@@ -23,8 +23,8 @@ You can customize the chart dimension by setting the width and height for the co
 
 {% highlight javascript %}
 
-/// <reference path="../tsfiles/jquery.d.ts" />
-/// <reference path="../tsfiles/ej.web.all.d.ts" />
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
 
 module ChartComponent {
     $(function () {
@@ -76,10 +76,6 @@ You can specify the chart size in percentage by using the [`size`](../api/ejchar
               size: { width: '80%', height: '90%' },
            });
      });
-{% endhighlight %}
-
-
-
 {% endhighlight %}
 
 ![](Chart-Dimensions_images/Chart-Dimensions_img2.png)
