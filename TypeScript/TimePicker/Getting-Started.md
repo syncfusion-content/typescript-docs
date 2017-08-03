@@ -41,7 +41,7 @@ This section explains you how to render and configure TimePicker component in a 
         /// <reference path="tsfiles/ej.web.all.d.ts" />
 
         $(function () {
-                var sample = new ej.TimePicker($("#datetimepick"));
+                var sample = new ej.TimePicker($("#timepick"));
             });
 
 {% endhighlight %} 
