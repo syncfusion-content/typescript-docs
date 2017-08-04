@@ -58,7 +58,7 @@ module DateTimePickerComponent {
          $(function () {
              // declaration
               var datetimeSample = new ej.DateTimePicker($("#datetimepick"), {
-                 width: '200px',
+                 width: '200px'
              });
          });
 }

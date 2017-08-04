@@ -62,15 +62,15 @@ In the **HTML** page, add a **&lt;input&gt;** element to configure **TimePicker*
     // To enable/disable TimePicker controls use the following code example.
     //Enable Timepicker:
     $(function () {
-        $('#time').ejTimePicker();
-        var timeObj = $('#time').data("ejTimePicker");
-        timeObj.enable();
+        var timeSample = new ej.TimePicker($("#timepick"), {
+        });
+        timeSample.enable();
     });
     //Disable Timepicker:
     $(function () {
-        $('#time').ejTimePicker();
-        var timeObj = $('#time').data("ejTimePicker");
-        timeObj.disable();
+         var timeSample = new ej.TimePicker($("#timepick"), {
+        });
+        timeSample.disable();
     });
 
 {% endhighlight %}
