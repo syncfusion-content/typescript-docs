@@ -78,7 +78,7 @@ In the **HTML** page, add a **&lt;input&gt;** element to render **ColorPicker** 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module TimePickerComponent {
+module ColorPickerComponent {
     $(function () {
         var colorSample = new ej.ColorPicker($("#colorpick"), {
              modelType: "palette",
