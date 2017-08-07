@@ -81,7 +81,7 @@ Initialize the ReportViewer in app.ts file by using the `ej.ReportViewer` method
 module ReportViewerComponent {
     $(function () {
         var report = new ej.ReportViewer($("#groupingAggregate"), {
-            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/RDLReport',
+            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
             processingMode: ej.ReportViewer.ProcessingMode.Remote,
             reportPath: 'GroupingAgg.rdl',
             isResponsive: true
@@ -129,7 +129,7 @@ ReportViewer supports to load RDL/RDLC files from SSRS Server. The following ste
 module ReportViewerComponent {
     $(function () {
          var report = new ej.ReportViewer($("#territoryReportViewer"), {
-            reportServiceUrl: 'http://ssrs.syncfusion.com/ReportingWebAPIService/api/SSRSReport',
+            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
             reportServerUrl: 'http://mvc.syncfusion.com/reportserver',
             processingMode: ej.ReportViewer.ProcessingMode.Remote,
             reportPath: "/SSRSSamples2/Territory Sales new",
@@ -173,7 +173,7 @@ The ReportViewer has data binding support to visualize the RDLC reports. The fol
 module ReportViewerComponent {
     $(function () {
         var report = new ej.ReportViewer($("#areaCharts"), {
-            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/RDLCReport',
+            reportServiceUrl: 'http://js.syncfusion.com/ejservices/api/ReportViewer',
             processingMode: ej.ReportViewer.ProcessingMode.Local,
             reportPath: 'AreaCharts.rdlc',
             dataSource: [{
