@@ -29,6 +29,9 @@ In an **HTML** page, add a **&lt;input&gt;** element to configure **TimePicker**
     // You can render TimePicker control as follows.
     $(function () {
         var timeSample = new ej.TimePicker($("#timepick"), {
+            popupWidth: "400px",
+            height: "60px",
+            width:"200px"
     });
     
 {% endhighlight %}

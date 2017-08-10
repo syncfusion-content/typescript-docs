@@ -100,7 +100,7 @@ In the **HTML** page, add a **&lt;input&gt;** element to configure **TimePicker*
 
 {% highlight javascript %}
 
-    // Configure delay time for PopUp panel in TimePicker control as follows,
+    // Configure TimePicker textbox to restrict editing as follows,
    var timeSample = new ej.TimePicker($("#timepick"), {
         readOnly: true
     });
@@ -289,13 +289,14 @@ In the **HTML** page, add a **&lt;input&gt;** element to configure **TimePicker*
     // Change Time Interval using hourInterval, minuteInterval and secondInterval property.
     $(function () {
         var timeSample = new ej.TimePicker($("#timepick"), {
-            value: "9:00 AM",
             timeFormat: "h:mm:ss tt",
             hourInterval: 2,
             minutesInterval: 30,
             secondsInterval: 20
         });
     });
+
+![](Behaviour-Settings_images/Behaviour-Settings_img9.png)
     
 {% endhighlight %}
 

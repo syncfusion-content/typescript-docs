@@ -140,7 +140,5 @@ In the **HTML** page, add an **&lt;input&gt;** element to configure the **ColorP
 
 {% endhighlight %}
 
-The following screenshot displays the output of the above code example.
 
-![](Keyboard-Interaction_images/Keyboard-Interaction_img1.png) 
 
