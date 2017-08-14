@@ -26,12 +26,18 @@ Add the following code in your **HTML** page.
 
 
 {% highlight javascript %}
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
 
+module DateTimePickerComponent {
+    $(function () {
     //  Add the code in your script section to render DateTimePicker without displaying other month dates in current month
-    $('#dateTime').ejDateTimePicker({
+    var datetimeSample = new ej.DateTimePicker($("#datetimepick"), {
        showOtherMonths: false,
        width: '200px',
     });
+    });
+}
 
 {% endhighlight %}
   

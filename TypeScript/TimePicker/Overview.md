@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TimePicker| TimePicker  | ReactJS | Syncfusion
+title: TimePicker| TimePicker  | TypeScript | Syncfusion
 description: overview
 platform: TypeScript
 control: TimePicker
