@@ -101,7 +101,7 @@ You can easily design a home page using tile control for easy navigation. Theref
 
 {% highlight ts %}
      
-     /// <reference path="../tsfiles/jquery.d.ts" />
+ /// <reference path="../tsfiles/jquery.d.ts" />
  /// <reference path="../tsfiles/ej.web.all.d.ts" />\
 
 module TileComponent {

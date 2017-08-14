@@ -71,8 +71,8 @@ Initialize the Navigation Drawer in ts file by using the ej.NavigationDrawer met
 
 {% highlight ts %}
 
-    /// <reference path="../tsfiles/jquery.d.ts" />
- /// <reference path="../tsfiles/ej.web.all.d.ts" />\
+/// <reference path="tsfiles/jquery.d.ts" />
+ /// <reference path="tsfiles/ej.web.all.d.ts" />\
 
 module NavigationDrawerComponent {
     $(function () {
@@ -122,7 +122,7 @@ To open the list items by clicking on target element using the targetId property
 {% highlight ts %}
 
  /// <reference path="../tsfiles/jquery.d.ts" />
- /// <reference path="../tsfiles/ej.web.all.d.ts" />\
+ /// <reference path="../tsfiles/ej.web.all.d.ts" />
 
 module NavigationDrawerComponent {
     $(function () {
