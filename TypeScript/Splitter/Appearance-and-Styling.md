@@ -191,7 +191,7 @@ The output for **Splitter** after adding the properties.
 
 **Splitter** control’s style and appearance can be controlled based on CSS classes. In order to apply styles to the **Splitter** control, refer 2 files namely: **ej.widgets.core.min.css** and **ej.theme.min.css**. If the file **ej.widgets.all.min.css** is referred, then it is not necessary to include the files **ej.widgets.core.min.css** and **ej.theme.min.css** in your project**,** as **ej.widgets.all.min.css** is the combination of these two. 
 
-By default, there are 12 themes support available for Autocomplete control namely
+By default, there are 16 themes support available for Autocomplete control namely
 
 * default-theme
 * flat-azure-dark
@@ -205,6 +205,10 @@ By default, there are 12 themes support available for Autocomplete control namel
 * gradient-lime-dark
 * gradient-saffron
 * gradient-saffron-dark
+*	high-contrast-01
+*	high-contrast-02
+*	material
+*	office-365
 
 ### CSS Class
 
