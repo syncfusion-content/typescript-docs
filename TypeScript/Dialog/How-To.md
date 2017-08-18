@@ -3,6 +3,7 @@ layout: post
 title: How to section in Dialog 
 description: How to achieve specific requirements in Dialog widget
 control: Dialog
+platform: TypeScript
 documentation: ug
 keywords : ejdialog
 ---

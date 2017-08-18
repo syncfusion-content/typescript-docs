@@ -17,7 +17,7 @@ You can customize RadialSlider control style and the appearance by using availab
 
 In order to apply styles to the RadialSlider control, refer to 2 files namely, ej.widgets.core.min.css and ej.theme.min.css. When you refer ej.web.all.min.css file, it is not necessary to include the files ej.widgets.core.min.css and ej.theme.min.css in your project, as ej.web.all.min.css is the combination of these two. 
 
-By default, there are 13 theme support available for RadialSlider component, namely:
+By default, there are 16 theme support available for RadialSlider component, namely:
 
 * flat-azure
 * flat-azure-dark
@@ -32,6 +32,10 @@ By default, there are 13 theme support available for RadialSlider component, nam
 * gradient-saffron
 * gradient-saffron-dark
 * bootstrap
+* high-contrast-01
+* high-contrast-02
+* material
+* office-365
 
 
 ## CSS Class

@@ -30,6 +30,10 @@ By default, there are 13 theme support available for RadialMenu component, namel
 * gradient-saffron
 * gradient-saffron-dark
 * bootstrap
+* high-contrast-01
+* high-contrast-02
+* material
+* office-365
 
 ## CSS Class
 

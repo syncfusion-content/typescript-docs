@@ -235,9 +235,6 @@ The number of items to be loaded per request can be specified using the “itemR
 {% endhighlight %}
 
 
-
-N> The “itemRequestCount” property will work only when “virtualScrollMode” is “continuous”.
-
 ![](Databinding_images\Databinding_img6.png)
 
 ![](Databinding_images\Databinding_img7.png)
