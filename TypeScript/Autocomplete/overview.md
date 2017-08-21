@@ -2,7 +2,7 @@
 layout: post
 title: overview
 description: overview
-platform: js
+platform: TypeScript
 control: AutoComplete
 documentation: ug
 ---

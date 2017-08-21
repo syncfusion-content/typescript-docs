@@ -2,19 +2,16 @@
 layout: post
 title: getting-started
 description: getting started
-platform: js
+platform: Typescript
 control: ListView
 documentation: ug
 ---
 
 # Getting Started
 
-
-
-Using the following steps, you can create a **Typescript** ListView component. The basic rendering of **Typescript** ListView is achieved with default functionality.
+ Using the following steps, you can create a **Typescript** ListView component. The basic rendering of **Typescript** ListView is achieved with default functionality.
 
 ## Create a ListView
-
 
 
 You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
@@ -74,7 +71,8 @@ Initialize the ListView in app.ts file by using the ej.ListView method.
 
 module ListComponent {
     $(function () {
-        let sample = new ej.ListView($("#listview”));
+        var sample = new ej.ListView($("#listview”"), {
+            
     });
 }
 
