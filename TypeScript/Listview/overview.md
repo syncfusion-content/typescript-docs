@@ -2,7 +2,7 @@
 layout: post
 title: overview
 description: overview
-platform: js
+platform: Typescript
 control: ListView
 documentation: ug
 ---
