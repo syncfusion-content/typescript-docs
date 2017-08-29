@@ -5,7 +5,7 @@ description: getting started for Menu
 platform: Typescript
 control: Menu
 documentation: ug
-keywords: ejmenu, js menu, menu
+keywords: ejmenu, menu
 ---
 
 # Getting Started 
