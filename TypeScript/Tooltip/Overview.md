@@ -5,7 +5,7 @@ description: overview
 platform: Typescript
 control: Tooltip Control
 documentation: ug
-keywords : ejTooltip, Tooltip, js Tooltip, Tooltip widget
+keywords : ejTooltip, Tooltip,Tooltip widget
 ---
 
 # Overview

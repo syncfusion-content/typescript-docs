@@ -15,7 +15,7 @@ You can customize RadialMenu control style and the appearance by using available
 
 In order to apply styles to the RadialMenu control, refer these 2 files namely, ej.widgets.core.min.css and ej.theme.min.css. When you refer ej.web.all.min.css file, it is not necessary to include the files ej.widgets.core.min.css and ej.theme.min.css in your project, as ej.web.all.min.css is the combination of these two. 
 
-By default, there are 13 theme support available for RadialMenu component, namely:
+By default, there are 16 theme support available for RadialMenu component, namely:
 
 * flat-azure
 * flat-azure-dark

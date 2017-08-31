@@ -49,7 +49,7 @@ In the **HTML** page set the corresponding **&lt;div&gt;** elements for outer an
 
 {% highlight javascript %}
 /// <reference path="tsfiles/jquery.d.ts" />
- /// <reference path="tsfiles/ej.web.all.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
 
 
 module SplitterComponent {
