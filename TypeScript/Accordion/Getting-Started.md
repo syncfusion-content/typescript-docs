@@ -4,7 +4,7 @@ description: Getting Started for  Accordion
 platform: Typescript
 control: Accordion
 documentation: Ug
-keywords: ejaccordion, js accordion, accordion
+keywords: ejaccordion, accordion
 ---
 # Getting started
 

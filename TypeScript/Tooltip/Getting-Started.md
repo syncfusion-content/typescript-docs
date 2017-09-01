@@ -132,7 +132,7 @@ Tooltip dimensions can be set using [width](http://help.syncfusion.com/js/api/ej
 			width:"100px"			
 			});
 
-            });
+         });
        }
 
 {% endhighlight %}
