@@ -5,7 +5,7 @@ description: Getting Started for DropDownList
 platform: Typescript
 control: DropDownList
 documentation: ug
-keywords: DropDownList, js dropdown, Populating data
+keywords: DropDownList, Populating data
 ---
 
 # Getting Started
