@@ -148,15 +148,19 @@ In the **HTML** page, add a **&lt;div&gt;** element to render **WaitingPopup** w
 
     // Use the following code to Show / Hide WaitingPopup.
     //Show WaitingPopup:
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module WaitingPopupComponent {
     $(function () {
-        $("#waitingPopUp").ejWaitingPopup();
+        var sample = new ej.WaitingPopup($("#target"),{
         var popUpObj = $("#waitingPopUp").data("ejWaitingPopup");
         popUpObj.show();
     });
-    
+}   
     //Hide WaitingPopup:
     $(function () {
-        $("#waitingPopUp").ejWaitingPopup();
+        var sample = new ej.WaitingPopup($("#target"),{
         var popUpObj = $("#waitingPopUp").data("ejWaitingPopup");
         popUpObj.hide();
     });
