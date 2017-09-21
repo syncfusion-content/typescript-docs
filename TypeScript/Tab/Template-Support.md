@@ -63,5 +63,5 @@ module TabComponent {
 
 **Output:**
 
-![]Template-Support_images/Template-Support_img1.png) 
+![](Template-Support_images/Template-Support_img1.png) 
 
