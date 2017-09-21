@@ -54,8 +54,8 @@ Add links to the [CDN](/js/cdn) Script files of the other required external depe
     <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
     <script src="http://cdn.syncfusion.com/js/assets/external/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-	<script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
-    <script src="app.js"></script>  
+    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js"></script>
+    <script src="app.js"></script>
 </head>
 
 {% endhighlight %}
@@ -71,7 +71,7 @@ Create a `div` element within the body section of the HTML document, where the S
 {% highlight html %}
 
 <body>
-	<div id="Schedule1"></div>
+    <div id="Schedule1"></div>
 </body>
 
 {% endhighlight %}
@@ -87,13 +87,13 @@ Create a typescript module in `app.ts` file with the control initialization code
 
 module ScheduleComponent {
     $(function () {
-        var dManager = [{ 
-            Id: 1, 
-            Subject: "Bering Sea Gold", 
-            StartTime: new Date(2014, 4, 5, 5, 30), 
-            EndTime: new Date(2014, 4, 5, 7, 30), 
-            Description:"", 
-            AllDay: false, 
+        var dManager = [{
+            Id: 1,
+            Subject: "Bering Sea Gold",
+            StartTime: new Date(2014, 4, 5, 5, 30),
+            EndTime: new Date(2014, 4, 5, 7, 30),
+            Description:"",
+            AllDay: false,
             Recurrence: false
         }];
         var sample = new ej.Schedule($("#Schedule1"), {
@@ -121,11 +121,11 @@ Now build your application, so that the `app.js` file is automatically generated
 
 ## Setting TimeZone
 
-Initially, the system timezone is preferred as the Schedule's default timezone. When some specific timezone is explicitly defined to the Schedule, it will be set to it. 
+Initially, the system timezone is preferred as the Schedule's default timezone. When some specific timezone is explicitly defined to the Schedule, it will be set to it.
 
-Likewise, we can also set different timezones for the appointments. Usually, the system timezone is assigned as the appointment's default timezone and it will be positioned on the Scheduler based on the start/end time range and timezone assigned to it. 
+Likewise, we can also set different timezones for the appointments. Usually, the system timezone is assigned as the appointment's default timezone and it will be positioned on the Scheduler based on the start/end time range and timezone assigned to it.
 
-To set Scheduler timeZone and its appointment timeZone values, refer the below code example - 
+To set Scheduler timeZone and its appointment timeZone values, refer the below code example -
 
 {% highlight ts %}
 
@@ -134,15 +134,15 @@ To set Scheduler timeZone and its appointment timeZone values, refer the below c
 
 module ScheduleComponent {
     $(function () {
-        var dManager = [{ 
-            Id: 1, 
-            Subject: "Bering Sea Gold", 
-            StartTime: new Date(2014, 4, 5, 5, 30), 
+        var dManager = [{
+            Id: 1,
+            Subject: "Bering Sea Gold",
+            StartTime: new Date(2014, 4, 5, 5, 30),
             StartTimeZone: "UTC +02:00",
             EndTime: new Date(2014, 4, 5, 7, 30),
-            EndTimeZone: "UTC +02:00", 
-            Description:"", 
-            AllDay: false, 
+            EndTimeZone: "UTC +02:00",
+            Description:"",
+            AllDay: false,
             Recurrence: false
         }];
         var sample = new ej.Schedule($("#Schedule1"), {
