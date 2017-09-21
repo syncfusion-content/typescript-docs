@@ -191,7 +191,7 @@ module UploadboxComponent {
 
 **Uploadbox** control’s style and appearance are controlled based on **CSS** classes. In order to apply styles to the **Uploadbox** control, you can refer to two files namely, **ej.widgets.core.min.css** and **ej.theme.min.css**. When the file **ej.widgets.all.min.css** is referred, then it is not necessary to include the files **ej.widgets.core.min.css** and **ej.theme.min.css** in your project**,** as **ej.widgets.all.min.css** is the combination of these both files. 
 
-By default, there are 12-theme support available for **Uploadbox** control namely,
+By default, there are 16-theme support available for **Uploadbox** control namely,
 
 * Default-theme
 * Flat-azure-dark
@@ -205,6 +205,10 @@ By default, there are 12-theme support available for **Uploadbox** control namel
 * Gradient-lime-dark
 * Gradient-saffron
 * Gradient-saffron-dark
+* high-contrast-01
+* high-contrast-02
+* material
+* office-365
 
 
 
