@@ -44,8 +44,6 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
 ## Configuring Button Properties
 
-
-
 This section encompasses the details on how you can configure the Button control in your application and customize it with various properties such as various size, resizing the**Button** according to your requirement.
 
 To render the button with required text, size and with rounded corner add the following code example in your TS file.
