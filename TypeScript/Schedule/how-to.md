@@ -60,7 +60,7 @@ Now, after adding the above validations – whenever the fields within the custo
 
 ## Highlight Different Work Hours for Each Resources
 
-By default, the work hours of the Scheduler is highlighted based on the start and end values provided within the [workHours](/js/schedule/customization#hour-customization:working-hours) object. It remains same for all the resources, when the Scheduler is rendered with multiple resources. To customize this behavior so as to highlight different work hours range for each of the resources, the following workaround can be utilized by making use of the Scheduler events **create** and [actionComplete](/api/js/ejschedule#events:actioncomplete).
+By default, the work hours of the Scheduler is highlighted based on the start and end values provided within the [workHours](/typescript/schedule/customization#hour-customization:working-hours) object. It remains same for all the resources, when the Scheduler is rendered with multiple resources. To customize this behavior so as to highlight different work hours range for each of the resources, the following workaround can be utilized by making use of the Scheduler events **create** and [actionComplete](/api/js/ejschedule#events:actioncomplete).
 
 Initially, set the **highlight** as false for the **workHours**, so as to disable the highlighting of default work hour range.
 

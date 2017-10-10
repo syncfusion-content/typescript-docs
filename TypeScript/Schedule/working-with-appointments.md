@@ -29,7 +29,7 @@ N> An all-day row is normally visible on the Scheduler, as the [showAllDayRow](/
 
 ### Recurrence
 
-Represents an appointment that is created for a certain time interval that occurs repeatedly in a daily, weekly, monthly, yearly or every weekday basis at the same time interval based on the recurrence rule. The other available options and validations that can be performed on recurrence appointments can be referred from [here](/js/schedule/working-with-appointments#recurrence-options).
+Represents an appointment that is created for a certain time interval that occurs repeatedly in a daily, weekly, monthly, yearly or every weekday basis at the same time interval based on the recurrence rule. The other available options and validations that can be performed on recurrence appointments can be referred from [here](/typescript/schedule/working-with-appointments#recurrence-options).
 
 ## CRUD operation
 

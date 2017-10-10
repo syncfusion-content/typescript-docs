@@ -117,7 +117,7 @@ The [TimeScale](/api/js/ejschedule#members:timeScale) allows the user to set the
 * [enable](/api/js/ejschedule#members:timeScale-enable) - It accepts true or false value, denoting whether to show or hide the time slots. Its default value is `true`.
 * [majorSlot](/api/js/ejschedule#members:timeScale-majorSlot) – Specifies the major time slot duration.
 * [minorSlotCount](/api/js/ejschedule#members:timeScale-minorSlotCount) – Specifies the value, based on which the minor time slots are divided into appropriate count.
-* [TimeScale templates](/js/schedule/templates#timescale-templates) - 2 template options available for customizing timeScales namely `minorSlotTemplateId` and `majorSlotTemplateId`. 
+* [TimeScale templates](/typescript/schedule/templates#timescale-templates) - 2 template options available for customizing timeScales namely `minorSlotTemplateId` and `majorSlotTemplateId`.
 
 The majorSlot and minorSlot can be set on the Scheduler with the following code example.
 
