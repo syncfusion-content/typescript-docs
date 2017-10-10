@@ -388,6 +388,97 @@ public ActionResult PDFExport(string scheduleModel)
 
 {% endhighlight %}
 
+## Excel Export
+
+Scheduler supports exporting all appointments in Excel format, for which the same [saveAsExcel](/api/js/ejschedule#methods:saveasexcel) method can be used with passing type value to its parameter list. To achieve this, keep an individual button to export and when it is clicked, the appointments can be allowed to export as Excel.
+
+In [saveAsExcel](/api/js/ejschedule#methods:saveasexcel) method, we can pass three arguments as follows:
+
+* Action name (to be called in the server-side)
+* Server Event (Optional)
+* Appointment export type (including occurrence appointments or excluding occurrence appointments)
+
+The appointment has been exported based on the class fields. We should create the class with the fields to be exported and based on that class, object can be deserialized.
+
+The following code example depicts the way to export the appointments in Excel format.
+
+{% highlight html %}
+
+<!--Container for ejScheduler widget-->
+<div id="Schedule1"></div>
+
+<!-- Button div for Export Option-->
+<button id="btnExport">Export</button>
+
+{% endhighlight %}
+
+{% highlight javascript %}
+
+/// <reference path="../tsfiles/jquery.d.ts" />
+/// <reference path="../tsfiles/ej.web.all.d.ts" />
+
+module ScheduleComponent {
+    $(function () {
+        var button = new ej.Button($("#btnExport"), {
+            width: "80px",
+            height: "30px",
+            click: "onExportClick"
+        });
+        var sample = new ej.Schedule($("#Schedule1"), {
+            width: "100%",
+            height: "525px",
+            currentDate: new Date(2014, 4, 5),
+            appointmentSettings: {
+                dataSource: [{
+                    Id: 100,
+                    Subject: "Wild Discovery",
+                    StartTime: new Date(2015, 11, 2, 9, 00),
+                    EndTime: new Date(2015, 11, 2, 10, 30),
+                    Location: "CHINA"
+                }]
+            }
+        });
+    });
+}
+
+{% endhighlight %}
+
+{% highlight javascript %}
+
+function onExportClick(e) {
+    var obj = $("#Schedule1").data("ejSchedule");
+    obj.saveAsExcel("http://js.syncfusion.com/ejservices/api/Schedule/XlsExport", null, false);
+    e.cancel = true;
+}
+
+{% endhighlight %}
+
+The server-side action **ExportAsExcel** contains the following code example to export the Scheduler.
+
+{% highlight c# %}
+
+public ActionResult ExportAsXSL()
+{
+    List<AppointmentData> scheduleAppointments = (List<AppointmentData>)JsonConvert.DeserializeObject(Request.Form["ScheduleAppointment"], typeof(List<AppointmentData>));
+    ExcelExport xlExport = new ExcelExport();
+    return xlExport.Export(scheduleAppointments, ExcelVersion.Excel2013);
+}
+
+public class AppointmentData
+{
+    public int Id { get; set; }
+    public string Subject { get; set; }
+    public string StartTime { get; set; }
+    public string EndTime { get; set; }
+    public bool AllDay { get; set; }
+    public bool Recurrence { get; set; }
+    public string RecurrenceRule { get; set; }
+}
+
+{% endhighlight %}
+
+In Export method, the appointments are mandatory to pass as argument to export in excel format. In addition, we can pass filename and excel version as optional parameter to export file with specified filename and version.
+
 ## Print
 
 Two types of Print options are available – either to print the entire Scheduler layout including all the appointments in it or else to print any particular appointment alone. The public method [print](/api/js/ejschedule#methods:print) is used to print the entire Scheduler.

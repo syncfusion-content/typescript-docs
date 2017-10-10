@@ -337,3 +337,65 @@ module ScheduleComponent {
 {% endhighlight %}
 
 N> The **categorize** option must be added only to the **appointment** collection, which displays on right clicking the appointments.
+
+## Remote Data Binding for Categorize
+
+In Schedule, we can also binding the categorize datasource using remote data. The below code example shows how to bind the datasource to categorizeSettings.
+
+{% highlight html %}
+
+<!--Container for ejScheduler widget-->
+<div id="Schedule1"></div>
+
+{% endhighlight %}
+
+{% highlight javascript %}
+
+/// <reference path="../tsfiles/jquery.d.ts" />
+/// <reference path="../tsfiles/ej.web.all.d.ts" />
+
+module ScheduleComponent {
+    $(function () {
+        var dataManager = ej.DataManager({
+            url: "Home/GetCategorizeData",
+            adaptor: new ej.UrlAdaptor()
+        });
+        var sample = new ej.Schedule($("#Schedule1"), {
+            currentDate: new Date(2015, 11, 2),
+            categorizeSettings: {
+                enable: true,
+                allowMultiple: true,
+                dataSource: dataManager,
+                id: "Id",
+                fontColor: "FontColor",
+                color: "Color",
+                text: "Text"
+            },
+            appointmentSettings: {
+                categorize: "Categorize",
+                dataSource: [{
+                    Id: 100,
+                    Subject: "Research on Sky Miracles",
+                    StartTime: new Date(2015, 11, 2, 9, 00),
+                    EndTime: new Date(2015, 11, 2, 10, 30),
+                    Categorize: "1"
+                }]
+            }
+        });
+    });
+}
+
+{% endhighlight %}
+
+The server-side controller code to handle the CRUD operations are as follows.
+
+{% highlight c# %}
+
+public JsonResult GetCategorizeData()
+{
+    // ScheduleDataDataContext is a LINQ-to-SQL data class name that is defined in the .dbml file to access the tables from the database
+    IEnumerable data = new ScheduleDataDataContext().CategoryData;
+    return Json(data, JsonRequestBehavior.AllowGet);
+}
+
+{% endhighlight %}
