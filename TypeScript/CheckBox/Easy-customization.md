@@ -299,7 +299,6 @@ In the **HTML** page, add the following input elements to configure **Checkbox**
 module ButtonComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#checkbox_text"), {
-        $("#checkbox_text").ejCheckBox({ 
           text: "Music" 
           });
     });
