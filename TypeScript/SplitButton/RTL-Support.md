@@ -36,7 +36,7 @@ In the **HTML** page, add the following button elements to configure **Split But
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module SplitButtonComponent {
     $(function () {
         var Button = new ej.SplitButton($("#splitButton_rtl"), {
             //used to enable or disable RTL support for split button
