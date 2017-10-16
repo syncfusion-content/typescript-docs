@@ -2,10 +2,9 @@
 layout: post
 title: Accessibility
 description: Accessibility using keyboard shortcuts
-platform: js
+platform: TypeScript
 control: DatePicker
 documentation: ug
-api: /api/js/ejdatepicker
 ---
 # Accessibility
 
