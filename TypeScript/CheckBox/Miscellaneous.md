@@ -20,7 +20,7 @@ Set id for **Checkbox** control as follows.
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#check1"), {
                  id: "sync"
@@ -43,7 +43,7 @@ Set prefix id for **Checkbox** control as follows.
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#check1"), {
                 idPrefix: "JS" 
@@ -71,7 +71,7 @@ You can set name and value for **Checkbox** control as follows.
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#check1"), {
                 name: "Conformation", 

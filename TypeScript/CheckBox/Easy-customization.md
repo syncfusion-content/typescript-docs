@@ -85,7 +85,7 @@ In the **HTML** page, add the following input elements to configure Checkbox wid
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#checkbox_nonTriState"), {
            enableTriState: false
@@ -177,7 +177,7 @@ In the **HTML** page, add the following input elements to configure **Checkbox**
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#check"), {
           enableTriState: true, 
@@ -248,7 +248,7 @@ In the **HTML** page, add the following input elements to configure **Checkbox**
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#checkbox_small"), {
            size: "small" 
@@ -296,7 +296,7 @@ In the **HTML** page, add the following input elements to configure **Checkbox**
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#checkbox_text"), {
           text: "Music" 
@@ -343,7 +343,7 @@ In the **HTML** page, add the following input elements to configure **Checkbox**
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
-module ButtonComponent {
+module CheckBoxComponent {
     $(function () {
         var checkbox = new ej.CheckBox($("#checkbox_normalCorner"), {
            showRoundedCorner: false
