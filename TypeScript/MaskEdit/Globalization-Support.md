@@ -89,7 +89,7 @@ The output for **MaskEdit** with Globalization.
 
 ![](Globalization-Support_images/Globalization-Support_img1.jpg)
 
-MaskEdit with de-DE locale
+MaskEdit with `de-DE` locale
 {:.caption}
 
 ![](Globalization-Support_images/Globalization-Support_img2.jpg)
