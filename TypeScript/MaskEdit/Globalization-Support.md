@@ -61,7 +61,7 @@ Refer the below German culture file in head section of HTML page after the refer
                 <label for="mask">Mask Edit</label>
             </td>
             <td>
-                <input id="maskedit" type="text" />
+                <input id="maskEdit" type="text" />
             </td>
         </tr>
     </tbody>
@@ -75,7 +75,7 @@ Refer the below German culture file in head section of HTML page after the refer
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-    var mask = new ej.MaskEdit($("#maskedit"), {
+    var mask = new ej.MaskEdit($("#maskEdit"), {
                      locale: "de-De", //specifies the culture for MaskEdit control
                      width: "100%",
                      maskFormat:"$99,999.99",

@@ -39,7 +39,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 
 {% highlight html %}
 
-<input id="maskedit" type="text" /> 
+<input id="maskEdit" type="text" /> 
     
 {% endhighlight %}
 
@@ -49,7 +49,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-    var mask = new ej.MaskEdit($("#maskedit"), {
+    var mask = new ej.MaskEdit($("#maskEdit"), {
             name: "mask",
             inputMode: ej.InputMode.Text,
             maskFormat: "99-999-99999",
@@ -94,7 +94,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 
 {% highlight html %}
 
-<input id="maskedit" type="text" />
+<input id="maskEdit" type="text" />
     
 {% endhighlight %}
 
@@ -104,7 +104,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-    var mask = new ej.MaskEdit($("#maskedit"), {
+    var mask = new ej.MaskEdit($("#maskEdit"), {
             name: "mask",
             inputMode: ej.InputMode.Text,
             maskFormat: "99-999-99999",
@@ -133,7 +133,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 
 {% highlight html %}
 
-<input id="maskedit" type="text" />
+<input id="maskEdit" type="text" />
     
 {% endhighlight %}
 
@@ -143,7 +143,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget.
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-    var mask = new ej.MaskEdit($("#maskedit"), {
+    var mask = new ej.MaskEdit($("#maskEdit"), {
             name: "mask",
             inputMode: ej.InputMode.Text,
             maskFormat: "99-999-99999",
@@ -169,7 +169,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget
 
 {% highlight html %}
 
-<input id="maskedit" type="text" />
+<input id="maskEdit" type="text" />
     
 {% endhighlight %}
 
@@ -179,7 +179,7 @@ In the HTML page, add a &lt;div&gt; element to render the MaskEdit widget
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-    var mask = new ej.MaskEdit($("#maskedit"), {
+    var mask = new ej.MaskEdit($("#maskEdit"), {
             name: "mask",
             inputMode: ej.InputMode.Text,
             maskFormat: "99-999-99999",
