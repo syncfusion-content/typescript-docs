@@ -21,7 +21,7 @@ This feature allows you to add text along with the **image** in **Rotator** cont
                <div class="leftPanel">
                   <img src="../images/rotator/tablet.jpg" />
                </div>
-               <div class="rightPanel blck">
+               <div class="rightPanel blog">
                   <div class="contentPanel">Tablet </div>
                   <ul>
                      <li>A tablet computer, or simply tablet, is a mobile computer with display, circuitry and battery in a single unit.</li>
@@ -150,17 +150,17 @@ module RotatorComponent {
         opacity: 0.6;
     }
 
-    #sliderContent .rightPanel.blck {
+    #sliderContent .rightPanel.blog {
         background-color: black;
     }
 
-    #sliderContent .rightPanel.blck li {
+    #sliderContent .rightPanel.blog li {
         color: white;
         list-style: none;
         line-height: 2;
     }
 
-    #sliderContent .rightPanel.blck .contentPanel {
+    #sliderContent .rightPanel.blog .contentPanel {
         padding-top: 30px;
         color: white;
     }
