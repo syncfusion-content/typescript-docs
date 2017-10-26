@@ -403,7 +403,7 @@ module RotatorComponent {
 
 **Rotator** control’s style and appearance are controlled based on **CSS** **classes**. In order to apply styles to the **Rotator** control, you can refer 2 files namely, **ej.widgets.core.min.css** and **ej.theme.min.css**. When the file **ej.widgets.all.min.css** is referred, then it is not necessary to include the files **ej.widgets.core.min.css** and **ej.theme.min.css** in your project**,** as **ej.widgets.all.min.css** is the combination of these both. 
 
-By default, there are 16 theme support available for RadialMenu component, namely:
+By default, there are 17 theme support available for RadialMenu component, namely:
 
 * flat-azure
 * flat-azure-dark
