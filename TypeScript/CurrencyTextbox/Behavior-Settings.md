@@ -34,7 +34,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 555,
             decimalPlaces: 4
         });
@@ -74,7 +74,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 33,
             enablePersistence: true
         });
@@ -122,7 +122,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 10, //value(10) exceeds maxValue(8), so it will returns 8.
             minValue: -1,
             maxValue: 8,
@@ -164,7 +164,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 3,
             enabled: false
         });
@@ -215,7 +215,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 1,
             width: 100, height: 50
         });
@@ -255,7 +255,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value:5,
             incrementStep: 4
         });
@@ -305,7 +305,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             name: "currency"
         }); 
     });
@@ -339,7 +339,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 33              
         });
     });
@@ -384,7 +384,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             maxValue: 4,
             value:8
         });
@@ -392,7 +392,7 @@ module EditorComponent {
 
          //CurrencyTextBox with minValue
     $(function () {
-            var num = new ej.CurrencyTextbox($("#currency"), {
+            var number = new ej.CurrencyTextbox($("#currency"), {
             minValue: -3,
             value:-8
         });
@@ -442,7 +442,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 3,
             readOnly: true
         });
@@ -508,7 +508,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 3,
             cssClass: "customCss"
         });
@@ -571,7 +571,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 3,
             showRoundedCorner: true
         });
@@ -610,7 +610,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 3,
             showSpinButton: true
         });
@@ -658,7 +658,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             watermarkText: "Currency"
         });
     });
