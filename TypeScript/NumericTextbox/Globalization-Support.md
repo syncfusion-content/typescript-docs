@@ -81,14 +81,14 @@ The output for **NumericTextBox** with Globalization.
 
 
 
-![](/js/NumericTextBox/Globalization-Support_images/Globalization-Support_img1.png)
+![](Globalization-Support_images/Globalization-Support_img1.png)
 
 NumericTextBox with de-DE locale
 {:.caption}
 
 
 
-![](/js/NumericTextBox/Globalization-Support_images/Globalization-Support_img2.png)
+![](Globalization-Support_images/Globalization-Support_img2.png)
 
 NumericTextBox with en-US locale
 {:.caption}

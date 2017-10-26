@@ -79,25 +79,4 @@ Run the above example and press [Access key](http://en.wikipedia.org/wiki/Access
 
 
 
-![](Keyboard-Interaction_images/Keyboard-Interaction_img1.png) 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](Keyboard-Interaction_images/Keyboard-Interaction_img1.png)

@@ -389,7 +389,7 @@ module EditorComponent {
             value:8
         });
     });
-}  
+
          //CurrencyTextBox with minValue
     $(function () {
             var num = new ej.CurrencyTextbox($("#currency"), {
@@ -397,7 +397,7 @@ module EditorComponent {
             value:-8
         });
     }); 
-
+}
 {% endhighlight %}
 
 
