@@ -140,7 +140,7 @@ Include the **cssClass** value before each style of the **Slider** widget and cu
 
 <style>
    .purple.e-slider.e-widget {
-       background-color: burlywood;
+       background-color: gray;
        border-color: #bbbcbb;
    }
    .purple.e-tooltip {
@@ -231,7 +231,12 @@ In an **HTML** page, specify the **&lt;div&gt;** elements to render the “Defau
 
 
     // In JavaScript, during initialization enable the showRoundedCorner property.
-    $("#defaultSlider").ejSlider({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module SliderComponent {
+    $(function () {
+        var slider = new ej.Slider($("#defaultSlider"), {
         value: 60,
         width: "500",
         showRoundedCorner:true
