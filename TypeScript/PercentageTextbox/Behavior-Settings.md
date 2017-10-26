@@ -45,7 +45,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 22,
             decimalPlaces: 2
         });
@@ -96,7 +96,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 22,
             enablePersistence: true
         });
@@ -158,7 +158,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: -10,//value(-10) is under minValue(-5),so Error class will be added.
             minValue: -5,
             maxValue: 3,
@@ -212,7 +212,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 2,
             enabled: false
         });
@@ -272,7 +272,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
         value: 2,
         width: 100,
         height: 40
@@ -325,7 +325,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value:1,
             incrementStep: 3
         });
@@ -387,7 +387,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             name: "percent"         
         });
     });
@@ -432,7 +432,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 21               
         });
     });
@@ -488,7 +488,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             maxValue: 3,
             value:5
         });
@@ -500,7 +500,7 @@ module EditorComponent {
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             minValue: -2,
             value:-5
         });
@@ -563,7 +563,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 3,
             readOnly: true
         });
@@ -642,7 +642,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 2,
             cssClass: "customCss"
         });
@@ -721,7 +721,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 2,
             showRoundedCorner: true
         });
@@ -773,7 +773,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 2,
             showSpinButton: true
         });
@@ -833,7 +833,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {          
+        var number = new ej.PercentageTextbox($("#percent"), {          
             watermarkText: "Percentage"
         });
     });

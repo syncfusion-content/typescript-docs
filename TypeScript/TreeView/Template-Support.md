@@ -54,6 +54,7 @@ Tree nodes can be customized by using [template](https://help.syncfusion.com/api
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
 module TreeViewComponent {
+
        $(function () {
 
             var treeData = [

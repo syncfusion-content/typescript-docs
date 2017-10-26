@@ -75,7 +75,7 @@ The following example describes the way to use Globalization for **PercentageTex
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 21234,
             decimalPlaces: 3,
             locale: "de-DE"

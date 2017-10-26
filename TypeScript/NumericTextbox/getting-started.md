@@ -13,9 +13,7 @@ documentation: ug
 
 Using the following steps, you can create a **Typescript** NumericTextbox component.
 
-## Creating an NumericTextbox in Typescript
-
-
+## Creating an NumericTextbox in TypeScript
 
 You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
 
@@ -26,7 +24,7 @@ You can create a **Typescript** application with the help of the given [Typescri
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typescript Application</title>
+<title>TypeScript Application</title>
 <link href="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/ej.web.all.min.js" type="text/javascript"></script>
@@ -40,11 +38,7 @@ You can create a **Typescript** application with the help of the given [Typescri
 
 {% endhighlight %}
 
-
-
 The NumericTextbox can be created from a `input` element with the HTML `id` attribute and pre-defined options set to it.
-
-
 
 {% highlight html %}
 
@@ -65,7 +59,7 @@ The NumericTextbox can be created from a `input` element with the HTML `id` attr
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-   var num = new ej.NumericTextbox($("#numeric"), {
+   var number = new ej.NumericTextbox($("#numeric"), {
             value: 30,
             minValue: 1,
             maxValue: 100,
@@ -98,7 +92,7 @@ Execution of above code will render the following output.
 /// <reference path="ej.web.all.d.ts" />
 
 module EditorComponent {
-   var num = new ej.NumericTextbox($("#numeric"), {
+   var number = new ej.NumericTextbox($("#numeric"), {
             value: 30,
             maxValue: 100,
             name: "numeric",
@@ -118,7 +112,7 @@ module EditorComponent {
 
 module SliderComponent {
  $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 30,
             minValue: 1,
             maxValue: 100,

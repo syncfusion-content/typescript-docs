@@ -43,7 +43,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.PercentageTextbox($("#percent"), {
+        var number = new ej.PercentageTextbox($("#percent"), {
             value: 22,
             enableRTL: true
         });

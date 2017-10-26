@@ -61,7 +61,7 @@ The following example describes the way to use Globalization for NumericTextBox 
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 12345,
             decimalPlaces: 2,
             locale: "de-DE"

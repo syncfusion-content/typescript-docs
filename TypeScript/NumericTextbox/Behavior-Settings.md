@@ -31,7 +31,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
         value: 333,
         decimalPlaces: 3
     });
@@ -69,7 +69,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 11,
             enablePersistence: true
         });
@@ -118,7 +118,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 10, //value(10) exceeds maxValue(5), so it will add the error class.
             minValue: -3,
             maxValue:5,
@@ -161,7 +161,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 1,
             enabled: false           
         });
@@ -210,7 +210,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {        
+        var number = new ej.NumericTextbox($("#numeric"), {        
             width: 100, height: 50,value:1           
         });
     });
@@ -249,7 +249,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
            value:1,
            incrementStep: 2       
         });
@@ -299,7 +299,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value:12,
             name: "numeric"       
         });
@@ -334,7 +334,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 12                 
         });
     });
@@ -376,7 +376,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             maxValue: 2,
             value:3
         });
@@ -388,7 +388,7 @@ module EditorComponent {
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             minValue: -1,
             value:-2
         });
@@ -436,7 +436,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {       
+        var number = new ej.NumericTextbox($("#numeric"), {       
             value: 1,
             readOnly: true
         });
@@ -502,7 +502,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 1,
             cssClass: "customCss"
         });
@@ -564,7 +564,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 1,
             showRoundedCorner: true
         });
@@ -606,7 +606,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 1,
             showSpinButton: false
         });
@@ -648,7 +648,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             watermarkText: "Numeric"
         });
     });

@@ -56,7 +56,7 @@ In the **HTML** page set the corresponding **&lt;input&gt;** elements for render
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
             value: 33
         });
     });

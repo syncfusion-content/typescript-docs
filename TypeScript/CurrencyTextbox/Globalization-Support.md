@@ -64,7 +64,7 @@ The following example describes the way to use localization for **CurrencyTextBo
 
 module EditorComponent {
     $(function () {
-        var num = new ej.CurrencyTextbox($("#currency"), {
+        var number = new ej.CurrencyTextbox($("#currency"), {
              value: 33,
              decimalPlaces: 2,
              locale: "de-DE"
