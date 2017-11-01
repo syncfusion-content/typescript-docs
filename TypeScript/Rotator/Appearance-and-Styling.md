@@ -2,7 +2,7 @@
 layout: post
 title: Appearance-and-Styling
 description: appearance and styling
-platform: tyepescript
+platform: typescript
 control: Rotator
 documentation: ug
 ---
