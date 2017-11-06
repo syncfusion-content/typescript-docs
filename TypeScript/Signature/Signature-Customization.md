@@ -64,7 +64,6 @@ The following screenshot illustrates the Signature with custom defined backgroun
 ![](Signature_Customization_images\backgroundimage_img1.png)
 
 
-
 ## Stroke color
 
 Signature widget allows you to set the stroke color for the signature stroke using the **strokeColor** property. When we set our required color, then the signature’s stroke color will be changed.
