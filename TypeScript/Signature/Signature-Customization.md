@@ -25,7 +25,7 @@ Add the following script to render signature with customized background color.
 module SignatureComponent {
     $(function () {
         var basicSignature = new ej.Signature($("#signature"), {
-                 backgroundColor:"grey"
+                 backgroundColor:"#808080"
                   });
         });
   }
