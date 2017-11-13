@@ -51,9 +51,8 @@ if(currentBuild.result != 'FAILURE')
     { 		
          archiveArtifacts artifacts: 'cireports/', excludes: null 	 
     }
-	    step([$class: 'WsCleanup'])	
+	    step([$class: 'WsCleanup'])	}
 	    }
-	 }
 }
 @NonCPS
 def changeLogs(){
