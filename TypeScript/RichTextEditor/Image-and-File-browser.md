@@ -76,7 +76,6 @@ module RTEComponent {
 
 ![](ImageandFilebrowser_images/ImageandFilebrowser_img2.png)
 
-
 N> FileExplorer component has been implemented and integrated with the editor in Volume 1, 2015 release. For more information about FileExplorer component, see [here](https://help.syncfusion.com/js/fileexplorer/overview#).
 
 ## Image Properties
@@ -117,8 +116,7 @@ module RTEComponent {
             tools: { images: ["image"] },
             showDimensions: true
         });
-
-    });
+   });
 }
 
 </script>
@@ -152,8 +150,7 @@ The General and Advanced tabs in the RTE Image browser can be removed by setting
         that helps them to apply rich text formats to the text entered in the text
         area.
     </textarea>
-    <script>
-        $("#rteSample").ejRTE({
+    var sample = new ej.RTE($("#rteSample"),{
             toolsList: ["images"],
             tools: { images: ["image"] },
             width: "100%",
@@ -163,42 +160,6 @@ The General and Advanced tabs in the RTE Image browser can be removed by setting
             create: function (args) {
                 this._explorerObj.removeToolbarItem("NewFolder");
             }
+   });
 
-        });
-    </script>
-    
- {% endhighlight %}
- 
- In RTE control, there is no direct support for the autoUpload option. But this can be achieved by enabling the autoUpload at create event of RTE.
-
-{% highlight html %}
-
-    <textarea id="rteSample">
-        <p><b>Description:</b></p>
-        <p>
-            The Rich Text Editor (RTE) control is easy to render in the
-            client side. Customers can easily edit the contents and get the HTML content for
-            the displayed content. A rich text editor control provides users with a toolbar
-            that helps them to apply rich text formats to the text entered in the text
-            area.
-        </p>
-    </textarea>
-/// <reference path="tsfiles/jquery.d.ts" />
-/// <reference path="tsfiles/ej.web.all.d.ts" />
-
-module RTEComponent {
-    $(function () {
-        var sample = new ej.RTE($("#rteSample"),{
-                toolsList: ["images"],
-                tools: { images: ["image"] },
-                width: "100%",
-                minWidth: "10px",
-                imageBrowser: { filePath: "http://mvc.syncfusion.com/OdataServices/FileBrowser/", ajaxAction: fileService, extensionAllow: "*.png, *.gif, *.jpg, *.jpeg, *.docx", ajaxSettings: ajaxSettings },
-                create: function (args) {
-                    //setting autoUpload property as true                   
-                    this._explorerObj._uploadtag.data("ejUploadbox").option("autoUpload", true);
-                }
-            });
-        });
-  }
 {% endhighlight %}
