@@ -11,7 +11,7 @@ documentation: ug
 
 Using the following steps, you can create a **Typescript** FileExplorer component.
 
-## Creating an FileExplorer in Typescript
+## Creating an FileExplorer in TypeScript
 
 You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
 
@@ -22,7 +22,7 @@ Within an index.html file and add the scripts references in the order mentioned
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typescript Application</title>
+<title>TypeScript Application</title>
 <link href="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/ej.web.all.min.js" type="text/javascript"></script>
@@ -411,7 +411,7 @@ You can customize built-in text and messages based on your culture. The below ex
 
                 GeneralError: "Bitte beachten Sie Browser Konsolenfenster für weitere Informationen",
 
-                ErrorPath: "Fileexplorer kann nicht finden '{0}'. Überprüfen Sie die Schreibweise und versuchen Sie es erneut.",
+                ErrorPath: "FileExplorer kann nicht finden '{0}'. Überprüfen Sie die Schreibweise und versuchen Sie es erneut.",
 
                 ReplaceAlert: "Datei mit dem Namen '{0}' ist bereits vorhanden. Ersetzen Sie alte Datei durch eine neue?",
 
