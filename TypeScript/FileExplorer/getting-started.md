@@ -2,20 +2,16 @@
 layout: post
 title: getting-started
 description: getting started
-platform: js
+platform: Typescript
 control: FileExplorer
 documentation: ug
 ---
 
 # Getting Started
 
-
-
 Using the following steps, you can create a **Typescript** FileExplorer component.
 
 ## Creating an FileExplorer in Typescript
-
-
 
 You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
 

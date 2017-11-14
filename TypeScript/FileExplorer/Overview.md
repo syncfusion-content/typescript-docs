@@ -2,7 +2,7 @@
 layout: post
 title: Overview
 description: overview
-platform: js
+platform: Typescript
 control: File Explorer
 documentation: ug
 ---
