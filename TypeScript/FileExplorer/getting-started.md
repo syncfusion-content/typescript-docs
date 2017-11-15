@@ -2,20 +2,16 @@
 layout: post
 title: getting-started
 description: getting started
-platform: js
+platform: Typescript
 control: FileExplorer
 documentation: ug
 ---
 
 # Getting Started
 
-
-
 Using the following steps, you can create a **Typescript** FileExplorer component.
 
-## Creating an FileExplorer in Typescript
-
-
+## Creating an FileExplorer in TypeScript
 
 You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
 
@@ -26,7 +22,7 @@ Within an index.html file and add the scripts references in the order mentioned
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typescript Application</title>
+<title>TypeScript Application</title>
 <link href="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/ej.web.all.min.js" type="text/javascript"></script>
@@ -81,9 +77,7 @@ var file = new ej.FileExplorer($("#fileExplorer"), {
 
 
 
-* Now build your application, so that the **app.ts** file will compiled and automtically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the aplication.
-
-
+* Now build your application, so that the **app.ts** file will compiled and automatically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the application.
 
 Execution of above code will render the following output.
 
@@ -417,7 +411,7 @@ You can customize built-in text and messages based on your culture. The below ex
 
                 GeneralError: "Bitte beachten Sie Browser Konsolenfenster für weitere Informationen",
 
-                ErrorPath: "Fileexplorer kann nicht finden '{0}'. Überprüfen Sie die Schreibweise und versuchen Sie es erneut.",
+                ErrorPath: "FileExplorer kann nicht finden '{0}'. Überprüfen Sie die Schreibweise und versuchen Sie es erneut.",
 
                 ReplaceAlert: "Datei mit dem Namen '{0}' ist bereits vorhanden. Ersetzen Sie alte Datei durch eine neue?",
 
