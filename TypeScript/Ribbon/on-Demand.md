@@ -18,7 +18,7 @@ Set [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enabl
                     <table>
                         <tr>
                             <td>
-                                <button id="btn1" class="e-bsnewbtnstyle">Blank WorkBook</button>
+                                <button id="button" class="e-bsnewbtnstyle">Blank WorkBook</button>
                             </td>
                         </tr>
                     </table>
@@ -133,7 +133,7 @@ module RibbonComponent {
 				}],
             });
         });
-     var btnsample = new ej.Button($("#btn1"), {
+     var buttonsample = new ej.Button($("#button"), {
             size: "large",
             height: 200,
             width: 225,
@@ -186,7 +186,7 @@ While using initially collapsible ribbon with [`enableOnDemand`](https://help.sy
                     <table>
                         <tr>
                             <td>
-                                <button id="btn1" class="e-bsnewbtnstyle">Blank WorkBook</button>
+                                <button id="button" class="e-bsnewbtnstyle">Blank WorkBook</button>
                             </td>
                         </tr>
                     </table>
@@ -301,7 +301,7 @@ module RibbonComponent {
 				}],
             });
         });
-    var btnsample = new ej.Button($("#btn1"), {
+    var buttonsample = new ej.Button($("#button"), {
             size: "large",
             height: 200,
             width: 225,

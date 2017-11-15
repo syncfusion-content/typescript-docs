@@ -209,7 +209,7 @@ Set group [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-grou
 			</ul>
 		</li>
 	</ul>
-	<button id="btn">Using Content ID</button>
+	<button id="button">Using Content ID</button>
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -232,7 +232,7 @@ module RibbonComponent {
 					}, {
 						text: "Data",
 						type: "custom",
-						contentID: "btn"
+						contentID: "button"
 					}]
 				}]
 			});
@@ -257,7 +257,7 @@ Set [`enableGroupExpander`](https://help.syncfusion.com/api/js/ejribbon#members:
             </ul>
         </li>
     </ul>    
-    <button id="btn">Home button</button>
+    <button id="button">Home button</button>
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -280,7 +280,7 @@ module RibbonComponent {
 
                         // group expander enabled
                         enableGroupExpander: true,
-                        contentID: "btn"
+                        contentID: "button"
                     }]
                 }],
 
