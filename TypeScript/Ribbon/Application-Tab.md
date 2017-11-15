@@ -194,7 +194,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
 
 module RibbonComponent {
     $(function () {
-        var btnsample = new ej.Button($("#btn1"), {
+        var buttonsample = new ej.Button($("#btn1"), {
             size: "large",
             height: 200,
             width: 205,
