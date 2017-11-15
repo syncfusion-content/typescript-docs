@@ -25,9 +25,13 @@ Tab is a collection of control [`groups`](https://help.syncfusion.com/api/js/ejr
     <div id="sendReceive">
         Send/Receive All Folders
     </div>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500px",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -75,10 +79,9 @@ Tab is a collection of control [`groups`](https://help.syncfusion.com/api/js/ejr
                 }]
             });
         });
-    </script>
+  }
 
    
 {% endhighlight %}
 
 ![](Tab_images/Tab_img1.png)
-

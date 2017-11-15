@@ -16,11 +16,13 @@ After Ribbon initialization, Ribbon object is stored in a container element of R
 {% highlight javascript %}
 
     // "defaultRibbon" is Id of Ribbon control
-    var ribbonObject = $("#defaultRibbon").ejRibbon("instance");
 
-      [or]
 
-    var ribbonObject = $("#defaultRibbon").data("ejRibbon");
+    $(function () {
+        var sample = new ej.Ribbon($("#defaultRibbon"), {
+        });
+    });
+
 
 {% endhighlight %}
 

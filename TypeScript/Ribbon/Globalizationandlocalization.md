@@ -133,10 +133,12 @@ By default, Ribbon render its content and layout from left to right. To customiz
         </ul>
     </li>
     </ul>
-    <script type="text/javascript">
-    $(function () {
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
 
-        $("#defaultRibbon").ejRibbon({
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#defaultRibbon"), {
             width: "40%",
             enableRTL: true,
             applicationTab: { type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbon", menuSettings: { openOnClick: false } },
@@ -191,7 +193,7 @@ By default, Ribbon render its content and layout from left to right. To customiz
             ]
         });
     });
-    </script>
+}
 
 {% endhighlight %}
 

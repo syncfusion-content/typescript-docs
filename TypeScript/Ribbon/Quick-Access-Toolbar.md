@@ -35,9 +35,13 @@ The client side event for Quick Access Toolbar menu click is [`qatMenuItemClick`
 		<ul id="split">
 			<li><span>Paste</span></li>
 		</ul>
-		<script type="text/javascript">
-			$(function () {
-				$("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
 					width: 500,
 					showQAT: true,
 					applicationTab: {
@@ -112,7 +116,7 @@ The client side event for Quick Access Toolbar menu click is [`qatMenuItemClick`
 					}]
 				});
 			});
-		</script>
+  }
 	<style>
 		.e-ribbon .e-rbnquickaccessbar .e-ribbonpaste:before {
 				font-size: 27px;
@@ -149,4 +153,4 @@ The client side event for Quick Access Toolbar menu click is [`qatMenuItemClick`
 
 {% endhighlight %}
 
-![](/js/Ribbon/Quick-Access-Toolbar_images/Quick-Access-Toolbar_img1.png)
+![](Quick-Access-Toolbar_images/Quick-Access-Toolbar_img1.png)

@@ -29,9 +29,13 @@ N> The [`itemHeight`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-g
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500",
                 applicationTab: {
                     type:ej.Ribbon.applicationTabType.menu,
@@ -90,7 +94,7 @@ N> The [`itemHeight`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-g
                 }]
             });
         });
-    </script>
+}
     <style type="text/css">
         .e-gallerycontent1 {
             background-position: 0 -105px;
@@ -119,13 +123,13 @@ N> The [`itemHeight`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-g
 {% endhighlight %}
 
 
-![](/js/Ribbon/Gallery_images/Gallery_img1.png)
+![](Gallery_images/Gallery_img1.png)
 
 Ribbon Gallery.
 {:.caption}
 
 
-![](/js/Ribbon/Gallery_images/Gallery_img2.png)
+![](Gallery_images/Gallery_img2.png)
 
 Gallery at Expanded State
 {:.caption}
@@ -150,9 +154,13 @@ You can also set [`text`](https://help.syncfusion.com/api/js/ejribbon#members:ta
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -225,7 +233,7 @@ You can also set [`text`](https://help.syncfusion.com/api/js/ejribbon#members:ta
                 }]
             });
         });
-    </script>
+}
     <style type="text/css">
         .e-gallerycontent1 {
             background-position: 0 -105px;
@@ -256,4 +264,4 @@ You can also set [`text`](https://help.syncfusion.com/api/js/ejribbon#members:ta
 
 {% endhighlight %}
 
-![](/js/Ribbon/Gallery_images/Gallery_img3.png)
+![](Gallery_images/Gallery_img3.png)

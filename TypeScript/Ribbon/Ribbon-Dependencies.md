@@ -14,7 +14,7 @@ documentation: ug
 <table>
    <tr>
       <th>
-         <b>Files                          </b>
+         <b>Files</b>
       </th>
       <th>
          <b>Description/Usage </b>
@@ -116,4 +116,3 @@ documentation: ug
       </td>
    </tr>
 </table>
-

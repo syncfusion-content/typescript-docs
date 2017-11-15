@@ -37,9 +37,13 @@ Set [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enabl
                     <a href="#">Sign out</a>
                 </div>
                 
-      <script type="text/javascript">
-        $(function () {
-            $("#defaultRibbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#defaultRibbon"), {
                width: "50%",
                enableOnDemand: true,
                 applicationTab: {
@@ -129,7 +133,7 @@ Set [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enabl
 				}],
             });
         });
-        $("#btn1").ejButton({
+     var btnsample = new ej.Button($("#btn1"), {
             size: "large",
             height: 200,
             width: 225,
@@ -137,8 +141,7 @@ Set [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enabl
             imagePosition: "imagetop",
             prefixIcon: "e-icon e-blank e-infopageicon"
         });
-    </script>
-    
+  }
      <style>
        .e-accuser {
            background-image: url("../content/ejthemes/common-images/ribbon/User.jpg"),url("content/ejthemes/common-images/ribbon/User.jpg");
@@ -202,9 +205,12 @@ While using initially collapsible ribbon with [`enableOnDemand`](https://help.sy
                     <a href="#">Sign out</a>
                 </div>
                 
-      <script type="text/javascript">
-        $(function () {
-            $("#defaultRibbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#defaultRibbon"), {
                 width: "50%",
                 enableOnDemand: true,
                 collapsible: true,
@@ -295,7 +301,7 @@ While using initially collapsible ribbon with [`enableOnDemand`](https://help.sy
 				}],
             });
         });
-        $("#btn1").ejButton({
+    var btnsample = new ej.Button($("#btn1"), {
             size: "large",
             height: 200,
             width: 225,
@@ -303,7 +309,7 @@ While using initially collapsible ribbon with [`enableOnDemand`](https://help.sy
             imagePosition: "imagetop",
             prefixIcon: "e-icon e-blank e-infopageicon"
         });
-    </script>
+ }
     
      <style>
        .e-accuser {

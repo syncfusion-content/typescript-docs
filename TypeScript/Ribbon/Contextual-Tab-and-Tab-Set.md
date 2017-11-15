@@ -49,9 +49,13 @@ keywords: contextual tab and tab set
                 </td>
             </tr>
         </table>
-        <script type="text/javascript">
-            $(function () {
-                $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                     width: "500px",
                     applicationTab: {
                         type: ej.Ribbon.applicationTabType.menu,
@@ -128,11 +132,10 @@ keywords: contextual tab and tab set
                     ]
                 });
             });
-        </script>
+  }
 
-   
 {% endhighlight %}
 
 
-![](/js/Ribbon/Contextual-Tab-and-Tab-Set_images/Contextual-Tab-and-Tab-Set_img1.png)
+![](Contextual-Tab-and-Tab-Set_images/Contextual-Tab-and-Tab-Set_img1.png)
 

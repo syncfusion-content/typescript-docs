@@ -26,9 +26,13 @@ Standard `html tooltip` can be set using [`tooltip`](https://help.syncfusion.com
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "20%",
                 allowResizing: true,
                 applicationTab: {
@@ -68,11 +72,11 @@ Standard `html tooltip` can be set using [`tooltip`](https://help.syncfusion.com
                 }]
             });
         });
-    </script>
+    }
 
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img1.png)
+![](/jScreen-Tips_images/Screen-Tips_img1.png)
 
 ## Custom Tooltip
 
@@ -85,9 +89,14 @@ Custom Tooltip is used to set detailed help to the user about the controls. You 
 {% highlight html %}
 
     <div id="Ribbon"></div>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "450",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -134,7 +143,8 @@ Custom Tooltip is used to set detailed help to the user about the controls. You 
                 }]
             });
         });
-    </script>
+   }
+
     <style type="text/css">
         .e-pastetip {
             background-image: url("../themes/common-images/ribbon/paste.png");
@@ -154,7 +164,7 @@ Custom Tooltip is used to set detailed help to the user about the controls. You 
 
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img2.png)
+![](Screen-Tips_images/Screen-Tips_img2.png)
 
 ### For Gallery
 
@@ -176,9 +186,13 @@ N> Custom gallery item `menu` is not supported to Custom tooltip.
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -271,7 +285,8 @@ N> Custom gallery item `menu` is not supported to Custom tooltip.
                 }]
             });
         });
-    </script>
+   }
+
     <style type="text/css">
         .e-gallerycontent1 {
             background-position: 0 -105px;
@@ -320,9 +335,12 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
 				   </li>
                 </ul>
             </div>
-     <script>
-        $(function() {
-        $("#defaultRibbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#defaultRibbon"), {
             width: "300",
             expandPinSettings: {
                 customToolTip: {
@@ -365,11 +383,10 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
             }]
         });
     });
-     </script>
-
+}
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img4.png)
+![](Screen-Tips_images/Screen-Tips_img4.png)
 
 ### For Collapse Pin
 
@@ -377,7 +394,12 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
 
 {% highlight html %}
 
-    <div id="defaultRibbon"></div>
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                  <ul id="ribbon">
 				    <li><a>FILE</a>
                        <ul>
@@ -432,11 +454,11 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
             }]
         });
     });
-     </script>
+ }
 
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img5.png)
+![](Screen-Tips_images/Screen-Tips_img5.png)
 
 ### For GroupExpander
 
@@ -454,9 +476,13 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
 				</li>
            </ul>
         </div>
-     <script>
-        $(function() {
-        $("#defaultRibbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
             width: "300",
             applicationTab: {
                 type: ej.Ribbon.applicationTabType.menu,
@@ -502,8 +528,8 @@ Specifies the [`custom tooltip`](https://help.syncfusion.com/api/js/ejribbon#mem
             }]
         });
     });
-     </script>   
+ }
 
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img6.png)
+![](Screen-Tips_images/Screen-Tips_img6.png)

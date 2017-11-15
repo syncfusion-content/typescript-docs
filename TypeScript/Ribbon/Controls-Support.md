@@ -87,10 +87,14 @@ N> 2. For [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-grou
                 <ul id="pasteSplit">
                     <li><a>Paste</a></li>
                 </ul>
-     <script type="text/javascript">
+
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
         var fontFamily = ["Segoe UI", "Arial", "Times New Roman", "Tahoma", "Helvetica"], fontSize = ["1pt", "2pt", "3pt", "4pt", "5pt"], action1 = ["New", "Clear"], action2 = ["Bold", "Italic", "Underline", "strikethrough", "superscript", "subscript", "JustifyLeft", "JustifyCenter", "JustifyRight", "JustifyFull", "Undo", "Redo"];
-        $(function() {
-            $("#Ribbon").ejRibbon({
+module RibbonComponent {
+    $(function () {
                 width: "100%",
                 applicationTab: { Type: ej.Ribbon.applicationTabType.menu, menuItemID: "ribbon", menuSettings: { openOnClick: false } },
                 tabs: [
@@ -215,13 +219,12 @@ N> 2. For [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-grou
                         ],
                     }
                 ],
-            });
         });
-    </script>
+   }
    
 {% endhighlight %}
 
-![](/js/Ribbon/Controls-Support_images/Controls-Support_img1.png)
+![](Controls-Support_images/Controls-Support_img1.png)
 
 ## Custom
 
@@ -254,9 +257,12 @@ You can set [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-gr
                 <input type="checkbox" id="Check5" /><label for="Check5">Last Column</label></td>
         </tr>
     </table>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "600",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -294,12 +300,12 @@ You can set [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-gr
                 create: "createControl"
             });
         });
+    }  
         function createControl(args) {
             var ribbon = $("#Ribbon").data("ejRibbon");
             $("#fontColor").ejColorPicker({ value: "#FFFF00", modelType: "palette", cssClass: "e-ribbon", toolIcon: "e-fontcoloricon" });
         }
-    </script>
 
 {% endhighlight %}
 
-![](/js/Ribbon/Controls-Support_images/Controls-Support_img2.png)
+![](Controls-Support_images/Controls-Support_img2.png)

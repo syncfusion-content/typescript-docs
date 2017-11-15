@@ -51,9 +51,13 @@ Custom controls or items (such as table, div etc.) can be added when the [`type`
 		<li>Paste Special
 		</li>
 	</ul>
-	<script type="text/javascript">
-		$(function () {
-			$("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
 				width: "500px",
 				applicationTab: {
 					type: ej.Ribbon.applicationTabType.menu,
@@ -113,11 +117,11 @@ Custom controls or items (such as table, div etc.) can be added when the [`type`
 				}]
 			});
 		});
-	</script>
+}
 
 {% endhighlight %}
 
-![](/js/Ribbon/Group_images/Group_img1.png)
+![](Ribbon/Group_images/Group_img1.png)
 
 #### _Enable Separator_ 
 
@@ -134,9 +138,12 @@ Separates the control from the next control in the group when group `alignType` 
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -178,12 +185,12 @@ Separates the control from the next control in the group when group `alignType` 
                 }]
             });
         });
-    </script>
+ }
 
 
 {% endhighlight %}
 
-![](/js/Ribbon/Group_images/Group_img2.png)
+![](Group_images/Group_img2.png)
 
 ### Adding Custom Content 
 
@@ -203,9 +210,13 @@ Set group [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-grou
 		</li>
 	</ul>
 	<button id="btn">Using Content ID</button>
-	<script type="text/javascript">
-		$(function () {
-			$("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
 				width: "500",
 				applicationTab: {
 					type: ej.Ribbon.applicationTabType.menu,
@@ -226,11 +237,11 @@ Set group [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-grou
 				}]
 			});
 		});
-	</script>
+}
 
 {% endhighlight %}
 
-![](/js/Ribbon/Group_images/Group_img3.png)
+![](Group_images/Group_img3.png)
 
 ## Group Expander
 
@@ -247,9 +258,13 @@ Set [`enableGroupExpander`](https://help.syncfusion.com/api/js/ejribbon#members:
         </li>
     </ul>    
     <button id="btn">Home button</button>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.menu,
@@ -275,9 +290,9 @@ Set [`enableGroupExpander`](https://help.syncfusion.com/api/js/ejribbon#members:
                 }
             });
         });
-    </script>
 
+}
 {% endhighlight %}
 
-![](/js/Ribbon/Group_images/Group_img4.png)
+![](Group_images/Group_img4.png)
 

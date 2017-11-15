@@ -28,9 +28,12 @@ Set [`isResponsive`](https://help.syncfusion.com/api/js/ejribbon#members:isrespo
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
-            $("#Ribbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "20%",
                 // responsive enabled
                 isResponsive: true,
@@ -90,11 +93,11 @@ Set [`isResponsive`](https://help.syncfusion.com/api/js/ejribbon#members:isrespo
                 }]
             });
         });
-    </script>
+}
 
 {% endhighlight %}
 
-![](/js/Ribbon/Resize_images/Resize_img1.png)
+![](Resize_images/Resize_img1.png)
 
 ## Mobile Layout
 
@@ -109,9 +112,13 @@ Set [`isResponsive`](https://help.syncfusion.com/api/js/ejribbon#members:isrespo
 {% highlight html %}
 
     <div id="Ribbon"></div>
-    <script type="text/javascript">
-       $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
 			isResponsive:true,
                 tabs: [{
                     id: "home", text: "HOME", groups: [
@@ -187,7 +194,7 @@ Set [`isResponsive`](https://help.syncfusion.com/api/js/ejribbon#members:isrespo
                 }],
             });
         });
-    </script>
+   }
 
 {% endhighlight %}
 
@@ -213,9 +220,13 @@ N> To make the Ribbon control to react as responsive in mobile devices, it is ne
   {% highlight html %}
 
     <div id="Ribbon"></div>
-    <script type="text/javascript">
-       $(function () {
-            $("#Ribbon").ejRibbon({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
 			isResponsive:true,
                 tabs: [{
                     id: "home", text: "HOME", groups: [
@@ -289,7 +300,7 @@ N> To make the Ribbon control to react as responsive in mobile devices, it is ne
                 }],
             });
         });
-    </script>
+  }
 
 {% endhighlight %}
 
@@ -332,11 +343,13 @@ For each group shirked for resizing, Custom Class will be added based on group t
             </ul>
         </li>
     </ul>
-    <script type="text/javascript">
-        $(function () {
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
             var fontFamily = ["Segoe UI", "Arial"],
                 fontSize = ["1pt", "2pt"];
-            $("#Ribbon").ejRibbon({
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "36%",
 
                 // resizing enabled
@@ -493,7 +506,8 @@ For each group shirked for resizing, Custom Class will be added based on group t
                 }]
             });
         });
-    </script>
+    }
+
     <style type="text/css">
         /*styles set to resize group based on group text custom class*/
         .e-ribbon .e-New:before, .e-ribbon .e-Actions:before {
@@ -515,4 +529,4 @@ For each group shirked for resizing, Custom Class will be added based on group t
 
 {% endhighlight %}
 
-![](/js/Ribbon/Resize_images/Resize_img2.png)
+![](Resize_images/Resize_img2.png)

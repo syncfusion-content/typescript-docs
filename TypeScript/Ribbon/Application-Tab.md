@@ -36,9 +36,13 @@ Set the UL element `id` to [`menuItemID`](https://help.syncfusion.com/api/js/ejr
         </li>
         </ul>
         <div id="Contents">Custom control</div>
-        <script type="text/javascript">
-            $(function () {
-                $("#Ribbon").ejRibbon({
+
+ /// <reference path="tsfiles/jquery.d.ts" />
+ /// <reference path="tsfiles/ej.web.all.d.ts" />
+
+ module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                     width: "500px",
                     applicationTab: {
                         type: ej.Ribbon.applicationTabType.menu,
@@ -58,9 +62,9 @@ Set the UL element `id` to [`menuItemID`](https://help.syncfusion.com/api/js/ejr
                             contentID: "Contents"
                         }]
                     }]
-                });
-            });
-        </script>
+               });
+         });
+    }
 
 {% endhighlight %}
 
@@ -75,7 +79,11 @@ Application Menu can be rendered using JSON Data Source. Please refer [`this`](h
     <div id="Ribbon"></div>
     <ul id="ribbon">
     </ul>
-    <script type="text/javascript">
+
+ /// <reference path="tsfiles/jquery.d.ts" />
+ /// <reference path="tsfiles/ej.web.all.d.ts" />
+
+ module RibbonComponent {
         var data = [{
             id: 1,
             text: "File",
@@ -97,8 +105,12 @@ Application Menu can be rendered using JSON Data Source. Please refer [`this`](h
             parentId: 12,
             text: "Save All"
         }];
-        $(function () {
-            $("#Ribbon").ejRibbon({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var sample = new ej.Ribbon($("#Ribbon"), {
                 width: 500,
                 applicationTab: {
                     type:ej.Ribbon.applicationTabType.menu,
@@ -133,12 +145,12 @@ Application Menu can be rendered using JSON Data Source. Please refer [`this`](h
                 }]
             });
         });
-    </script>
+   }
 
 
 {% endhighlight %}
 
-![](/js/Ribbon/Application-Tab_images/Application-Tab_img2.png)
+![](Application-Tab_images/Application-Tab_img2.png)
 
 ## Backstage Page
 
@@ -150,10 +162,9 @@ You can set Application Tab [`type`](https://help.syncfusion.com/api/js/ejribbon
 
 Separator between Backstage items can be enabled by setting [`enableSeparator`](https://help.syncfusion.com/api/js/ejribbon#members:applicationtab-backstagesettings-pages-enableseparator) as true. Width of back stage side header can be customized using [`headerWidth`](https://help.syncfusion.com/api/js/ejribbon#members:applicationtab-backstagesettings-headerwidth), If not set based on content given width will be considered.
 
-To render the Ribbon with the Backstage page, refer to the following code snippet. 
+To render the Ribbon with the Backstage page, refer to the following code snippet.
 
 {% highlight html %}
-    
     <div id="Ribbon"></div>
     <div id="newCon">
         <table>
@@ -177,8 +188,13 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
         <a href="#">Sign out</a>
     </div>
     <div id="ribbonContent">Home control</div>
-    <script type="text/javascript">
-        $("#btn1").ejButton({
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module RibbonComponent {
+    $(function () {
+        var btnsample = new ej.Button($("#btn1"), {
             size: "large",
             height: 200,
             width: 205,
@@ -186,8 +202,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
             imagePosition: "imagetop",
             prefixIcon: "e-icon e-blank e-infopageicon"
         });
-        $(function () {
-            $("#Ribbon").ejRibbon({
+           var sample = new ej.Ribbon($("#Ribbon"), {
                 width: "500px",
                 applicationTab: {
                     type: ej.Ribbon.applicationTabType.backstage,
@@ -229,7 +244,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
                 }]
             });
         });
-    </script>
+}
     <style type="text/css">
         .e-accuser {
             background-image: url"../themes/common-images/ribbon/User.jpg");
@@ -257,7 +272,7 @@ To render the Ribbon with the Backstage page, refer to the following code snippe
             margin: 20px;
         }
     </style>
-    
+
 {% endhighlight %}
 
 ![](Application-Tab_images/Application-Tab_img3.png)
