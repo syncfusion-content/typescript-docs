@@ -12,7 +12,9 @@ keywords: ejautocomplete, autocomplete widget, autocomplete ui
 
 The Autocomplete adds support for selecting multiple columns in the dropdown list. This multiple column options can be enabled and customized through the [MultiColumnSettings](https://help.syncfusion.com/api/js/ejautocomplete#members:multiColumnSettings) property.
  
-In AutoComplete Multiple Column search is based on [stringFormat](https://help.syncfusion.com/api/js/ejautocomplete#members:multiColumnSettings-stringFormat) property which specifies column indices. 
+In AutoComplete Multiple Column search is based on [searchColumnIndices](https://help.syncfusion.com/api/js/ejautocomplete#members:multicolumnsettings-searchColumnIndices) property which allows user to search text for any number of fields in the suggestion list without modifying the selected text format.
+
+In AutoComplete Multiple Column searched value is updated to autocomplete input box based on [stringFormat](https://help.syncfusion.com/api/js/ejautocomplete#members:multiColumnSettings-stringFormat) property which specifies column indices values to  updated.
 
 
 <table><tr><th>Name</th><th>Description</th></tr>
@@ -56,7 +58,8 @@ In AutoComplete Multiple Column search is based on [stringFormat](https://help.s
                     multiColumnSettings:{
                         enable:true,
                         showHeader:true,
-                        stringFormat:"{0} ({1}) ({2})",
+                        stringFormat:"{1}",
+						searchColumnIndices[0,1,2],
                         columns:[
 							{"field": "EmployeeID" , "headerText":"EmployeeID"},
 							{"field": "FirstName" , "headerText":"FirstName"},
