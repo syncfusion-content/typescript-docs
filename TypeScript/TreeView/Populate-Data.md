@@ -99,7 +99,7 @@ module TreeViewComponent {
 
        { id: 2, text: "Item 2", linkProperty: { class: "textUnderline", href: "http://www.syncfusion.com", target: "_blank" } },
 
-       { id: 3, text: "Item 3", selected: true, spriteImage: "mailicon sprite-calendar" },
+       { id: 3, text: "Item 3", selected: true, spriteImage: "mail-icon sprite-calendar" },
 
        { id: 4, text: "Item 4", checked: true, imageProperty: { width: 20, height: 20 }, imageUrl: "http://cdn.syncfusion.com/13.3.0.7/js/web/flat-azure/images/ajax-loader.gif" },
 
@@ -249,9 +249,9 @@ The nested object support is provided for the TreeView component. Please find th
 
         var localData = [
           { id: 1, name: { fName: "Discover Music"}, hasChild: true, expanded: true },
-          { id: 2, pid: 1, name: {fName:"Hot Singles" }},
-          { id: 3, pid: 1, name: {fName:"Rising Artists" }},
-          { id: 4, pid: 1, name:{fName: "Live Music" }}
+          { id: 2, parent: 1, name: {fName:"Hot Singles" }},
+          { id: 3, parent: 1, name: {fName:"Rising Artists" }},
+          { id: 4, parent: 1, name:{fName: "Live Music" }}
         ];
 
 {% endhighlight %}
@@ -278,9 +278,9 @@ module TreeViewComponent {
 
          var localData = [
           { id: 1, name: { fName: "Discover Music"}, hasChild: true, expanded: true },
-          { id: 2, pid: 1, name: {fName:"Hot Singles" }},
-          { id: 3, pid: 1, name: {fName:"Rising Artists" }},
-          { id: 4, pid: 1, name:{fName: "Live Music" }}
+          { id: 2, parent: 1, name: {fName:"Hot Singles" }},
+          { id: 3, parent: 1, name: {fName:"Rising Artists" }},
+          { id: 4, parent: 1, name:{fName: "Live Music" }}
         ];
 
         $(function () {
@@ -289,7 +289,7 @@ module TreeViewComponent {
 
             var tree = new ej.TreeView($("#treeView"), {
 
-                fields: { dataSource: localData, id: "id", parentId: "pid", text: "name.fName" }
+                fields: { dataSource: localData, id: "id", parentId: "parent", text: "name.fName" }
 
             });
 
@@ -326,9 +326,9 @@ You can provide the OData service URL directly to the [ej.DataManager](https://h
  
 
 module TreeViewComponent {
-        var parentData = ej.DataManager("//js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
+        var parentData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
 
-        childData = ej.DataManager("//js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
+        childData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
 
         $(function () {
 
@@ -449,7 +449,7 @@ module TreeViewComponent {
     $(function () {
     // DataManager creation
     var dataManger = ej.DataManager({
-        url: "//js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
+        url: "http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
     });
     // Query creation
     var query = ej.Query().from("Categories").select("CategoryID,CategoryName").take(3);
