@@ -248,10 +248,10 @@ The nested object support is provided for the TreeView component. Please find th
 {% highlight js %}
 
         var localData = [
-          { id: 1, name: { fName: "Discover Music"}, hasChild: true, expanded: true },
-          { id: 2, parent: 1, name: {fName:"Hot Singles" }},
-          { id: 3, parent: 1, name: {fName:"Rising Artists" }},
-          { id: 4, parent: 1, name:{fName: "Live Music" }}
+          { id: 1, name: { nodeName: "Discover Music"}, hasChild: true, expanded: true },
+          { id: 2, parent: 1, name: {nodeName:"Hot Singles" }},
+          { id: 3, parent: 1, name: {nodeName:"Rising Artists" }},
+          { id: 4, parent: 1, name:{nodeName: "Live Music" }}
         ];
 
 {% endhighlight %}
@@ -277,10 +277,10 @@ Above flat array of JSON data can be directly assigned to [dataSource](https://h
 module TreeViewComponent {
 
          var localData = [
-          { id: 1, name: { fName: "Discover Music"}, hasChild: true, expanded: true },
-          { id: 2, parent: 1, name: {fName:"Hot Singles" }},
-          { id: 3, parent: 1, name: {fName:"Rising Artists" }},
-          { id: 4, parent: 1, name:{fName: "Live Music" }}
+          { id: 1, name: { nodeName: "Discover Music"}, hasChild: true, expanded: true },
+          { id: 2, parent: 1, name: {nodeName:"Hot Singles" }},
+          { id: 3, parent: 1, name: {nodeName:"Rising Artists" }},
+          { id: 4, parent: 1, name:{nodeName: "Live Music" }}
         ];
 
         $(function () {
@@ -289,7 +289,7 @@ module TreeViewComponent {
 
             var tree = new ej.TreeView($("#treeView"), {
 
-                fields: { dataSource: localData, id: "id", parentId: "parent", text: "name.fName" }
+                fields: { dataSource: localData, id: "id", parentId: "parent", text: "name.nodeName" }
 
             });
 
