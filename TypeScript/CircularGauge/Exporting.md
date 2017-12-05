@@ -13,8 +13,8 @@ documentation: ug
 
 {% highlight html %}
 
-<input type="submit" value="Export Image" id="btnExportImage">
-    <div id=" circulargauge "></div>
+<input type="submit" value="Export Image" id="buttonExportImage">
+    <div id=" circularGauge "></div>
     <div id="txtFileName">FileName </div>
     <div id="ddFileType">FileFormat </div>
 </input>
@@ -28,15 +28,15 @@ documentation: ug
 {% highlight ts %}
 
 $(function () {
-        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#circulargauge"));
-        var basicButton = new ej.Button($("#btnExportImage"), {
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#circularGauge"));
+        var basicButton = new ej.Button($("#buttonExportImage"), {
             width: "100px", click: "buttonClickEvent", 
             });
     });
     function buttonClickEvent() {
         var FileName = $("#txtFileName").val();
         var FileFormat = $("#ddFileType").val();
-         var circularGaugeSample = new ej.datavisualization.CircularGauge($("#circulargauge"));
+         var circularGaugeSample = new ej.datavisualization.CircularGauge($("#circularGauge"));
          circularGaugeSample.exportImage(FileName,FileFormat);
         
     }
