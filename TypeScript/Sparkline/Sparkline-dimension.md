@@ -21,7 +21,7 @@ You can customize the Sparkline dimension by setting the width and height for th
     <div id="container" style="width:820px;height:500px;"></div>
     <script type="text/typescript" language="typescript ">
        $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"));
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"));
     });
     </script>
 </body>
@@ -37,7 +37,7 @@ You can also set the **width** and **height** Sparkline by using the **size** pr
 {% highlight html %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
               // ...
            size: { width: '60', height: '40' },
             // ...
@@ -53,7 +53,7 @@ To resize the Sparkline when the browser or the sparkline container is resized, 
 {% highlight typescript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
               // ...
             //Enable isResponsive to change the sparkline size dynamically.
             isResponsive: true

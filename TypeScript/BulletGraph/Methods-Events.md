@@ -185,9 +185,9 @@ module BulletgraphComponent {
  
 <script>
 
-//drawCaption event for bulletgraph
+//drawCaption event for bullet graph
   $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawCaption: function () {
                  //..//
                 }
@@ -205,9 +205,9 @@ module BulletgraphComponent {
 {% highlight typescript %}
 
 <script> 
-//drawCategory event for bulletgraph
+//drawCategory event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawCategory: function () {
                  //..//
                 }
@@ -224,9 +224,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawComparativeMeasureSymbol event for bulletgraph
+//drawComparativeMeasureSymbol event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawComparativeMeasureSymbol: function () {
                  //..//
                 }
@@ -243,9 +243,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawFeatureMeasureBar event for bulletgraph
+//drawFeatureMeasureBar event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawFeatureMeasureBar: function () {
                  //..//
                 }
@@ -262,9 +262,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawIndicator event for bulletgraph
+//drawIndicator event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawIndicator: function () {
                  //..//
                 }
@@ -281,9 +281,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawLabels event for bulletgraph
+//drawLabels event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawLabels: function () {
                  //..//
                 }
@@ -300,9 +300,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawTicks event for bulletgraph
+//drawTicks event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawTicks: function () {
                  //..//
                 }
@@ -319,9 +319,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//drawQualitativeRanges event for bulletgraph
+//drawQualitativeRanges event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               drawQualitativeRanges: function () {
                  //..//
                 }
@@ -338,9 +338,9 @@ $(function () {
 {% highlight typescript %}
  
 <script>
-//load event for bulletgraph
+//load event for bullet graph
 $(function () {
-        var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+        var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
              load: function () {
                  //..//
                 }

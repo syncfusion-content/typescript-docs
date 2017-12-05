@@ -19,7 +19,7 @@ You can enable or disable the data labels by setting the **visible** property of
 
 module  sunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          dataLabelSettings:{visible:true},	
 
@@ -46,7 +46,7 @@ The following code shows how to set Hide and Trim mode.
 
  $(function () {
    
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
 	dataLabelSettings: {visible: true,labelOverflowMode:"hide"},
             // ...
@@ -63,7 +63,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
  $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
 	dataLabelSettings: {visible: true,labelOverflowMode:"trim"},
             // ...
@@ -84,7 +84,7 @@ The following code shows how to set labelRotationMode as normal and angle.
 
  $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
 	dataLabelSettings: {visible: true,labelRotationMode:"normal"},
             // ...
@@ -101,7 +101,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
  $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
 	          dataLabelSettings: {visible: true,labelRotationMode:"angle"},
             // ...
@@ -121,7 +121,7 @@ You can customize the appearance of the data point using the **font**property.
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
 	dataLabelSettings: {visible: true, font: {color:"black",fontWeight:"bold",size:"15px"}},
             // ...

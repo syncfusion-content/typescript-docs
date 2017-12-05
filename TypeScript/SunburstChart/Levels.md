@@ -21,7 +21,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          levels: [
 			{
@@ -44,7 +44,7 @@ You can define the levels as shown in the below code example
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          levels: [
 			{ groupMemberPath: "Level 1" },

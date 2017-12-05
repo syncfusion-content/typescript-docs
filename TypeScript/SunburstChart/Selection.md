@@ -19,7 +19,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
            selectionSettings: { enable: true },            
@@ -46,7 +46,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
             selectionSettings: { enable: true, type:"color",color:"red" },            
@@ -75,7 +75,7 @@ The following code shows how to set the selection type as child
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
              selectionSettings: { enable: true,mode:"child"},               
@@ -97,7 +97,7 @@ The parent mode can be enabled by using the below code
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
              selectionSettings: { enable: true,mode:"parent"},               
@@ -119,7 +119,7 @@ To selection the particular segment, the point mode of the selection settings is
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
              selectionSettings: { enable: true,mode:"point"},               
@@ -140,7 +140,7 @@ The following code snippet is used for the all mode of selection settings
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
              selectionSettings: { enable: true,mode:"all"},               

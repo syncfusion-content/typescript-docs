@@ -64,7 +64,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"));
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"));
     });
 }
 
@@ -100,7 +100,7 @@ Now, add the dataSource to the Sparkline and provide the field name to get the v
 
 {% highlight javascript %}
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
            dataSource: sparklinedata,
             xName: "employeeId",
             yName: "sales",
@@ -118,7 +118,7 @@ $(function () {
 {% highlight javascript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             type:"column"
            });
 });
@@ -135,7 +135,7 @@ The following code example illustrates enable tooltip in sparkline,
 {% highlight javascript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             tooltip: {
                 visible: true,
                    },

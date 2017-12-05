@@ -18,7 +18,7 @@ The Sparkline axis can be collapsed using visible property in **axisLineSetting*
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             axisLineSettings: {
                 visible: true,

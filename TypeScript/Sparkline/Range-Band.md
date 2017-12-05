@@ -18,7 +18,7 @@ The **range band** feature is used to highlight a particular range along the y-a
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
            
             rangeBandSettings:{

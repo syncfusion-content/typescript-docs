@@ -17,7 +17,7 @@ SunburstChart provides highlighting support for the points on mouse hover. To en
 
 module  sunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true },     	
             // ...
@@ -41,7 +41,7 @@ module  sunburstComponent {
 
  $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true, type:"color",color:"red" },     	
 
@@ -72,7 +72,7 @@ The following code shows how to set the highlight type as child
 
  $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true, mode:"child" },     	
 
@@ -91,7 +91,7 @@ The parent mode can be enabled by using the below code
 
 {% highlight ts %}
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true, mode:"parent" },     	
 
@@ -111,7 +111,7 @@ To highlight the particular segment, the point mode of the highlight settings is
 
 {% highlight ts %}
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true, mode:"point" },     	
 
@@ -131,7 +131,7 @@ The following code snippet is used for the all mode of highlight settings
 
 {% highlight ts %}
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          highlightSettings: { enable: true, mode:"all" },     	
 

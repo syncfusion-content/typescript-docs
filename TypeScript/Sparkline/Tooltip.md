@@ -19,7 +19,7 @@ A `tooltip` follows the pointer movement and is used to indicate the value of a 
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
          // ...
             tooltip: {
                 visible: true,
@@ -40,7 +40,7 @@ You can customize the tooltip `fill color`, `border`,`border` properties `border
 {% highlight ts %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             tooltip: {
                 fill: 'red',
@@ -78,7 +78,7 @@ HTML elements can be displayed in the tooltip by using the `template` option of 
 </div>
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             tooltip: {
                 visible: true,

@@ -16,7 +16,7 @@ Sunburst chart allows you to animate the chart segments. You can enable animatio
 
 module  sunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
            enableAnimation: true
 
@@ -39,7 +39,7 @@ The Fade In animation is enabled as follows
 {% highlight ts %}
 
 $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
           enableAnimation: true,
           animationType:"fadeIn"
@@ -60,7 +60,7 @@ The following example shows how to enable rotation animation in ejSunburstChart
 {% highlight ts %}
 
 $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
           enableAnimation: true,
           animationType:"rotation"

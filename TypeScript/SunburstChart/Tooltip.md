@@ -20,7 +20,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
            tooltip: {visible: true},            
@@ -53,7 +53,7 @@ HTML elements can be displayed in the tooltip by using the **template** property
     
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
           tooltip: { visible: true,template:"Tooltip"  }      

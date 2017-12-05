@@ -18,7 +18,7 @@ You can customize points by initializing the point colors. The customization opt
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             // ...
             negativePointColor: "red",

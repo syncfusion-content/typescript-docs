@@ -16,7 +16,7 @@ The Sunburst region represents the entire chart and all its elements. It include
 * `valueMemberPath`- Property based on the which the data segments are rendered in the  Sunburst chart 
 * `legend` – displays the legend of the Sunburst Chart
 * `levels`- displays the hierarchical levels for the chart 
-* `datalabel` – displays the datalabel for the Sunburst Chart
+* `dataLabel` – displays the data label for the Sunburst Chart
 
 ## Start and End Angle
 Start and End Angle
@@ -32,7 +32,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //Set startAngle and endAngle to draw the sunburst chart
          startAngle: -90, endAngle: 90          
@@ -53,7 +53,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
            //Set radius to the sunburst chart
          radius: 0.8,        
@@ -75,7 +75,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
             //Set  inner radius to the sunburst chart
          innerRadius: 0.5,        

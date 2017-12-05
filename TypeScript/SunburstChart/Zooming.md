@@ -22,7 +22,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
           zoomSettings: { enable: true },	           
@@ -45,7 +45,7 @@ You can align the zooming toolbar position by using **toolbarHorizontalAlignment
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           
           //..
           zoomSettings: {enable: true,toolbarHorizontalAlignment: "left"},	           

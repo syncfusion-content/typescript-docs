@@ -31,7 +31,7 @@ var sparkLineData = [
 module linesparkline {
     $(function () {
          //..//
-        var sparklinesample = new ej.Sparkline($("#line"), {
+        var sample = new ej.Sparkline($("#line"), {
      dataSource: sparkLineData,
      xName: "employeeId",
      yName: "sales",
@@ -56,7 +56,7 @@ module linesparkline {
 module linesparkline {
     $(function () {
          //..//
-        var sparklinesample = new ej.Sparkline($("#line"), {
+        var sample = new ej.Sparkline($("#line"), {
             dataSource: [12, 14, 11, 12, 11, 15, 12, 10, 11, 12, 15, 13, 12, 11, 10, 13, 15, 12, 14, 16, 14, 12, 11],
             //..//
         });

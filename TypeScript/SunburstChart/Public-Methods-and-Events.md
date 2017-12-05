@@ -149,7 +149,7 @@ $(function () {
 
 ### dataLabelRendering
 
-Fires before rendering the datalabel, you can use **dataLabelRendering**event. 
+Fires before rendering the data label, you can use **dataLabelRendering**event. 
 
 
 #### Example

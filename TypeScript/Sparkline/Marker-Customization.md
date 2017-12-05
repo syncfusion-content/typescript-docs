@@ -18,7 +18,7 @@ You can customize markers by initializing the **markerSettings** property. The c
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             markerSettings: {
                 visible: true,

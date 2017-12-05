@@ -175,7 +175,7 @@ The following screenshot displays **Bullet Graph** ticks inside **Quantitative S
 
 ## Quantitative scale labels
 
-**Quantitativescalelabels** are customized with prefix, suffix, font, color and size using **labelSettings** property. Following customization options are available in **labelSettings**.
+**QuantitativeScaleLabels** are customized with prefix, suffix, font, color and size using **labelSettings** property. Following customization options are available in **labelSettings**.
 
 * You can place the label inside or outside of the bullet graph using **label placement** property.
 
@@ -183,11 +183,11 @@ The following screenshot displays **Bullet Graph** ticks inside **Quantitative S
 
 * You can specify the horizontal or vertical padding of the labels using **offset** property.
 
-* You can position the label either above or below the bulletgraph by using **position** property.
+* You can position the label either above or below the BulletGraph by using **position** property.
 
 * To specify the size of the label text, you can use **size** property.
 
-* You can customize the color the labels using **stroke**roperty.
+* You can customize the color the labels using **stroke** property.
 
 * Using **font**option in the label settings, you can customize the **font family**, **font style**, **font weight** and **opacity** of the label text.
 
@@ -225,7 +225,7 @@ The following screenshot displays **Bullet Graph** labels in blue color
 
 ## Label Placement
 
-**Quantitativescalelabels** can be placed either inside or outside the scale using **labelPlacement**property. By default labels are placed 15 pixels outside the scale.
+**QuantitativeScaleLabels** can be placed either inside or outside the scale using **labelPlacement**property. By default labels are placed 15 pixels outside the scale.
 
 {% highlight typescript %}
 

@@ -20,7 +20,7 @@ To render a Line type Sparkline, set the **type** as **line**. To change the col
 
 module SparklineComponent {
     $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             width: 3,
             fill: "#33ccff", 
@@ -40,7 +40,7 @@ To render a Column Sparkline, set the type as **column** To change the color of 
 {% highlight typescript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             type: 'column',
             fill: "#33ccff",
@@ -59,7 +59,7 @@ To render an Area Sparkline, you can specify the type as **area**. To change the
 {% highlight typescript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             type: 'area',
             fill: '#69D2E7
@@ -78,7 +78,7 @@ WinLoss Sparkline render as a column segment and it show the positive, negative 
 {% highlight typescript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
              type: 'winLoss',
             fill: '#69D2E7'
@@ -97,7 +97,7 @@ You can create a pie type sparkline by setting the type as **pie**. Colors for t
 {% highlight typescript %}
 
 $(function () {
-        var sparklinesample = new ej.datavisualization.Sparkline($("#Sparkline"),{
+        var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
             // ...
             type: 'pie',
             palette: ['#ff3399', "#33ccff"],

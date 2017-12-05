@@ -17,8 +17,8 @@ You can easily create the Sunburst Chart widget by using the following steps.
 
 ### Add Libraries
 
-1.First create an Typescript Project and add the following script reference in the app.ts page 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+1.First create an TypeScript Project and add the following script reference in the app.ts page 
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -116,7 +116,7 @@ var default_data = [
 
 module SunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"));               
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"));               
       });
 }
 
@@ -129,7 +129,7 @@ module SunburstComponent {
 module SunburstComponent {
     
 $(function () {
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             dataSource: default_data,
             valueMemberPath: "EmployeesCount",
             levels: [
@@ -161,7 +161,7 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 module  sunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
           dataSource: default_DataSource,
                 valueMemberPath: "EmployeesCount",
                 levels: [
@@ -186,7 +186,7 @@ The title of the Sunburst chart is used to provide quick information to the user
 {% highlight ts %}
 
 $(function () {
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          title:{text:"Employees Count"},	
 
@@ -206,7 +206,7 @@ You can enable or disable the legend by using the `visible` property present ins
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          legend:{visible:true ,position:"left"},	
 
@@ -220,12 +220,12 @@ var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 ## Add Data Labels
 
-The data labels are used to improve the readability of the Sunburst chart. This can be achieved by enabling the `visible` property in the `datalabelSettings`.
+The data labels are used to improve the readability of the Sunburst chart. This can be achieved by enabling the `visible` property in the `dataLabelSettings`.
 
 {% highlight ts %}
 
 $(function () {
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          dataLabelSettings:{visible:true},	
 

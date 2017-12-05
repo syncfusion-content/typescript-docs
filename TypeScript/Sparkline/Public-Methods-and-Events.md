@@ -109,7 +109,7 @@ Fires before rendering trackball tooltip. You can use this event to customize th
 
 <script>
 
-//tooltipinitialize event for sparkline
+//tooltip initialize event for sparkline
   $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"), {
               tooltipInitialize: function () {
@@ -233,7 +233,7 @@ Fires on moving mouse outside the sparkline.
 
 <script>
 
-//mouseleave event for sparkline
+//mouse leave event for sparkline
   $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"), {
            sparklineMouseLeave: function () {

@@ -19,7 +19,7 @@ module  sunburstComponent {
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
         legend: {visible: true},    	
             // ...
@@ -45,7 +45,7 @@ You can specify different shapes of legend icon by using the **shape** property 
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
         legend: {shape: "pentagon"},    	
             // ...
@@ -63,7 +63,7 @@ By using the **position** property, you can position the legend at left, right, 
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
         legend: {position: "top"},    	
             // ...
@@ -83,7 +83,7 @@ You can change the size of the legend items by using the **itemStyle.width** and
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
         legend: {position:"top",itemStyle:{height:13,width:13},border: { color: "#FF0000", width: 1 }},    	
             // ...
@@ -104,7 +104,7 @@ By default, legend takes 20% of the height horizontally when it was placed on th
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          legend: {position:"top",size:{ height:"75",width:"200"}},    	
             // ...
@@ -128,7 +128,7 @@ You can arrange the legend items horizontally and vertically by using the **rowC
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
           legend: {position:"top",rowCount:"2",columnCount:"3"},    	
             // ...
@@ -156,7 +156,7 @@ Used to highlight specific category while clicking on legend item
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          legend: {clickAction:"toggleSegmentSelection"},   	
             // ...
@@ -175,7 +175,7 @@ Used to disable the specific category while clicking on legend item.
 
 $(function () {
 
-var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          legend: {clickAction:"toggleSegmentVisibility"},   	
             // ...

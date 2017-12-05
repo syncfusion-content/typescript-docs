@@ -20,7 +20,7 @@ The Sunburst Chart displays different segments in different colors by default. Y
 
 module  sunburstComponent {
     $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
          palette: ["#002e4d", "#005c99", "#008ae6", "#33adff", "#80ccff"],	
 
@@ -39,16 +39,16 @@ The Sunburst Chart rendered with palette colors
  
 ## Built- in Themes
 The Sunburst Chart supports different themes. 
-*	flatlight
-*	flatdark
-*	gradientlight
-*	gradientdark
+*	flat light
+*	flat dark
+*	gradient light
+*	gradient dark
 *	azure
-*	azuredark
+*	azure dark
 *	lime
-*	limedark
+*	lime dark
 *	saffron
-*	saffrondark
+*	saffron dark
 *	gradient-azure
 *	gradient-azuredark
 *	gradient-lime
@@ -61,7 +61,7 @@ You can set your desired theme by using the **theme** property. **Flat light** i
 {% highlight ts %}
 
  $(function () {
-        var sunburstsample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
+        var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
        theme: "flatdark",		
 
