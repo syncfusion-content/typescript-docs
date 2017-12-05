@@ -50,11 +50,11 @@ The Sunburst Chart supports different themes.
 *	saffron
 *	saffron dark
 *	gradient-azure
-*	gradient-azuredark
+*	gradient-azure-dark
 *	gradient-lime
-*	gradient-limedark
+*	gradient-lime-dark
 *	gradient-saffron
-*	gradient-saffrondark
+*	gradient-saffron-dark
 
 You can set your desired theme by using the **theme** property. **Flat light** is the default theme used in the Sunburst Chart.
 

@@ -15,8 +15,8 @@ This section explains you the steps required to populate the Sparkline with data
 
 You can easily create the Sparkline widget by using the following steps.
 
-1.First create an Typescript Project and add the following script reference in the app.ts page 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+1.First create an TypeScript Project and add the following script reference in the app.ts page 
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -84,7 +84,7 @@ Simple Sparkline
 
 Now, this section explains how to plot JSON data to the Sparkline. First, let us prepare a sample JSON data with each object containing following fields – employeeId and sales.
 
-var sparklinedata = [
+var sparklineData = [
 { employeeId: 1, sales: 25 },
 { employeeId: 2, sales: 28 },
 { employeeId: 3, sales: 34 },
@@ -101,7 +101,7 @@ Now, add the dataSource to the Sparkline and provide the field name to get the v
 {% highlight javascript %}
 $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
-           dataSource: sparklinedata,
+           dataSource: sparklineData,
             xName: "employeeId",
             yName: "sales",
             
