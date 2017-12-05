@@ -1,0 +1,268 @@
+<h2 id="methods">Methods</h2>
+
+<h3 id="navigatetolatitude-longitude-level">navigateTo(latitude, longitude, level)</h3>
+
+<p>Method for navigating to specific shape based on latitude, longitude and zoom level.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.navigateTo(); 
+    });
+});
+}</code></pre></figure>
+
+<h3 id="pandirection">pan(direction)</h3>
+
+<p>Method to perform map panning</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.pan(); 
+    });
+});
+}</code></pre></figure>
+
+<h3 id="refresh">refresh()</h3>
+
+<p>Method to reload the map.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.refresh(); 
+    });
+});
+}</code></pre></figure>
+
+<h3 id="refreshlayers">refreshLayers()</h3>
+
+<p>Method to reload the shapeLayers with updated values</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.refreshLayers(); 
+    });
+});
+}</code></pre></figure>
+
+<h3 id="refreshnavigationcontrolnavigation">refreshNavigationControl(navigation)</h3>
+
+<p>Method to reload the navigation control with updated values.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.refreshNavigationControl(); 
+    });
+});
+}</code></pre></figure>
+
+<h3 id="zoomlevel-isanimate">zoom(level, isAnimate)</h3>
+
+<p>Method to perform map zooming.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"> 
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span><span class="nt">&gt;&lt;/div&gt;</span> </code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">/// &lt;reference path="tsfiles/jquery.d.ts" /&gt;
+/// &lt;reference path="tsfiles/ej.web.all.d.ts" /&gt;
+
+module MapComponent {
+    $(function () {
+        var sample = new ej.datavisualization.Map($("#map"),{
+        //..//   
+        });
+ 
+     sample.zoom(); 
+    });
+});
+}</code></pre></figure>
+
+<h2 id="events">Events</h2>
+
+<h3 id="markerselected">markerSelected</h3>
+
+<p>Triggered on selecting the map markers.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//markerSelected event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              markerSelected: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="mouseleave">mouseleave</h3>
+
+<p>Triggers while leaving the hovered map shape</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//mouseleave event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              mouseleave: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="mouseover">mouseover</h3>
+
+<p>Triggers while hovering the map shape.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//mouseover event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              mouseover: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="onrendercomplete">onRenderComplete</h3>
+
+<p>Triggers once map render completed.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//onRenderComplete event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              onRenderComplete: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="panned">panned</h3>
+
+<p>Triggers when map panning ends.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//panned event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              panned: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="shapeselected">shapeSelected</h3>
+
+<p>Triggered on selecting the map shapes.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//shapeSelected event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              shapeSelected: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="zoomedin">zoomedIn</h3>
+
+<p>Triggered when map is zoomed-in.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//zoomedIn event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              zoomedIn: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<h3 id="zoomedout">zoomedOut</h3>
+
+<p>Triggers when map is zoomed out.</p>
+
+<figure class="highlight"><pre><code class="language-ts" data-lang="ts">&lt;script&gt;
+
+//zoomedOut event for Map 
+  $(function () {
+        var sample = new ej.datavisualization.Map($("#map"), {
+              zoomedOut: function () {
+                 //..//
+                }
+            });
+        });
+       
+&lt;/script&gt;</code></pre></figure>
+
+<p><a class="" href="http://www.syncfusion.com/copyright" target="_blank">Copyright © 2001 - 2015 Syncfusion Inc. All Rights Reserved</a></p>
+
