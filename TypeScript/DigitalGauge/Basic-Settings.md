@@ -90,9 +90,9 @@ Execute the above code examples to render the **Digital****Gauge** as follows.
 
 `Themes` give the good appearance to the control. There are two types of **Themes** available for **Digital****Gauge** as follows
 
-* flatlight
+* flat light
 
-* flatdark
+* flat dark
 
 {% highlight html %}
 

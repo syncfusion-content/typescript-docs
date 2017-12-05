@@ -22,9 +22,9 @@ Digital Thermometer
 
  You can easily create the Digital Gauge widget by using the following steps.
 
-1.First create an Typescript Project and add the following  references in the app.ts 
+1.First create an TypeScript Project and add the following  references in the app.ts 
 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -72,7 +72,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module DigitalGaugeComponent {
     $(function () {
-        var digitalgaugesample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"));
+        var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"));
     });
 }
 
@@ -92,7 +92,7 @@ Basic attributes of each canvas elements are height and width. You can set the h
 {% highlight typescript %}
 
 $(function () {
-        var digitalgaugesample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
+        var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
             height: 145,
             width: 260,
             
@@ -125,7 +125,7 @@ Items have different properties to customize the Digital Gauge.
 {% highlight typescript %}
 
 $(function () {
-        var digitalgaugesample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
+        var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
             height: 145,
             width: 260,
             items: [{
@@ -197,11 +197,11 @@ The Location property is used to position the digital letters inside the canvas 
 {% highlight typescript %}
 
 $(function () {
-        var digitalgaugesample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
+        var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
              height: 145,
             width: 260,
             items: [{
-                //For Diplaying Farenheit value
+                //For Displaying Farenheit value
                 segmentSettings: { width: 2, length: 20 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
@@ -226,10 +226,10 @@ You can further add the Items Collection to display the temperature value like D
 {% highlight typescript %}
 
 $(function () {
-        var digitalgaugesample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
+        var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
             height: 145, width: 260,
             items: [{
-                //For Diplaying fahrenheit value
+                //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102",

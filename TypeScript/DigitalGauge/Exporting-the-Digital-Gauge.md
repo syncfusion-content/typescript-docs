@@ -30,7 +30,7 @@ documentation: ug
          var basicButton = new ej.Button($("#buttonSubmit"), {
              width: "50px", text: "Export", click: "buttonClickEvent", 
              });
-        var basicButton = new ej.DopDownList($("#fileFormat"), {
+        var basicButton = new ej.DropDownList($("#fileFormat"), {
             selectedItemIndex: 0, width: "115px" 
             });
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge1"),{
@@ -41,9 +41,9 @@ documentation: ug
      digitalGaugeSample.exportImage("Digital", "JPEG");
     function buttonClickEvent() {
         var FileName = $("#fileName").val();
-        var FileFormat = new ej.DopDownList($("#fileFormat"));
+        var FileFormat = new ej.DropDownList($("#fileFormat"));
         FileFormat.option(value);   
-        var flag = new ej.datavisualization.LinearGauge($("#lineargauge"));
+        var flag = new ej.datavisualization.DigitalGauge($("#DigitalGauge1"));
         flag.exportImage(FileName,FileFormat);              
         if (!flag)
             alert("Sorry for the inconvenience. Export is currently not supported in Internet Explorer 9 and below version");
