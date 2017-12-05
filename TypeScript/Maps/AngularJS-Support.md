@@ -16,7 +16,7 @@ Apply the plugin and property assigning the Map element through the directive 
 
 {% highlight html %}
 
-    //References to be added for angularJS support.
+    //References to be added for AngularJS support.
         
         <script src=" https:/ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
         
