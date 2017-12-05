@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-* This section explains briefly about how to create Maps in your application with Typescript
+* This section explains briefly about how to create Maps in your application with TypeScript
 
 * You can learn how to configure Map with simple steps. In this example, you can learn how to configure USA population map with customized appearance and tooltip.
 
@@ -21,9 +21,9 @@ You can easily create the Maps widget by using the following steps.
 
 ## Add Libraries
 
-1.First create an Typescript Project and add the following refernces in the app.ts file
+1.First create an TypeScript Project and add the following references in the app.ts file
 
- For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+ For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -145,7 +145,7 @@ var populationData = [
 
 
 
-You can refer to shape data and datasource as illustrated in the html page,
+You can refer to shape data and datasource as illustrated in the HTML page,
 
 {% highlight html %}
 
@@ -178,7 +178,7 @@ You can refer to shape data and datasource as illustrated in the html page,
 
 module MapComponent {
     $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"));               
+        var MapSample = new ej.datavisualization.Map($("#Map"));               
       });
 }
 
@@ -191,7 +191,7 @@ module MapComponent {
 
 module MapComponent {
     $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap
@@ -236,7 +236,7 @@ The `shapePropertyPath` property is similar to the `shapeDataPath` that refers t
 {% highlight typescript %}
 
 	 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap,
@@ -261,7 +261,7 @@ You can customize the shape’s color by using `fill`, `stroke` and `strokeThick
 
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                    shapeData: usMap,
@@ -301,7 +301,7 @@ N> The `enableGradient` property value should be true to apply gradient colors f
 {% highlight typescript %}
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap,
@@ -371,7 +371,7 @@ The tooltip is displayed only when `showTooltip` is set to ‘True’ in the sha
 {% highlight typescript %}
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                    // ...
@@ -417,7 +417,7 @@ You can use `leftLabel` and `rightLabel` property to provide left and right labe
 {% highlight typescript %}
 
 	$(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                      shapeData: usMap,
