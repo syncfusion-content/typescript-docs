@@ -22,8 +22,8 @@ This section encompasses on how to configure the ejRangeNavigator and update the
 
 Getting started with your ejRangeNavigator is simple. You can initialize the ejRangeNavigator by setting its range values.
 
-1.First create an Typescript Project and the followinf script reference in the app.ts file
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+1.First create an TypeScript Project and the following script reference in the app.ts file
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -64,13 +64,13 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
    
 4.Initialize the RangeNavigator in ts file by using the `ej.RangeNavigator` method. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module RangeNavigatorComponent {
     $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
             rangeSettings: {
                     start: "2010/1/1", end: "2010/12/31"
                 },
@@ -93,7 +93,7 @@ To add a series to **RangeNavigator**, you need to set **dataSource** property, 
 
 You can create data source for RangeNavigator as follows.
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 var data = [{ "xDate": new Date(2011, 0, 1), "yValue": 10 },
                         { "xDate": new Date(2011, 2, 1), "yValue": 5 },
@@ -107,10 +107,10 @@ var data = [{ "xDate": new Date(2011, 0, 1), "yValue": 10 },
 
 Now, add the dataSource to the RangeNavigator and provide the field name to get the values from the dataSource in xName and yName options
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           series: [
                 {
                      type: 'line',
@@ -130,12 +130,12 @@ The following screenshot displays the RangeNavigator with the type series as “
 ## Enable tooltip
 
 Tooltip can be customized for RangeNavigator using tooltip option. You can also use TooltipDisplayMode option in tooltip to display the tooltip “always” or “ondemand” (displays tooltip only while dragging the sliders). You can also specify label format for tooltip using LabelFormat.
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
            tooltipSettings: {
-              visible: true, labelFormat: "MMM/yyy", tooltipDisplayMode: "always"
+              visible: true, labelFormat: "MMM/yyyy", tooltipDisplayMode: "always"
             }, 
         });
     });
@@ -165,15 +165,15 @@ Create a <div> tag with an id for rendering the chart.
 
 {% endhighlight %}
 
-{% highlight javascript %}
+{% highlight typescript %}
   $(function () {
-var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           
                     dataSource: data, xName: "XValue", yName: "YValue",
                     rangeChanged: function (sender) {
-                    var chartobj = $("#Chart").data("ejChart");
-                    if (chartobj != null) {
-                    chartobj.model.series[0].dataSource = sender.selectedData;
+                    var chartObj = $("#Chart").data("ejChart");
+                    if (chartObj != null) {
+                    chartObj.model.series[0].dataSource = sender.selectedData;
                     $("#Chart").ejChart("redraw");
                 }
             }
@@ -206,7 +206,7 @@ RangeNavigator can also be used with numerical values. You can specify the data 
 
 First let’s create a DataSource for Chart Series with integer Values. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 var Data = [
     { "xDate": 0, "yValue": 10 },
@@ -222,10 +222,10 @@ var Data = [
 
 Now, you can set the dataSource for Chart Series and valueType property to “numeric” as given in the following code example. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           series: [
                 {
                      type: 'line',

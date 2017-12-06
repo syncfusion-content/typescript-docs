@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-* This section explains briefly about how to create Maps in your application with Typescript
+* This section explains briefly about how to create Maps in your application with TypeScript
 
 * You can learn how to configure Map with simple steps. In this example, you can learn how to configure USA population map with customized appearance and tooltip.
 
@@ -21,9 +21,9 @@ You can easily create the Maps widget by using the following steps.
 
 ## Add Libraries
 
-1.First create an Typescript Project and add the following refernces in the app.ts file
+1.First create an TypeScript Project and add the following references in the app.ts file
 
- For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+ For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -84,7 +84,7 @@ The datasource is populated with JSON data relative to shape data and stored in 
  The “populationData.js” file is used to store JSON data in JSON object “populationData”.
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 var populationData = [
         { name: "California", population: "38332521" },
@@ -145,7 +145,7 @@ var populationData = [
 
 
 
-You can refer to shape data and datasource as illustrated in the html page,
+You can refer to shape data and datasource as illustrated in the HTML page,
 
 {% highlight html %}
 
@@ -171,14 +171,14 @@ You can refer to shape data and datasource as illustrated in the html page,
 
 2.Initialize the Map in ts file by using the `ej.Map` method. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 
 module MapComponent {
     $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"));               
+        var MapSample = new ej.datavisualization.Map($("#Map"));               
       });
 }
 
@@ -187,11 +187,11 @@ module MapComponent {
 3.Add the **shapeData** property in the maps to render it in layers
 
 
-{% highlight javascript%}
+{% highlight typescript %}
 
 module MapComponent {
     $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap
@@ -233,10 +233,10 @@ The `shapePropertyPath` property is similar to the `shapeDataPath` that refers t
 
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 	 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap,
@@ -257,11 +257,11 @@ You can customize the shape’s color by using `fill`, `stroke` and `strokeThick
 
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                    shapeData: usMap,
@@ -298,10 +298,10 @@ The Range color mapping is used to differentiate the shape’s fill based on its
 N> The `enableGradient` property value should be true to apply gradient colors for maps.
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                     shapeData: usMap,
@@ -368,10 +368,10 @@ The tooltip is displayed only when `showTooltip` is set to ‘True’ in the sha
 
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                    // ...
@@ -414,10 +414,10 @@ Use `title` property to provide title for interactive legend.
 You can use `leftLabel` and `rightLabel` property to provide left and right labels for interactive legend. 
 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 	$(function () {
-        var mapsample = new ej.datavisualization.Map($("#Map"),{
+        var MapSample = new ej.datavisualization.Map($("#Map"),{
             layers: [
                 {
                      shapeData: usMap,

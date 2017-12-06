@@ -1,0 +1,364 @@
+<h1 id="user-interaction">User Interaction</h1>
+
+<p>Options like zooming, panning, and map selection enables the effective interaction on Map elements.</p>
+
+<h2 id="map-selection">Map Selection</h2>
+
+<p>Each shape in the Map can be selected and deselected during interaction with the shapes.</p>
+
+<p>The <code class="highlighter-rouge">selectionColor</code> property is used to get or set the selected shape color. The <code class="highlighter-rouge">selectionStroke</code> and <code class="highlighter-rouge">selectionStrokeWidth</code> properties are used to customize the selected shape border.</p>
+
+<p>You can select the shape by tapping the shape. The Single selection is enabled by the <code class="highlighter-rouge">enableSelection</code> property of shape layer. When <code class="highlighter-rouge">enableSelection</code> is set to false, the shapes cannot be selected.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">/// &lt;reference path="../tsfiles/jquery.d.ts"&gt;&lt;/reference&gt;
+/// &lt;reference path="../tsfiles/ej.web.all.d.ts"&gt;&lt;/reference&gt;
+
+module MapComponenet {
+
+        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [
+                    {
+                        shapeData: usMap,
+                        shapeSettings: {
+                            fill: "#9CBF4E",
+                            strokeThickness: "0.5",
+                            stroke: "White",
+                            selectionStrokeWidth: 2,
+                            selectionStroke:"white",
+                            selectionColor: "#BC5353"
+                        },
+                        enableSelection: true
+                    }
+                ]
+            });
+        }); 
+
+      }</code></pre></figure>
+
+<p><img src="User-Interaction_images/User-Interaction_img1.png" alt="" /></p>
+
+<h2 id="multiselection">MultiSelection</h2>
+
+<p>This feature enables you to select multiple Map shapes on mouse taps accompanied by the “<strong>Control</strong>” key press. To enable this feature, set the <code class="highlighter-rouge">selectionMode</code> property as “<strong>multiple</strong>” along with the <code class="highlighter-rouge">enableSelection</code> property.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [
+                    {
+                        shapeData: usMap,
+                        // ...
+                        enableSelection: true,
+                        selectionMode: "multiple",
+                        // ..
+                    }
+                ]
+            });
+        }); </code></pre></figure>
+
+<p><img src="User-Interaction_images/User-Interaction_img5.png" alt="" /></p>
+
+<h2 id="dragging-on-selection">Dragging On Selection</h2>
+
+<p>This feature enables you to select the shapes by dragging over the shapes. While dragging over the shapes, a rectangle is generated and the shapes that comes within the rectangle is selected.
+You can enable this feature by setting the <code class="highlighter-rouge">draggingOnSelection</code> property in the <code class="highlighter-rouge">layers</code> to <strong>True</strong>.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [
+                    {
+                        // ...                        
+                        draggingOnSelection: true
+                        // ...
+                    }
+                ]
+            });
+        }); </code></pre></figure>
+
+<p><img src="User-Interaction_images/User-Interaction_img1.png" alt="" /></p>
+
+<h2 id="zooming">Zooming</h2>
+
+<p>The zooming feature enables you to zoom in and out the Map to show in-depth information. It is controlled by the <code class="highlighter-rouge">level</code> property of the Map. When the zoom level of the Map control is increased, the Map is zoomed in. When the zoom level is decreased, then the Map is zoomed out.</p>
+
+<h3 id="properties">Properties</h3>
+
+<p>The following properties are related to the zooming feature of the <strong>Maps</strong> control:</p>
+
+<ol>
+  <li>
+    <p>level</p>
+  </li>
+  <li>
+    <p>enableZoom</p>
+  </li>
+  <li>
+    <p>minValue</p>
+  </li>
+  <li>
+    <p>maxValue</p>
+  </li>
+</ol>
+
+<h3 id="level">Level</h3>
+
+<p>The <code class="highlighter-rouge">level</code> property determines the Map’s scale size when zooming. The default value of <code class="highlighter-rouge">level</code> is 1.</p>
+
+<p>N&gt; level cannot be less than 1</p>
+
+<h3 id="enablezoom">EnableZoom</h3>
+
+<p>The <code class="highlighter-rouge">enableZoom</code> property enables or disables the zooming feature.</p>
+
+<h3 id="minvalue">MinValue</h3>
+
+<p>The <code class="highlighter-rouge">minValue</code> property is used to set the minimum zoom level of the Map.</p>
+
+<h3 id="maxvalue">MaxValue</h3>
+
+<p>The <code class="highlighter-rouge">maxValue</code> property is used to set the maximum zoom level of the Map.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [
+                    {
+                        shapeData: usMap
+                    }
+                ],
+                zoomSettings:{
+                    enableZoom: true,
+                    minValue: 1,
+                    maxValue: 20,
+                    level: 1
+                }
+            });
+        }); 	</code></pre></figure>
+
+<h3 id="factor">Factor</h3>
+
+<p>Specifies the zoom factor for map zoom value, you can use <code class="highlighter-rouge">factor</code> property.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [
+                    {
+                        shapeData: usMap
+                    }
+                ],
+                zoomSettings:{
+                    enableZoom: true,
+                    factor: 1
+                }
+            });
+        }); 	</code></pre></figure>
+
+<h3 id="additional-options-to-zoom-the-map">Additional Options to Zoom the Map</h3>
+
+<p>Maps can be zoomed by using the following options also,</p>
+
+<ul>
+  <li>Zoom method.</li>
+  <li>mouse scroll.</li>
+  <li>mouse double tap.</li>
+  <li>shape selection</li>
+  <li>Position</li>
+</ul>
+
+<h3 id="zoom-method">Zoom method</h3>
+
+<p>You can zoom the Maps by using <code class="highlighter-rouge">zoom</code> method. The <code class="highlighter-rouge">zoom</code> method contains parameter zoom value. The Map can be zoomed or scaled based on zoom value parameter.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript"> 
+        $("#map").ejMap("zoom", 2);</code></pre></figure>
+
+<h3 id="mouse-scroll">Mouse scroll</h3>
+
+<p>You can zoom the Map with mouse events by using mouse scroll. When the mouse is scrolled up, the Map is zoomed in and when the mouse is scrolled down, the Map is zoomed out.</p>
+
+<h3 id="mouse-double-tap">Mouse double tap</h3>
+
+<p>When the Map is double-tapped by using mouse, the zoom in operation is performed.</p>
+
+<p><img src="User-Interaction_images/User-Interaction_img2.png" alt="" /></p>
+
+<h3 id="shape-selection">Shape Selection</h3>
+
+<p>Map shape is zoomed to the whole Map area on the shape selected. Animation can be applied for that zooming by using the <code class="highlighter-rouge">enableAnimation</code> property as true.</p>
+
+<p>You can enable this feature by setting <code class="highlighter-rouge">enableZoomOnSelection</code> property value as ‘<em>True</em>’.</p>
+
+<p>When <code class="highlighter-rouge">enableZoomOnSelection</code> property is set to true, then zooming by double click is muted.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"), {
+                // ...
+                zoomSettings:
+                {
+                     enableZoomOnSelection: true
+                },
+                // ...          
+            });
+        }); </code></pre></figure>
+
+<h3 id="positioning">Positioning</h3>
+
+<p>Depending on the latitude and longitude, you can zoom the Map to the exact position. All locations are considered as latitude and longitude values and the exact location is considered as Map coordinates.</p>
+
+<p>The <code class="highlighter-rouge">navigateTo</code> is a method that allows you to zoom the Map control to the given location. This method contains three attributes as follows.</p>
+
+<table>
+<tr>
+<th>
+Attribute</th><th>
+Type</th><th>
+Description</th></tr>
+<tr>
+<td>
+Latitude</td><td>
+Double</td><td>
+Latitude point of the position </td></tr>
+<tr>
+<td>
+Longitude</td><td>
+Double</td><td>
+Longitude point of the position</td></tr>
+<tr>
+<td>
+level</td><td>
+Double</td><td>
+Zoom level of the map</td></tr>
+</table>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">   
+        function buttonClick() {
+            var mapSample = new ej.datavisualization.Map($("#map"));
+            mapSample.navigateTo(13,80,5);
+        }</code></pre></figure>
+
+<h2 id="panning">Panning</h2>
+
+<p>The panning feature enables the Map navigation. The <code class="highlighter-rouge">enablePan</code> property is used to enable or disable the panning support.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+           var mapSample = new ej.datavisualization.Map($("#map"),{
+                // ...
+                enablePan: true
+                // ...          
+            });
+        }); 	</code></pre></figure>
+
+<h2 id="navigation-control">Navigation Control</h2>
+
+<p><strong>Navigation</strong> control is built-in with <strong>Maps</strong> control. With Navigation control, <strong>Maps</strong> can be panned in any direction and zoomed. It is possible to show or hide the NavigationControl by <code class="highlighter-rouge">enableNavigation</code> property.</p>
+
+<p><img src="User-Interaction_images/User-Interaction_img3.png" alt="" /></p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+             var mapSample = new ej.datavisualization.Map($("#map"), {
+                // ...
+                navigationControl:{enableNavigation:true},
+                // ...          
+            });
+        });	</code></pre></figure>
+
+<h3 id="positions">Positions</h3>
+
+<p>The Navigation control can be positioned in two ways.</p>
+
+<ul>
+  <li>Absolute Position</li>
+  <li>Dock Position</li>
+</ul>
+
+<h4 id="absolute-position">Absolute Position</h4>
+
+<p>Based on the margin values of X and Y-axes, the navigation control can be positioned with the help of the <strong>x</strong> and <strong>y</strong> properties available in <code class="highlighter-rouge">absolutePosition</code>. For positioning the navigation control based on margins corresponding to a Map, <code class="highlighter-rouge">dockPosition</code> value is set as ‘<em>none</em>’.</p>
+
+<h4 id="dock-position">Dock Position</h4>
+
+<p>The navigation control can be positioned in the following locations within the container.</p>
+
+<ul>
+  <li>topLeft</li>
+  <li>topCenter</li>
+  <li>topRight</li>
+  <li>centerLeft</li>
+  <li>center</li>
+  <li>centerRight</li>
+  <li>bottomLeft</li>
+  <li>bottomRight</li>
+  <li>bottomCenter</li>
+  <li>bottomRight</li>
+  <li>none</li>
+</ul>
+
+<p>You can set this option by using <code class="highlighter-rouge">dockPosition</code> property in <code class="highlighter-rouge">navigationControl</code>.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">        $(function() {
+             var mapSample = new ej.datavisualization.Map($("#map"), {
+                // ...
+                navigationControl:{enableNavigation:true,orientation:'vertical',absolutePosition:{x:5,y:16},dockPosition:'none'},
+                // ...          
+            });
+        }); 	</code></pre></figure>
+
+<h4 id="orientation">Orientation</h4>
+
+<p>Set the <code class="highlighter-rouge">orientation</code> value for navigation control.</p>
+
+<table class="params">
+	<thead>
+		<tr>
+			<th>Name </th>			
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="name">horizontal</td>			
+			<td class="description">specifies the horizontal position</td>
+		</tr>
+		<tr>
+			<td class="name">vertical</td>			
+			<td class="description">specifies the vertical position</td>
+		</tr>
+	</tbody>
+</table>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+<span class="c1">//To set orientation value during initialization </span>
+  <span class="kd">var</span> <span class="nx">mapSample</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ej</span><span class="p">.</span><span class="nx">datavisualization</span><span class="p">.</span><span class="nx">Map</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="s2">"#map"</span><span class="p">),</span> <span class="p">{</span><span class="na">orientation</span><span class="p">:</span><span class="s1">'vertical'</span><span class="p">});</span>
+   </code></pre></figure>
+
+<h4 id="content">Content</h4>
+
+<p>Specifies the navigation control template for map, you can use <code class="highlighter-rouge">content</code> property.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+<span class="c1">//To set navigation control template for map during initialization </span>
+   <span class="kd">var</span> <span class="nx">mapSample</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ej</span><span class="p">.</span><span class="nx">datavisualization</span><span class="p">.</span><span class="nx">Map</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="s2">"#map"</span><span class="p">),</span> <span class="p">{</span><span class="na">navigationControl</span><span class="p">:{</span><span class="na">content</span><span class="p">:</span><span class="kc">null</span><span class="p">});</span></code></pre></figure>
+
+<h3 id="animation">Animation</h3>
+
+<p><strong>Animation</strong> is enabled or disabled using <code class="highlighter-rouge">enable animation</code> property.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript"> var mapSample = new ej.datavisualization.Map($("#map"), {
+        enableAnimation: true,                                       
+    });</code></pre></figure>
+
+<h4 id="enable-layer-change-animation">Enable Layer Change Animation</h4>
+
+<p>Enables or Disables the animation for layer change in map, you can use <code class="highlighter-rouge">enableLayerChangeAnimation</code> property and the default value is false.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"> 
+<span class="c1">//To set enableLayerChangeAnimation API value during initialization </span>
+    <span class="kd">var</span> <span class="nx">mapSample</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">ej</span><span class="p">.</span><span class="nx">datavisualization</span><span class="p">.</span><span class="nx">Map</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="s2">"#map"</span><span class="p">),</span> <span class="p">{</span><span class="na">enableLayerChangeAnimation</span><span class="p">:</span><span class="kc">true</span><span class="p">});</span>       </code></pre></figure>
+
+<h3 id="responsiveness-during-browser-resize">Responsiveness during browser resize</h3>
+
+<p><strong>Map</strong> is made responsive when resizing the browser by using <code class="highlighter-rouge">isResponsive</code> property.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript"> var mapSample = new ej.datavisualization.Map($("#map"), {
+        isResponsive: true,                                       
+});</code></pre></figure>
+
