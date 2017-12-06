@@ -64,7 +64,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
    
 4.Initialize the RangeNavigator in ts file by using the `ej.RangeNavigator` method. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -93,7 +93,7 @@ To add a series to **RangeNavigator**, you need to set **dataSource** property, 
 
 You can create data source for RangeNavigator as follows.
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 var data = [{ "xDate": new Date(2011, 0, 1), "yValue": 10 },
                         { "xDate": new Date(2011, 2, 1), "yValue": 5 },
@@ -107,7 +107,7 @@ var data = [{ "xDate": new Date(2011, 0, 1), "yValue": 10 },
 
 Now, add the dataSource to the RangeNavigator and provide the field name to get the values from the dataSource in xName and yName options
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
         var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
@@ -130,7 +130,7 @@ The following screenshot displays the RangeNavigator with the type series as “
 ## Enable tooltip
 
 Tooltip can be customized for RangeNavigator using tooltip option. You can also use TooltipDisplayMode option in tooltip to display the tooltip “always” or “ondemand” (displays tooltip only while dragging the sliders). You can also specify label format for tooltip using LabelFormat.
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
         var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
@@ -165,7 +165,7 @@ Create a <div> tag with an id for rendering the chart.
 
 {% endhighlight %}
 
-{% highlight javascript %}
+{% highlight typescript %}
   $(function () {
 var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           
@@ -206,7 +206,7 @@ RangeNavigator can also be used with numerical values. You can specify the data 
 
 First let’s create a DataSource for Chart Series with integer Values. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 var Data = [
     { "xDate": 0, "yValue": 10 },
@@ -222,7 +222,7 @@ var Data = [
 
 Now, you can set the dataSource for Chart Series and valueType property to “numeric” as given in the following code example. 
 
-{% highlight javascript %}
+{% highlight typescript %}
 
 $(function () {
         var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
