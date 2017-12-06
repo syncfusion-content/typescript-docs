@@ -45,7 +45,7 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
                {   
                    // Using a common series type for all the series              
                    seriesSettings: {
-                        type: 'stackingcolumn',
+                        type: 'StackingColumn',
                         // ...              
                       },
                   // ...             

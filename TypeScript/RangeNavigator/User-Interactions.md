@@ -140,7 +140,7 @@ To customize the selected intervals, use color, border and opacity options in th
 
 * To render the Scrollbar in RangeNavigator, you need to enable `enableScrollbar` option.
  
-* `scrollRangeSettings` of  range navigator `start` and `end` value is used to set the minimum and maximum datasource value to be added in the rangenavigator.
+* `scrollRangeSettings` of  range navigator `start` and `end` value is used to set the minimum and maximum datasource value to be added in the range navigator.
  
 * Based on the scrollRangeSettings *start, end* value and dataSource *start, end* value scrollbar will be adjust.
 

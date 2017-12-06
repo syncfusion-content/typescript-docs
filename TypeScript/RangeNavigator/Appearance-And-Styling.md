@@ -191,7 +191,7 @@ RangeNavigator is customized using **navigatorStyleSettings** properties. You ca
 
               var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
                    // ...              
-                      theme: 'azuredark',
+                      theme: 'saffron',
                    // ...             
                });
 
