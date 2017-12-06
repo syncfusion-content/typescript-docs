@@ -9,7 +9,7 @@ documentation: ug
 
 ### Appearance and Styling
 
-**TypeScript RangeNavigator** is enriched with lots of customization options for labels, gridlines and slider to develop high quality graphic rich control.
+**RangeNavigator** is enriched with lots of customization options for labels, gridlines and slider to develop high quality graphic rich control.
 
 #### Customize labels
 
