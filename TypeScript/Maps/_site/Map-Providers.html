@@ -1,0 +1,55 @@
+<h1 id="map-providers">Map Providers</h1>
+
+<p><strong>Map</strong> control support map providers such as OpenStreetMap that can be added to any layers in maps.</p>
+
+<h2 id="open-street-map">Open Street Map</h2>
+
+<p>OpenStreetMap is a map of the entire world. The OpenStreetMap allows you to view, edit and use geographical data in a collaborative way from any place on the Earth.</p>
+
+<h3 id="enable-osm">Enable OSM</h3>
+
+<p>You can enable this feature by setting the <code class="highlighter-rouge">layerType</code> property value as “OSM”.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">/// &lt;reference path="../tsfiles/jquery.d.ts"&gt;&lt;/reference&gt;
+/// &lt;reference path="../tsfiles/ej.web.all.d.ts"&gt;&lt;/reference&gt;
+
+module MapComponenet {
+
+ $(function () {
+       var mapSample = new ej.datavisualization.Map($("#map"), {
+                layers: [{
+                        layerType: 'osm',
+                        urlTemplate:'http://a.tile.openstreetmap.org/level/tileX/tileY.png'
+                }]
+        });
+   }); 
+}</code></pre></figure>
+
+<h3 id="url-template">URL Template</h3>
+
+<p>The <code class="highlighter-rouge">urlTemplate</code> property determines the format of tile map. You can specify the template for the tile layer.</p>
+
+<p><img src="Map-Providers_images/Map-Providers_img1.png" alt="" /></p>
+
+<h2 id="bing-map">Bing Map</h2>
+
+<p>Bing Map is a key feature in accessing the external geospatial imagery services for deep-zoom satellite view.</p>
+
+<h3 id="enable-bing-maps">Enable Bing Maps</h3>
+
+<p>You can enable this feature by defining the <code class="highlighter-rouge">layerType</code> as “bing”.</p>
+
+<figure class="highlight"><pre><code class="language-typescript" data-lang="typescript">       var mapSample = new ej.datavisualization.Map($("#map"), {
+            layers: [{
+                layerType: ‘bing’,
+                bingMapType:"AerialWithLabel",
+                key:'// …bingMapKey'
+            }]
+        });   </code></pre></figure>
+
+<h3 id="key">Key</h3>
+
+<p>The bing Map key is provided as input to this <code class="highlighter-rouge">key</code> property. The Bing Map key can be obtained from <a href="http://www.microsoft.com/maps/create-a-bing-maps-key.aspx">http://www.microsoft.com/maps/create-a-bing-maps-key.aspx</a>.</p>
+
+<p><img src="Map-Providers_images/Map-Providers_img2.png" alt="" /></p>
+

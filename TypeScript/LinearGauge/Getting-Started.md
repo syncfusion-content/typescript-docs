@@ -75,7 +75,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module LinearGaugeComponent {
     $(function () {
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"));
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"));
     });
 }
 
@@ -94,7 +94,7 @@ Basic attributes of each canvas elements are height and width. You can set the h
 
    
     $(function () {
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
                        height: 550,
                        width: 500, 
             
@@ -116,7 +116,7 @@ Run the above code example and you will get the following gauge as similar to de
 {% highlight javascript %}
 
     $(function () {
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
                               height: 550,
                               width: 500,
                               labelColor: "#8c8c8c",
@@ -145,7 +145,7 @@ Run the above code example and you will get the following gauge as the output.
 {% highlight javascript %}
 
      $(function () {
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
                             height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -185,7 +185,7 @@ In Linear Gauge the two types of pointers available are: Marker pointer and Bar 
 
  $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
                             height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -225,7 +225,7 @@ On executing the above code sample renders a Linear Gauge with bar marker as fol
 
 $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
             height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -266,7 +266,7 @@ On executing the above code sample renders a customized Linear Gauge as follows.
 {% highlight javascript %}
 $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
            height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -327,7 +327,7 @@ On executing the above code sample renders a Linear Gauge with custom labels as 
 
 $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
             height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -370,7 +370,7 @@ Add the function that converts the temperature in degree to Fahrenheit in the la
 
 $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
              height: 550,
             width: 500,
             labelColor: "#8c8c8c",
@@ -400,7 +400,7 @@ Add the function that displays the current temperature value in the custom label
 
 $(function () {
      
-        var lineargaugesample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
+        var linearGaugeSample = new ej.datavisualization.LinearGauge($("#LinearGauge"),{
              height: 550,
             width: 500,
             labelColor: "#8c8c8c",
