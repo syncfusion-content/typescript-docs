@@ -72,6 +72,8 @@ The following screen shot illustrates both the lower and higher level labels tha
 
 {% highlight typescript %}
 
+  $(function () {
+
        var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
         // ...             
         labelSettings: {
@@ -85,7 +87,9 @@ The following screen shot illustrates both the lower and higher level labels tha
         // ...             
         
         });
-        });
+
+  });
+
 
 {% endhighlight %}
 
