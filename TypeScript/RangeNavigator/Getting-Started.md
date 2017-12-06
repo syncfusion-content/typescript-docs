@@ -22,8 +22,8 @@ This section encompasses on how to configure the ejRangeNavigator and update the
 
 Getting started with your ejRangeNavigator is simple. You can initialize the ejRangeNavigator by setting its range values.
 
-1.First create an Typescript Project and the followinf script reference in the app.ts file
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+1.First create an TypeScript Project and the following script reference in the app.ts file
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -70,7 +70,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module RangeNavigatorComponent {
     $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
             rangeSettings: {
                     start: "2010/1/1", end: "2010/12/31"
                 },
@@ -110,7 +110,7 @@ Now, add the dataSource to the RangeNavigator and provide the field name to get 
 {% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           series: [
                 {
                      type: 'line',
@@ -133,9 +133,9 @@ Tooltip can be customized for RangeNavigator using tooltip option. You can also 
 {% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
            tooltipSettings: {
-              visible: true, labelFormat: "MMM/yyy", tooltipDisplayMode: "always"
+              visible: true, labelFormat: "MMM/yyyy", tooltipDisplayMode: "always"
             }, 
         });
     });
@@ -167,13 +167,13 @@ Create a <div> tag with an id for rendering the chart.
 
 {% highlight typescript %}
   $(function () {
-var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           
                     dataSource: data, xName: "XValue", yName: "YValue",
                     rangeChanged: function (sender) {
-                    var chartobj = $("#Chart").data("ejChart");
-                    if (chartobj != null) {
-                    chartobj.model.series[0].dataSource = sender.selectedData;
+                    var chartObj = $("#Chart").data("ejChart");
+                    if (chartObj != null) {
+                    chartObj.model.series[0].dataSource = sender.selectedData;
                     $("#Chart").ejChart("redraw");
                 }
             }
@@ -225,7 +225,7 @@ Now, you can set the dataSource for Chart Series and valueType property to “nu
 {% highlight typescript %}
 
 $(function () {
-        var rangeNavigatorsample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
+        var rangeNavigatorSample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"),{
           series: [
                 {
                      type: 'line',

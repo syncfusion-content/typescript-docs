@@ -16,7 +16,7 @@ The **type** property in **series** is used to change the type of the series ren
 {% highlight javascript %}
 
 
-$("#container").ejRangeNavigator({
+var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {   
                {   
                    // ...              
                    series: [{
@@ -31,7 +31,7 @@ $("#container").ejRangeNavigator({
 
 
 
-![](/js/RangeNavigator/How-to/Change-series-type_images/Change-series-type_img1.png) 
+![](How-to/Change-series-type_images/Change-series-type_img1.png) 
 
 
 When using multiple series in **RangeNavigator**, **type** property in **seriesSettings** is used to set a type common for all the series.
@@ -41,7 +41,7 @@ When using multiple series in **RangeNavigator**, **type** property in **seriesS
 {% highlight javascript %}
 
 
-$("#container").ejRangeNavigator({
+var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {   
                {   
                    // Using a common series type for all the series              
                    seriesSettings: {
@@ -54,6 +54,6 @@ $("#container").ejRangeNavigator({
 
 {% endhighlight %}
 
-![](/js/RangeNavigator/How-to/Change-series-type_images/Change-series-type_img2.png) 
+![](How-to/Change-series-type_images/Change-series-type_img2.png) 
 
 

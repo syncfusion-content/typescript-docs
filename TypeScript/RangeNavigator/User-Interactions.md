@@ -140,7 +140,7 @@ To customize the selected intervals, use color, border and opacity options in th
 
 * To render the Scrollbar in RangeNavigator, you need to enable `enableScrollbar` option.
  
-* `scrollRangeSettings` of  rangenavigator `start` and `end` value is used to set the minimum and maximum datasource value to be added in the rangenavigator.
+* `scrollRangeSettings` of  range navigator `start` and `end` value is used to set the minimum and maximum datasource value to be added in the rangenavigator.
  
 * Based on the scrollRangeSettings *start, end* value and dataSource *start, end* value scrollbar will be adjust.
 
@@ -151,9 +151,9 @@ To customize the selected intervals, use color, border and opacity options in th
     var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
           
          //...
-         //Enable scrollbar option in the rangenavigator
+         //Enable scrollbar option in the range navigator
           enableScrollbar: true,
-         //Maximum data to be displayed in the rangenavigator control
+         //Maximum data to be displayed in the range navigator control
          scrollRangeSettings: {
                start: new Date(2010, 0, 1),
                end: new Date(2011, 10, 31)

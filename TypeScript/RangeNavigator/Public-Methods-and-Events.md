@@ -84,7 +84,7 @@ Fires on load of range navigator.
 
 <script>
 
-//load event for circular gauge
+//load event for range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               load: function () {
@@ -119,7 +119,7 @@ Fires after range navigator is loaded.
 
 <script>
 
-//loaded event for circular gauge
+//loaded event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               loaded: function () {
@@ -157,7 +157,7 @@ Fires on changing the range of range navigator.
 
 <script>
 
-//rangeChanged event for circular gauge
+//rangeChanged event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               rangeChanged: function () {
@@ -189,7 +189,7 @@ Fires on changing the scrollbar position of range navigator.
 
 <script>
 
-//scrollChanged event for circular gauge
+//scrollChanged event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               scrollChanged: function () {
@@ -218,7 +218,7 @@ Fires on when starting to change the scrollbar position of range navigator.
 
 <script>
 
-//scrollStart event for circular gauge
+//scrollStart event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               scrollStart: function () {
@@ -249,7 +249,7 @@ Fires on when starting to change the slider position of range navigator.
 
 <script>
 
-//selectedRangeStart event for circular gauge
+//selectedRangeStart event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               selectedRangeStart: function () {
@@ -278,7 +278,7 @@ Fires when the selection  ends in the range navigator
 
 <script>
 
-//selectedRangeEnd event for circular gauge
+//selectedRangeEnd event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               selectedRangeEnd: function () {
@@ -308,7 +308,7 @@ Fires on changes ending the scrollbar position of range navigator.
 
 <script>
 
-//scrollEnd event for circular gauge
+//scrollEnd event for  range navigator
   $(function () {
         var sample = new ej.datavisualization.RangeNavigator($("#range"), {
               scrollEnd: function () {
