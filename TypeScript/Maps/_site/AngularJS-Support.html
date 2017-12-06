@@ -1,0 +1,45 @@
+<h1 id="angularjs-support">AngularJS Support</h1>
+
+<p><strong>AngularJS</strong> is a <strong>JavaScript</strong> Framework added to a <strong>HTML</strong> page with a <strong>&lt;script&gt;</strong> tag. It extends <strong>HTML</strong> attributes with directives and binds data to <strong>HTML</strong> with expressions. <strong>AngularJS</strong> directives allow you to specify custom and reusable <strong>HTML</strong> tags that moderate the behavior of certain elements. <strong>Angular binding</strong> uses directives to plug its action into the page. Directives, all prefaced with ng-, are placed in <strong>HTML</strong> attributes. To know more about <strong>Angular binding</strong> refer<br />
+to: <a href="https://help.syncfusion.com/js/angularjs">https://help.syncfusion.com/js/angularjs</a></p>
+
+<p>Apply the plugin and property assigning the Map element through the directive that starts with the letter “e-“.  The following code illustrates how to bind data to the Map component through Angular support.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">    //References to be added for angular support.
+        
+        <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">" https:/ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+        
+        <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">" http://cdn.syncfusion.com/js/ej.widget.angular-latest.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+
+    //Initializes controller
+    
+        <span class="nt">&lt;body</span> <span class="na">ng-controller=</span><span class="s">"Map"</span><span class="nt">&gt;</span>
+
+    //Initializes Map
+    
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"map"</span> <span class="na">style=</span><span class="s">"height: inherit; min-height: 356px;"</span> <span class="na">ej-map</span> <span class="na">e-zoomsettings-</span> <span class="na">enablezoom=</span><span class="s">"enableZoom"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;div</span> <span class="na">e-layers</span><span class="nt">&gt;</span>
+                <span class="nt">&lt;div</span> <span class="na">e-layer</span> <span class="na">e-shapedata=</span><span class="s">"shapeData"</span> <span class="na">e-shapesettings-fill=</span><span class="s">"fill"</span> <span class="na">e-shapesettings-strokeThickness=</span><span class="s">"strokeThickness"</span> <span class="na">e-shapesettings-stroke=</span><span class="s">"stroke"</span><span class="nt">&gt;</span>                                   
+                <span class="nt">&lt;/div&gt;</span>
+            <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+         
+    //Renders a textbox to change the color value
+    
+    <span class="nt">&lt;div&gt;</span>
+        Shape Color:  <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">id=</span><span class="s">"Text11"</span> <span class="na">ng-model=</span><span class="s">"fill"</span> <span class="na">style=</span><span class="s">"width: 110px"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span> 
+
+    <span class="nt">&lt;script&gt;</span>
+        <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">'syncApp'</span><span class="p">,</span> <span class="p">[</span><span class="s1">'ejangular'</span><span class="p">])</span>
+        <span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="s1">'Map'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">$scope</span><span class="p">)</span> <span class="p">{</span>                       
+            <span class="nx">$scope</span><span class="p">.</span><span class="nx">enableZoom</span> <span class="o">=</span> <span class="kc">true</span><span class="p">,</span>
+            <span class="nx">$scope</span><span class="p">.</span><span class="nx">shapeData</span> <span class="o">=</span> <span class="nx">usMap</span><span class="p">;</span>                    
+            <span class="nx">$scope</span><span class="p">.</span><span class="nx">fill</span> <span class="o">=</span> <span class="s2">"#9CBF4E"</span><span class="p">;</span> 
+            <span class="nx">$scope</span><span class="p">.</span><span class="nx">strokeThickness</span> <span class="o">=</span><span class="s2">"0.5"</span><span class="p">;</span>
+            <span class="nx">$scope</span><span class="p">.</span><span class="nx">stroke</span> <span class="o">=</span> <span class="s2">"White"</span><span class="p">;</span>
+        <span class="p">});</span>
+    <span class="nt">&lt;/script&gt;</span>     </code></pre></figure>
+
+<p><img src="AngularJS-Support_images/AngularJS-Support_img1.png" alt="" /></p>
+
