@@ -135,7 +135,7 @@ You can set headers for each level by setting the `showHeader` property of the e
     <div  id="treeMap" style="width: 950px; height: 500px; "></div>
     
     <script type="text/javascript">
-        $uery(function () {
+        $(function () {
            var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {
                 // ...             
                 levels: [

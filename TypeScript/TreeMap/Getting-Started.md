@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-* This section explains briefly about how to create a TreeMap in your application with Typescript.
+* This section explains briefly about how to create a TreeMap in your application with TypeScript.
 * Here you can learn how to configure a TreeMap control in a real-time scenario where it is used to visually represent the percentage of growth in population in each continent. 
 * It also provides a walk-through on some of the customization features available in TreeMap control.
 
@@ -21,9 +21,9 @@ You can easily create the TreeMap widget by using the following steps.
 
 ## Add Libraries
 
- 1.First create an Typescript Project and add the following script reference in the app.ts page 
+ 1.First create an TypeScript Project and add the following script reference in the app.ts page 
  
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -96,7 +96,7 @@ var population_data = [
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module TreeMapComponent {
     $(function () {
-        var treemapsample = new ej.datavisualization.TreeMap($("#TreeMap"),{
+        var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
                 dataSource: population_data,
                 weightValuePath: "Population", 
             
@@ -126,7 +126,7 @@ The following code sample explains how to group TreeMap Items using ‘Levels’
 
 {% highlight javascript %}
   $(function () {
-        var treemapsample = new ej.datavisualization.TreeMap($("#TreeMap"),{
+        var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
                 dataSource: population_data,
                 weightValuePath: "Population", 
                 levels: [
@@ -157,7 +157,7 @@ The following code sample explains how to customize TreeMap Appearance by Range.
 {% highlight ts %}
 
  $(function () {
-        var treemapsample = new ej.datavisualization.TreeMap($("#TreeMap"),{
+        var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
                 dataSource: population_data,
                 weightValuePath: "Population",
                 levels: [
@@ -194,7 +194,7 @@ The following code sample displays how the tooltip is enabled.
 {% highlight ts %}
 
 $(function () {
-        var treemapsample = new ej.datavisualization.TreeMap($("#TreeMap"),{
+        var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
                 dataSource: population_data,
                 weightValuePath: "Population", 
                 levels: [
@@ -235,7 +235,7 @@ The following code sample displays how to add labels for legend in a TreeMap.
 {% highlight ts %}
 
 	$(function () {
-        var treemapsample = new ej.datavisualization.TreeMap($("#TreeMap"),{
+        var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
                   dataSource: population_data,
                 weightValuePath: "Population", 
                 levels: [

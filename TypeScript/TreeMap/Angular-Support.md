@@ -43,7 +43,7 @@ Apply the plugin and property assigning the **Treemap** element through the di
 
 {% highlight js %}
 
-    //References to be added for angular support.
+    //References to be added for AngularJS support.
 
         <script src=" https:/ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
 
@@ -96,7 +96,7 @@ Apply the plugin and property assigning the **Treemap** element through the di
 
 ![](Angular-Support_images/Angular-Support_img1.png)
 
-Try it: [Treemap Angular Support](http://jsplayground.syncfusion.com/q5e4wf5f)
+Try it: [Treemap AngularJS Support](http://jsplayground.syncfusion.com/q5e4wf5f)
 
 
 
