@@ -85,7 +85,7 @@ The following screenshot displays **Bullet Graph** with comparative measure valu
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
-        theme:'flatdark'
+        theme:'dark'
         });
     });
 
@@ -94,7 +94,7 @@ $(function () {
 
 
 
-The following screenshot displays **Bullet Graph** with **flatdark** theme
+The following screenshot displays **Bullet Graph** with **dark** theme
 
 ![](Bullet-Graph-Dimensions_images/Bullet-Graph-Dimensions_img4.png)
 
