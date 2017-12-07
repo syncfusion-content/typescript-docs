@@ -53,7 +53,7 @@ var localData = [
 
 
 
-The following screenshot displays **Bullet Graph** with local data generated using typescript
+The following screenshot displays **Bullet Graph** with local data generated using TypeScript
 
 ![](Data-Binding_images/Data-Binding_img1.png) 
 

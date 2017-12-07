@@ -201,7 +201,7 @@ $(function () {
              height: 145,
             width: 260,
             items: [{
-                //For Displaying Farenheit value
+                //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
@@ -243,7 +243,7 @@ $(function () {
                 position: { x: 70, y: 28 }
             },
             {
-                //For displaying fahrenheit symbol
+                //For displaying Fahrenheit symbol
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
                 characterSettings: { type: "sevensegment", spacing: 12, },
                 value: "F",
