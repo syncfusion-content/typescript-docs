@@ -31,7 +31,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -77,7 +77,7 @@ Execute the above code examples to render the **Digital****Gauge** as follows.
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         // For Digital Gauge rendering

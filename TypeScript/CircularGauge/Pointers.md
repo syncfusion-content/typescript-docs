@@ -21,7 +21,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
         //For circular gauge rendering
@@ -54,7 +54,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -97,7 +97,7 @@ The Pointers border is modified with the object called `border` as in scales. It
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -150,7 +150,7 @@ Based on the value, the**pointer** point out the label value. You can set the po
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -197,7 +197,7 @@ Pointer can be positioned with the help of two properties such as **distanceFrom
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function() {
     // For Circular Gauge rendering
@@ -319,7 +319,7 @@ In `needleType`, needle pointer is completely replaced by image. We can implemen
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function() {
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -393,7 +393,7 @@ In `markerType`, marker pointer is completely replaced by image. We can implemen
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -530,7 +530,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -588,7 +588,7 @@ You can position the **Circular Gauge** pointer value with the gauge as center b
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -647,7 +647,7 @@ Appearance of the **Circular Gauge** `pointerValueText` is adjusted by using fou
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -701,7 +701,7 @@ Similar to other collection, `font` option is also available in this pointer val
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
    $(function () {
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{

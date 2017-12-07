@@ -15,7 +15,7 @@ documentation: ug
 
 The **rangePadding** property allows you to customize the automatic range calculation using the default auto range calculation for **RangeNavigator**.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -76,7 +76,7 @@ The following screenshot illustrates a **RangeNavigator** with **rangePadding** 
 
 Using the default range calculation for **RangeNavigator**, the **rangePadding** property allows you to customize the range.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
@@ -110,7 +110,7 @@ The following screenshot illustrates a **RangeNavigator** with **rangePadding** 
 
 The following code example renders a RangeNavigator with a range from 2010 January 1st to 2013 January 1st.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {

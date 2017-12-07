@@ -19,7 +19,7 @@ You can customize the character using `character settings`The opacity of the cha
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -71,7 +71,7 @@ The number of text to be displayed can be limited by the attribute called `count
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
   $(function () {
         // For Digital Gauge rendering
@@ -116,7 +116,7 @@ The text in the **Digital****Gauge** is positioned with `position` object. This 
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
   $(function () {
         // For Digital Gauge rendering
@@ -167,7 +167,7 @@ You can add the shadow effects for text using following properties.
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         // For Digital Gauge rendering
@@ -215,7 +215,7 @@ You can customize the `font` of the text as per your requirement. To customize t
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 $(function () {
   var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalCore"),{items: [{enableCustomFont: true ,font: { fontFamily: "Segou", fontStyle: "bold", size: "18px"}}]});

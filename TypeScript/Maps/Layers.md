@@ -31,13 +31,13 @@ You can assign the complete contents in “**WorldMap.json**” file to new JSON
 
 **[usa.js]**
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     var world_map = //Paste all the content copied from the JSON file// 
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>

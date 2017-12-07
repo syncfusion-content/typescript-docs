@@ -22,7 +22,7 @@ documentation: ug
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -66,7 +66,7 @@ Font option is also available on the labels. The basic three properties of `font
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
         // For Circular Gauge rendering
@@ -126,7 +126,7 @@ Labels can be positioned with the help of two properties such as `distanceFromSc
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
         // For Circular Gauge rendering
@@ -172,7 +172,7 @@ You can achieve multiple labels such as minor and major `type` in a **Gauge** sa
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering

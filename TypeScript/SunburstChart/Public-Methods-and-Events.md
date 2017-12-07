@@ -25,7 +25,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -57,7 +57,7 @@ module SunburstChartComponent {
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -84,7 +84,7 @@ Fires before loading, you can use **load** event.
 
 #### Example
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //load event for sunburst
 
@@ -108,7 +108,7 @@ Fires before rendering sunburst, you can use **preRender** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //preRender event for sunburst
 
@@ -132,7 +132,7 @@ Fires after rendering sunburst, you can use **loaded** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //loaded event for sunburst
 
@@ -155,7 +155,7 @@ Fires before rendering the data label, you can use **dataLabelRendering**event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //data label rendering event for sunburst
 
@@ -178,7 +178,7 @@ Fires before rendering each segment, you can use **segmentRendering** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //segment rendering event for sunburst
 
@@ -203,7 +203,7 @@ Fires before rendering sunburst title, you can use **titleRendering** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //title rendering event for sunburst
 
@@ -228,7 +228,7 @@ Fires during initialization of tooltip, you can use **tooltipInitialize** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //tooltip initialize event for sunburst
 
@@ -252,7 +252,7 @@ Fires after clicking the point in sunburst, you can use **pointRegionClick** eve
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //point region click event for sunburst
 
@@ -274,7 +274,7 @@ Fires while moving the mouse over sunburst points, you can use **pointRegionMous
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //point region mouse move event for sunburst
 
@@ -297,7 +297,7 @@ Fires when clicking the point to perform drilldown, you can use **drillDownClick
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //drill down click event for sunburst
 
@@ -321,7 +321,7 @@ Fires when resetting drilldown points, you can use **drillDownBack** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //drill down back event for sunburst
 
@@ -346,7 +346,7 @@ Fires after resetting the sunburst points, you can use **drillDownReset** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //drill down reset event for sunburst
 
@@ -369,7 +369,7 @@ Fires before rendering the legend item, you can use **legendItemRendering** even
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //legend item rendering event for sunburst
 
@@ -392,7 +392,7 @@ Fires when clicking the legend item, you can use **legendItemClick** event.
 #### Example
 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //legend item click event for sunburst
 

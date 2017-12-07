@@ -154,7 +154,7 @@ The `colorValuePath` of TreeMap is a path to a field on the source object. You c
 
 The following code sample explains how to customize TreeMap Appearance by Range.
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
         var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
@@ -191,7 +191,7 @@ You can customize the Leaf level TreeMap items using `leafItemSettings`. The Lab
 
 The following code sample displays how the tooltip is enabled.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{
@@ -232,7 +232,7 @@ You can customize the labels of the legend item using `legendLabel` property of 
 
 The following code sample displays how to add labels for legend in a TreeMap.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 	$(function () {
         var treeMapSample = new ej.datavisualization.TreeMap($("#TreeMap"),{

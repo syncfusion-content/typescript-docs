@@ -15,7 +15,7 @@ documentation: ug
 
 Triggers while the bar pointer are being drawn on the gauge, you can use `drawBarPointers` event.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -43,7 +43,7 @@ Triggers while the customLabel are being drawn on the gauge, you can use `drawCu
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -74,7 +74,7 @@ Triggers while the Indicator are being drawn on the gauge, you can use `drawIndi
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -107,7 +107,7 @@ Triggers while the label are being drawn on the gauge, you can use `drawLabels` 
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -138,7 +138,7 @@ Triggers while the marker are being drawn on the gauge, you can use `drawMarkerP
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -168,7 +168,7 @@ Triggers while the range are being drawn on the gauge, you can use `drawRange` e
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -201,7 +201,7 @@ Triggers while the ticks are being drawn on the gauge, you can use `drawTicks` e
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -235,7 +235,7 @@ Triggers when the gauge is initialized, you can use `init`event.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -264,7 +264,7 @@ Triggers while the gauge start to Load, you can use `load` event.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -297,7 +297,7 @@ Triggers when the left mouse button is clicked, you can use `mouseClick` event.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -331,7 +331,7 @@ Triggers when clicking and dragging the mouse pointer over the gauge pointer, yo
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -365,7 +365,7 @@ Triggers when the mouse click is released, you can use `mouseClickUp` event.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -398,7 +398,7 @@ Triggers while the rendering of the gauge completed, you can use `renderComplete
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -434,7 +434,7 @@ Triggers while the rendering of the gauge completed, you can use `renderComplete
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -469,7 +469,7 @@ To get bar distance from scale in number, you can use `getBarDistanceFromScale` 
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -503,7 +503,7 @@ To get Bar Pointer Value in number, you can use `getBarPointerValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -537,7 +537,7 @@ To get Bar Width in number, you can use `getBarWidth`method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -572,7 +572,7 @@ To get CustomLabel Angle in number, you can use `getCustomLabelAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -609,7 +609,7 @@ To get CustomLabel Value in string, you can use `getCustomLabelValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -644,7 +644,7 @@ To get Label Angle in number, you can use `getLabelAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -683,7 +683,7 @@ To get LabelPlacement in number, you can use `getLabelPlacement` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -719,7 +719,7 @@ To get LabelStyle in number, you can use `getLabelStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -756,7 +756,7 @@ To get Label XDistance From Scale in number, you can use `getLabelXDistanceFromS
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -793,7 +793,7 @@ To get PointerValue in number, you can use `getLabelXDistanceFromScale` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -830,7 +830,7 @@ To get Major Interval Value in number, you can use `getMajorIntervalValue` metho
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -863,7 +863,7 @@ To get MarkerStyle in number, you can use `getMarkerStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -897,7 +897,7 @@ To get Maximum Value in number, you can use `getMaximumValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -930,7 +930,7 @@ To get PointerValue in number, you can use `getMinimumValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -963,7 +963,7 @@ To get Minor Interval Value in number, you can use `getMinorIntervalValue` metho
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -996,7 +996,7 @@ To get Pointer Distance From Scale in number, you can use `getPointerDistanceFro
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1029,7 +1029,7 @@ To get PointerHeight in number, you can use `getPointerHeight` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1062,7 +1062,7 @@ To get Pointer Placement in String, you can use `getPointerPlacement` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1096,7 +1096,7 @@ To get PointerValue in number, you can use `getPointerValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1130,7 +1130,7 @@ To get PointerWidth in number, you can use `getPointerWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1164,7 +1164,7 @@ To get Range Border Width in number, you can use `getRangeBorderWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1198,7 +1198,7 @@ To get Range Distance From Scale in number, you can use `getRangeDistanceFromSca
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1233,7 +1233,7 @@ To get Range End Value in number, you can use `getRangeEndValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1268,7 +1268,7 @@ To get Range End Width in number, you can use `getRangeEndWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1305,7 +1305,7 @@ To get Range Position in number, you can use `getRangePosition` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1341,7 +1341,7 @@ To get Range Start Value in number, you can use `getRangeStartValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1381,7 +1381,7 @@ To get Range Start Width in number, you can use `getRangeStartWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1414,7 +1414,7 @@ To get ScaleBarLength in number, you can use `getScaleBarLength` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1449,7 +1449,7 @@ To get Scale Bar Size in number, you can use `getScaleBarSize` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1481,7 +1481,7 @@ To get Scale Border Width in number, you can use `getScaleBorderWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1515,7 +1515,7 @@ To get Scale Direction in number, you can use `getScaleDirection` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1550,7 +1550,7 @@ To get Scale Location in object, you can use `getScaleLocation` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1585,7 +1585,7 @@ To get Scale Style in string, you can use `getScaleStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1620,7 +1620,7 @@ To get Tick Angle in number, you can use `getTickAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1654,7 +1654,7 @@ To get Tick Height in number, you can use `getTickHeight` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1688,7 +1688,7 @@ To get getTickPlacement in number, you can use `getTickPlacement` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1722,7 +1722,7 @@ To get Tick Style in string, you can use `getTickStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1755,7 +1755,7 @@ To get Tick Width in number, you can use `getTickWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1787,7 +1787,7 @@ To get get Tick XDistance From Scale in number, you can use `getTickXDistanceFro
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1822,7 +1822,7 @@ To get Tick YDistance From Scale in number, you can use `getTickYDistanceFromSca
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1857,7 +1857,7 @@ Specifies the scales, you can use `scales` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1891,7 +1891,7 @@ To set setBarDistanceFromScale, you can use `setBarDistanceFromScale` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1923,7 +1923,7 @@ To set setBarPointerValue, you can use `setBarPointerValue`method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1955,7 +1955,7 @@ To set setBarWidth, you can use `setBarWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -1988,7 +1988,7 @@ To set setCustomLabelAngle, you can use `setCustomLabelAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2023,7 +2023,7 @@ To set setCustomLabelValue, you can use `setCustomLabelValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2057,7 +2057,7 @@ To set setLabelAngle, you can use `setLabelAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2093,7 +2093,7 @@ To set setLabelPlacement, you can use `setLabelPlacement`method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2128,7 +2128,7 @@ To set setLabelStyle, you can use `setLabelStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2163,7 +2163,7 @@ To set setLabelXDistanceFromScale, you can use `setLabelXDistanceFromScale` meth
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2198,7 +2198,7 @@ To set setLabelYDistanceFromScale, you can use `setLabelYDistanceFromScale` meth
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2233,7 +2233,7 @@ To set setMajorIntervalValue, you can use `setMajorIntervalValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2269,7 +2269,7 @@ To set setMarkerStyle, you can use `setMarkerStyle`method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2304,7 +2304,7 @@ To set setMaximumValue, you can use `setMaximumValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2337,7 +2337,7 @@ To set setMinimumValue, you can use `setMinimumValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2372,7 +2372,7 @@ To set setMinorIntervalValue, you can use `setMinorIntervalValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2406,7 +2406,7 @@ To set setPointerDistanceFromScale, you can use `setPointerDistanceFromScale` me
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2441,7 +2441,7 @@ To set PointerHeight, you can use `setPointerHeight` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2476,7 +2476,7 @@ To set setPointerPlacement, you can use `setPointerPlacement` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2512,7 +2512,7 @@ To set PointerValue, you can use `setPointerValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2548,7 +2548,7 @@ To set PointerWidth, you can use `setPointerWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2584,7 +2584,7 @@ To set setRangeBorderWidth, you can use `setRangeBorderWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2619,7 +2619,7 @@ To set setRangeDistanceFromScale, you can use `setRangeDistanceFromScale` method
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2655,7 +2655,7 @@ To set setRangeEndValue, you can use `setRangeEndValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2690,7 +2690,7 @@ To set setRangeEndWidth, you can use `setRangeEndWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2724,7 +2724,7 @@ To set setRangePosition, you can use `setRangePosition` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2756,7 +2756,7 @@ To set setRangeStartValue, you can use `setRangeStartValue` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2791,7 +2791,7 @@ To set setRangeStartWidth, you can use `setRangeStartWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2827,7 +2827,7 @@ To set setScaleBarLength, you can use `setScaleBarLength` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2861,7 +2861,7 @@ To set setScaleBarSize, you can use `setScaleBarSize` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2895,7 +2895,7 @@ To set setScaleBorderWidth, you can use `setScaleBorderWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2929,7 +2929,7 @@ To set setScaleDirection, you can use `setScaleDirection` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2962,7 +2962,7 @@ To set setScaleLocation, you can use `setScaleLocation` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -2997,7 +2997,7 @@ To set setScaleStyle, you can use `setScaleStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3030,7 +3030,7 @@ To set setTickAngle, you can use `setTickAngle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3063,7 +3063,7 @@ To set setTickHeight, you can use `setTickHeight` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3097,7 +3097,7 @@ To set setTickPlacement, you can use `setTickPlacement` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3130,7 +3130,7 @@ To set setTickStyle, you can use `setTickStyle` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3163,7 +3163,7 @@ To set setTickWidth, you can use `setTickWidth` method.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3196,7 +3196,7 @@ To set setTickXDistanceFromScale, you can use `setTickXDistanceFromScale` method
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -3229,7 +3229,7 @@ To set setTickYDistanceFromScale, you can use `setTickYDistanceFromScale` method
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />

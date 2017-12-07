@@ -38,7 +38,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -103,7 +103,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         //For Linear gauge rendering  
@@ -167,7 +167,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Linear Gauge rendering
@@ -243,7 +243,7 @@ For rectangular scale `type`, the scale renders with rectangular structure. Refe
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $(function () {
         // For Linear Gauge rendering
@@ -296,7 +296,7 @@ For rounded rectangular scale `type`, the scale renders as rectangular structure
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Linear Gauge rendering
@@ -349,7 +349,7 @@ For thermometer scale `type`, the scale renders as thermometer structure with ro
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $(function () {
         // For Linear Gauge rendering
@@ -399,7 +399,7 @@ You can set multiple scales for a single **Linear Gauge** control by using an ar
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $(function () {
         // For Linear Gauge rendering

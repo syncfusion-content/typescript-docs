@@ -18,7 +18,7 @@ documentation: ug
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -43,7 +43,7 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
 
 **Localization** is the key feature that provides solutions globally with the help of localized control. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
                var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {   
@@ -63,7 +63,7 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
 
 **Right-to-Left** or **RTL** describes the ability of application to handle and responds you to communicate with a right-to-left language, like Arabic or Japanese. **enableRTL** property is used to change the rendering format  to **"Right to Left"**, by default it renders from **"Left to Right"** in **RangeNavigator**.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
               var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), { 

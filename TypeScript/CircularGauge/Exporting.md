@@ -25,7 +25,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         var circularGaugeSample = new ej.datavisualization.CircularGauge($("#circularGauge"));

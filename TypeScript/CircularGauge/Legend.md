@@ -15,7 +15,7 @@ The `legend` contains the list of the ranges that appear in the circular gauge
 
 By default, the legend will not be displayed in the circular gauge. You can enable or disable it by using the `visible` property of the legend.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -42,7 +42,7 @@ module CircularGaugeComponent {
 
 The text displayed in the legend can be customized by using the `legendText` property present in the ranges of the circular gauge. When the legendText is not specified in the ranges, then the legend item for that particular range will not displayed. By default the legendText value is **null** . 
 
-{% highlight ts %}
+{% highlight javascript %}
 
     var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
             // ...             
@@ -61,7 +61,7 @@ The text displayed in the legend can be customized by using the `legendText` pro
 
 By using the `position` property, you can position the legend at *left*, *right*, *top* or *bottom* of the CircularGauge. The legend is positioned at the **bottom** of the circular gauge, by default.
 
-{% highlight ts %}
+{% highlight javascript %}
 
     var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
             // ...             
@@ -83,7 +83,7 @@ By using the `position` property, you can position the legend at *left*, *right*
 
 You can align the legend to the *center*, *far* or *near* based on its position by using the `alignment` property.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
       var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -108,7 +108,7 @@ You can align the legend to the *center*, *far* or *near* based on its position 
 
 You can change the opacity and fill color of legend text using `opacity` and `fill` property of legend. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
             // ...             
@@ -128,7 +128,7 @@ You can change the opacity and fill color of legend text using `opacity` and `fi
 
 To change the legend item shape, you have to specify the desired shape in the `shape` property of the legend. By default, the shape of the legend is **circle**.It also supports rectangle,diamond,triangle,slider,line,pentagon,trapezoid and wedge shapes.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -151,7 +151,7 @@ To change the legend item shape, you have to specify the desired shape in the `s
 
 You can change the size of the legend items by using the `width` and `height` properties in the `itemStyle`. To change the legend item border, use `border` property of the legend itemStyle. The color and width of legend item border can be customized using border `color` and `width` property.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -173,7 +173,7 @@ You can change the size of the legend items by using the `width` and `height` pr
 
 You can change the default legend size by using the `size` property of the legend. The height and width of legend size can customized using `height` and `width`property.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -196,7 +196,7 @@ You can change the default legend size by using the `size` property of the legen
 
 You can control the spacing between the legend items by using the `itemPadding` option of the legend.  The default value is 20. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -218,7 +218,7 @@ You can control the spacing between the legend items by using the `itemPadding` 
 
 You can customize the legend border by using the `border` option in the legend. The legend border can be customized using border `color` and `width` property. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -241,7 +241,7 @@ You can customize the legend border by using the `border` option in the legend. 
 The `font` of the legend item text can be customized by using properties such as `fontFamily`, `fontStyle`, `fontWeight` and `size` of legend font.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
             var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
@@ -266,7 +266,7 @@ The `font` of the legend item text can be customized by using properties such as
 
 `LegendItemRender` event triggers before rendering the legend items. This event is triggered for each legend item in Circular gauge. You can use this event to customize legend item shape or add custom text to legend item dynamically
 
-{% highlight ts %}
+{% highlight javascript %}
 
     var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
 
@@ -289,7 +289,7 @@ The `font` of the legend item text can be customized by using properties such as
 
 You can get the legend item details such as *RangeIndex, bounds and shape* by subscribing the `legendItemClick` event of the circular gauge. When the legend item is clicked, it triggers the event and returns the legend information 
 
-{% highlight ts %}
+{% highlight javascript %}
 
     var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{
            

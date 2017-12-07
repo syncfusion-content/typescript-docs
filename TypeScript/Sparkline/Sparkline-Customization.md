@@ -15,7 +15,7 @@ This section explains you the customization options available to make changes in
 
 You can specify the background color for the Sparkline using **background** property. When you don't specify the **background**, it takes "transparent" as background color. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -40,7 +40,7 @@ module SparklineComponent {
 
 You can customize the series border color and width using **stroke** and **width**. This is applicable for Sparkline types line and area.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -60,7 +60,7 @@ You can customize the series border color and width using **stroke** and **width
 
 You can customize the **border** width and height of the Sparkline using **border width** and **border height** properties. This is applicable for column, win-loss and pie series.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -78,7 +78,7 @@ You can customize the **border** width and height of the Sparkline using **borde
 
 By default **opacity** of the Sparkline is 1. You can specify the opacity value from 0 to 1. This is applicable for all types of series. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -97,7 +97,7 @@ By default **opacity** of the Sparkline is 1. You can specify the opacity value 
 
 Sparkline is having support for localization as well. Default culture is "en-US". You can modify the culture using the property **locale**.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -114,7 +114,7 @@ Sparkline is having support for localization as well. Default culture is "en-US"
 
 **Padding** is used to specify the padding value between the container and Sparkline. By default padding value of the Sparkline is 5. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -133,7 +133,7 @@ Sparkline is having support for localization as well. Default culture is "en-US"
 
 You can control whether Sparkline has to be rendered as SVG or **Canvas**. Canvas rendering supports all the functionalities supported in SVG rendering.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -150,7 +150,7 @@ You can control whether Sparkline has to be rendered as SVG or **Canvas**. Canva
 
 You can specify different **themes** for Sparkline control.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{

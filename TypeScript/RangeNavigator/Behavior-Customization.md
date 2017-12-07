@@ -16,7 +16,7 @@ documentation: ug
 If you set **enableDeferredUpdate**to true, the **rangeChanged** event gets fired after dragging and dropping the slider. By default the **enableDeferredUpdate**is true. If **enableDeferredUpdate**is false then the **rangeChanged** event gets fired while dragging the slider.
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -45,7 +45,7 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
 
 This event is handled when the **RangeNavigator** gets loaded. A parameter **sender** is passed to the handler. Using **sender.model**, you can access the RangeNavigator properties. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
     var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
@@ -65,7 +65,7 @@ This event is handled when the **RangeNavigator** gets loaded. A parameter **sen
 
 This event gets fired whenever the selected range changes in **RangeNavigator**. A parameter **sender** is passed to the handler. Using sender.selectedRangeSettings, you can access the start and end value of range for the selected region. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
    var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
@@ -86,7 +86,7 @@ This event gets fired whenever the selected range changes in **RangeNavigator**.
 
 You can easily update the data for chart by assigning the **zoomFactor** and **zoomPosition** of the **RangeNavigator** to the chart axis.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
    var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {

@@ -89,7 +89,7 @@ Digital Gauge
 
 Basic attributes of each canvas elements are height and width. You can set the height and width of the gauge.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -122,7 +122,7 @@ Items have different properties to customize the Digital Gauge.
 	4. SixteenSegment 
 	5. EightCrossEightSquareMatrix.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -130,7 +130,7 @@ $(function () {
             width: 260,
             items: [{
                 segmentSettings: { width: 2, length: 20 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102",
             }]
         });
@@ -194,16 +194,16 @@ Digital Gauge Background Image
 
 The Location property is used to position the digital letters inside the canvas element.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
              height: 145,
             width: 260,
             items: [{
-                //For Displaying Farenheit value
+                //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
                 ]}
         });
@@ -223,7 +223,7 @@ Digital Gauge with Segment Location
 
 You can further add the Items Collection to display the temperature value like Digital Thermometer.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -231,42 +231,42 @@ $(function () {
             items: [{
                 //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102",
                 position: { x: 15, y: 40 }
             },
             {
                 //For displaying degree symbol
                 segmentSettings: { width: 2, length: 5, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 5, },
+                characterSettings: { type: "SevenSegment", spacing: 5, },
                 value: "0",
                 position: { x: 70, y: 28 }
             },
             {
-                //For displaying fahrenheit symbol
+                //For displaying Fahrenheit symbol
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "F",
                 position: { x: 170, y: 40 }
             },
             {
                 //For displaying Celcius value
                 segmentSettings: { width: 1, length: 9, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "38",
                 position: { x: 70, y: 90 },
             },
             {
                 //For displaying degree symbol
                 segmentSettings: { width: 1, length: 3, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "0",
                 position: { x: 90, y: 80 }
             },
             {
                 //For displaying celcius symbol
                 segmentSettings: { width: 1, length: 9, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "c",
                 position: { x: 120, y: 90 }
             }]

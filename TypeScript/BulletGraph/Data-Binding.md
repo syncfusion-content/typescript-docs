@@ -16,7 +16,7 @@ documentation: ug
 
 Data available in client-side (local data) can be bound with **Bullet Graph** using **fields** property. This property provides option to specify data source, fields representing progress measure bar value, comparative measure value and category value.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -53,7 +53,7 @@ var localData = [
 
 
 
-The following screenshot displays **Bullet Graph** with local data generated using typescript
+The following screenshot displays **Bullet Graph** with local data generated using TypeScript
 
 ![](Data-Binding_images/Data-Binding_img1.png) 
 
@@ -61,7 +61,7 @@ The following screenshot displays **Bullet Graph** with local data generated usi
 
 **Bullet Graph** provides option to bind data from a remote server using **ejDataManager** as data source in **fields** property. A query object should also be passed to **query** property when using data manager as data source.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
                //Creating data manager instance
                 var dataManger = new ej.DataManager({

@@ -13,7 +13,7 @@ Sunburst chart provides zooming (drill down) experience with animation for both 
 
 The following code shows how to initialize the zooming.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -41,7 +41,7 @@ By default, zooming toolbar will be enabled while zooming the segment.It contain
 You can align the zooming toolbar position by using **toolbarHorizontalAlignment** and **toolbarVerticalAlignment**property.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
