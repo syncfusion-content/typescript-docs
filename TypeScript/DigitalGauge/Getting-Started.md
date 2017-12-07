@@ -130,7 +130,7 @@ $(function () {
             width: 260,
             items: [{
                 segmentSettings: { width: 2, length: 20 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102",
             }]
         });
@@ -203,7 +203,7 @@ $(function () {
             items: [{
                 //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102", position: { x: 15, y: 40 }
                 ]}
         });
@@ -231,42 +231,42 @@ $(function () {
             items: [{
                 //For Displaying Fahrenheit value
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "102",
                 position: { x: 15, y: 40 }
             },
             {
                 //For displaying degree symbol
                 segmentSettings: { width: 2, length: 5, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 5, },
+                characterSettings: { type: "SevenSegment", spacing: 5, },
                 value: "0",
                 position: { x: 70, y: 28 }
             },
             {
                 //For displaying Fahrenheit symbol
                 segmentSettings: { width: 2, length: 20, spacing: 0 },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "F",
                 position: { x: 170, y: 40 }
             },
             {
                 //For displaying Celcius value
                 segmentSettings: { width: 1, length: 9, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "38",
                 position: { x: 70, y: 90 },
             },
             {
                 //For displaying degree symbol
                 segmentSettings: { width: 1, length: 3, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "0",
                 position: { x: 90, y: 80 }
             },
             {
                 //For displaying celcius symbol
                 segmentSettings: { width: 1, length: 9, spacing: 0, color: "#F5b43f" },
-                characterSettings: { type: "sevensegment", spacing: 12, },
+                characterSettings: { type: "SevenSegment", spacing: 12, },
                 value: "c",
                 position: { x: 120, y: 90 }
             }]

@@ -63,7 +63,7 @@ You can set your desired theme by using the **theme** property. **Flat light** i
  $(function () {
         var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
-       theme: "flatdark",		
+       theme: "saffron",		
 
             // ...
 
