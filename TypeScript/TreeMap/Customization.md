@@ -25,7 +25,7 @@ ColorMapping is categorized into three different types such as,
 
 You can color, all the leaf nodes with the same color by setting the `color` value of the `uniColorMapping` property of the **TreeMap**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -58,7 +58,7 @@ Try it: [UniColorMapping](http://jsplayground.syncfusion.com/2v542ver)
 
 You can group the leaf nodes based on the range of the data’s color values. You can set a unique color for every ranges. To achieve this, specify the `to` and `from` values as range bound and `color` or `gradient colors` values to fill the leaf nodes of the particular range, through the `range color mapping` property of the **TreeMap**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 
@@ -88,7 +88,7 @@ Try it: [RangeColorMapping](http://jsplayground.syncfusion.com/cbcyugjn)
 
 You can differentiate all the leaf nodes using the `desaturation color mapping` property of the **TreeMap**. Differentiation is achieved, even though same color is applied for all the leaf nodes by varying the opacity of the leaf nodes based on the color value specified in the color value range using `rangeMinimum` and `rangeMaximum` value of the data collection. You can also bound the opacity range by setting `from` and `to` property of the `desaturationColorMapping`.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
         $(function () {
@@ -138,7 +138,7 @@ You can customize the **Leaf level TreeMap items** using `leafItemSettings`. In 
 
 * For specifying over flow action of left item labels you can use `textOverflow` property.
 
-{% highlight ts %}
+{% highlight javascript %}
 
     <script type="text/javascript">
         $(function () {
@@ -190,7 +190,7 @@ Try it: [LeafItemSettings](http://jsplayground.syncfusion.com/gec0w4gb)
 
 You can able to customize the border color of the treemap using the property `borderBrush`. 
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set borderBrush API value during initialization 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {borderBrush:'white'});
@@ -201,7 +201,7 @@ You can able to customize the border color of the treemap using the property `bo
 
 For customizing the border thickness of the treemap, you can use the `borderThickness` property.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set borderThickness API value during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {borderThickness:1});
@@ -242,7 +242,7 @@ Specifies the dockPosition for legend
 	</tbody>
 </table>
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set dockPosition API value during initialization 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {legendSettings:{ dockPosition: "top"}});
@@ -253,7 +253,7 @@ Specifies the dockPosition for legend
 
 You can select the single treemap element on click and drag. To click and drag treemap items, you have to enable the `draggingOnSelection` property.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set draggingOnSelection API value during initialization 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {draggingOnSelection:false});
@@ -261,7 +261,7 @@ You can select the single treemap element on click and drag. To click and drag t
 
 For selecting the group element of treemap while clicking and dragging, you can use `draggingGroupOnSelection` property.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set draggingGroupOnSelectionAPI value during initialization 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {draggingGroupOnSelection:false});
@@ -271,7 +271,7 @@ For selecting the group element of treemap while clicking and dragging, you can 
 
 You can customize that whether gradient color have to be applied for treemap or not. This can be customized using the property `enableGradient`.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set enableGradient API value during initialization 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {enableGradient:true});
@@ -282,7 +282,7 @@ You can customize that whether gradient color have to be applied for treemap or 
 
 You can customize whether treemap have to be responsive or not while resizing the container. For making treemap responsive you can use `enableResize` or `isResponsive` property.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 //To set enableResize API value during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {enableResize:false});
@@ -293,7 +293,7 @@ You can customize whether treemap have to be responsive or not while resizing th
 
 You can customize the color of the each group using `groupColorMapping` property. To use group color mapping, kindly specify `groupId` and `rangeColorMapping` inside the `groupColorMapping`. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 //To set groupColorMapping API value during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {groupColorMapping:[{ groupID: "Asia", rangeColorMapping:[{ color: "#77D8D8", from: "0", to: "1"}]}] });
@@ -304,7 +304,7 @@ You can customize the color of the each group using `groupColorMapping` property
 
 You can specifies the selection mode of the treemap using `groupSelectionMode` property. You can set either group selection mode value as `Default` or  `Multiple`. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 // Set the selection mode during initialization.                                        
           var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {groupSelectionMode:'default'});
@@ -315,7 +315,7 @@ You can specifies the selection mode of the treemap using `groupSelectionMode` p
 
 You can specify the header for the parent item using the property `header`. This is applicable only for hierarchical data source. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 //To set header API value during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {header:"Country"});
@@ -326,7 +326,7 @@ You can specify the header for the parent item using the property `header`. This
 
 You can specify whether data source bound for the treemap is hierarchical or not using the property `isHierarchicalDatasource`.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 //To set isHierarchicalDatasource API value during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {isHierarchicalDatasource : true});
@@ -337,7 +337,7 @@ You can specify whether data source bound for the treemap is hierarchical or not
 
 You can specify the name of the culture based on which treemap is localized. To achieve this you can use the treemap property `locale`.
 
-{% highlight ts %}
+{% highlight javascript %}
          
    //Sets the locale value
    var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {
@@ -350,7 +350,7 @@ You can specify the name of the culture based on which treemap is localized. To 
 
 You can specify the treemap items which you want to display in the treemap using the property `treeMapItems`.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 // Set the treeMapItems during initialization. 
  var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {treeMapItems:[]});

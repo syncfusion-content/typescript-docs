@@ -43,7 +43,7 @@ The possible enum values for the gaugePosition are as follows:
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />

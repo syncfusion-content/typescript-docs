@@ -23,7 +23,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -93,7 +93,7 @@ In **Tooltip** option, you can customize the Tooltip window by adding the toolti
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         var circularGaugeSample = new ej.datavisualization.CircularGauge($("#tooltipGauge"),{

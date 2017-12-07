@@ -15,7 +15,7 @@ documentation: ug
 
 The `destroy` method is used to destroy the **CircularGauge** widget. All events bound using this._on will be unbind automatically and bring the control to pre-init state.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -40,7 +40,7 @@ module CircularGaugeComponent {
 
 The `getBackNeedleLength` method is used to get the needle length of **CircularGauge**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -60,7 +60,7 @@ module CircularGaugeComponent {
 
 The `getCustomLabelAngle` method is used to get the angle of custom label.
 
-{% highlight ts %}
+{% highlight javascript %}
  
 <div id="CoreCircularGauge"></div> 
 
@@ -81,7 +81,7 @@ module CircularGaugeComponent {
 
 The `getCustomLabelValue` method is used to get the value of custom label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -101,7 +101,7 @@ module CircularGaugeComponent {
 
 The `getLabelAngle` method is used to get angle of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -121,7 +121,7 @@ module CircularGaugeComponent {
 
 The `getLabelDistanceFromScale` method is used to get the distance value from scale for label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -141,7 +141,7 @@ module CircularGaugeComponent {
 
 The `getLabelPlacement` method is used to get placement of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -161,7 +161,7 @@ module CircularGaugeComponent {
 
 The `getLabelStyle` method is used to get style of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -181,7 +181,7 @@ module CircularGaugeComponent {
 
 The `getMajorIntervalValue` method is used to get major interval value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -201,7 +201,7 @@ module CircularGaugeComponent {
 
 The `getMarkerDistanceFromScale` method is used to get distance from scale value of marker.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -221,7 +221,7 @@ module CircularGaugeComponent {
 
 The `getMarkerStyle` method is used to get distance from scale value of marker.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -241,7 +241,7 @@ module CircularGaugeComponent {
 
 The `getMaximumValue` method is used to get maximum value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -261,7 +261,7 @@ module CircularGaugeComponent {
 
 The `getMinimumValue` method is used to get minimum value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -281,7 +281,7 @@ module CircularGaugeComponent {
 
 The `getMinorIntervalValue` method is used to get minor interval value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -301,7 +301,7 @@ module CircularGaugeComponent {
 
 The `getNeedleStyle` method is used to get style of needle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -321,7 +321,7 @@ module CircularGaugeComponent {
 
 The `getPointerCapBorderWidth` method is used to get border width of pointer cap.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -341,7 +341,7 @@ module CircularGaugeComponent {
 
 The `getPointerCapRadius` method is used to get radius of pointer cap.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -361,7 +361,7 @@ module CircularGaugeComponent {
 
 The `getPointerLength` method is used to get pointer length.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -381,7 +381,7 @@ module CircularGaugeComponent {
 
 The `getPointerNeedleType` method is used to get needle type of pointer.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -401,7 +401,7 @@ module CircularGaugeComponent {
 
 The `getPointerPlacement` method is used to get placement of pointer.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -421,7 +421,7 @@ module CircularGaugeComponent {
 
 The `getPointerValue` method is used to get pointer value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -441,7 +441,7 @@ module CircularGaugeComponent {
 
 The `getPointerWidth` method is used to get pointer width.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -461,7 +461,7 @@ module CircularGaugeComponent {
 
 The `getRangeBorderWidth` method is used to get border width of range.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -481,7 +481,7 @@ module CircularGaugeComponent {
 
 The `getRangeDistanceFromScale` method is used to get range distance from scale.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -501,7 +501,7 @@ module CircularGaugeComponent {
 
 The `getRangeEndValue` method is used to get end value of range.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -521,7 +521,7 @@ module CircularGaugeComponent {
 
 The `getRangePosition` method is used to get range position.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -541,7 +541,7 @@ module CircularGaugeComponent {
 
 The `getRangeSize` method is used to get range size.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -561,7 +561,7 @@ module CircularGaugeComponent {
 
 The `getRangeStartValue` method is used to get range start value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -581,7 +581,7 @@ module CircularGaugeComponent {
 
 The `getScaleBarSize` method is used to get scale bar size.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -601,7 +601,7 @@ module CircularGaugeComponent {
 
 The `getScaleBorderWidth` method is used to get border width of scale.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -621,7 +621,7 @@ module CircularGaugeComponent {
 
 The `getScaleDirection` method is used to get scale direction.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -641,7 +641,7 @@ module CircularGaugeComponent {
 
 The `getScaleRadius` method is used to get scale radius.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -661,7 +661,7 @@ module CircularGaugeComponent {
 
 The `getStartAngle` method is used to get start angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -681,7 +681,7 @@ module CircularGaugeComponent {
 
 The `getSubGaugeLocation` method is used to get location of subGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -701,7 +701,7 @@ module CircularGaugeComponent {
 
 The `getSweepAngle` method is used to get sweep angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -721,7 +721,7 @@ module CircularGaugeComponent {
 
 The `getTickAngle` method is used to get tick angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -741,7 +741,7 @@ module CircularGaugeComponent {
 
 The `getTickDistanceFromScale` method is used to get tick distance from scale value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -761,7 +761,7 @@ module CircularGaugeComponent {
 
 The `getTickHeight` method is used to get tick height.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -781,7 +781,7 @@ module CircularGaugeComponent {
 
 The `getTickPlacement` method is used to get tick placement.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -801,7 +801,7 @@ module CircularGaugeComponent {
 
 The `getTickStyle` method is used to get tick style.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -821,7 +821,7 @@ module CircularGaugeComponent {
 
 The `getTickWidth` method is used to get tick width.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -841,7 +841,7 @@ module CircularGaugeComponent {
 
 The `includeFirstValue` method is used to set includeFirstValue.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -861,7 +861,7 @@ module CircularGaugeComponent {
 
 The `redraw` method is used to redraw the Circular Gauge widget.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -881,7 +881,7 @@ module CircularGaugeComponent {
 
 The `setBackNeedleLength` method is used to set the needle length of **CircularGauge**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -901,7 +901,7 @@ module CircularGaugeComponent {
 
 The `setCustomLabelAngle` method is used to set the angle of custom label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -921,7 +921,7 @@ module CircularGaugeComponent {
 
 The `setCustomLabelValue` method is used to set the value of custom label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -941,7 +941,7 @@ module CircularGaugeComponent {
 
 The `setLabelAngle` method is used to set angle of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -961,7 +961,7 @@ module CircularGaugeComponent {
 
 The `setLabelDistanceFromScale` method is used to set the distance value from scale for label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -981,7 +981,7 @@ module CircularGaugeComponent {
 
 The `setLabelPlacement` method is used to set placement of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1001,7 +1001,7 @@ module CircularGaugeComponent {
 
 The `setLabelStyle` method is used to set style of label.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1021,7 +1021,7 @@ module CircularGaugeComponent {
 
 The `setMajorIntervalValue` method is used to set major interval value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1041,7 +1041,7 @@ module CircularGaugeComponent {
 
 The `setMarkerDistanceFromScale` method is used to set distance from scale value of marker.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1061,7 +1061,7 @@ module CircularGaugeComponent {
 
 The `setMarkerStyle` method is used to set distance from scale value of marker.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1081,7 +1081,7 @@ module CircularGaugeComponent {
 
 The `setMaximumValue` method is used to set maximum value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1101,7 +1101,7 @@ module CircularGaugeComponent {
 
 The `setMinimumValue` method is used to set minimum value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1121,7 +1121,7 @@ module CircularGaugeComponent {
 
 The `setMinorIntervalValue` method is used to set minor interval value of CircularGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1141,7 +1141,7 @@ module CircularGaugeComponent {
 
 The `setNeedleStyle` method is used to set style of needle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1161,7 +1161,7 @@ module CircularGaugeComponent {
 
 The `setPointerCapBorderWidth` method is used to set border width of pointer cap.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1181,7 +1181,7 @@ module CircularGaugeComponent {
 
 The `setPointerCapRadius` method is used to set radius of pointer cap.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1201,7 +1201,7 @@ module CircularGaugeComponent {
 
 The `setPointerLength` method is used to set pointer length.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1221,7 +1221,7 @@ module CircularGaugeComponent {
 
 The `setPointerNeedleType` method is used to set needle type of pointer.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1241,7 +1241,7 @@ module CircularGaugeComponent {
 
 The `setPointerPlacement` method is used to set placement of pointer.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1261,7 +1261,7 @@ module CircularGaugeComponent {
 
 The `setPointerValue` method is used to set pointer value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1281,7 +1281,7 @@ module CircularGaugeComponent {
 
 The `setPointerWidth` method is used to set pointer width.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1301,7 +1301,7 @@ module CircularGaugeComponent {
 
 The `setRangeBorderWidth` method is used to set border width of range.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1321,7 +1321,7 @@ module CircularGaugeComponent {
 
 The `setRangeDistanceFromScale` method is used to set range distance from scale.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1341,7 +1341,7 @@ module CircularGaugeComponent {
 
 The `setRangeEndValue` method is used to set end value of range.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1361,7 +1361,7 @@ module CircularGaugeComponent {
 
 The `setRangePosition` method is used to set range position.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1381,7 +1381,7 @@ module CircularGaugeComponent {
 
 The `setRangeSize` method is used to set range size.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1401,7 +1401,7 @@ module CircularGaugeComponent {
 
 The `setRangeStartValue` method is used to set range start value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1421,7 +1421,7 @@ module CircularGaugeComponent {
 
 The `setScaleBarSize` method is used to set scale bar size.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1441,7 +1441,7 @@ module CircularGaugeComponent {
 
 The `setScaleBorderWidth` method is used to set border width of scale.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1461,7 +1461,7 @@ module CircularGaugeComponent {
 
 The `setScaleDirection` method is used to set scale direction.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1481,7 +1481,7 @@ module CircularGaugeComponent {
 
 The `setScaleRadius` method is used to set scale radius.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1501,7 +1501,7 @@ module CircularGaugeComponent {
 
 The `setStartAngle` method is used to set start angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1521,7 +1521,7 @@ module CircularGaugeComponent {
 
 The `setSubGaugeLocation` method is used to set location of subGauge.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 <div id="CoreCircularGauge"></div> 
@@ -1542,7 +1542,7 @@ module CircularGaugeComponent {
 
 The `setSweepAngle` method is used to set sweep angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1562,7 +1562,7 @@ module CircularGaugeComponent {
 
 The `setTickAngle` method is used to set tick angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1582,7 +1582,7 @@ module CircularGaugeComponent {
 
 The `setTickDistanceFromScale` method is used to set tick distance from scale value.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1602,7 +1602,7 @@ module CircularGaugeComponent {
 
 The `setTickHeight` method is used to set tick height.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1622,7 +1622,7 @@ module CircularGaugeComponent {
 
 The `setTickPlacement` method is used to set tick placement.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1642,7 +1642,7 @@ module CircularGaugeComponent {
 
 The `setTickStyle` method is used to set tick style.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1662,7 +1662,7 @@ module CircularGaugeComponent {
 
 The `setTickWidth` method is used to set tick width.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="CoreCircularGauge"></div> 
 
@@ -1685,7 +1685,7 @@ module CircularGaugeComponent {
 
 The `drawCustomLabel` event is triggered while custom labels are drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1707,7 +1707,7 @@ The `drawCustomLabel` event is triggered while custom labels are drawn on the ga
 
 The `drawIndicators` event is triggered while indicators are being drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1728,7 +1728,7 @@ The `drawIndicators` event is triggered while indicators are being drawn on the 
 
 The `drawLabels` event is triggered while labels are being drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1751,7 +1751,7 @@ The `drawLabels` event is triggered while labels are being drawn on the gauge.
 
 The `drawPointerCap` event is triggered while pointer cap is being drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1773,7 +1773,7 @@ The `drawPointerCap` event is triggered while pointer cap is being drawn on the 
 
 The `drawPointers` event is triggered while pointer cap is being drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1795,7 +1795,7 @@ The `drawPointers` event is triggered while pointer cap is being drawn on the ga
 
 The `drawRange` event is triggered when ranges starts to be drawn on the gauge. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -1949,7 +1949,7 @@ The `renderComplete` event is triggered when rendering of the gauge is completed
 
 The `rangeMouseMove` event is triggered when moving mouse on ranges.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

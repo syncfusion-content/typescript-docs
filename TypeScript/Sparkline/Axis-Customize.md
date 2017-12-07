@@ -11,7 +11,7 @@ documentation: ug
 
 The Sparkline axis can be collapsed using visible property in **axisLineSetting** and this not applicable for win-loss. You can customize **color**, **width** and **dash array** of axis line.
 
- {% highlight ts %}
+ {% highlight javascript %}
  
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />

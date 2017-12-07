@@ -30,7 +30,7 @@ destroy the range navigator widget
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="range"></div> 
 
@@ -80,7 +80,7 @@ module RangeNavigatorComponent {
 Fires on load of range navigator.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -115,7 +115,7 @@ Fires on load of range navigator.
 
 Fires after range navigator is loaded.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -153,7 +153,7 @@ Fires after range navigator is loaded.
 Fires on changing the range of range navigator.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -185,7 +185,7 @@ Fires on changing the scrollbar position of range navigator.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -214,7 +214,7 @@ Fires on when starting to change the scrollbar position of range navigator.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -245,7 +245,7 @@ Fires on when starting to change the slider position of range navigator.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -274,7 +274,7 @@ Fires when the selection  ends in the range navigator
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -304,7 +304,7 @@ Fires on changes ending the scrollbar position of range navigator.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

@@ -12,7 +12,7 @@ documentation: ug
 
 A `tooltip` follows the pointer movement and is used to indicate the value of a point. This feature is applicable for line, column, pie, and area Sparkline. You can enable the tooltip by setting it's `visible` property as **true**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -37,7 +37,7 @@ module SparklineComponent {
 
 You can customize the tooltip `fill color`, `border`,`border` properties `border color`, `border width`and `font` properties `color`, `font family`, `font style`, `font weight`, `opacity`, `size`
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.Sparkline($("#Sparkline"),{
@@ -68,7 +68,7 @@ $(function () {
 
 HTML elements can be displayed in the tooltip by using the `template` option of the tooltip. The template option takes the value of the id attribute of the HTML element. You can use the **#point.x#** and **#point.y#** as place holders in the HTML element to display the x and y values of the corresponding point.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="item" style="display: none;">
     <div>

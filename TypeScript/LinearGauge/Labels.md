@@ -26,7 +26,7 @@ Labels are units that are used to display the values in the scales. You can cust
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -94,7 +94,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $ (function () {
        // For Linear Gauge rendering

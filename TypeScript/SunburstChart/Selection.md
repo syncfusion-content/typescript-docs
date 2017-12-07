@@ -10,7 +10,7 @@ documentation: ug
 # Selection 
 EjSunburstChart provides selection support for the points on mouse click. To enable the selection , set the **enable** property to true in the **selectionSettings**. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -42,7 +42,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 *	selectionByColor – To display the selected segment appearance using color.
 *	selectionByOpacity – To display the selected segment appearance using opacity.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -71,7 +71,7 @@ Sunburst chart provides multiple options to represent the selected categories. Y
 
 The following code shows how to set the selection type as child 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -92,7 +92,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 The parent mode can be enabled by using the below code 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -114,7 +114,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 To selection the particular segment, the point mode of the selection settings is used.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -136,7 +136,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 The following code snippet is used for the all mode of selection settings
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 

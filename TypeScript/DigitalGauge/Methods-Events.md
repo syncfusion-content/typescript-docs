@@ -28,7 +28,7 @@ To destroy the digital gauge
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -66,7 +66,7 @@ To export Digital Gauge as Image
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -104,7 +104,7 @@ Gets the location of an item that is displayed on the gauge.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -140,7 +140,7 @@ ClientSideMethod getValue Gets the value of an item that is displayed on the gau
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -179,7 +179,7 @@ Refresh the digital gauge widget
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -215,7 +215,7 @@ ClientSideMethod Set Position Sets the location of an item to be displayed in th
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -250,7 +250,7 @@ ClientSideMethod SetValue Sets the value of an item to be displayed in the gauge
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -283,7 +283,7 @@ module DigitalGaugeComponent {
 
 Triggers when the gauge is initialized.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -312,7 +312,7 @@ Triggers when the gauge is initialized.
 Triggers when the gauge item rendering.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -340,7 +340,7 @@ Triggers when the gauge item rendering.
 Triggers when the gauge is start to load.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -365,7 +365,7 @@ Triggers when the gauge is start to load.
 Triggers when the gauge render is completed.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

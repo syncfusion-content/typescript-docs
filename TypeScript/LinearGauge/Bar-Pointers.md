@@ -23,7 +23,7 @@ You can add Bar Pointer collection directly to the scale object. Refer the follo
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -82,7 +82,7 @@ Bar pointer value is also important element in the **Linear Gauge** as it indica
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Rendering Linear gauge
@@ -143,7 +143,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
     $(function () {
@@ -204,7 +204,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $(function () {
         // For Rendering Linear gauge
@@ -260,7 +260,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Rendering Linear gauge

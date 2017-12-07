@@ -25,7 +25,7 @@ There are two ways to set marker for map.
 
 The `markers` property has a list of objects that contains the data for Annotation. By default, it displays the bound data at the specified latitude and longitude. The `markerTemplate` property is used for customizing the template for markers.	
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
@@ -77,7 +77,7 @@ Without datasource, n number of markers can be added to shape layers with `marke
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -193,7 +193,7 @@ N> `Tooltip` and `Color Mappings` for bubble is to be set as similar to the tool
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     $(function () {
        var mapSample = new ej.datavisualization.Map($("#map"), {
@@ -290,7 +290,7 @@ N> Here, Equal Color Mapping code sample for shapeSettings with color mappings i
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     $(function () {
        var mapSample = new ej.datavisualization.Map($("#map"), {
@@ -330,7 +330,7 @@ N> Here, Range Color Mapping code snippet for shapeSettings with color mappings 
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     $(function () {
        var mapSample = new ej.datavisualization.Map($("#map"), {
@@ -363,7 +363,7 @@ N> Here, Range Color Mapping code snippet for shapeSettings with color mappings 
 
 A bubble legend feature is used to provide the key (legend) for another map element bubble. You can activate the Bubble legend by setting the enum `type` in `legendSettings` as “bubble” and this enables you to easily identify what value a particular bubble is representing.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     $(function () {
        var mapSample = new ej.datavisualization.Map($("#map"), {

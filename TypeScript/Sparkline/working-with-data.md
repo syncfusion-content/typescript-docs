@@ -14,7 +14,7 @@ documentation: ug
 
 1. You can bind the data to the Sparkline by using `dataSource`property and then you need to map the **X** and **Y** value with `xName` and `yName` properties respectively.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 var sparkLineData = [
 { employeeId: 1, sales: 25 },

@@ -13,7 +13,7 @@ documentation: ug
 
 EjRangeNavigator provides highlighting supports to the intervals on mouse hover. To enable the highlighting option, set the `enable` property to true in the `highlightSettings` of `navigatorStyleSettings`.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -51,7 +51,7 @@ module RangeComponent {
 
 To customize the highlighted intervals, use color, border and opacity options in the `highlightSettings`.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), { 
      
@@ -82,7 +82,7 @@ To customize the highlighted intervals, use color, border and opacity options in
 
 EjRangeNavigator provides selection supports to the intervals by, clicking and dragging the highlighted intervals. To enable the selection option, set the `enable` property to true in the `selectionSettings`.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
      
@@ -110,7 +110,7 @@ EjRangeNavigator provides selection supports to the intervals by, clicking and d
 
 To customize the selected intervals, use color, border and opacity options in the selectionSettings.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
    var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), { 
      
@@ -146,7 +146,7 @@ To customize the selected intervals, use color, border and opacity options in th
 
 * When you change the scrollbar position, `scrollEnd` event returns the current position of start and end range value.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
           
