@@ -21,7 +21,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -51,7 +51,7 @@ module BulletgraphComponent {
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -104,7 +104,7 @@ measure{% endhighlight %}</td>
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -157,7 +157,7 @@ measure{% endhighlight %}</td>
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -181,7 +181,7 @@ module BulletgraphComponent {
 
 **drawCaption** event will fire before rendering bullet graph caption.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 
@@ -202,7 +202,7 @@ module BulletgraphComponent {
 
 **drawCategory** event will fire while rendering the category.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 <script> 
 //drawCategory event for bullet graph
@@ -221,7 +221,7 @@ $(function () {
 
 **drawComparativeMeasureSymbol** event fires on rendering the comparative measure symbol.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawComparativeMeasureSymbol event for bullet graph
@@ -240,7 +240,7 @@ $(function () {
 
 **drawFeatureMeasureBar** event fires on rendering the feature measure bar.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawFeatureMeasureBar event for bullet graph
@@ -259,7 +259,7 @@ $(function () {
 
 **drawIndicator** event fires on rendering the indicator of the bullet graph.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawIndicator event for bullet graph
@@ -278,7 +278,7 @@ $(function () {
 
 **drawLabels** event fires on rendering the bullet graph labels.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawLabels event for bullet graph
@@ -297,7 +297,7 @@ $(function () {
 
 **drawTicks** event fires while drawing the ticklines of the bullet graph.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawTicks event for bullet graph
@@ -316,7 +316,7 @@ $(function () {
 
 **drawQualitativeRanges** event fires while rendering the qualitative ranges.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //drawQualitativeRanges event for bullet graph
@@ -335,7 +335,7 @@ $(function () {
 
 **load** event fires on loading the bullet graph.
 
-{% highlight typescript %}
+{% highlight javascript %}
  
 <script>
 //load event for bullet graph

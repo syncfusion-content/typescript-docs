@@ -19,7 +19,7 @@ OpenStreetMap is a map of the entire world. The OpenStreetMap allows you to view
 
 You can enable this feature by setting the `layerType` property value as "OSM".
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -52,7 +52,7 @@ Bing Map is a key feature in accessing the external geospatial imagery services 
 
 You can enable this feature by defining the `layerType` as “bing”.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
        var mapSample = new ej.datavisualization.Map($("#map"), {
             layers: [{

@@ -22,7 +22,7 @@ There are four different **TreeMap** layouts such as
 
 **Squarified** layout creates rectangles with best aspect ratio.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -55,7 +55,7 @@ Try it: [Squarified](http://jsplayground.syncfusion.com/q1pc13k3)
 
 **SliceAndDiceAuto** layout creates rectangles with high aspect ratio and displays them sorted both horizontally and vertically.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
        $(function () {
@@ -80,7 +80,7 @@ Try it: [SliceAndDiceAuto](http://jsplayground.syncfusion.com/eotkjoag)
 
 **SliceAndDiceHorizontal** layout creates rectangles with high aspect ratio and displays them sorted horizontally.
 
-{% highlight ts %}
+{% highlight javascript %}
 
        $(function () {
 
@@ -105,7 +105,7 @@ Try it: [SliceAndDiceHorizontal](http://jsplayground.syncfusion.com/hrvachsi)
 
 **SliceAndDiceVertical** layout creates rectangles with high aspect ratio and displays them sorted vertical.
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 

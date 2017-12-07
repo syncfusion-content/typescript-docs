@@ -11,7 +11,7 @@ documentation: ug
 
 You can customize markers by initializing the **markerSettings** property. The customization options allow you to change the **visibility** **fill**, **width**, **opacity**and **border** options **color**, **width**, **opacity** for marker. This customization only applicable for line, column and area type Sparkline.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />

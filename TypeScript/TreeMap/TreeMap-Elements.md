@@ -47,7 +47,7 @@ You can customize the treemap legend using following properties
 
 You can customize the labels of the **legend item** using `legendLabel` property of `rangeColorMapping`. 
 
-{% highlight js %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -100,7 +100,7 @@ You can provide the title for interactive legend by using `title` property in `l
 You can provide the left and right labels to interactive legend by using `leftLabel` and `rightLabel` properties in `legend settings`. 
 
 
-{% highlight js %}
+{% highlight javascript %}
 
     $(function () {
         var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {          
@@ -130,7 +130,7 @@ Try it: [Interactive_Legend](http://jsplayground.syncfusion.com/0mfsg1pp)
 
 You can set headers for each level by setting the `showHeader` property of the each **TreeMap** levels. The `headerHeight` property helps to set the height of the header and Group path value determines the header value. You can customize the default header appearance by setting the `header template` of the **TreeMap** levels.
 
-{% highlight js %}
+{% highlight javascript %}
 
     <div  id="treeMap" style="width: 950px; height: 500px; "></div>
     
@@ -165,7 +165,7 @@ Try it: [Treemap Header](http://jsplayground.syncfusion.com/vaas20hr)
 
 The text in the header can be customized by triggering the event `headerTemplateRendering` of the **TreeMap**. This event is triggered before rendering the header template. 
 
-{% highlight js %}
+{% highlight javascript %}
 
     <div  id="treeMap" style="width: 950px; height: 500px; "></div>
     
@@ -205,7 +205,7 @@ The text in the header can be customized by triggering the event `headerTemplate
 
 You can also set labels for the leaf nodes by setting the `showLabels` property as true. Group path value is displayed as a label for leaf nodes. You can customize the default label appearance by setting the `labelTemplate` of the **TreeMap** levels.
 
-{% highlight ts %}
+{% highlight javascript %}
 
     <div  id="treeMap" style="width: 1100px; height: 550px; "></div>
     
@@ -250,7 +250,7 @@ You can handle the label overflow, by specifying any one of the following values
 **WrapByWord** - You can wrap the label text by word.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
     <div  id="treeMap" style="width: 1100px; height: 550px; "></div>
     
@@ -279,7 +279,7 @@ You can handle the label overflow, by specifying any one of the following values
 
 Treemap is having support for `palette color mapping`. You can set the color for `palette color mapping` using the property `color` in palette color mapping.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 //To set the colors of the paletteColorMapping during initialization 
   var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {paletteColorMapping{colors: ["red","green","blue", "yellow"]}});

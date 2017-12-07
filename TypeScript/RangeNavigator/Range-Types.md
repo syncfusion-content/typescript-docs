@@ -18,7 +18,7 @@ documentation: ug
 
 **RangeNavigator** is also used with numeric data and the **valueType** for this data is “**numeric**”
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -50,7 +50,7 @@ The following screenshot displays the **RangeNavigator** with numeric data.
 
 By default the **valueType** of the **RangeNavigator** is “**datetime**” and represents the **DateTime** values.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
@@ -80,7 +80,7 @@ The **DateTime** range type contains an **intervalType** property that sets the 
 By default **intervalType** for higher level labels are **years** and for lower level labels its **quarters.**
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {

@@ -14,7 +14,7 @@ documentation: ug
 
 **Bullet Graph** supports animation that makes the performance measure bar to animate when rendering the Bullet Graph. **Animation** is enabled or disabled using **enable animation** property. By default, **Animation** is enabled in Bullet Graph.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -34,7 +34,7 @@ module BulletgraphComponent {
 
 **Bullet Graph** is made responsive when resizing the browser by using **isResponsive** property. By default the value of this property is **true** in Bullet Graph.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
  $(function () {
@@ -55,7 +55,7 @@ module BulletgraphComponent {
 
 Background color for qualitative range is applied to major ticks and minor ticks of the **Bullet Graph** using **applyRangeStrokeToTicks** property. The range colors are applied to labels using **applyRangeStrokeToLabels** property. By default same colors are not applied to a qualitative range and its corresponding ticks or labels.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -98,7 +98,7 @@ Bullet Graph supports Tooltip template instead of default Tooltip to customize t
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
    $(function () {
     var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{

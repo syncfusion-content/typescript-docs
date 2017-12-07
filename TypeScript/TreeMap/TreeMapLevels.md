@@ -50,7 +50,7 @@ You can use `groupPath` property for every flat level of the **TreeMap** contr
 
 You can use `groupGap` property to separate the items from every flat level and to differentiate the levels mentioned in the **TreeMap** control.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -84,7 +84,7 @@ Try it: [FlatLevel](http://jsplayground.syncfusion.com/plnqu1fu)
 
 **TreeMap** Hierarchical level is used to define levels for hierarchical data collection that contains tree-structured data.
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function ($) {
 

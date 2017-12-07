@@ -22,7 +22,7 @@ Tick collection can be directly added to the scale object. Refer the following c
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -94,7 +94,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
  $(function () {
@@ -159,7 +159,7 @@ Ticks are two `types` such as **majorInterval** and **minorInterval**. Major typ
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         //For Linear gauge rendering
@@ -220,7 +220,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Linear Gauge rendering

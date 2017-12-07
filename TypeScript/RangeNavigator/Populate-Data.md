@@ -17,7 +17,7 @@ The **Series** property provides access to a collection of all series that are d
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>

@@ -21,7 +21,7 @@ Indicators collection is directly added to the scale object. Refer the following
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
   
      $(function () {
         //For circular gauge rendering
@@ -66,7 +66,7 @@ Indicators are of several types such as, circle, rectangle, rounded rectangle, t
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -124,7 +124,7 @@ The `backgroundColor` and `borderColor` sets the appearance behavior for the ind
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 
@@ -191,7 +191,7 @@ You can use multiple indicators for a single **Gauge**. Each indicator have a li
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         // For Circular Gauge rendering

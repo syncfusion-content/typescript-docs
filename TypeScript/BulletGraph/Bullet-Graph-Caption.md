@@ -23,7 +23,7 @@ Using **location**option, you can set the **X** and **Y** position of caption te
 
 Using **font** property, you can customize **font color**, **font family**, **font style**, **font weight**, **opacity**, **size** options.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -75,7 +75,7 @@ Using **location** option, you can set the **X** and **Y** position of the subti
 
 Using **font** property, you can customize **font color**, **font family**, **font style**, **font weight**, **opacity**, **size** options of the subtitle text.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -140,7 +140,7 @@ Using **symbol** settings, you can customize the following **symbol** properties
 
 * To customize the opacity of the indicator symbol, you can use the **opacity**property of the symbol.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -191,7 +191,7 @@ The following screenshot displays a bullet graph with indicator.
 
 The title, subtitle and indicator text can be overlapped to the scale group. You can avoid the overlapped text by using the **enable trim** property of the captionSettings. The default value of the enableTrim is true. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -219,7 +219,7 @@ All the caption group elements (caption, subtitle, and indicator) in the **Bulle
 
 The property, textPosition, is used to position the text at the top, bottom, left, and right side of the quantitative scale. The default value of this property is float. By default, text can be placed at any desired location by using the location property.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -251,7 +251,7 @@ The following screenshot displays the Bullet Graph with the title positioned abo
 
 Alignment of text at different positions with respect to scale can be customized by using the **textAlignment** property. Text can be aligned in the **near**, **center,** and **far** locations of the scale. Text alignment depends upon **textPosition** property and is not applicable when the value of the **textPosition** property is **float**. The default value of the **textAlignment** property is **near**.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -296,7 +296,7 @@ The following screenshot displays the Bullet Graph with the title and subtitle a
 
 Text elements aligned at the same position are anchored by using the textAnchor property. These can be anchored at the start, middle, and end. The default value of this property is start and applicable only when two or more text elements are aligned at the same position. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -339,7 +339,7 @@ $(function () {
 
 The space required between text and quantitative scale is customized by using the padding property. The default value of this property is 5 and not applicable when the value of the textPosition property is float.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{

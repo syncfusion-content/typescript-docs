@@ -22,7 +22,7 @@ Custom labels collection can be directly added to the scale object. Refer the fo
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -91,7 +91,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
    $(function () {
         // For Linear Gauge rendering
@@ -157,7 +157,7 @@ To set the location of the custom label in **Linear Gauge**, `position` property
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         //For rendering Liner gauge
@@ -215,7 +215,7 @@ You can set multiple custom labels in a single **Linear Gauge** by adding an arr
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 $(function () {
         // For Linear Gauge rendering

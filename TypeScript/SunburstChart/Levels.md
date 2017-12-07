@@ -12,7 +12,7 @@ documentation: ug
 Sunburst chart is used to display hierarchical data. You can add more than one hierarchical data by using the `levels` property of Sunburst chart. Each level of the hierarchy is represented by circle.
 The following code snippet illustrates 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -40,7 +40,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 It is the string property that is used to map the group category value in the dataSource .
 You can define the levels as shown in the below code example
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 

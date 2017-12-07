@@ -17,7 +17,7 @@ documentation: ug
 **RangeNavigator** provides support for you to customize the text display in the tooltip and background using **tooltipSettings** property. You can change font family, font color, font style, font weight. By default “**Segoe UI**” font family is set to tooltip text.
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -70,7 +70,7 @@ Some of the **labelFormat** for **DateTime** data area as follows:
 * 'hh:mm:ss:tt'
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {   
@@ -109,7 +109,7 @@ Tooltip get displayed only when we move the slider.</td></tr>
 </table>
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {

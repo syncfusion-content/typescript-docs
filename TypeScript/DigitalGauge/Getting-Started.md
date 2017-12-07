@@ -89,7 +89,7 @@ Digital Gauge
 
 Basic attributes of each canvas elements are height and width. You can set the height and width of the gauge.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -122,7 +122,7 @@ Items have different properties to customize the Digital Gauge.
 	4. SixteenSegment 
 	5. EightCrossEightSquareMatrix.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -194,7 +194,7 @@ Digital Gauge Background Image
 
 The Location property is used to position the digital letters inside the canvas element.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{
@@ -223,7 +223,7 @@ Digital Gauge with Segment Location
 
 You can further add the Items Collection to display the temperature value like Digital Thermometer.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var digitalGaugeSample = new ej.datavisualization.DigitalGauge($("#DigitalGauge"),{

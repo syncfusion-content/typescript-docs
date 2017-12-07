@@ -19,7 +19,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -61,7 +61,7 @@ For a better appearance, you can set the `background image` for the **Digital Ga
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function() {
      // For Digital Gauge rendering

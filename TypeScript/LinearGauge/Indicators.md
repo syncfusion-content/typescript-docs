@@ -24,7 +24,7 @@ Indicators simply indicates the current status of the pointer. Indicators are in
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -93,7 +93,7 @@ State ranges are used to specify the indicator behavior in the certain region. `
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
        var sample = new ej.datavisualization.LinearGauge($("#LinearGauge1"),{
@@ -191,7 +191,7 @@ The indicator border is modified with the border object. It contains two `border
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
      $(function () {
@@ -259,7 +259,7 @@ To specifies the textLocation in bar indicators, you can use the `textLocation` 
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
    $(function () {
         // For Linear Gauge rendering
@@ -361,7 +361,7 @@ You can set multiple indicators in a single **Linear Gauge** by adding an array 
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Linear Gauge rendering

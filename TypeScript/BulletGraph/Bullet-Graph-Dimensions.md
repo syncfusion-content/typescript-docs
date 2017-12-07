@@ -14,7 +14,7 @@ This section explains you on how to change the dimensions of the **Bullet Graph*
 
 ## Size
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -40,7 +40,7 @@ In the above code example, width is set as 500 pixel and height is set as 100 pi
 
 The feature measure bar value is customized using the **value** property. Default value of this property is 0.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -61,7 +61,7 @@ The following screenshot displays **Bullet Graph** with a performance measure va
 
 The **Comparative measure value** is set using **comparative measure value** property. The default value of this property is 0.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -81,7 +81,7 @@ The following screenshot displays **Bullet Graph** with comparative measure valu
 
 **Bullet Graph Theme** is customized using **theme** property. Default value is **flat light. Bullet Graph** supports **flat light** and **flat dark** themes. **Flat dark** theme improves **Bullet Graph** appearance when background of **Bullet Graph** container uses dark color like black.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -102,7 +102,7 @@ The following screenshot displays **Bullet Graph** with **flatdark** theme
 
 Bullet Graph is oriented either horizontally or vertically using  **orientation** property. Default value of this property is horizontal.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -121,7 +121,7 @@ $(function () {
 
 The Flow direction of Bullet Graph is customized using **flowDirection** property. Default value of this property is forward. Setting forward renders Bullet Graph left to right and backward renders from right to left.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -141,7 +141,7 @@ The following screenshot displays **Bullet Graph** in a backward direction.
 
 Size of the Qualitative range is customized using **qualitative range size** property. Default value of this property is 32.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{
@@ -161,7 +161,7 @@ The following screenshot displays **Bullet Graph** with Qualitative range of siz
 
 Length of the **Quantitative****scale** is customized using **quantitative scale length** property. Default value of this property is 475.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{

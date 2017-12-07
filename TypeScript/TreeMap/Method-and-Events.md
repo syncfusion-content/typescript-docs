@@ -23,7 +23,7 @@ Method to reload treemap with updated values.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -51,7 +51,7 @@ module LinearGaugeComponent {
 Triggers on treemap item selected.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -75,7 +75,7 @@ Triggers when drilldown is started
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -100,7 +100,7 @@ Triggers on treemap  drilldown  item  selected.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -124,7 +124,7 @@ Triggers before rendering the treemap drilldown header template
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -149,7 +149,7 @@ Triggers after refreshing the treemap items.
 
 
  
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -173,7 +173,7 @@ Triggers after refreshing the treemap items.
 Triggers when the group selection is performed on treemap items.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

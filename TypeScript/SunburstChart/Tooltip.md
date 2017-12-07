@@ -11,7 +11,7 @@ documentation: ug
 
 **ToolTip** allows you to display any information over a sunburst segment. It appears when mouse hovered over or touch any chart segment. By default, it displays the corresponding segment category name and its value
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -38,7 +38,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 HTML elements can be displayed in the tooltip by using the **template** property of the tooltip. The template property takes the value of the id attribute of the HTML element. You can use the **#point.x#** and **#point.y#** as place holders in the HTML element to display the x and y values of the corresponding point.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <div id="Tooltip" style="display: none;">
         <div id="value" style="background-color:red;padding-top:3px;padding-right:3px">

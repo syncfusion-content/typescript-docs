@@ -22,7 +22,7 @@ Redraws the entire sparkline. You can call this method whenever you update, add 
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -54,7 +54,7 @@ Fires before loading the sparkline.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -79,7 +79,7 @@ Fires before loading the sparkline.
 
 Fires after loaded the sparkline.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -105,7 +105,7 @@ Fires before rendering trackball tooltip. You can use this event to customize th
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -128,7 +128,7 @@ Fires before rendering a series. This event is fired for each series in Sparklin
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -151,7 +151,7 @@ Fires before rendering a series. This event is fired for each series in Sparklin
 
 Fires when mouse is moved over a point. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -180,7 +180,7 @@ Fires on clicking a point in sparkline. You can use this event to handle clicks 
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -204,7 +204,7 @@ Fires on moving mouse over the sparkline.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -229,7 +229,7 @@ Fires on moving mouse outside the sparkline.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

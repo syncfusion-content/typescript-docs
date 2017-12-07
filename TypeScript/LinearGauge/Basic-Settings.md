@@ -22,7 +22,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -87,7 +87,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Linear Gauge rendering
@@ -151,7 +151,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  
      $(function () {
@@ -218,7 +218,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
   $(function () {
         // For Linear Gauge rendering
@@ -271,7 +271,7 @@ Execute the above code to render the following output.
 
 Responsiveness of the linear gauge is controlled by using `enableResize` property.
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 <div id="LinearGauge1"></div> 
  
@@ -287,7 +287,7 @@ Responsiveness of the linear gauge is controlled by using `enableResize` propert
 
 **Enable Group Separator** is used to Convert the date object to string while using the locale settings, you can set `enableGroupSeparator` property as **true**.
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 <div id="LinearGauge1"></div> 
  
