@@ -11,7 +11,7 @@ documentation: ug
 
 The **range band** feature is used to highlight a particular range along the y-axis using **start** and **end** range property. You can also customize the **color** and **opacity** of the range band. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />

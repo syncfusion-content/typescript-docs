@@ -22,7 +22,7 @@ You can add **Marker Pointer** collection directly to the scale object. To add p
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -81,7 +81,7 @@ The `value` property is the important element in the marker pointer collection w
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
   $(function () {
         //For render linear gauge
@@ -147,7 +147,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         // For Render Linear gauge
@@ -221,7 +221,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  $(function () {
         //For Render Linear gauge
@@ -309,7 +309,7 @@ It is possible to change the dimension of the marker pointer. Dimensions availab
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
  $(function () {

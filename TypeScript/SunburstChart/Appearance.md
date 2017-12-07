@@ -13,7 +13,7 @@ The appearance of the Sunburst Chart can be customized as shown below
 ## Palette
 The Sunburst Chart displays different segments in different colors by default. You can customize the color of each segment by providing a custom color palette of your choice by using the **palette** property.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -58,12 +58,12 @@ The Sunburst Chart supports different themes.
 
 You can set your desired theme by using the **theme** property. **Flat light** is the default theme used in the Sunburst Chart.
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
         var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
-       theme: "flatdark",		
+       theme: "saffron",		
 
             // ...
 

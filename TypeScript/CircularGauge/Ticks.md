@@ -21,7 +21,7 @@ Tick collection is directly added to the scale object. Refer the following code 
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -60,7 +60,7 @@ Major `type` ticks are for major interval values and minor type ticks are for mi
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
  
     $(function () {

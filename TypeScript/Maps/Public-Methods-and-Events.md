@@ -25,7 +25,7 @@ Method for navigating to specific shape based on latitude, longitude and zoom le
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -59,7 +59,7 @@ Method to perform map panning
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -94,7 +94,7 @@ Method to reload the map.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -129,7 +129,7 @@ Method to reload the shapeLayers with updated values
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -164,7 +164,7 @@ Method to reload the navigation control with updated values.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -199,7 +199,7 @@ Method to perform map zooming.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -228,7 +228,7 @@ module MapComponent {
 Triggered on selecting the map markers.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -253,7 +253,7 @@ Triggered on selecting the map markers.
 Triggers while leaving the hovered map shape
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -278,7 +278,7 @@ Triggers while leaving the hovered map shape
 Triggers while hovering the map shape.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -302,7 +302,7 @@ Triggers while hovering the map shape.
 Triggers once map render completed.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -327,7 +327,7 @@ Triggers once map render completed.
 Triggers when map panning ends.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -352,7 +352,7 @@ Triggers when map panning ends.
 Triggered on selecting the map shapes.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -377,7 +377,7 @@ Triggered on selecting the map shapes.
 Triggered when map is zoomed-in.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 
@@ -403,7 +403,7 @@ Triggers when map is zoomed out.
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 <script>
 

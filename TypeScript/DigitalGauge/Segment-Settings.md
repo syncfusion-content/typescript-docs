@@ -77,7 +77,7 @@ Execute the above code examples to render the **Digital****Gauge** as follows.
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
  $(function () {
         // For Digital Gauge rendering

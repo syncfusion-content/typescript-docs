@@ -10,7 +10,7 @@ documentation: ug
 ## Legend
 The legend is used to represent the first level of items in the Sunburst Chart.The **legend** can be initialized using the below code snippet
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -41,7 +41,7 @@ You can specify different shapes of legend icon by using the **shape** property 
 * Rectangle
 * Triangle
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -59,7 +59,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 By using the **position** property, you can position the legend at left, right, top or bottom of the chart. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -79,7 +79,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 ## Legend Item Size and border
 You can change the size of the legend items by using the **itemStyle.width** and **itemStyle.height** properties. To change the legend item border, use **border** property of the legend .
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -100,7 +100,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 By default, legend takes 20% of the height horizontally when it was placed on the top or bottom position and 20% of the width vertically while placing on the left or right position of the chart. You can change this default legend size by using the **size** property of the legend.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -124,7 +124,7 @@ You can arrange the legend items horizontally and vertically by using the **rowC
 •	When both the properties are specified, then the one which has higher value is given preference. For example, when the rowCount is 4 and columnCount is 3, legend items are arranged in 4 rows.
 •	When both the properties are specified and have the same value, the preference is given to the columnCount when it is positioned at the top/bottom position. The preference is given to the rowCount when it is positioned at the left/right position.
  
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -152,7 +152,7 @@ It has three types of action
 
 Used to highlight specific category while clicking on legend item
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -171,7 +171,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 Used to disable the specific category while clicking on legend item.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 

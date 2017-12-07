@@ -109,7 +109,7 @@ var default_data = [
 
 2.Initialize the Sunburst Chart in ts file by using the ej.SunburstChart method.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -124,7 +124,7 @@ module SunburstComponent {
 
 3. Now, bind the default_Datasource to `datasource` property of the Sunburst Chart. The`levels`property determines the number of hierarchical levels. Each hierarchy level is formed based on the property specified in `groupMemberPath`property, and each arc segment size is calculated using `valueMemberPath`.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 module SunburstComponent {
     
@@ -154,7 +154,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -183,7 +183,7 @@ The title of the Sunburst chart is used to provide quick information to the user
 
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
@@ -202,7 +202,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 You can enable or disable the legend by using the `visible` property present inside the `legend`
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -222,7 +222,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 The data labels are used to improve the readability of the Sunburst chart. This can be achieved by enabling the `visible` property in the `dataLabelSettings`.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{

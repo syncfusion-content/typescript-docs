@@ -24,7 +24,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight typescript %}
+{% highlight javascript %}
 
      $(function () {
          var basicButton = new ej.Button($("#buttonSubmit"), {

@@ -35,7 +35,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -75,7 +75,7 @@ The Scale border is modified with the object called `border`. It has two border 
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         //For circular gauge rendering
@@ -116,7 +116,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -156,7 +156,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -205,7 +205,7 @@ The property `startAngle` is used to set starting position of the scale at certa
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
   $(function () {
         // For Circular Gauge rendering
@@ -235,7 +235,7 @@ You can set **Multiple scales** for a single **Circular Gauge** control by using
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 $(function () {
         // For Circular Gauge rendering
            var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{

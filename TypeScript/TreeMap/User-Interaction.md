@@ -25,7 +25,7 @@ To enable the selection of the leaf nodes, the `highlight on selection` property
 The border can be customized with the `highlight border brush` and `highlight border thickness` properties.
 
 
-{% highlight js %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -53,7 +53,7 @@ module treeMapcomponent {
 
 To enable the selection of leaf nodes, the `highlight group on selection` property in `treemap` is set as **true**. When the selection occurs, bounding rectangle highlights the selected group. The border can be customized with the `highlight group border brush` and `highlight group border thickness` properties.
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 
@@ -78,7 +78,7 @@ To select multiple items simultaneously, the mouse tap should be done along with
 
 ##### Selection (Multiple)
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 
@@ -97,7 +97,7 @@ To select multiple items simultaneously, the mouse tap should be done along with
 
 #### Group Selection (Multiple)
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 
@@ -122,7 +122,7 @@ This feature enables you to highlight/select the leaf nodes or groups by the dra
 
 To enable this feature, set the `draggingOnSelection` to "**true**".
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 
@@ -141,7 +141,7 @@ To enable this feature, set the `draggingOnSelection` to "**true**".
 
 To enable this feature, set the `draggingGroupOnSelection` to "**true**".
 
-{% highlight ts %}
+{% highlight javascript %}
 
         $(function () {
 

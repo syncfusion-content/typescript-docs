@@ -21,7 +21,7 @@ Range collection can be directly added to the scale object. Refer the following 
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -95,7 +95,7 @@ The major attributes for ranges are **startValue** and **endValue**. The `startV
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
    $(function () {
@@ -165,7 +165,7 @@ Execute the above code to render the following output.
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
  $(function () {
@@ -235,7 +235,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
 
  $(function () {
@@ -303,7 +303,7 @@ You can set multiple ranges by adding an array of range objects. Refer the follo
 
 {% endhighlight %}
 
-{% highlight typescript  %}
+{% highlight javascript %}
 
  
     $(function () {

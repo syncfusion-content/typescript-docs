@@ -84,7 +84,7 @@ The datasource is populated with JSON data relative to shape data and stored in 
  The “populationData.js” file is used to store JSON data in JSON object “populationData”.
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 var populationData = [
         { name: "California", population: "38332521" },
@@ -171,7 +171,7 @@ You can refer to shape data and datasource as illustrated in the HTML page,
 
 2.Initialize the Map in ts file by using the `ej.Map` method. 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -187,7 +187,7 @@ module MapComponent {
 3.Add the **shapeData** property in the maps to render it in layers
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 module MapComponent {
     $(function () {
@@ -233,7 +233,7 @@ The `shapePropertyPath` property is similar to the `shapeDataPath` that refers t
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 	 $(function () {
         var MapSample = new ej.datavisualization.Map($("#Map"),{
@@ -257,7 +257,7 @@ You can customize the shape’s color by using `fill`, `stroke` and `strokeThick
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 
 $(function () {
@@ -298,7 +298,7 @@ The Range color mapping is used to differentiate the shape’s fill based on its
 N> The `enableGradient` property value should be true to apply gradient colors for maps.
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var MapSample = new ej.datavisualization.Map($("#Map"),{
@@ -368,7 +368,7 @@ The tooltip is displayed only when `showTooltip` is set to ‘True’ in the sha
 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 $(function () {
         var MapSample = new ej.datavisualization.Map($("#Map"),{
@@ -414,7 +414,7 @@ Use `title` property to provide title for interactive legend.
 You can use `leftLabel` and `rightLabel` property to provide left and right labels for interactive legend. 
 
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 	$(function () {
         var MapSample = new ej.datavisualization.Map($("#Map"),{

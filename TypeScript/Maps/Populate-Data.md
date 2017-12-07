@@ -61,7 +61,7 @@ Refer both shape data and datasource as illustrated in the following code exampl
 
 **[populationData.js]**
 
-{% highlight typescript %}
+{% highlight javascript %}
 
 /// <reference path="../tsfiles/jquery.d.ts"></reference>
 /// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
@@ -134,7 +134,7 @@ Refer both shape data and datasource as illustrated in the following code exampl
 
 The JSON object “populationData” is used as `dataSource` in the following code example.
 
-{% highlight typescript %}
+{% highlight javascript %}
 
     module MapComponenet {
         $(function ($) {

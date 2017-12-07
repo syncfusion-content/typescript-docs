@@ -10,7 +10,7 @@ documentation: ug
 # Highlight 
 SunburstChart provides highlighting support for the points on mouse hover. To enable the highlighting , set the **enable** property to true in the **highlightSettings**. 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -37,7 +37,7 @@ module  sunburstComponent {
 *	HighlightByColor – To display the highlighted segment appearance using color.
 *	HighlightByOpacity – To display the highlighted segment appearance using opacity.
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
 
@@ -68,7 +68,7 @@ Sunburst chart provides multiple options to represent the highlighted categories
 
 The following code shows how to set the highlight type as child 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
 
@@ -89,7 +89,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 The parent mode can be enabled by using the below code 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
@@ -109,7 +109,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 To highlight the particular segment, the point mode of the highlight settings is used.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...
@@ -129,7 +129,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 The following code snippet is used for the all mode of highlight settings
 
-{% highlight ts %}
+{% highlight javascript %}
 
 var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
             // ...

@@ -12,7 +12,7 @@ documentation: ug
 Sunburst data labels are used to display the data related to the segment. It helps to provide the information about the data points to the users.
 You can enable or disable the data labels by setting the **visible** property of the **dataLabelSettings** to true as shown in the below code
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -42,7 +42,7 @@ The following properties are used to avoid the overlapping.
 *	Hide – To hide the overlapped data labels.
 The following code shows how to set Hide and Trim mode.
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
    
@@ -58,7 +58,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 ![](DataLabel_images/DataLabel_img2.png) 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
  $(function () {
@@ -80,7 +80,7 @@ You can rotate the data label by using **labelRotationMode** property. By defaul
 
 The following code shows how to set labelRotationMode as normal and angle.
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
 
@@ -97,7 +97,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 ![](DataLabel_images/DataLabel_img4.png)
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
 
@@ -117,7 +117,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 You can customize the appearance of the data point using the **font**property.
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 

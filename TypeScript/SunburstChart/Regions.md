@@ -23,7 +23,7 @@ Start and End Angle
 
 You can change the start and end angle of Sunburst chart using **startAngle** and **endAngle** property as shown in below code
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -49,7 +49,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
  The Radius of the Sunburst chart can be customized by using the **radius** property. The default value of radius is 1 and its value ranges between 0 and 1 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 
@@ -71,7 +71,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
  The Inner Radius of the Sunburst chart can be customized by using the 
  **innerRadius** property. The default value of innerRadius is 0.4 and its value ranges between 0 and 1 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
 

@@ -22,7 +22,7 @@ Sub gauge collection is directly added to the scale object. Refer the following 
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -57,7 +57,7 @@ Basic attributes such as `height` and `width` property are used to set height an
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
            var circularGauge = new ej.datavisualization.CircularGauge($("#SubGauge1"),{
@@ -105,7 +105,7 @@ You can set multiple sub gauges in a single **Circular Gauge** by adding an arra
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
  $(function () {
          var circular = new ej.datavisualization.CircularGauge($("#SubGauge1"),{

@@ -21,7 +21,7 @@ documentation: ug
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
@@ -55,7 +55,7 @@ Execute the above code to render the following output.
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
         // For Circular Gauge rendering
@@ -85,7 +85,7 @@ You can change the interior gradient of circular gauge by using `interiorGradien
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{       
@@ -106,7 +106,7 @@ You can display the circular gauge from distance apart from the corner by specif
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
       var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{        
@@ -127,7 +127,7 @@ Circular gauge can be responsive while resizing by specifying `enableResize` pro
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
      var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{        
@@ -148,7 +148,7 @@ The circular gauge can be localized based on name of culture specified in `local
 {% endhighlight %}
 
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{        
@@ -187,7 +187,7 @@ The theme for circular gauge can be specified using `theme` property.
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{     
@@ -207,7 +207,7 @@ The `minimum`, `maximum`, `radius` and `value` attributes of circular gauge are 
 
 {% endhighlight %}
 
-{% highlight ts %}
+{% highlight javascript %}
 
 $(function () {
        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge1"),{          

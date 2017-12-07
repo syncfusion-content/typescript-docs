@@ -15,7 +15,7 @@ to: <https://help.syncfusion.com/js/angularjs>
 
 Apply the plugin and property assigning the **Treemap** element through the directive that starts with the letter **“e-“.**  The following code illustrates how to bind data to the **Treemap** component through **Angular****support**.
 
-{% highlight ts %}
+{% highlight javascript %}
 
     
 
@@ -41,7 +41,7 @@ Apply the plugin and property assigning the **Treemap** element through the di
 
 
 
-{% highlight js %}
+{% highlight javascript %}
 
     //References to be added for AngularJS support.
 

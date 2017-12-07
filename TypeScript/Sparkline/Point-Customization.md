@@ -11,7 +11,7 @@ documentation: ug
 
 You can customize points by initializing the point colors. The customization options allow you to differentiate the **first**, **last**, **highest**, **lowest**, and **negative** points. This customization only applicable for line, column and area type Sparkline.
 
-{% highlight ts %}
+{% highlight javascript %}
 
 /// <reference path="tsfiles/jquery.d.ts" />
 /// <reference path="tsfiles/ej.web.all.d.ts" />
