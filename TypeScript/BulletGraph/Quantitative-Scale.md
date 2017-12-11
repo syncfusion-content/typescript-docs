@@ -20,14 +20,23 @@ The **Quantitative Scale** appearance is customized using **quantitativeScaleSet
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module BulletgraphComponent {
+
+$(function () {
+
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{   
                     quantitativeScaleSettings: {                      
                         minimum: 0,
                         maximum: 10,
                         interval: 1,
                         minorTicksPerInterval: 4
                     },
-                });
+            });
+    });
+}
 
 
 {% endhighlight %}
@@ -46,7 +55,7 @@ Bullet Graph does not position Quantitative scale automatically based on its siz
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     quantitativeScaleSettings: {                      
                         location: { x: 20, y: 20 }
                     },
@@ -67,7 +76,7 @@ Color, size and width of **Major tick** lines are customized using **major tick 
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     quantitativeScaleSettings: {                      
                         majorTickSettings: {
                             size: 15,
@@ -94,7 +103,7 @@ The following screenshot displays **Major ticks** in **gray** color with a width
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     quantitativeScaleSettings: {                      
                         minorTickSettings: {
                             size: 7,
@@ -121,7 +130,7 @@ The following screenshot displays **Bullet Graph** with customized **Minor ticks
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     quantitativeScaleSettings: {                      
                         tickPosition: 'above'
                     },
@@ -146,7 +155,7 @@ The following screenshot displays **Bullet Graph** with ticks positioned above q
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                 value: 8,
                 comparativeMeasureValue: 5,                
                 qualitativeRangeSize: 50,
@@ -195,7 +204,7 @@ The following screenshot displays **Bullet Graph** ticks inside **Quantitative S
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     quantitativeScaleSettings: {                      
                         labelSettings: {
                             stroke: 'blue',
@@ -231,7 +240,7 @@ The following screenshot displays **Bullet Graph** labels in blue color
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                 value: 8,
                 comparativeMeasureValue: 5,                                
                 qualitativeRangeSize: 50,
@@ -268,7 +277,7 @@ Performance measure bar is customized using **featuredMeasureSettings** in quant
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     value: 5,
                     quantitativeScaleSettings: {                      
                         featuredMeasureSettings: {
@@ -295,7 +304,7 @@ Comparative symbol color and width are customized using **comparativeMeasureSett
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     comparativeMeasureValue: 5,
                     quantitativeScaleSettings: {                      
                         comparativeMeasureSettings: {
@@ -322,7 +331,7 @@ The following screenshot displays **Bullet Graph** with customized **Comparative
 
 
 
-$("#BulletGraph1").ejBulletGraph({
+ var sample = new ej.datavisualization.BulletGraph($("#BulletGraph"),{ 
                     qualitativeRangeSize: 60,
                     height: 120,
                     quantitativeScaleSettings: {
