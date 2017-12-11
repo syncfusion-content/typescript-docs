@@ -66,7 +66,7 @@ var sample = new ej.datavisualization.SunburstChart($("#Sunburst"),{
 
 ![](Regions_images/Regions_img1.png);
 
- ## Sunburst Inner Radius
+## Sunburst Inner Radius
  
  The Inner Radius of the Sunburst chart can be customized by using the 
  **innerRadius** property. The default value of innerRadius is 0.4 and its value ranges between 0 and 1 

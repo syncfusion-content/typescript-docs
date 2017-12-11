@@ -72,30 +72,6 @@ module BulletgraphComponent {
 
 To set the comparative measure in bullet graph, you can use **setComparativeMeasureSymbol** method.
 
-<table class="params">
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="name">{% highlight html %}
-index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">value for the graph</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}
-measure{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">value for the graph</td>
-</tr>
-</tbody>
-</table>
-
 #### Returns: void
 
 {% highlight html %}
@@ -124,30 +100,6 @@ module BulletgraphComponent {
 ## setFeatureMeasureBarValue(index, measure)
 
 To set the value for feature measure bar, you can use **setFeatureMeasureBarValue** method.
-
-<table class="params">
-<thead>
-<tr>
-<th>Name</th>
-<th>Type</th>
-<th class="last">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="name">{% highlight html %}
-index{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">value for the graph</td>
-</tr>
-<tr>
-<td class="name">{% highlight html %}
-measure{% endhighlight %}</td>
-<td class="type"><span class="param-type">number</span></td>
-<td class="description last">value for the graph</td>
-</tr>
-</tbody>
-</table>
 
 #### Returns: void
 
