@@ -11,7 +11,7 @@ documentation: ug
 
 ## Decimal Places
 
-The **decimalPlaces** property specifies number of values allowed after the decimal point.The default value of **decimalPlaces** property is 0. i.e., By default you cannot specify decimal value in NumericTextBox. We need to add this property to allow decimal values. To set the decimalPlaces to “-1”, that allows the decimals without any limit in NumericTextbox control.
+The **decimalPlaces** property specifies number of values allowed after the decimal point.The default value of **decimalPlaces** property is 0. i.e., By default you cannot specify decimal value in NumericTextBox. We need to add this property to allow decimal values. To set the decimalPlaces to “-1”, that allows the decimals without any limit in NumericTextBox control.
 
 ### Configure Decimal Places
 
