@@ -112,7 +112,7 @@ Run the above code example and you will see the following output.
 
 ## Set Background Color
 
-The speedometer must have some dark color as background so that its value is clearly visible and you can vary the speed of the pointer by setting ReadOnly as False for user interaction.
+The speedometer must have some dark color as background so that its value is clearly visible and you can vary the speed of the pointer by setting ReadOnly as false for user interaction.
 
 
 {% highlight javascript %}
@@ -320,7 +320,7 @@ Run the above code example and you will see the following output.
 
 ## Add Range Values
 
-* Ranges denote the property of the scale value in the speedometer. The color values of the ranges denote speed variation. Set ShowRanges as True for showing the ranges in the Circular Gauge.
+* Ranges denote the property of the scale value in the speedometer. The color values of the ranges denote speed variation. Set ShowRanges as true for showing the ranges in the Circular Gauge.
 * For Low speed, you can mention it as safe zone; for moderate speed, you can call it as caution zone and for high speed, you can mark it as high speed.
 * You can customize the range with properties such as start value, end value, start width, end width,  background color , border color, etc.,
 
