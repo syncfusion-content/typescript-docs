@@ -24,9 +24,9 @@ Analog Speedometer
 
  You can easily create the Circular Gauge widget by using the following steps.
 
-1.First create a typescript project  and the references in the app.ts page 
+1.First create a TypeScript project  and the references in the app.ts page 
 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -74,7 +74,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module CircularGaugeComponent {
     $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"));
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"));
     });
 }
 
@@ -93,7 +93,7 @@ Pointers have different height and width so you can set the height and width of 
 {% highlight javascript %}
 
  $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
             width: 500,
             height:500
                    
@@ -119,7 +119,7 @@ The speedometer must have some dark color as background so that its value is cle
 
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
             width: 500,
             height: 500,
             backgroundColor: "#3D3F3D",
@@ -149,7 +149,7 @@ Run the above code example and you will see the following output.
 
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
            width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -184,7 +184,7 @@ To display the value around the scales, labels are used. By customizing the labe
 {% highlight javascript %}
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
         width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -215,7 +215,7 @@ Here, you have three pointers that denote the kilometer value, rotation per minu
 {% highlight javascript %}
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
                width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -286,7 +286,7 @@ Run the above code example and you will see the following output.
 {% highlight javascript %}
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
        width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -328,7 +328,7 @@ Run the above code example and you will see the following output.
 {% highlight javascript %}
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
          width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -384,7 +384,7 @@ Run the above code example and you will see the following output.
 
 
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
          width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",
@@ -477,7 +477,7 @@ Custom labels are used to specify the texts that need to be displayed in the gau
 
 {% highlight javascript %}
 $(function () {
-        var circulargaugesample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
+        var circularGaugeSample = new ej.datavisualization.CircularGauge($("#CircularGauge"),{
        width: 500,
         height: 500,
         backgroundColor: "#3D3F3D",

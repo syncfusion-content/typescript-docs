@@ -214,7 +214,7 @@ You can also set labels for the leaf nodes by setting the `showLabels` property 
            var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {
                 // ...                 
                 levels: [
-                  {groupPath: "Continent", showLabels: true, groupGap: 2, headerHeight: 20,  headerTemplate: 'Template', labelPosition:"topleft", }
+                  {groupPath: "Continent", showLabels: true, groupGap: 2, headerHeight: 20,  headerTemplate: 'Template', labelPosition:"topLeft", }
                 ],  
                 leafItemSettings: { labelPath: "Region", showLabels: true},
                 legendSettings:{					
