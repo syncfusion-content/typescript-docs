@@ -335,7 +335,7 @@ module RadioButtonComponent {
 {% endhighlight %}
 
 
-In the above mentioned code, the **text** property has been used. In **LTR** format, the **RadioButton** is on the left side. In **RTL** format, the **RadioButton** appears on the right side. Here the **text** property is used and the **enableRTL** property is set as “**True**”**.** It changes the alignment to right-to-left.
+In the above mentioned code, the **text** property has been used. In **LTR** format, the **RadioButton** is on the left side. In **RTL** format, the **RadioButton** appears on the right side. Here the **text** property is used and the **enableRTL** property is set as “**true**”**.** It changes the alignment to right-to-left.
 
 Configure the CSS styles to align the RadioButtons.
 
