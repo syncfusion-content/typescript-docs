@@ -16,7 +16,7 @@ Add the following code in your **HTML** page.
 {% highlight html %}
   
 <div class="control">
-   <input type="text" id="dateTime" />
+   <input type="text" id="datetime" />
 </div>
 
 {% endhighlight %}
@@ -29,7 +29,7 @@ Add the following code in your **HTML** page.
 module DateTimePickerComponent {
     $(function () {
     // Add the code in your script section to render DateTimePicker with right to left appearance
-     var datetimeSample = new ej.DateTimePicker($("#datetimepick"), {
+     var datetimeSample = new ej.DateTimePicker($("#datetime"), {
        width: 200,
        enableRTL: true
     });

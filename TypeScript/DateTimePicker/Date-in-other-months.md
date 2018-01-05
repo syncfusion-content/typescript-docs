@@ -19,7 +19,7 @@ Add the following code in your **HTML** page.
 {% highlight html %}
   
 <div class="control">
-   <input type="text" id="dateTime" />
+   <input type="text" id="datetime" />
 </div>
 
 {% endhighlight %}
@@ -32,7 +32,7 @@ Add the following code in your **HTML** page.
 module DateTimePickerComponent {
     $(function () {
     //  Add the code in your script section to render DateTimePicker without displaying other month dates in current month
-    var datetimeSample = new ej.DateTimePicker($("#datetimepick"), {
+    var datetimeSample = new ej.DateTimePicker($("#datetime"), {
        showOtherMonths: false,
        width: '200px',
     });

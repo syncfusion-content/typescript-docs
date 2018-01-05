@@ -103,13 +103,13 @@ In the **HTML** page, add the following input elements to configure the **RadioB
         <tr>
             <td>
                 <!--here we did not use label tag-->
-                <input type="radio" id="RadBtn_male" />
+                <input type="radio" id="RadBtu_male" />
             </td>
         </tr>
         <tr>
             <td>
                <!-- here we did not use label tag-->
-                <input type="radio" id="RadBtn_female" />
+                <input type="radio" id="RadBtu_female" />
             </td>
         </tr>
     </table>
@@ -127,12 +127,12 @@ In the **HTML** page, add the following input elements to configure the **RadioB
 module RadioButtonComponent {
     $(function () {
         // radio button with text property
-    var radioButton = new ej.RadioButton($("#RadBtn_male"), {
+    var radioButton = new ej.RadioButton($("#RadBtu_male"), {
              name: "Gender", 
              checked: true,
              text: "Male"
          });
-    var radioButton1 = new ej.RadioButton($("#RadBtn_female"), {
+    var radioButton1 = new ej.RadioButton($("#RadBtu_female"), {
             name: "Gender", 
             text: "Female" 
         });
@@ -197,13 +197,13 @@ In the HTML page, add the following input elements to configure RadioButton widg
         </tr>
         <tr>
             <td>
-                <input type="radio" id="Radio_Male" />
+                <input type="radio" id="RadBtu_male" />
                 <label for="Radio_Male">Male</label>
             </td>
         </tr>
         <tr>
             <td>
-                <input type="radio" id="Radio_Female" />
+                <input type="radio" id="RadBtu_male" />
                 <label for="Radio_Female">Female</label>
             </td>
         </tr>
@@ -238,12 +238,12 @@ In the HTML page, add the following input elements to configure RadioButton widg
 module RadioButtonComponent {
     $(function () {
      // small size of radio buttons in same group   
-      var radioButton = new ej.RadioButton($("#RadBtn_male"), {       
+      var radioButton = new ej.RadioButton($("#RadBtu_male"), {       
             name: "Gender",
             size: "small",
             checked: true 
         });
-     var radioButton1 = new ej.RadioButton($("#RadBtn_male"), {     
+     var radioButton1 = new ej.RadioButton($("#RadBtu_male"), {     
              name: "Gender", 
              size: "small" 
         });
@@ -298,12 +298,12 @@ In the HTML page, add the following button elements to configure RadioButton wid
     <table class="rightAlign">
         <tr>
             <td>
-                <input type="radio" id="RadBtn_male" />
+                <input type="radio" id="RadBtu_male" />
             </td>
         </tr>
         <tr>
             <td>
-                <input type="radio" id="RadBtn_female" />
+                <input type="radio" id="RadBtu_female" />
             </td>
         </tr>
     </table>
@@ -319,13 +319,13 @@ In the HTML page, add the following button elements to configure RadioButton wid
 module RadioButtonComponent {
     $(function () {
         //set radio button with right to left format
-       var radioButton = new ej.RadioButton($("#RadBtn_male"), {      
+       var radioButton = new ej.RadioButton($("#RadBtu_male"), {      
             name: "Gender", 
             checked: true,
             text: "Male",
             enableRTL: true
         });
-     var radioButton1 = new ej.RadioButton($("#RadBtn_female"), {      
+     var radioButton1 = new ej.RadioButton($("#RadBtu_female"), {      
             name: "Gender",
             text: "Female",
             enableRTL: true
