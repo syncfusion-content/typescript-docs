@@ -19,7 +19,7 @@ TreeMap contains various elements such as,
 
 You can set the color value of **leaf nodes** using `treeMapLegend`. This legend is appropriate only for the **TreeMap** whose leaf nodes are colored using `rangeColorMapping`.
 
-You can set `showLegend` property value to **“True”** to enable or disable legend visibility.
+You can set `showLegend` property value to **“true”** to enable or disable legend visibility.
 
 ### TreeMap Legend
 
@@ -214,7 +214,7 @@ You can also set labels for the leaf nodes by setting the `showLabels` property 
            var treeMapSample = new ej.datavisualization.TreeMap($("#treeMap"), {
                 // ...                 
                 levels: [
-                  {groupPath: "Continent", showLabels: true, groupGap: 2, headerHeight: 20,  headerTemplate: 'Template', labelPosition:"topleft", }
+                  {groupPath: "Continent", showLabels: true, groupGap: 2, headerHeight: 20,  headerTemplate: 'Template', labelPosition:"topLeft", }
                 ],  
                 leafItemSettings: { labelPath: "Region", showLabels: true},
                 legendSettings:{					
