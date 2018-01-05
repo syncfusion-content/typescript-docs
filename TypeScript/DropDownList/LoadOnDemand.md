@@ -46,4 +46,4 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](LoadOnDemand/loadondemand.png)
+![](LoadOnDemand_images/loadondemand.png)
