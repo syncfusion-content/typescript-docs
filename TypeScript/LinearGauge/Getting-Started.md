@@ -25,9 +25,9 @@ This section briefly explains on how to create a Linear Gauge control for your a
 
 You can easily create the Digital Gauge widget by using the following steps.
 
-1.First create an Typescript Project and add the following  references in the app.ts 
+1.First create an TypeScript Project and add the following  references in the app.ts 
 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file **ej.web.all.d.ts** needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -273,26 +273,26 @@ $(function () {
             enableAnimation: false,
             scales: [{
                    ticks: [{
-                    type: "majorinterval",
+                    type: "majorInterval",
                     height: 8,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "minorinterval",
+                    type: "minorInterval",
                     height: 4,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "majorinterval",
+                    type: "majorInterval",
                     placement: "far",
                     height: 8,
                     width: 1,
                     color: "#8c8c8c",
                     distanceFromScale: { y: -4 }
                 }, {
-                    type: "minorinterval",
+                    type: "minorInterval",
                     placement: "far",
                     height: 4,
                     width: 1,
@@ -318,7 +318,7 @@ On executing the above code sample renders a Linear Gauge with custom labels as 
 
 * Custom labels are used to specify the texts in the gauge.
 * It can be customized through various properties.
-* In order to show the custom labels, change the showIndicators property to True.
+* In order to show the custom labels, change the showIndicators property to true.
 * Here you can use custom text to display three range descriptions.
 
 
@@ -418,59 +418,59 @@ $(function () {
 
             var temp = args.scaleElement.barPointers[0].value;
 
-            var fahValue = (temp * (9 / 5)) + 32;
+            var faValue = (temp * (9 / 5)) + 32;
 
             if (temp == -10) {
 
-                args.style.textValue = "Very Cold Weather" + "(" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Very Cold Weather" + "(" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if ((temp > -10 && temp < 0) || (temp > 0 && temp < 15)) {
 
-                args.style.textValue = "Cool Weather" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Cool Weather" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp == 0) {
 
-                args.style.textValue = "Freezing point of Water" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Freezing point of Water" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp >= 15 && temp < 30) {
 
-                args.style.textValue = "Room Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Room Temperature" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp == 30) {
 
-                args.style.textValue = "Beach Weather" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Beach Weather" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp == 37) {
 
-                args.style.textValue = "Body Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Body Temperature" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp == 40) {
 
-                args.style.textValue = "Hot Bath Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Hot Bath Temperature" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp > 40 && temp < 100) {
 
-                args.style.textValue = "Very Hot Temperature" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Very Hot Temperature" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
             else if (temp == 100) {
 
-                args.style.textValue = "Boiling point of Water" + " (" + fahValue.toFixed(1) + "° F)";
+                args.style.textValue = "Boiling point of Water" + " (" + faValue.toFixed(1) + "° F)";
 
             }
 
