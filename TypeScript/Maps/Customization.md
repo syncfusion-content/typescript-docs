@@ -302,7 +302,7 @@ When `autoFill`property is set to true, shapes are filled with default colors fr
 
 The `colorPalette` property determines whether the auto fill colors are fetched from built-in color palettes or custom palette.
 
-The `colorPalette` property can be set with palette1, palette2, palette3 and custompalette values where palette1, palette2 and palette3 are built-in color palettes and default value for this property is “palette1”.
+The `colorPalette` property can be set with palette1, palette2, palette3 and custom palette values where palette1, palette2 and palette3 are built-in color palettes and default value for this property is “palette1”.
 
 The `customPalette` property is used to set an array of colors to be auto filled in shapes.
 
@@ -337,7 +337,7 @@ This property is enabled only when `colorPalette` property value is set to “cu
 
 ## Tooltip
 
-The tooltip is displayed only when you set `showTooltip` to “True” in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. 
+The tooltip is displayed only when you set `showTooltip` to “true” in the shape layers. By default, it takes the property of the bound object that is referred in the `valuePath` and displays its content on hovering the corresponding shape. 
 
 {% highlight javascript %}
 
