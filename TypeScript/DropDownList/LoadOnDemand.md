@@ -35,7 +35,7 @@ module DropDownListComponent {
             dataSource: BikeList,
             width: "100%",
             watermarkText: "Select a bike",
-            fields: { id: "empid", text: "text", value: "text" },
+            fields: { id: "id", text: "text", value: "text" },
             loadOnDemand: true,  
             showRoundedCorner: true
         });
