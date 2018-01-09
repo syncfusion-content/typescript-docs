@@ -9,7 +9,7 @@ documentation: ug
 
 # Getting Started
 
-For common getting started of typescript , you can refer [here](https://help.syncfusion.com/js/typescript).
+For common getting started of TypeScript , you can refer [here](https://help.syncfusion.com/js/typescript).
 
 The default type definition file ej.web.all.d.ts needs to include the support for type-checking while initializing any of the Syncfusion widgets. 
 
@@ -46,7 +46,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 
 
 
-## Create your first BulletGraph in Typescript
+## Create your first BulletGraph in TypeScript
 
 This section encompasses the details on how to configure the BulletGraph control in your application. It also allows you to learn how to pass the required data to it and customize its various options according to your requirements.
 
@@ -213,7 +213,7 @@ Once the DataSource property is assigned with the required values, you can bind 
 
 {% highlight javascript %}
 $(function(){
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
                fields: {
                 dataSource: localData, category: "category",
                 featureMeasures: "value",
@@ -235,7 +235,7 @@ Minimum, Maximum and Interval values for the QuantitativeScale of the BulletGrap
 {% highlight javascript %}
 
 $(function(){
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
                quantitativeScaleSettings: {
                 minimum: 70,
                 maximum: 130,
@@ -266,7 +266,7 @@ By default, 3 ranges are displayed in the BulletGraph control during the initial
 {% highlight js %}
 
 $(function(){
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
                qualitativeRanges: [{
                 rangeEnd: 90
             },
@@ -297,7 +297,7 @@ You can do the following code changes in the quantitative scale to customize the
 {% highlight js %}
 
 $(function(){
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
                quantitativeScaleSettings: {
                 minimum: 70,
                 maximum: 130,
@@ -334,7 +334,7 @@ You can add the following code example to display an appropriate Caption and Sub
 
 $(function(){
     
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
                captionSettings: {
                 textAngle: 0,
                 location: { x: 470, y: 270 }, 
@@ -365,14 +365,14 @@ The following screenshot displays a BulletGraph with a Caption and Subtitle.
 
 ### Show Tooltip
 
-You can use a Tooltip in your application to display the values of forecasted rainfall, actual rainfall received in millimeter and also the appropriate year. The Tooltip Visible property is set to True to enable the Tooltip option. To set the template Tooltip, you can pass the template id to it as illustrated in the following code example.
+You can use a Tooltip in your application to display the values of forecasted rainfall, actual rainfall received in millimeter and also the appropriate year. The Tooltip Visible property is set to true to enable the Tooltip option. To set the template Tooltip, you can pass the template id to it as illustrated in the following code example.
 
 
 {% highlight javascript %}
 
 $(function(){
     
-  var bulletsample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
+  var bulletSample = new ej.datavisualization.BulletGraph($("#BulletGraph"), {
               tooltipSettings: { visible: true, template: "Tooltip" },
             }
                
