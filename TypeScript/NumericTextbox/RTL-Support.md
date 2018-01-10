@@ -41,7 +41,7 @@ module EditorComponent {
 {% endhighlight %}
 
 
-The output for **NumericTextBox** when **enableRTL** is **“True”** is as follows. 
+The output for **NumericTextBox** when **enableRTL** is **“true”** is as follows. 
 
 ![](RTL-Support_images/RTL-Support_img1.png) 
 
