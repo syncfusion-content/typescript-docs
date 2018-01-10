@@ -529,7 +529,7 @@ PercentageTextBox with minValue
 
 ## Read Only Support
 
-The **PercentageTextBox** supports read only option. When you enable the **readOnly** property to the control, the value cannot be changed in the **PercentageTextBox**. You can set the **readOnly** property as “**True”** to enable this option.
+The **PercentageTextBox** supports read only option. When you enable the **readOnly** property to the control, the value cannot be changed in the **PercentageTextBox**. You can set the **readOnly** property as “**true”** to enable this option.
 
 ### Configure Read Only
 
@@ -574,7 +574,7 @@ module EditorComponent {
 {% endhighlight %}
 
 
-The output for **PercentageTextBox** when **readOnly** is “**True**” is as follows**.** The **PercentageTextBox** values cannot be edited or changed.
+The output for **PercentageTextBox** when **readOnly** is “**true**” is as follows**.** The **PercentageTextBox** values cannot be edited or changed.
 
 
 
@@ -784,7 +784,7 @@ module EditorComponent {
 {% endhighlight %}
 
 
-The output for **PercentageTextBox** when **showSpinButton** is “**True**”.
+The output for **PercentageTextBox** when **showSpinButton** is “**true**”.
 
 
 
