@@ -30,7 +30,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 11,
             enableRTL: true
         }); 
