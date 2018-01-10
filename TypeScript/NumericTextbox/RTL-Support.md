@@ -30,7 +30,7 @@ In the HTML page set the corresponding &lt;input&gt; elements for rendering Nume
 /// <reference path="tsfiles/ej.web.all.d.ts" />
 module EditorComponent {
     $(function () {
-        var num = new ej.NumericTextbox($("#numeric"), {
+        var number = new ej.NumericTextbox($("#numeric"), {
             value: 11,
             enableRTL: true
         }); 
@@ -41,7 +41,7 @@ module EditorComponent {
 {% endhighlight %}
 
 
-The output for **NumericTextBox** when **enableRTL** is **“True”** is as follows. 
+The output for **NumericTextBox** when **enableRTL** is **“true”** is as follows. 
 
 ![](RTL-Support_images/RTL-Support_img1.png) 
 
