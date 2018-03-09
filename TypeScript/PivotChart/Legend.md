@@ -171,7 +171,7 @@ $(function () {
         legend: {
             visible: true,
             border: {
-                color: "navyblue",
+                color: "orange",
                 width: 5
             }
         },

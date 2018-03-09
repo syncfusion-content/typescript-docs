@@ -27,7 +27,7 @@ The PivotChart control can be exported by invoking **“exportPivotChart”** me
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -45,7 +45,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         }       
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",
@@ -72,7 +72,7 @@ To achieve Excel export, service URL and file name is sent as the parameter.
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -90,7 +90,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         }       
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",
@@ -115,7 +115,7 @@ To achieve Word export, service URL and file name is sent as the parameter.
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -133,7 +133,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         }       
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",
@@ -158,7 +158,7 @@ To achieve PDF export, service URL and file name is sent as the parameter.
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -176,7 +176,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         }       
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",
@@ -207,7 +207,7 @@ To export PivotChart in PNG format, service URL, file name and **“ej.PivotChar
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -225,7 +225,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         },
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",
@@ -252,7 +252,7 @@ N> Title and description cannot be added to image formats.
 <html>    
      <body>
          <div id="PivotChart1" style="min-height: 275px; min-width: 525px; height: 460px; width: 100%"></div>
-         <button id="buttonnormal"></button>
+         <button id="button"></button>
          <div>
      </body>
 </html>
@@ -274,7 +274,7 @@ $(function () {
             args.description = "Visualizes both OLAP and Relational datasource in graphical format";
         }        
      });
-    var basicButton = new ej.Button($("#buttonnormal"), {
+    var basicButton = new ej.Button($("#button"), {
         size: "large",
         showRoundedCorner: true,
         text: "Export",

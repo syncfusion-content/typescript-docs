@@ -488,7 +488,7 @@ $(function () {
             type: ej.PivotChart.ChartTypes.Column
         },
         load: function (args) {
-            this.model.seriesRendering = function (evt) {
+            this.model.seriesRendering = function (event) {
                 this.model.series[5].type = ej.PivotChart.ChartTypes.Line;
                 this.model.series[5].marker.visible = true;
             };
