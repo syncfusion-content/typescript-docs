@@ -9,7 +9,7 @@ documentation: ug
 
 # Chart Types
 
-Essential **PivotChart MVC** supports 17 different types of chart as follows:
+Essential **PivotChart Typescript** supports 17 different types of chart as follows:
 
 
 * Column
