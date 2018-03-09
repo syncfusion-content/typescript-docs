@@ -259,7 +259,7 @@ You can customize the legend border by using the [`border`](../api/ejchart#membe
 
 ### Scrollbar for legend
 
-You can enable or disable the legend scrollbar by using the [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option of the legend. When you disable the scrollbar option, the legend does not consider the [`default size`](legend.html#legend-size) and chart draws in the reaming space. The default value of [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option is **true**.  
+You can enable or disable the legend scrollbar by using the [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option of the legend. When you disable the scrollbar option, the legend does not consider the [`default size`](legend.html#legend-size) and chart draws in the remaining space. If you have specified the **size** to the legend with the scrollbar disabled, then the legends beyond this limit will get clipped. The default value of [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option is **true**.  
 
 {% highlight javascript %}
 
@@ -363,12 +363,12 @@ You can get the legend item details such as *index*, *bounds*, *shape* and *seri
               },
               
            //Subscribe the legenditem click event
-            legendItemClick: "onlegendclicked",
+            legendItemClick: "onLegendClicked",
             
             //...
         });
         
-     function onlegendclicked(sender) {
+     function onLegendClicked(sender) {
         //Get legend item details on legend item click.
         var legendItem = sender.data;
       }
