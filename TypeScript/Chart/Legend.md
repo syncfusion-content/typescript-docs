@@ -362,7 +362,7 @@ You can get the legend item details such as *index*, *bounds*, *shape* and *seri
                    //...
               },
               
-           //Subscribe the legenditem click event
+           //Subscribe the legend item click event
             legendItemClick: "onLegendClicked",
             
             //...
