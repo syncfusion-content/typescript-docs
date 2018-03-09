@@ -7,11 +7,11 @@ control: PivotGauge
 documentation: ug
 ---
 
-# Frame Type
+# Frame type
 
-## Full Circle
+## Full circle
 
-Full Circle frame lets the PivotGauge display in circular shape. Frame type can be set using the `frameType` property.  By default, the frame type is "FullCircle".
+The full circle frame is used to display the pivot gauge in circular shape. The frame type can be set by using the `frameType` property. By default, the frame type is "FullCircle".
 
 {% highlight html %}
 
@@ -30,8 +30,8 @@ $(function () {
 
 ![](Frame-Type_images/FullCircle.png)
 
-## Half Circle
-Half Circle frame lets the PivotGauge to display in semi-circular shape. For this, frame type needs to be set as "HalfCircle" within the `frameType` property and need to set `startAngle` and `sweepAngle` for the PivotGauge in the `scales` property.
+## Half circle
+The half circle frame is used to display the pivot gauge in semi-circular shape. For this, set the frame type to "HalfCircle" within the `frameType` property, and then set the `startAngle` and `sweepAngle` for the pivot gauge in the `scales` property.
 
 
 {% highlight html %}

@@ -7,9 +7,9 @@ control: PivotChart
 documentation: ug
 ---
 
-# Multi-level Labels
+# Multi-level labels
 
-Multi-level labels allows you to drill down to access the detailed level of data or drill up to see the summarized data by using the expander present in the OlapChart.
+Multi-level labels allows you to drill down to access the detailed level of data or drill up to see the summarized data by using the expander present in the OLAP chart.
 
 {% highlight html %}
 

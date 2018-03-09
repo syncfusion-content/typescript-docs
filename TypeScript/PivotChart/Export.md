@@ -10,14 +10,14 @@ keywords: ejpivotchart, pivotchart, js pivotchart
 
 # Exporting
 
-The PivotChart control can be exported to the following file formats.
+The pivot chart control can be exported to the following file formats:
 
-* Excel
-* Word
+* Microsoft Excel
+* Microsoft Word
 * PDF
 * Image
 
-The PivotChart control can be exported by invoking **“exportPivotChart”** method, with an appropriate export option as parameter.
+The pivot chart control can be exported by invoking **“exportPivotChart”** method with an appropriate export option as a parameter.
 
 {% tabs %}
 
@@ -60,11 +60,11 @@ $(function () {
 
 {% endtabs %}
 
-## Excel Export
+## Excel export
 
-User can export contents of the PivotChart to Excel document for future archival, references and analysis purposes.
+You can export the contents of the pivot chart to Excel document for future archival, references, and analysis purposes.
 
-To achieve Excel export, service URL and file name is sent as the parameter.
+To achieve Excel export, the service URL and the file name are set as parameters.
 
 {% highlight html %}
 
@@ -103,11 +103,11 @@ $(function () {
 
 {% endhighlight %}
 
-## Word Export
+## Word export
 
-User can export contents of the PivotChart to Word document for future archival, references and analysis purposes.
+You can export the contents of the pivot chart to a Word document for future archival, references, and analysis purposes.
 
-To achieve Word export, service URL and file name is sent as the parameter.
+To achieve Word export, the service URL and the file name are set as parameters.
 
 {% highlight html %}
 
@@ -146,11 +146,11 @@ $(function () {
 
 {% endhighlight %}
 
-## PDF Export
+## PDF export
 
-User can export contents of the PivotChart to PDF document for future archival, references and analysis purposes.
+You can export the contents of the pivot chart to a PDF document for future archival, references, and analysis purposes.
 
-To achieve PDF export, service URL and file name is sent as the parameter.
+To achieve PDF export, the service URL and the file name are set as parameters.
 
 {% highlight html %}
 
@@ -189,9 +189,9 @@ $(function () {
 
 {% endhighlight %}
 
-## Image Export
+## Image export
 
-User can export contents of the PivotChart to image format for future archival, references and analysis purposes. We can export PivotChart to the following image formats.
+You can export contents of the pivot chart to image format for future archival, references, and analysis purposes. You can export the pivot chart to the following image formats:
 
 * PNG
 * EMF
@@ -199,7 +199,7 @@ User can export contents of the PivotChart to image format for future archival, 
 * GIF
 * BMP
 
-To export PivotChart in PNG format, service URL, file name and **“ej.PivotChart.ExportOptions.PNG”** enumeration value is sent as the parameter. This is similar to other image formats.
+To export pivot chart in PNG format, the service URL, file name, and **“ej.PivotChart.ExportOptions.PNG”** enumeration value are sent as parameters. This is similar to other image formats.
 
 {% highlight html %}
 
@@ -238,9 +238,9 @@ $(function () {
 
 {% endhighlight %}
 
-## Exporting Customization
+## Exporting customization
 
-You can add title and description to the exporting document by using title and description property obtained in the "beforeExport" event.
+You can add the title and description to the exporting document by using the title and description property obtained in the "beforeExport" event.
 
 N> Title and description cannot be added to image formats.
 
@@ -289,18 +289,18 @@ $(function () {
 
 {% endtabs %}
 
-The below screenshot shows the PivotChart control exported to Excel document.
+The following screenshot shows the pivot chart control exported to an Excel document:
 
 ![](Export_images/Export_ExcelClient.png)
 
-The below screenshot shows the PivotChart control exported to Word document.
+The following screenshot shows the pivot chart control exported to a Word document:
 
 ![](Export_images/Export_WordClient.png)
 
-The below screenshot shows the PivotChart control exported to PDF document.
+The following screenshot shows the pivot chart control exported to a PDF document:
 
 ![](Export_images/Export_PDFClient.png)
 
-The below screenshot shows the PivotChart control exported to PNG format.
+The following screenshot shows the pivot chart control exported to a PNG format:
 
 ![](Export_images/Export_PNGClient.png)

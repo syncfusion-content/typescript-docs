@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Labels
-description: labels 
+description: labels
 platform: Typescript
 control: PivotGauge
 documentation: ug
@@ -9,9 +9,9 @@ documentation: ug
 
 # Labels
 
-## Adding Label Collection
+## Adding label collection
 
-Label collection can be directly added to the scales option within the PivotGauge control.
+Label collection can be directly added to the scales option within the pivot gauge control.
 
 {% highlight html %}
 
@@ -28,16 +28,16 @@ $(function () {
 
 {% endhighlight %}
 
-## Appearance Customization
+## Appearance customization
 
-The appearance of the Label can be customized through the following properties.
+The appearance of the label can be customized through the following properties:
 
-* **angle** – used to display labels in a rotated manner.  By default, the value is 0.
-* **color** – displays the label in specified color
-* **opacity** – sets the opacity of the label. By default, the value is 1.
-* **type** – indicates the label for major intervals or minor intervals.  By default, it takes major intervals.
-* **includeFirstValue** – includes the initial value based on user requirement.  By default, the value is “true”.
-* **font** – sets the font size, font style and font family of the label.
+* **angle**: Displays labels in a rotated manner. By default, the value is 0.
+* **color**: Displays the label in a specified color.
+* **opacity**: Sets the opacity of the label. By default, the value is 1.
+* **type**: Indicates the label for major intervals or minor intervals. By default, it takes major intervals.
+* **includeFirstValue**: Includes the initial value based on user requirement.  By default, the value is true.
+* **font**: Sets the font size, font style, and font family of the label.
 
 {% highlight html %}
 
@@ -77,9 +77,9 @@ $(function () {
 ![](Labels_images/AppearanceCustomization.png) 
 
 
-## Unit Text
+## Unit text
 
-The `unitText` property is used to add some text along with the labels. Normally, we indicate the unit/measurement of the numeric value through unit text. Using the `unitTextPosition` property, the text can be positioned either in front or back.
+The `unitText` property is used to add some text along with labels. Normally,   the unit/measurement of the numeric value is indicated through the unit text. By using the `unitTextPosition` property, the text can be positioned in front or back.
 
 N> By default, text appears at the back.
 

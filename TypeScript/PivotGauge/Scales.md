@@ -9,9 +9,9 @@ documentation: ug
 
 # Scale
 
-## Adding Scale
+## Adding scale
 
-Scale can be added within the PivotGauge control. 
+The scale can be added to the pivot gauge control.
 
 {% highlight html %}
 
@@ -31,15 +31,15 @@ $(function () {
 
 ![](Scales_images/AddingScale.png) 
 
-## Scale Customization
+## Scale customization
 
-### Pointer Cap
-Pointer Cap is a circular shape element which is located at the center of the PivotGauge. It can be customized with the property `pointerCap` inside the scales option. Following are the properties used to customize its appearance.
+### Pointer cap
+The pointer cap is a circular shape element located at the center of the pivot gauge. It can be customized with the `pointerCap` property in the scales option. Following are the properties used to customize its appearance.
 
-* **radius** – sets the radius of the pointer cap.
-* **borderColor** – sets the color of the pointer cap border.
-* **borderWidth** – sets the width of the pointer cap border.
-* **backgroundColor** – sets the background color of the pointer cap.
+* **radius**: Sets the radius of the pointer cap.
+* **borderColor**: Sets the color of the pointer cap border.
+* **borderWidth**: Sets the width of the pointer cap border.
+* **backgroundColor**: Sets the background color of the pointer cap.
 
 {% highlight html %}
 
@@ -66,19 +66,19 @@ $(function () {
 ![](Scales_images/PointerCap.png) 
 
 ### Appearance
-The appearance of the scale can be customized through the following properties.
+The appearance of the scale can be customized through the following properties:
 
-* **radius** – sets the radius of the scale.
-* **backgroundColor** – sets the background color of the scale.
-* **border** – sets the border of the scale with color and width properties.
-* **size** – sets the size of the scale.
-* **minimum** – sets the least value of the scale.
-* **maximum** – sets the highest value of the scale.
-* **majorIntervalValue** – sets the interval between minor ticks in the scale.
-* **minorIntervalValue** – sets the interval between major ticks in the scale.
-* **direction** – sets the direction of the scale.  By default it takes “Clockwise” direction.
+* **radius**: Sets the radius of the scale.
+* **backgroundColor**: Sets the background color of the scale.
+* **border**: Sets the border of the scale with color and width properties.
+* **size**: Sets the size of the scale.
+* **minimum**: Sets the least value of the scale.
+* **maximum**: Sets the highest value of the scale.
+* **majorIntervalValue**: Sets the interval between minor ticks in the scale.
+* **minorIntervalValue**: Sets the interval between major ticks in the scale.
+* **direction**: Sets the direction of the scale. By default, it takes clockwise direction.
 
-The `showIndicators`, `showTicks`, `showRanges`, `showPointers`, and `showScaleBar` properties are used to enable/disable the indicators, ticks, ranges, pointers and scale bar respectively.  By default, `showTicks` and `showPointers` are set to true, and other properties are set as false.
+The `showIndicators`, `showTicks`, `showRanges`, `showPointers`, and `showScaleBar` properties are used to enable/disable the indicators, ticks, ranges, pointers, and scale bar respectively. By default, the `showTicks` and `showPointers` are set to true, and other properties are set to false.
 
 {% highlight html %}
 
