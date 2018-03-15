@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Customization
 description: FileExplorer Customization.
@@ -213,7 +213,7 @@ module ExplorerComponent {
 
 ## Customize the Root Folder name in FileExplorer
 
-You can set the alias name for root folder name in FileExplorer by using rootFolderName API. It is used to replace the actual root folder name in the FileExplorer UI. Refer to the below code block for set the alias name for root folder name in FileExplorer.
+You can set the alias name to the root folder of FileExplorer by using `rootFolderName` API. It is used to replace the actual root folder name in the FileExplorer UI. Refer to the below code to set the alias name for the root folder of FileExplorer.
 
 {% highlight javascript %}
 
