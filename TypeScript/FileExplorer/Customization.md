@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Customization
 description: FileExplorer Customization.
