@@ -22,7 +22,7 @@ By default, the legend is enabled in the chart. You can enable or disable it by 
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
          // ...
          legend: {
             //Visible chart legend
@@ -45,7 +45,7 @@ To add the title to the legend, you have to specify the [`legend.title.text`](..
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
               legend: {
                 //...
@@ -71,7 +71,7 @@ By using the [`position`](../api/ejchart#members:legend-position) option, you ca
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 // ...  
@@ -94,7 +94,7 @@ You can align the legend to the *center*, *far* or *near* based on its position 
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -127,7 +127,7 @@ You can arrange the legend items horizontally and vertically by using the [`rowC
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //Arrange legend items in 4 rows and approximately 4 columns. Column couldn’t may vary based on number of items. 
@@ -152,7 +152,7 @@ To change the legend icon shape, you have to specify the shape in the [`shape`](
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -175,7 +175,7 @@ You can change the size of the legend items by using the [`itemStyle.width`](../
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -197,7 +197,7 @@ By default, legend takes 20% of the **height** horizontally when it was placed o
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             legend: { 
                  //...
@@ -220,7 +220,7 @@ You can control the spacing between the legend items by using the [`itemPadding`
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -242,7 +242,7 @@ You can customize the legend border by using the [`border`](../api/ejchart#membe
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -259,12 +259,12 @@ You can customize the legend border by using the [`border`](../api/ejchart#membe
 
 ### Scrollbar for legend
 
-You can enable or disable the legend scrollbar by using the [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option of the legend. When you disable the scrollbar option, the legend does not consider the [`default size`](legend.html#legend-size) and chart draws in the reaming space. The default value of [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option is **true**.  
+You can enable or disable the legend scrollbar by using the [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option of the legend. When you disable the scrollbar option, the legend does not consider the [`default size`](legend.html#legend-size) and chart draws in the remaining space. If you have specified the **size** to the legend with the scrollbar disabled, then the legends beyond this limit will get clipped. The default value of [`enableScrollbar`](../api/ejchart#members:legend-enablescrollbar) option is **true**.  
 
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -287,7 +287,7 @@ To customize the legend item text and title you can use the [`legend.font`](../a
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             legend: {
                 //...
@@ -318,7 +318,7 @@ You can trim the legend item text when its width exceeds the [`legend.textWidth`
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...             
             legend: {
@@ -356,19 +356,19 @@ You can get the legend item details such as *index*, *bounds*, *shape* and *seri
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
             legend: {
                    //...
               },
               
-           //Subscribe the legenditem click event
-            legendItemClick: "onlegendclicked",
+           //Subscribe the legend item click event
+            legendItemClick: "onLegendClicked",
             
             //...
         });
         
-     function onlegendclicked(sender) {
+     function onLegendClicked(sender) {
         //Get legend item details on legend item click.
         var legendItem = sender.data;
       }
@@ -383,7 +383,7 @@ You can select a specific series or point while clicking on the corresponding le
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
                 legend: {
                    //...
@@ -407,7 +407,7 @@ You can collapse the specific series/point legend item displaying in the chart, 
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
      
           //Initializing Series
           series:[{

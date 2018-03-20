@@ -211,3 +211,33 @@ module ExplorerComponent {
    }
 {% endhighlight %}
 
+## Customize the Root Folder name in FileExplorer
+
+You can set the alias name to the root folder of FileExplorer by using `rootFolderName` API. It is used to replace the actual root folder name in the FileExplorer UI. Refer to the below code to set the alias name for the root folder of FileExplorer.
+
+{% highlight javascript %}
+
+/// <reference path="tsfiles/jquery.d.ts" />
+/// <reference path="tsfiles/ej.web.all.d.ts" />
+
+module ExplorerComponent {
+
+    $(function () {
+
+            var fileSystemPath = "http://js.syncfusion.com/demos/ejServices/Content/FileBrowser/";
+
+            var ajaxActionHandler = "http://js.syncfusion.com/demos/ejServices/api/FileExplorer/FileOperations";
+
+            var file = new ej.FileExplorer($("#fileExplorer"), {
+
+                path: fileSystemPath,
+
+                ajaxAction: ajaxActionHandler,
+
+                rootFolderName: "This PC"
+
+            });
+
+        });
+   }
+{% endhighlight %}
