@@ -70,14 +70,12 @@ Initialize the PivotGrid in app.ts file by using the `ej.PivotGrid` method.
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
-module PivotGridRelational {
-    $(function () {
-        var sample = new ej.PivotGrid($("#PivotGrid1"),{});
-    });	
-}
+$(function () {
+    var sample = new ej.PivotGrid($("#PivotGrid1"), { });
+});
 
 {% endhighlight %}
 
@@ -87,8 +85,8 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
 var pivot_dataset = [
     { Amount: 100, Country: "Canada", Date: "FY 2005", Product: "Bike", Quantity: 2, State: "Alberta" },
@@ -115,40 +113,35 @@ var pivot_dataset = [
     { Amount: 200, Country: "United States", Date: "FY 2005", Product: "Bike", Quantity: 4, State: "New York" },
     { Amount: 250, Country: "United States", Date: "FY 2008", Product: "Car", Quantity: 3, State: "North Carolina" },
     { Amount: 300, Country: "United States", Date: "FY 2007", Product: "Van", Quantity: 4, State: "South Carolina" }
-]
+];
 
-module PivotGridRelational {
-  $(function () {
-    var sample = new ej.PivotGrid($("#PivotGrid1"),{
-      dataSource: {
-        data: pivot_dataset,
-        rows: [
-          {
-            fieldName: "Country",
-            fieldCaption: "Country"
-          },
-          {
-            fieldName: "State",
-            fieldCaption: "State"
-          }
-        ],
-        columns:                     
-          [{
-            fieldName: "Product",
-            fieldCaption: "Product"
-          }
-        ],
-        values: [
-          {
-            fieldName: "Amount",
-            fieldCaption: "Amount"
-          }
-        ],
-        filters:[]
-      }
+$(function () {
+    var sample = new ej.PivotGrid($("#PivotGrid1"), {
+        dataSource: {
+            data: pivot_dataset,
+            rows: [
+                {
+                    fieldName: "Country",
+                    fieldCaption: "Country"
+                }
+            ],
+            columns:
+            [{
+                fieldName: "Product",
+                fieldCaption: "Product"
+            }
+            ],
+            values: [
+                {
+                    fieldName: "Amount",
+                    fieldCaption: "Amount"
+                }
+            ],
+            filters: []
+        }
     });
-  });
-}
+});
+
 
 {% endhighlight %}
 
@@ -179,14 +172,13 @@ Initialize the PivotGrid in ts file by using the `ej.PivotGrid` method.
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
-module PivotGridOlap {
-    $(function () {
-        var sample = new ej.PivotGrid($("#PivotGrid1"),{});
-    });	
-}
+$(function () {
+    var sample = new ej.PivotGrid($("#PivotGrid1"), { });
+});
+
 
 {% endhighlight %}
 
@@ -196,41 +188,40 @@ Let us now see how to populate the PivotGrid control using a sample JSON data as
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
-module PivotGridOlap {
-  $(function () {
-      var sample = new ej.PivotGrid($("#PivotGrid1"),{
+$(function () {
+    var sample = new ej.PivotGrid($("#PivotGrid1"), {
         dataSource: {
-          data: "http://bi.syncfusion.com/olap/msmdpump.dll",
-          catalog: "Adventure Works DW 2008 SE",
-          cube: "Adventure Works",
-          rows: [
-            {
-              fieldName: "[Date].[Fiscal]"
-            }
-          ],
-          columns: [
-            {
-              fieldName: "[Customer].[Customer Geography]"
-            }
-          ],
-          values: [
-            {
-              measures: [
+            data: "http://bi.syncfusion.com/olap/msmdpump.dll",
+            catalog: "Adventure Works DW 2008 SE",
+            cube: "Adventure Works",
+            rows: [
                 {
-                  fieldName: "[Measures].[Internet Sales Amount]",
+                    fieldName: "[Date].[Fiscal]"
                 }
-              ],
-              axis: "columns"
-            }
-          ],
-          filters:[]
+            ],
+            columns: [
+                {
+                    fieldName: "[Customer].[Customer Geography]"
+                }
+            ],
+            values: [
+                {
+                    measures: [
+                        {
+                            fieldName: "[Measures].[Internet Sales Amount]",
+                        }
+                    ],
+                    axis: "columns"
+                }
+            ],
+            filters: []
         },
-      });
-  });
-}
+    });
+});
+
 
 {% endhighlight %}
 

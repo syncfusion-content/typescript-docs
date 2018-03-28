@@ -73,14 +73,13 @@ Initialize the PivotTreeMap in ts file by using the `ej.PivotTreeMap` method.
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
-module PivotTreeMap {
-    $(function () {
-        var sample = new ej.PivotTreeMap($("#PivotTreeMap1"),{});
-    });	
-}
+$(function () {
+    var sample = new ej.PivotTreeMap($("#PivotTreeMap1"), { });
+});
+
 
 {% endhighlight %}
 
@@ -90,42 +89,40 @@ Let us now see how to populate the PivotTreeMap control using a sample JSON data
 
 {% highlight html %}
 
-/// <reference path="../tsfiles/jquery.d.ts"></reference>
-/// <reference path="../tsfiles/ej.web.all.d.ts"></reference>
+/// <reference path="jquery.d.ts" />
+/// <reference path="ej.web.all.d.ts" />
 
-module PivotTreeMap {
-
-    $(function () {
-      var sample = new ej.PivotTreeMap($("#PivotTreeMap1"),{
+$(function () {
+    var sample = new ej.PivotTreeMap($("#PivotTreeMap1"), {
         dataSource: {
-          data: "http://bi.syncfusion.com/olap/msmdpump.dll;Locale Identifier=1033;",
-          catalog: "Adventure Works DW 2008 SE",
-          cube: "Adventure Works",
-          rows: [
-            {
-              fieldName: "[Date].[Fiscal]"
-            }
-          ],
-          columns: [
-            {
-              fieldName: "[Customer].[Customer Geography]"
-            }
-          ],
-          values: [
-            {
-              measures: [
+            data: "http://bi.syncfusion.com/olap/msmdpump.dll;Locale Identifier=1033;",
+            catalog: "Adventure Works DW 2008 SE",
+            cube: "Adventure Works",
+            rows: [
                 {
-                  fieldName: "[Measures].[Customer Count]",
+                    fieldName: "[Date].[Fiscal]"
                 }
-              ],
-              axis: "columns"
-            }
-          ],
-          filters:[]
+            ],
+            columns: [
+                {
+                    fieldName: "[Customer].[Customer Geography]"
+                }
+            ],
+            values: [
+                {
+                    measures: [
+                        {
+                            fieldName: "[Measures].[Customer Count]",
+                        }
+                    ],
+                    axis: "columns"
+                }
+            ],
+            filters: []
         }
-      });
-  });
-}
+    });
+});
+
 
 {% endhighlight %}
 
