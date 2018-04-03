@@ -2,7 +2,7 @@
 layout: post
 title: Typescript NuGet Packages | Syncfusion
 description: NuGet Packages
-platform: Typescript
+platform: typescript
 control: NuGet Packages
 documentation: ug
 ---
