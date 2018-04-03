@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typescript NuGet Packages | Syncfusion
+title: TypeScript NuGet Packages | Syncfusion
 description: NuGet Packages
 platform: typescript
 control: NuGet Packages
