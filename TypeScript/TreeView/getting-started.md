@@ -11,13 +11,13 @@ documentation: ug
 
 
 
-Using the following steps, you can create a **Typescript** TreeView component.
+Using the following steps, you can create a **TypeScript** TreeView component.
 
-## Creating an TreeView in Typescript
+## Creating an TreeView in TypeScript
 
 
 
-You can create a **Typescript** application with the help of the given [Typescript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
+You can create a **TypeScript** application with the help of the given [TypeScript Getting Started Documentation. ](https://help.syncfusion.com/js/typescript)
 
 Within an index.html file and add the scripts references in the order mentioned in the following code example.
 
@@ -26,7 +26,7 @@ Within an index.html file and add the scripts references in the order mentioned
 <!DOCTYPE html>
 <html>
 <head>
-<title>Typescript Application</title>
+<title>TypeScript Application</title>
 <link href="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/flat-azure/ej.web.all.min.css" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="http://cdn.syncfusion.com/**{{**site.releaseversion**}}**/js/web/ej.web.all.min.js" type="text/javascript"></script>
@@ -42,7 +42,7 @@ Within an index.html file and add the scripts references in the order mentioned
 
 
 
-Execute the below steps to render the TreeView control in Typescript.
+Execute the below steps to render the TreeView control in TypeScript.
 
 {% highlight html %}
 
@@ -100,7 +100,6 @@ Execute the below steps to render the TreeView control in Typescript.
                     <li>
                         Classical
                         <ul>
-                            <li>Avant-Garde</li>
                             <li>Medieval</li>
                             <li>Orchestral</li>
                         </ul>
@@ -137,7 +136,7 @@ module TreeViewComponent {
 
 
 
-* Now build your application, so that the **app.ts** file will compiled and automtically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the aplication.
+* Now build your application, so that the **app.ts** file will compiled and automatically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the application.
 
 
 
