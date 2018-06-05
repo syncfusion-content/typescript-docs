@@ -100,7 +100,6 @@ Execute the below steps to render the TreeView control in TypeScript.
                     <li>
                         Classical
                         <ul>
-                            <li>Avant-garde</li>
                             <li>Medieval</li>
                             <li>Orchestral</li>
                         </ul>
