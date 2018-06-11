@@ -13,11 +13,11 @@ This section explains you the steps required to populate the Spreadsheet with da
 
 ## Adding Script Reference
 
-You can create a Typescript application with the help of the given [Typescript Getting Started Documentation.](https://help.syncfusion.com/js/typescript)
+You can create a TypeScript application with the help of the given [Typescript Getting Started Documentation.](https://help.syncfusion.com/js/typescript)
 
 In your TypeScript app folder, create “app.ts” file.
 
-Inorder to get intellisense support and compile time type-checking, we need to follow the below steps,
+To get intellisense support and compile time type-checking, we need to follow the below steps,
 
 1. Copy the `ej.web.all.d.ts` file from the below location into your project,
 
@@ -109,7 +109,7 @@ module SpreadsheetComponent {
 
 ## Apply Conditional Formatting 
 
-Conditional formatting helps you to apply formats to a cell or range with certain colour based on the cells values. You can use `allowConditionalFormats` property to enable/disable Conditional formats.
+Conditional formatting helps you to apply formats to a cell or range with certain color based on the cells values. You can use `allowConditionalFormats` property to enable/disable Conditional formats.
 
 To apply conditional formats for a range use `cFormatRule` property. The following code example illustrates this,
 

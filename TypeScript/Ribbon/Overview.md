@@ -8,7 +8,7 @@ keywords:
 ---
 # Overview
 
-The `Ribbon` control for Typescript provides with rich customizable user interfaces like Office 2010, SharePoint 2010, and Office Web Apps 2010. The Ribbon Tab appears across the top of the page. Each Tab organizes a set of groups that has labels to identify them and also contains a set of controls and group expander.
+The `Ribbon` control for TypeScript provides with rich customizable user interfaces like Office 2010, SharePoint 2010, and Office Web Apps 2010. The Ribbon Tab appears across the top of the page. Each Tab organizes a set of groups that has labels to identify them and also contains a set of controls and group expander.
 
 ## Key Features
 
