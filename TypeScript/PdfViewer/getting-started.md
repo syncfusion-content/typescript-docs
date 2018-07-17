@@ -9,7 +9,7 @@ keywords: ejPdfViewer, PDF viewer, js pdfviewer
 
 # Getting Started
 
-This section explains briefly about how to integrate a PDF viewer control in your Typescript web application.
+This section explains briefly about how to integrate a PDF viewer control in your TypeScript web application.
 
 For common steps to create a project in typescript, you can refer [here](https://help.syncfusion.com/js/typescript).
 
