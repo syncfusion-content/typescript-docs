@@ -8,13 +8,13 @@ documentation: ug
 ---
 
 # Getting Started
-This section helps to understand the getting started of the Typescript TreeGrid with the step-by-step instructions.
+This section helps to understand the getting started of the TypeScript TreeGrid with the step-by-step instructions.
 
-## Create your first TreeGrid in Typescript
+## Create your first TreeGrid in TypeScript
 
-To get started Syncfusion Typescript application refer [`this`](https://help.syncfusion.com/reactjs/overview) page for basic control integaration and script references.
+To get started Syncfusion TypeScript application refer [`this`](https://help.syncfusion.com/reactjs/overview) page for basic control integration and script references.
 
-The **Essential Typescript TreeGrid** has been designed to represent and edit the hierarchical data. 
+The **Essential TypeScript TreeGrid** has been designed to represent and edit the hierarchical data. 
 
 This section explains how to create a TreeGrid widget in your application with hierarchical data source and enable sorting and editing. The following screenshot displays the output.
 
@@ -28,7 +28,7 @@ You can find the ej.web.all.d.ts file in the following location,
 
 Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.d.ts file in your TypeScript application, which can be downloaded from [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
-1.Create HTML file and add the following necessery script and css files to the HTML file.
+1.Create HTML file and add the following necessary script and css files to the HTML file.
 
 {% highlight html %}
 

@@ -9,7 +9,7 @@ documentation: ug
 
 # Overview
 
-**The Essential Typescript TreeGrid** is an efficient control designed for representing the hierarchical data in a tabular format, combining the visual representation of Grid and TreeView controls; it represents the data from datasource such as array of JSON objects, ej.DataManager or self-referential datasource.
+**The Essential TypeScript TreeGrid** is an efficient control designed for representing the hierarchical data in a tabular format, combining the visual representation of Grid and TreeView controls; it represents the data from datasource such as array of JSON objects, ej.DataManager or self-referential datasource.
 
 **Key Features**
 
