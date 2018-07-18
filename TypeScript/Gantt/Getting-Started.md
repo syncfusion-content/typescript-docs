@@ -9,11 +9,11 @@ documentation: ug
 
 # Getting Started
 
-This section explains briefly about how to create a Gantt chart in your application with Typescript.
+This section explains briefly about how to create a Gantt chart in your application with TypeScript.
 
-## Create your first Gantt in Typescript
+## Create your first Gantt in TypeScript
 
-To get started Syncfusion Typescript application refer [`this`](https://help.syncfusion.com/typescript/overview) page for basic control integration and script references.
+To get started Syncfusion TypeScript application refer [`this`](https://help.syncfusion.com/typescript/overview) page for basic control integration and script references.
 
 In this tutorial, you can learn how to create a simple Gantt chart, add tasks or subtasks, and set relationship between tasks during the design phase of a software project. The following screenshot displays the desired output after completing this tutorial,
 
