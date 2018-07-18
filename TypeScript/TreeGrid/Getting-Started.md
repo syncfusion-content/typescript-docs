@@ -68,7 +68,7 @@ Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.
 /// <reference path="../tsfiles/ej.web.all.d.ts" />
 module TreeGridComponent {
     $(function() {
-        var treegridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
+        var treeGridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
             columns: [
               { field: "taskID", headerText: "Task Id", allowFiltering: false },
               { field: "taskName", headerText: "Task Name" },
@@ -176,7 +176,7 @@ var treeGridDataSource = [{
 /// <reference path="../tsfiles/ej.web.all.d.ts" />
 module TreeGridComponent {
     $(function() {
-        var treegridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
+        var treeGridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
             dataSource: (<any> window).treeGridDataSource,
             childMapping: "subtasks",
             columns: [
@@ -209,7 +209,7 @@ Enable the multicolumn sorting in TreeGrid by setting [`allowMultiSorting`](/api
 /// <reference path="../tsfiles/ej.web.all.d.ts" />
 module TreeGridComponent {
     $(function() {
-        var treegridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
+        var treeGridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
             allowSorting: true,
             allowMultiSorting: true
         });
@@ -229,7 +229,7 @@ You can enable Editing in TreeGrid by using the [`editSettings`](/api/js/ejtreeg
 /// <reference path="../tsfiles/ej.web.all.d.ts" />
 module TreeGridComponent {
     $(function() {
-        var treegridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
+        var treeGridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
             editSettings: {
                 allowAdding: true,
                 allowEditing: true,
@@ -250,7 +250,7 @@ And also, the following editors are provided for support in TreeGrid control.
 * numeric
 * dropdown
 * datepicker
-* datetimepicker
+* dateTimePicker
 
 You can set the editor type for a particular column as follows.
 
@@ -260,13 +260,13 @@ You can set the editor type for a particular column as follows.
 /// <reference path="../tsfiles/ej.web.all.d.ts" />
 module TreeGridComponent {
     $(function() {
-        var treegridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
+        var treeGridInstance = new ej.TreeGrid($("#TreeGridContainer"), {
             columns: [
-            { field: "taskID", headerText: "Task Id", allowFiltering: false, editType: "numericedit" },
-            { field: "taskName", headerText: "Task Name", editType: "stringedit" },
-            { field: "startDate", headerText: "Start Date", editType: "datepicker"},
-            { field: "endDate", headerText: "End Date", editType: "datepicker" },
-            { field: "progress", headerText: "Progress", editType: "numericedit" }
+            { field: "taskID", headerText: "Task Id", allowFiltering: false, editType: ej.TreeGrid.EditingType.Numeric },
+            { field: "taskName", headerText: "Task Name", editType: ej.TreeGrid.EditingType.String },
+            { field: "startDate", headerText: "Start Date", editType: ej.TreeGrid.EditingType.DatePicker },
+            { field: "endDate", headerText: "End Date", editType: ej.TreeGrid.EditingType.DatePicker },
+            { field: "progress", headerText: "Progress", editType: ej.TreeGrid.EditingType.Numeric }
             ],
         });
     });
