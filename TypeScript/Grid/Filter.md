@@ -278,7 +278,7 @@ You can enter the below filter expressions manually in the filter bar.
                 != value
             </td>
             <td>
-                notequal
+                Not equal
             </td>
            
         </tr>
@@ -290,7 +290,7 @@ You can enter the below filter expressions manually in the filter bar.
                 > value
             </td>
             <td>
-                greaterthan
+                Greater than
             </td>
           
         </tr>
@@ -302,7 +302,7 @@ You can enter the below filter expressions manually in the filter bar.
                 < value
             </td>
             <td>
-                lessthan
+                Less than
             </td>
           
         </tr>
@@ -314,7 +314,7 @@ You can enter the below filter expressions manually in the filter bar.
                 >= value
             </td>
             <td>
-                greaterthanorequal
+                Greater than or equal
             </td>
            >
         </tr>
@@ -326,7 +326,7 @@ You can enter the below filter expressions manually in the filter bar.
                 <= value
             </td>
             <td>
-                lessthanorequal
+                Less than or equal
             </td>
            
         </tr>
@@ -415,7 +415,7 @@ N> For [`filterBarMode`](https://help.syncfusion.com/api/js/ejgrid#members:filte
 
 Filter bar message:
 
-The filter bar message is supported only for the [`filterType`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings-filtertype "filterType") as filterbar. The filtered data with column name is displayed in the grid pager itself. By default [`showfilterbarstatus`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings-showfilterbarstatus "showfilterbarstatus") is true.
+The filter bar message is supported only for the [`filterType`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings-filtertype "filterType") as `filterbar`. The filtered data with column name is displayed in the grid pager itself. By default [`showFilterBarStatus`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings-showfilterbarstatus "showFilterBarStatus") is true.
 
 The following code example describes the above behavior.
 
@@ -586,7 +586,7 @@ List of Column type and Filter operators
 
 ## FilterBar Template
 
-Usually enabling allowFiltering, will create default textbox in Grid FilterBar. So, Using [`filterBarTemplate`](https://help.syncfusion.com/api/js/ejgrid#members:columns-filterbartemplate "filterBarTemplate") property of `columns` we can render any other controls like AutoComplete, DropDownList etc in filterbar to filter the grid data for the particular column.
+Usually enabling allowFiltering, will create default textbox in Grid FilterBar. So, Using [`filterBarTemplate`](https://help.syncfusion.com/api/js/ejgrid#members:columns-filterbartemplate "filterBarTemplate") property of `columns` we can render any other controls like AutoComplete, DropDownList etc in filter bar to filter the grid data for the particular column.
 It has three functions. They are    
 
 1. `create` - It is used to create the control at time of initialize.
