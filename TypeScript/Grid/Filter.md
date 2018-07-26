@@ -278,7 +278,7 @@ You can enter the below filter expressions manually in the filter bar.
                 != value
             </td>
             <td>
-                notequal
+                Not equal
             </td>
            
         </tr>
@@ -290,7 +290,7 @@ You can enter the below filter expressions manually in the filter bar.
                 > value
             </td>
             <td>
-                greaterthan
+                Greater than
             </td>
           
         </tr>
@@ -302,7 +302,7 @@ You can enter the below filter expressions manually in the filter bar.
                 < value
             </td>
             <td>
-                lessthan
+                Less than
             </td>
           
         </tr>
@@ -314,7 +314,7 @@ You can enter the below filter expressions manually in the filter bar.
                 >= value
             </td>
             <td>
-                greaterthanorequal
+                Greater than or equal
             </td>
            >
         </tr>
@@ -326,7 +326,7 @@ You can enter the below filter expressions manually in the filter bar.
                 <= value
             </td>
             <td>
-                lessthanorequal
+                Less than or equal
             </td>
            
         </tr>
