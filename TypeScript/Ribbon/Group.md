@@ -13,17 +13,19 @@ keywords: group,ribbon group
 
 ## Adding Tab Groups
 
-Group items can be added to Tabs by specifying [`text`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-text) and corresponding [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content) to be displayed. The content of group can be specified as either with [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content) collection, [`contentID`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-contentid) or [`customContent`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-customcontent).
+Group items can be added to Tabs by specifying [`text`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-text) and corresponding [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content) to be displayed. The content of group can be specified as either with [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content) collection, [`contentID`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-contentid) or [`customContent`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-customcontent). You can add tab group dynamically in the ribbon control with given tab index, tab group object and group index position by using [`addTabGroup`](https://help.syncfusion.com/api/js/ejribbon#methods:addtabgroup) method.
 
 ### Adding Content
 
 Add content to Group item which is based on [`type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-type) of content specified. The available types are `button`, `splitButton`, `toggleButton`,`gallery`, and `dropDownList`.
 
-Groups and defaults settings can be added with the [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content).
+Groups and defaults settings can be added with the [`content`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content). You can add group content dynamically in the ribbon control with given tab index, group index, content, content index and sub group index position by using [`addTabGroupContent`](https://help.syncfusion.com/api/js/ejribbon#methods:addtabgroupcontent).
 
 #### _Defaults_
 
-The `height`, `width`, `type`, `isBig` property to the controls in the [`group`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-groups) can be specified commonly.
+The [`tabs.groups.content.defaults.height`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-defaults-height), [`tabs.groups.content.defaults.width`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-defaults-width), 
+[`tabs.groups.content.defaults.type`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-defaults-type), [`tabs.groups.content.defaults.isBig`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-defaults-isbig) property to the controls in the [`group`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-content-groups) can be specified commonly.
+
 The `height` & `width` applicable to button, split button, dropdown list ,Toggle button controls and `isBig` applicable to only button controls ( button, split , toggle)
 
 #### _Adding Content Groups_
@@ -245,7 +247,8 @@ module RibbonComponent {
 
 ## Group Expander
 
-Set [`enableGroupExpander`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-enablegroupexpander) as true to show Group Expander for each group in Tab. These expanders can be customized using [`groupExpand`](https://help.syncfusion.com/api/js/ejribbon#events:groupexpand) event, such as to show popup dialog.
+Set [`enableGroupExpander`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-enablegroupexpander) as true to show Group Expander for each group in Tab. These expanders can be customized using [`groupExpand`](https://help.syncfusion.com/api/js/ejribbon#events:groupexpand) event, such as to show popup dialog. To specify tooltip for the group expander of the group [`tabs.groups.groupExpanderSettings`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-groupexpandersettings) and 
+[`tabs.groups.groupExpanderSettings.toolTip`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups-groupexpandersettings-tooltip) can be used.
 
 {% highlight html %}
 
