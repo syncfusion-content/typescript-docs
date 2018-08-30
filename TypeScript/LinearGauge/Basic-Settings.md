@@ -50,11 +50,11 @@ module LinearGaugeComponent {
                 barPointers: [{ width: 5, backgroundColor: "Grey" }],
                 // Adding ticks collection
                 ticks: [{
-                    type: "majorinterval", width: 2,
+                    type: "MajorInterval", width: 2,
                     color: "#8c8c8c", distanceFromScale: { x: 7, y: 0 }
                 },
                 {
-                    type: "minorinterval", width: 1, height: 6,
+                    type: "MinorInterval", width: 1, height: 6,
                     color: "#8c8c8c", distanceFromScale: { x: 7, y: 0 }
                 }]
             }]
@@ -110,11 +110,11 @@ Execute the above code to render the following output.
                 barPointers: [{ width: 5, backgroundColor: "Grey" }],
                 // Adding ticks collection
                 ticks: [{
-                    type: "majorinterval", width: 2,
+                    type: "MajorInterval", width: 2,
                     color: "#8c8c8c", distanceFromScale: { x: 7, y: 0 }
                 },
                 {
-                    type: "minorinterval", width: 1, height: 6,
+                    type: "MinorInterval", width: 1, height: 6,
                     color: "#8c8c8c", distanceFromScale: { x: 7, y: 0 }
                 }]
             }]
@@ -140,9 +140,9 @@ Execute the above code to render the following output.
 
 * Theme is the basic property of any control. It is used to set the `theme` for Linear Gauge. There are two types of themes used for Linear Gauge such as
 
- * flatlight
+ * FlatLight
 
- * flatdark
+ * FlatDark
 
 
 {% highlight html %}
@@ -162,7 +162,7 @@ Execute the above code to render the following output.
             height: 100,
             value: 80,
             // For setting theme
-            theme: "flatlight",
+            theme: "FlatLight",
             // For setting Orientation
             orientation: "Horizontal",
             // For setting label color
@@ -183,11 +183,11 @@ Execute the above code to render the following output.
                 labels: [{ angle: 90, distanceFromScale: { x: 5, y: -5 } }],
                 //For Adding ticks
                 ticks: [{
-                    type: "majorinterval", width: 2,
+                    type: "MajorInterval", width: 2,
                     color: "#8c8c8c", distanceFromScale: { x: 0, y: 0 }
                 },
                 {
-                    type: "minorinterval", width: 1, height: 6,
+                    type: "MinorInterval", width: 1, height: 6,
                     color: "#8c8c8c", distanceFromScale: { x: 0, y: 0 }
                 }]
             }]
@@ -247,11 +247,11 @@ Execute the above code to render the following output.
                 labels: [{ angle: 90, distanceFromScale: { x: 5, y: -5 } }],
                 //For Adding tick collection             
                 ticks: [{
-                    type: "majorinterval", width: 2,
+                    type: "MajorInterval", width: 2,
                     color: "#8c8c8c", distanceFromScale: { x: 0, y: 0 }
                 },
                {
-                   type: "minorinterval", width: 1, height: 6,
+                   type: "MinorInterval", width: 1, height: 6,
                    color: "#8c8c8c", distanceFromScale: { x: 0, y: 0 }
                }]
             }]
