@@ -94,7 +94,7 @@ You can change the layout of current view by the switcher which displays at righ
 ![](Customization_images/Customization_img1.png)
 
 
-Also the layout views can be changed through the [layout](https://help.syncfusion.com/api/js/ejfileexplorer#members:layout) property. 
+Also the layout views can be changed through the [layout](https://help.syncfusion.com/api/js/ejfileexplorer#members:layout) property. The [layoutChange](https://help.syncfusion.com/api/js/ejfileexplorer#events:layoutchange) event will be triggered whenever the layout view type is changed.
 
 {% highlight javascript %}
 

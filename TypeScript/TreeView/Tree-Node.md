@@ -70,6 +70,7 @@ Selected state of the node<br/><br/></td></tr>
 TreeView provides a set of options to configure all its properties by setting and getting values at initialization or dynamically.
 
 To get the node value, you can use [getNode](https://help.syncfusion.com/api/js/ejtreeview#methods:getnode) method as shown in the below code example, in which on button click action the node value has retrieved.
+Also you can get the text value of tree node by using [getText](https://help.syncfusion.com/api/js/ejtreeview#methods:gettext) method.
 
 {% highlight js %}
 
@@ -152,7 +153,9 @@ To get current parent node of a particular node, you can use the [getParent](htt
 
 ## Get Node Index
 
-To get node index you can use the [getNodeIndex](https://help.syncfusion.com/api/js/ejtreeview#methods:getnodeindex) as shown in below code example 
+To get node index you can use the [getNodeIndex](https://help.syncfusion.com/api/js/ejtreeview#methods:getnodeindex) as shown in below code example
+
+You can use [getNodeByIndex](https://help.syncfusion.com/api/js/ejtreeview#methods:getnodebyindex) method to get TreeView node by using index position.
 
 {% highlight js %}
 
@@ -307,7 +310,8 @@ The updated data source also contains custom attributes if you return these from
 
 ## Editing
 
-You can directly edit the tree node’s text in-place by double-click on the tree node or select the tree node and press F2 key. The editing works only if the [allowEditing](https://help.syncfusion.com/api/js/ejtreeview#members:allowediting) property is true in TreeView control. When editing is completed by focus out or “enter” key press, the modified node’s text is saved automatically.
+You can directly edit the tree node’s text in-place by double-click on the tree node or select the tree node and press F2 key. The editing works only if the [allowEditing](https://help.syncfusion.com/api/js/ejtreeview#members:allowediting) property is true in TreeView control. When editing is completed by focus out or “enter” key press, the modified node’s text is saved automatically. The [nodeEdit](https://help.syncfusion.com/api/js/ejtreeview#events:nodeedit) event will be triggered whenever edited the TreeView node.
+Also [beforeEdit](https://help.syncfusion.com/api/js/ejtreeview#events:beforeedit) event will be triggered before the TreeView node change into editing mode.
 
 {% highlight js %}
 
@@ -345,7 +349,10 @@ module TreeViewComponent {
 
 ## Selection
 
-You can select a specific node by setting index value in [selectedNode](https://help.syncfusion.com/api/js/ejtreeview#members:selectednode) property or passing node’s id/element to [selectNode](https://help.syncfusion.com/api/js/ejtreeview#methods:selectnode) method. 
+You can select a specific node by setting index value in [selectedNode](https://help.syncfusion.com/api/js/ejtreeview#members:selectednode) property or passing node’s id/element to [selectNode](https://help.syncfusion.com/api/js/ejtreeview#methods:selectnode) method.
+To get the selected status of a given TreeView node you have to use [isSelected](https://help.syncfusion.com/api/js/ejtreeview#methods:isselected) method.  
+The [nodeClick](https://help.syncfusion.com/api/js/ejtreeview#events:nodeclick) event will be triggered whenever TreeView node is clicked. The [beforeSelect](https://help.syncfusion.com/api/js/ejtreeview#events:beforeselect) event will be triggered before the TreeView node is selected. 
+The [nodeSelect](https://help.syncfusion.com/api/js/ejtreeview#events:nodeselect)/[nodeUnselect](https://help.syncfusion.com/api/js/ejtreeview#events:nodeunselect) events will be triggered based on the TreeView node click operations. 
 
 {% highlight js %}
 
@@ -388,7 +395,9 @@ module TreeViewComponent {
 
 ## Ensure Visibility
 
-You can ensure the specified tree node is visible by using [ensureVisible](https://help.syncfusion.com/api/js/ejtreeview#methods:ensurevisible) method, which expands tree nodes and scrolls the TreeView control as necessary. 
+To get the visibility status of the given TreeView node, you can use [isVisible](https://help.syncfusion.com/api/js/ejtreeview#methods:isvisible) method.
+You can ensure the specified tree node is visible by using [ensureVisible](https://help.syncfusion.com/api/js/ejtreeview#methods:ensurevisible) method, which expands tree nodes and scrolls the TreeView control as necessary.
+Also you can use [getVisibleNodes](https://help.syncfusion.com/api/js/ejtreeview#methods:getvisiblenodes) method to get currently visible nodes in TreeView.
 
 {% highlight js %}
 
