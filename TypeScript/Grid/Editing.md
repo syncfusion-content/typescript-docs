@@ -144,7 +144,7 @@ module GridComponent {
                 { field: "ShipCity", editType: "dropdownedit", editParams: { enableAnimation: true } },
                 { field: "ShipCountry" },
                 { field: "OrderDate", editType: "datepicker", format: "{0:MM/dd/yyyy}", editParams: { buttonText: "Now" } },
-                { field: "Verified", editType: "booleanEdit", editParams: { showRoundedCorner: true } }
+                { field: "Verified", editType: "booleanedit", editParams: { showRoundedCorner: true } }
             ]
         });
     });
