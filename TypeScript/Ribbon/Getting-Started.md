@@ -71,7 +71,7 @@ Define the Application Tab with [`type`](http://help.syncfusion.com/js/api/ejrib
     <div>
         <div id="defaultRibbon"></div>
     </div>
-    <ul id="ribbonmenu">
+    <ul id="ribbon">
         <li>
             <a>FILE</a>
             <ul>
@@ -98,7 +98,7 @@ Define the Application Tab with [`type`](http://help.syncfusion.com/js/api/ejrib
             var sample = new ej.Ribbon($("#defaultRibbon"), {
             width: "100%",
             applicationTab: {
-                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbon"
                 }
             });
         });
@@ -121,7 +121,7 @@ Tab is a set of related groups which are combined into single item. For creating
             var sample = new ej.Ribbon($("#defaultRibbon"), {
             width: "100%",
             applicationTab: {
-                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                    type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbon"
                 },
                 tabs: [{ id: "home", text: "HOME" }]
             });
@@ -145,7 +145,7 @@ Create group item with [`text`](http://help.syncfusion.com/js/api/ejribbon#membe
             var sample = new ej.Ribbon($("#defaultRibbon"), {
                 width: "100%",
                 applicationTab: {
-                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbon"
                 },
                 tabs: 
                 [{
@@ -183,7 +183,7 @@ Syncfusion JavaScript Controls can be added to group’s content with correspond
             var sample = new ej.Ribbon($("#defaultRibbon"), {
                 width: "100%",
                 applicationTab: {
-                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbonmenu"
+                        type: ej.Ribbon.ApplicationTabType.Menu, menuItemID: "ribbon"
                 },
                 tabs: [{
                     id: "home", text: "HOME", 
@@ -209,10 +209,10 @@ Syncfusion JavaScript Controls can be added to group’s content with correspond
                         },
                         {
                             groups: [{
-                                id: "fontfamily",
+                                id: "font",
                                 type: ej.Ribbon.Type.DropDownList,
                                 dropdownSettings: {
-                                    dataSource: fontfamily,
+                                    dataSource: font,
                                     text: "Segoe UI",
                                     width: 150
                                 }
