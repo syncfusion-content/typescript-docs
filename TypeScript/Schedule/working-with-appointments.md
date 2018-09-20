@@ -1733,7 +1733,7 @@ N> Whenever the reminder setting is enabled in the Scheduler with some specific 
 
 It allows to block the particular timeslots in Schedule. When specific timeslots are blocked, the appointments that lies in that range can either be made read-only or else can be allowed to interact with the users based on the value assigned to the `isBlockAppointment` property.
 
-### Blockout Settings
+### Block Settings
 
 The [blockoutSettings](/api/js/ejschedule#members:blockoutsettings) holds the below block intervals related properties such as,
 
@@ -1741,7 +1741,7 @@ The [blockoutSettings](/api/js/ejschedule#members:blockoutsettings) holds the be
 * [templateId](/api/js/ejschedule#members:blockoutsettings-templateid) â€“ It applies the template design to block the intervals.
 * [dataSource](/api/js/ejschedule#members:blockoutsettings-datasource) â€“ Binds the block intervals dataSource collection. This property should be assigned either with the JSON data array collection or instance of [ej.DataManger](/js/datamanager/overview).
 
-The below blockout fields holds the appropriate column names from the dataSource -
+The below `blockoutSettings` fields holds the appropriate column names from the dataSource -
 
 <table>
     <tr>
@@ -1750,35 +1750,35 @@ The below blockout fields holds the appropriate column names from the dataSource
     </tr>
     <tr>
         <td>id<br/><br/></td>
-        <td>It holds the binding name for <b>id</b> field in the blockout dataSource<br/><br/></td>
+        <td>It holds the binding name for <b>id</b> field in the dataSource of `blockoutSettings`<br/><br/></td>
     </tr>
     <tr>
         <td>subject<br/><br/></td>
-        <td>It holds the binding name for <b>subject</b> field in the blockout dataSource<br/><br/></td>
+        <td>It holds the binding name for <b>subject</b> field in the dataSource of `blockoutSettings`<br/><br/></td>
     </tr>
     <tr>
         <td>startTime<br/><br/></td>
-        <td>It holds the binding name for <b>startTime</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>startTime</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
     <tr>
         <td>endTime<br/><br/></td>
-        <td>It holds the binding name for <b>endTime</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>endTime</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
     <tr>
         <td>isBlockAppointment<br/><br/></td>
-        <td>It holds the binding name for <b>isBlockAppointment</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>isBlockAppointment</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
     <tr>
         <td>isAllDay<br/><br/></td>
-        <td>It holds the binding name for <b>isAllDay</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>isAllDay</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
     <tr>
         <td>resourceId<br/><br/></td>
-        <td>It holds the binding name for <b>resourceId</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>resourceId</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
     <tr>
         <td>customStyle<br/><br/></td>
-        <td>It holds the binding name for <b>customStyle</b> field in the blockout dataSource.<br/><br/></td>
+        <td>It holds the binding name for <b>customStyle</b> field in the dataSource of `blockoutSettings`.<br/><br/></td>
     </tr>
 </table>
 
@@ -1798,9 +1798,9 @@ module ScheduleComponent {
     $(function () {
         var sample = new ej.Schedule($("#schedule"), {
             currentDate: new Date(2014, 4, 5),
-            //Configure the blockout settings
+            //Configure the block settings
             blockoutSettings: {
-                //Enable the blockout options
+                //Enable the block options
                 enable: true,
                 //data source collection binding
                 dataSource: [{
@@ -1848,9 +1848,9 @@ module ScheduleComponent {
     $(function () {
         var sample = new ej.Schedule($("#schedule"), {
             currentDate: new Date(2014, 4, 5),
-            //Configure the blockout settings
+            //Configure the block settings
             blockoutSettings: {
-                //Enable the blockout options
+                //Enable the block options
                 enable: true,
                 //data source collection binding
                 dataSource: [{
@@ -1973,9 +1973,9 @@ module ScheduleComponent {
                 subject: "EventSubject",
                 resourceFields: "ownerId" 
             },
-            //Configure the blockout settings
+            //Configure the block settings
             blockoutSettings: {
-                //Enable the blockout options
+                //Enable the block options
                 enable: true,
                 //data source collection binding
                 dataSource: [{
