@@ -23,7 +23,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
 
     [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript) 
 
-    ![](NuGet_Packages_Images/img1.png)
+    ![img1](NuGet_Packages_Images/img1.png)
 
 3. Now, use this NuGet feed URL to access the Syncfusion NuGet Packages in Visual Studio. 
 
@@ -46,7 +46,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
 
 5.	Click the **Update** button to add the name and source details to package sources. 
 
-    ![](NuGet_Packages_Images/img2.png)
+    ![img2](NuGet_Packages_Images/img2.png)
 
 ### macOS 
 
@@ -54,11 +54,11 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
 
 2.	Right-click on the Packages folder in the project, and then select **Add Packages…**
  
-    ![](NuGet_Packages_Images/img3.png)
+    ![img3](NuGet_Packages_Images/img3.png)
 
 3.	Choose the **Configure Sources…** from the dropdown that appears in the left corner of the Add Packages dialog. 
 
-    ![](NuGet_Packages_Images/img4.png)
+    ![img4](NuGet_Packages_Images/img4.png)
 
 4.	At the bottom right corner of the dialog, click the **Add** button to enter the feed name and the URL. 
    
@@ -66,7 +66,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
    
     **Location:** Enter the following URL – [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
-    ![](NuGet_Packages_Images/img5.png)
+    ![img5](NuGet_Packages_Images/img5.png)
  
 5.	Now, click **Add Source** and then click **OK**.
 
@@ -78,13 +78,13 @@ The NuGet Package Manager can be used to search and install NuGet packages in th
 
 1.	On the **Tools**, menu, NuGet `Package Manager | Manage NuGet Packages for Solution...`
 
-    ![](NuGet_Packages_Images/img6.png)
+    ![img6](NuGet_Packages_Images/img6.png)
 
     Alternatively, right-click on the project/solution in Solution Explorer tab, and choose **Manage NuGet Packages…**
 
 2.	By default, the NuGet.org package is selected in the **Package source** drop-down. Select your appropriate feed name that you configured. 
 
-     ![](NuGet_Packages_Images/img7.png)             
+     ![img7](NuGet_Packages_Images/img7.png)             
 
 3.	The NuGet Packages are listed and available in the package source feed URL. Search and install the required packages in your application, by clicking **Install** button.
 
@@ -126,11 +126,11 @@ Add packages can be used to search and install NuGet packages to the Visual Stud
 
 1.	Right-click on the folder in the project, and then select **Add Packages…** 
 
-    ![](NuGet_Packages_Images/img8.png)  
+    ![img8](NuGet_Packages_Images/img8.png)  
               
 2.	By default, the NuGet.org package is selected in the **Package source** drop-down. Select the appropriate feed name. 
 
-    ![](NuGet_Packages_Images/img9.png)  
+    ![img9](NuGet_Packages_Images/img9.png)  
 
 3.	The Syncfusion TypeScript NuGet Packages available in the package source location will be listed. Search and install the required packages in your application, by clicking **Add Package** button.
 
@@ -221,7 +221,7 @@ Using **Update** context menu from Visual Studio for Mac application, NuGet pack
 
 1.	Right-click on the Packages folder in the project, and select **Update**. 
 
-    ![](NuGet_Packages_Images/img10.png) 
+    ![img10](NuGet_Packages_Images/img10.png) 
 
 2.	This will update the NuGet package to the latest version. You can double-click Add packages and choose the specific version.
 
