@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TypeScript NuGet Packages | Syncfusion
-description: NuGet Packages
+description: NuGet Packages manager for the .NET framework. The NuGet client tools simplify the process of installing and upgrading packages.
 platform: typescript
 control: NuGet Packages
 documentation: ug
