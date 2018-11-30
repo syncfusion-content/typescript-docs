@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Grouped-List
+title: Syncfusion Grouped-List
 description: grouped list
 platform: Typescript
 control: ListView
@@ -19,7 +19,7 @@ Refer the following code example.
 
 {% highlight html %}
 
-    <div id="defaultlistview" >
+    <div id="defaultListView" >
         <ul data-ej-grouplisttitle="Network">
             <li data-ej-text="Airplane Mode"></li>
             <li data-ej-text="Wi-Fi"></li>
@@ -49,7 +49,7 @@ Add the following script in your code.
 /// <reference path="ej.web.all.d.ts" />
 module ListComponent {
     $(function () {
-        var sample = new ej.ListView($("#defaultlistview"), {
+        var sample = new ej.ListView($("#defaultListView"), {
                  width:400, 
                  enableGroupList:true 
             });
@@ -62,12 +62,12 @@ module ListComponent {
 
 Run the codes to get the following output
 
-![](Grouped-List_images/Grouped-List_img1.png) 
+![Grouped List](Grouped-List_images/Grouped-List_img1.png) 
 
 
 **Nested Child Group List**
 
-While selecting a list item that is grouped, you can also render another set of list items. This is achieved by defining the desired **child item list** within the list containing **”PrimaryKeyValue”.** This **data-ej-primarykey** attribute relates the parent child for identifying its appropriate child when clicking on the parent list item.
+While selecting a list item that is grouped, you can also render another set of list items. This is achieved by defining the desired **child item list** within the list containing **`PrimaryKeyValue`.** This **[`data-ej-primarykey`]** attribute relates the parent child for identifying its appropriate child when clicking on the parent list item.
 
 Refer the following code examples.
 
@@ -76,7 +76,7 @@ Refer the following code examples.
 {% highlight html %}
 
 
-    <div id="defaultlistview" >
+    <div id="defaultListView" >
         <ul data-ej-grouplisttitle="Network">
             <li data-ej-text="Airplane Mode"></li>
             <li data-ej-text="Wi-Fi"></li>
@@ -110,9 +110,9 @@ Add the following script in your code.
 
 module ListComponent {
     $(function () {
-        var sample = new ej.ListView($("#defaultlistview"), {
+        var sample = new ej.ListView($("#defaultListView"), {
                 showHeader: true, 
-                headerTitle: "Favourite",
+                headerTitle: "Favorite",
                 width:400, 
                 enableGroupList:true
             });
@@ -125,5 +125,5 @@ module ListComponent {
 
 Run the codes to get the following output
 
-![](Grouped-List_images/Grouped-List_img2.png) 
+![Grouped](Grouped-List_images/Grouped-List_img2.png) 
 
