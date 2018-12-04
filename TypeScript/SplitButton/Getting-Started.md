@@ -17,7 +17,7 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 {% highlight html %}
 
         <body>
-        <button id="splitbuttonnormal"></button>
+        <button id="splitbutton_normal"></button>
             <ul id="menu1">
                 <li><span>User</span></li>
                 <li><span>Guest</span></li>
@@ -36,7 +36,7 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
         module ButtonComponent {
             $(function () {
-                var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
+                var splitbutton_normal = new ej.SplitButton($("#splitbutton_normal"), {
                     targetID: "menu1"
                 });
             });

@@ -8,7 +8,7 @@ documentation: ug
 ---
 # OverView
 
-The TypeScript DatePicker control provides an intuitive visual interface for selecting a date. Its rich feature set includes functionalities like highlighting special dates, globalization, responsive rendering, accessibility and much more. All properties of DatePicker in TypeScript framework decleared with definitons of that properties which will helps us to render the component along with types specifed properties.
+The TypeScript DatePicker control provides an intuitive visual interface for selecting a date. Its rich feature set includes functionalities like highlighting special dates, globalization, responsive rendering, accessibility and much more. All properties of DatePicker in TypeScript framework declared with definitions of that properties which will helps us to render the component along with types specified properties.
 
 ## Key features
 
