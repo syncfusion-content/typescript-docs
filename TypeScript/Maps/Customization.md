@@ -306,7 +306,7 @@ The `colorPalette` property can be set with palette1, palette2, palette3 and cus
 
 The `customPalette` property is used to set an array of colors to be auto filled in shapes.
 
-This property is enabled only when `colorPalette` property value is set to “custompalette”.
+This property is enabled only when `colorPalette` property value is set to “customPalette”.
 
 {% highlight javascript %}
 
@@ -319,7 +319,7 @@ This property is enabled only when `colorPalette` property value is set to “cu
                 ShapeSettings: {
                     // ...
                     autoFill: true,
-                    colorPalette: "custompalette",
+                    colorPalette: "customPalette",
                     customPalette: ["#E51400", "#A4C400", "#730202","#008B00", "#EF6535",
                                     "#1BA0E2", "#C63477", "#0050EF", "#BF004D", "#AA00FF"]
                     // ...
