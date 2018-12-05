@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customization
+title: Syncfusion EJ1 Maps - Customization
 description: customization
 platform: typescript
 control: Maps
@@ -59,7 +59,7 @@ module MapComponenet {
 
 
 
-![](Customization_images/Customization_img1.png)
+![Customization](Customization_images/Customization_img1.png)
 
 ## Color Mapping
 
@@ -155,7 +155,7 @@ When the underlying object value is 700000, then the fill color of the correspon
 
 When the underlying value is below any of the given sorted range or above the sorted range, then the fill is set from fill.
 
-![](Customization_images/Customization_img2.png)
+![ColorMapping](Customization_images/Customization_img2.png)
 
 * `equalColorMapping` - The equalColorMapping is used to differentiate the shape’s fill based on its underlying value and color. The properties of equalColorMapping is listed in the following table.
 
@@ -268,7 +268,7 @@ Here USA election data is considered as input datasource and stored in “electi
 
 {% endhighlight %}
 
-![](Customization_images/Customization_img3.png) 
+![EqualColorMapping](Customization_images/Customization_img3.png) 
 
 ## Color Palette
 
@@ -296,7 +296,7 @@ When `autoFill`property is set to true, shapes are filled with default colors fr
 {% endhighlight %}
 
 
-![](Customization_images/Customization_img4.png)
+![AutoFill](Customization_images/Customization_img4.png)
 
 ### Color Palette
 
@@ -333,7 +333,7 @@ This property is enabled only when `colorPalette` property value is set to “cu
 
 
 
-![](Customization_images/Customization_img5.png)
+![ColorPalette](Customization_images/Customization_img5.png)
 
 ## Tooltip
 
@@ -371,7 +371,7 @@ The tooltip is displayed only when you set `showTooltip` to “true” in the sh
 
 
 
-![](Customization_images/Customization_img6.png)
+![Tooltip](Customization_images/Customization_img6.png)
 
 ### Tooltip Template
 
@@ -426,7 +426,7 @@ The `tooltipTemplate` property is used for customizing the template for tooltip.
 
 The following screenshot illustrates a map control displaying a Tooltip with template.
 
-![](Customization_images/Customization_img7.png)
+![Tooltip Template](Customization_images/Customization_img7.png)
 
 
 ### Customize map background

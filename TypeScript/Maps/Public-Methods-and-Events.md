@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Public Methods and Events
+title: Syncfusion EJ1 Maps - Public Methods and Events
 description: Public methods and events
 platform: typescript
 control: Maps
