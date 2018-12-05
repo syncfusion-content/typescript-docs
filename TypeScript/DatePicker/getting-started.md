@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting started
+title: getting started | DatePicker | TypeScript | Syncfusion
 description: Getting Started
 platform: TypeScript
 control: DatePicker
@@ -41,7 +41,7 @@ Also, Reference path should be included in the TypeScript definitions of the EJ 
 
         $(function () {
 
-            var dateSample = new ej.DatePicker($("#datepick"), {
+            var dateSample = new ej.DatePicker($("#datepicker"), {
 
                 value: new Date()
 
@@ -58,7 +58,7 @@ Compile and build the application. In compilation time the app.js will be genera
 
 Execution of above code will render the following output.
 
-![](gettingstarted_images\gettingstarted_img1.png)
+![Creating an DatePicker in TypeScript](gettingstarted_images\gettingstarted_img1.png)
 
 ## Configuring the DatePicker properties
 
@@ -72,7 +72,7 @@ module DatePickerComponent {
 
     $(function () {
 
-        var dateSample = new ej.DatePicker($("#datepick"), {
+        var dateSample = new ej.DatePicker($("#datepicker"), {
 
             value: new Date(),
 
@@ -97,7 +97,7 @@ module DatePickerComponent {
 
     $(function () {
 
-        var dateSample = new ej.DatePicker($("#datepick"), {
+        var dateSample = new ej.DatePicker($("#datepicker"), {
 
             value: new Date(),
 
