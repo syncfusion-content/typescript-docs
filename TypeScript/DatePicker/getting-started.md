@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting started
+title: getting started | DatePicker | TypeScript | Syncfusion
 description: Getting Started
 platform: TypeScript
 control: DatePicker

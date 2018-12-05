@@ -1,6 +1,6 @@
 ---
 layout: post
-title: create a simple SplitButton in TypeScript
+title: create a simple SplitButton in TypeScript | SplitButton | TypeScript | Syncfusion
 description: create a simple SplitButton in TypeScript
 platform: TypeScript
 control: Overview
@@ -46,7 +46,7 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
 You can execute the above code example to display the **SplitButton** control.
 
-![](getting-started_images/getting-started_img2.png) 
+![Create a simple SplitButton in TypeScript](getting-started_images/getting-started_img2.png) 
 
 
 ## Configuring SplitButton Properties
@@ -64,7 +64,7 @@ To render the SplitButton with required text, size and with rounded corner add t
 
         module ButtonComponent {
             $(function () {
-                var splitbuttonnormal = new ej.SplitButton($("#splitbuttonnormal"), {
+                var splitbutton_normal = new ej.SplitButton($("#splitbutton_normal"), {
                     showRoundedCorner: true,
                     size: "large",
                     prefixIcon: "e-icon e-key",
@@ -82,6 +82,6 @@ The following screenshot illustrates the **Button** control with text, size and 
 
 
 
-![](getting-started_images/getting-started_img1.png) 
+![Configuring SplitButton Properties](getting-started_images/getting-started_img1.png) 
 
 

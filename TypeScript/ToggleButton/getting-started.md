@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting-started
+title: getting-started  | ToggleButton | TypeScript | Syncfusion
 description: getting started
 platform: TypeScript
 control: ToggleButton
@@ -26,8 +26,8 @@ To create a ToggleButton,include a `input` element with the HTML `id` attribute 
 
 {% highlight html %}
 
-        <input type="checkbox" id="togglebtn">
-        <label for="togglebtn">Toggle</label>
+        <input type="checkbox" id="toggle">
+        <label for="toggle">Toggle</label>
         <script src="app.js"></script>
 
 {% endhighlight %}
@@ -44,7 +44,7 @@ To create a ToggleButton,include a `input` element with the HTML `id` attribute 
         /// <reference path="ej.web.all.d.ts" />
 
         module ToggleButtonComponent {
-            var toggleObj = new ej.ToggleButton($("#togglebtn"), {
+            var toggleObj = new ej.ToggleButton($("#toggle"), {
                     defaultText: "Play",
                     activeText: "Pause",
                     defaultPrefixIcon: "e-icon e-mediaplay",
@@ -63,7 +63,7 @@ To create a ToggleButton,include a `input` element with the HTML `id` attribute 
 
 Execution of above code will render the following output.
 
-![](getting-started_images/Getting-Started_img1.JPG)
+![Creating an ToggleButton in TypeScript](getting-started_images/Getting-Started_img1.JPG)
 
-![](getting-started_images/Getting-Started_img2.JPG)
+![Creating an ToggleButton in TypeScript](getting-started_images/Getting-Started_img2.JPG)
 
