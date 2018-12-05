@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Public Methods and Events
+title: Syncfusion EJ1 Maps - Public Methods and Events
 description: Public methods and events
 platform: typescript
 control: Maps
@@ -247,7 +247,7 @@ Triggered on selecting the map markers.
 
 
 
-### mouseleave
+### mouseLeave
 
 
 Triggers while leaving the hovered map shape
@@ -257,10 +257,10 @@ Triggers while leaving the hovered map shape
 
 <script>
 
-//mouseleave event for Map 
+//mouseLeave event for Map 
   $(function () {
         var sample = new ej.datavisualization.Map($("#map"), {
-              mouseleave: function () {
+              mouseLeave: function () {
                  //..//
                 }
             });
