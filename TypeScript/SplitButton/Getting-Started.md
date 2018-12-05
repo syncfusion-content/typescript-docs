@@ -1,6 +1,6 @@
 ---
 layout: post
-title: create a simple SplitButton in TypeScript | SplitButton | TypeScript | Syncfusion
+title: create a simple SplitButton | SplitButton | TypeScript | Syncfusion
 description: create a simple SplitButton in TypeScript
 platform: TypeScript
 control: Overview

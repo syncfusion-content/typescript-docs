@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview of DatePicker with Tyepscript framework
+title: Overview of DatePicker | DatePicker | TypeScript | Syncfusion
 description: About TypeScript DatePicker
 platform: TypeScript
 control: DatePicker
