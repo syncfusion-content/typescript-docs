@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Technical Indicators
+title: Syncfusion EJ1 Chart - Technical Indicators
 description: What are the different types of technical indicators supported in Essential Chart for financial analysis.
 platform: Typescript
 control: Chart
@@ -111,7 +111,7 @@ To create an Accumulation Distribution indicator, set the [`indicators.type`](..
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img1.png)
+![Accumulation Distribution](Technical-Indicators_images/Technical-Indicators_img1.png)
 
 
 ### Average True Range (ATR)
@@ -135,7 +135,7 @@ You can create an ATR indicator by setting the [`indicators.type`](../api/ejchar
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img2.png)
+![ATR](Technical-Indicators_images/Technical-Indicators_img2.png)
 
 ### Bollinger Band 
 
@@ -158,7 +158,7 @@ Bollinger Band indicator is created by setting the [`indicators.type`](../api/ej
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img3.png)
+![Bollinger Band](Technical-Indicators_images/Technical-Indicators_img3.png)
 
 
 ### Exponential Moving Average (EMA)
@@ -182,7 +182,7 @@ To render an EMA indicator, you have to set the [`indicators.type`](../api/ejcha
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img4.png)
+![EMA](Technical-Indicators_images/Technical-Indicators_img4.png)
 
 
 ### Momentum 
@@ -206,7 +206,7 @@ Momentum Technical indicator is created by setting the [`indicators.type`](../ap
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img5.png)
+![Momentum](Technical-Indicators_images/Technical-Indicators_img5.png)
 
 
 ### Moving Average Convergence Divergence (MACD)
@@ -230,7 +230,7 @@ To render an MACD indicator, you have to set the [`indicators.type`](../api/ejch
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img6.png)
+![MACD](Technical-Indicators_images/Technical-Indicators_img6.png)
 
 
 #### macdType
@@ -255,7 +255,7 @@ By using the [`macdType`](../api/ejchart#members:indicators-macdtype) enumeratio
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img7.png)
+![MACD Type](Technical-Indicators_images/Technical-Indicators_img7.png)
 
 
 ### Relative Strength Index (RSI)
@@ -280,7 +280,7 @@ To render the RSI indicator, set the [`indicators.type`](../api/ejchart#members:
 {% endhighlight %}
 
 
-![](Technical-Indicators_images/Technical-Indicators_img8.png)
+![RSI](Technical-Indicators_images/Technical-Indicators_img8.png)
 
 
 ### Simple Moving Average (SMA)
@@ -304,7 +304,7 @@ To render the SMA indicator, you should specify the [`indicators.type`](../api/e
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img9.png)
+![SMA](Technical-Indicators_images/Technical-Indicators_img9.png)
 
 
 ### Stochastic 
@@ -328,7 +328,7 @@ For the Stochastic indicator, you need to set the [`indicators.type`](../api/ejc
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img10.png)
+![Stochastic](Technical-Indicators_images/Technical-Indicators_img10.png)
 
 
 ### Triangular Moving Average (TMA)
@@ -352,7 +352,7 @@ To render the TMA indicator, you should specify the [`indicators.type`](../api/e
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img11.png)
+![TMA](Technical-Indicators_images/Technical-Indicators_img11.png)
 
 
 ## Enable Tooltip 
@@ -378,7 +378,7 @@ To display the indicator tooltip, use [`visible`](../api/ejchart#members:indicat
 
 {% endhighlight %}
 
-![](Technical-Indicators_images/Technical-Indicators_img12.png)
+![Indicator Tooltip](Technical-Indicators_images/Technical-Indicators_img12.png)
 
 
 

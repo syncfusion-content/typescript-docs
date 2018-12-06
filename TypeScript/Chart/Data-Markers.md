@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Markers and data labels in  Typescript Chart
+title: Markers and data labels in Syncfusion Essential Typescript Chart
 description: Learn how to add markers and data point labels to a Chart series.
 platform: typescript
 control: Chart
@@ -59,7 +59,7 @@ module ChartComponent {
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img1.png)
+![Marker Shapes](Data-Markers_images/Data-Markers_img1.png)
 
 
 
@@ -91,7 +91,7 @@ The following code example illustrates this,
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img2.png)
+![Marker Image](Data-Markers_images/Data-Markers_img2.png)
 
 
 ## Add labels
@@ -122,7 +122,7 @@ The following code example shows how to enable data label and set its horizontal
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img3.png)
+![DataLabel Visibility](Data-Markers_images/Data-Markers_img3.png)
 
 
 Label content can be formatted by using the template option. Inside the template, you can add the placeholder text *"point.x"* and *"point.y"* to display corresponding data points x & y value.
@@ -181,7 +181,7 @@ The following code example shows how to add background shapes and set template t
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img4.png)
+![DataLabel Template](Data-Markers_images/Data-Markers_img4.png)
 
 
 The appearance of the labels can be customized by using the [`font`](../api/ejchart#members:series-marker-datalabel-font) and [`offset`](../api/ejchart#members:series-marker-datalabel-offset) options. The [`offset`](../api/ejchart#members:series-marker-datalabel-offset) option is used to move the labels vertically. Also, labels can be rotated by using the [`rotate`](../api/ejchart#members:series-marker-datalabel-rotate) option.
@@ -211,7 +211,7 @@ The following code example shows how to rotate data label text and customize the
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img5.png)
+![DataLabel Rotation and Font](Data-Markers_images/Data-Markers_img5.png)
 
 
 You can position the label to the top, center or bottom position of the segment by using the [`textPosition`](../api/ejchart#members:series-marker-datalabel-textposition) option for the chart types such as column, bar, stacked bar, stacked column, 100% stacked bar, 100% stacked column, candle and OHLC.
@@ -240,7 +240,7 @@ The following code example shows how to set textPosition to display data label i
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img6.png)
+![DataLabel Position](Data-Markers_images/Data-Markers_img6.png)
 
 
 The label can be positioned inside or outside the perimeter of the series by using the [`labelPosition`](../api/ejchart#members:series-labelposition) option for the chart types such as Pie and Doughnut, .
@@ -278,17 +278,17 @@ The following code example shows how to set the *labelPosition*,
 
 {% endhighlight %} 
 
-![](Data-Markers_images/Data-Markers_img7.png)
+![Pie and Doughnut DataLabel](Data-Markers_images/Data-Markers_img7.png)
 
 
 The following screenshot displays the labels when the [`labelPosition`](../api/ejchart#members:series-labelposition) is set as *inside* position.
 
-![](Data-Markers_images/Data-Markers_img8.png)
+![Inside LabelPosition](Data-Markers_images/Data-Markers_img8.png)
 
 
 The following screenshot displays the labels when the [`labelPosition`](../api/ejchart#members:series-labelposition) is set as *outsideExtended* position.
 
-![](Data-Markers_images/Data-Markers_img9.png)
+![OutsideExtended LabelPosition](Data-Markers_images/Data-Markers_img9.png)
 
 
 The label can be wrapped for pie, doughnut, funnel, and pyramid series by setting the enableWrap property. 
@@ -334,7 +334,7 @@ var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
 
 {% endhighlight %} 
 
-![](Data-Markers_images/Data-Markers_img13.png)
+![DataLabel Wrap](Data-Markers_images/Data-Markers_img13.png)
 
 
 ## Customize specific points
@@ -385,7 +385,7 @@ When the data is provided by using the [`points`](../api/ejchart#members:series-
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img10.png)
+![DataLabel Customization](Data-Markers_images/Data-Markers_img10.png)
 
 When the data is bound to the series by using the [`dataSource`](../api/ejchart#members:series-datasource) option, you can customize the points in the [`seriesRendering`](../api/ejchart#members:events-seriesrendering) event as illustrated in the following code example,
 
@@ -438,7 +438,7 @@ When the data is bound to the series by using the [`dataSource`](../api/ejchart#
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img10.png)
+![DataLabel Customize on SeriesRender](Data-Markers_images/Data-Markers_img10.png)
 
 
 ## Connect Line
@@ -471,7 +471,7 @@ This feature is used to connect label and data point by using a line. It can be 
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img11.png)
+![Connector Line](Data-Markers_images/Data-Markers_img11.png)
 
 
 ## Smart labels
@@ -512,6 +512,6 @@ The following code example shows how to enable smart labels,
 
 {% endhighlight %}
 
-![](Data-Markers_images/Data-Markers_img12.png)
+![EnableSmartLabels](Data-Markers_images/Data-Markers_img12.png)
 
 

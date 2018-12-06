@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customizing the appearance of typescript Chart
+title: Customizing the appearance of Syncfusion Essential typescript Chart
 description: Learn how to customize the appearance of Chart using palettes, themes, color, background and animation. 
 platform: typescript
 control: Chart
@@ -33,7 +33,7 @@ module ChartComponent {
 
 {% endhighlight %}
 
-![](Appearance_images/Appearance_img1.png)
+![Custom Palette](Appearance_images/Appearance_img1.png)
 
 
 N> The Color palette is applied to the points in accumulation type series
@@ -75,7 +75,7 @@ You can set your desired theme by using the [`theme`](../api/ejchart#members:the
 
 {% endhighlight %}
 
-![](Appearance_images/Appearance_img2.png)
+![Themes](Appearance_images/Appearance_img2.png)
 
 
 ## Point level customization
@@ -109,7 +109,7 @@ Marker, data label and fill color of each point in a series can be customized in
 
 {% endhighlight %}
 
-![](Appearance_images/Appearance_img3.png)
+![Point Customization](Appearance_images/Appearance_img3.png)
 
 ## Series border customization
 
@@ -135,7 +135,7 @@ N> Series border can be applied to all the series (except Line, Spline, HiLo, Hi
 
 {% endhighlight %}
 
-![](Appearance_images/Appearance_img4.png)
+![Series Border](Appearance_images/Appearance_img4.png)
 
 ## Chart area customization
 
@@ -162,7 +162,7 @@ The Chart background can be customized by using the [`background`](../api/ejchar
 
 {% endhighlight %} 
 
-![](Appearance_images/Appearance_img5.png)
+![Chart Background](Appearance_images/Appearance_img5.png)
 
 
 **Chart Margin**
@@ -185,7 +185,7 @@ The Chart [`margin`](../api/ejchart#members:margin) property is used to add the 
 
 {% endhighlight %} 
 
-![](Appearance_images/Appearance_img6.png)
+![Chart Margin](Appearance_images/Appearance_img6.png)
 
 **Setting background image**
 
@@ -207,7 +207,7 @@ Background image can be added to the chart by using the [`backGroundImageUrl`](.
 
 {% endhighlight %} 
 
-![](Appearance_images/Appearance_img7.png)
+![Background Image](Appearance_images/Appearance_img7.png)
 
 **Chart area background**
 
@@ -231,7 +231,7 @@ The Chart area background can be customized by using the [`background`](../api/e
 
 {% endhighlight %} 
 
-![](Appearance_images/Appearance_img8.png)
+![Background](Appearance_images/Appearance_img8.png)
 
 
 ### Customize chart area grid bands
@@ -262,7 +262,7 @@ You can provide different color for alternate grid rows and columns formed by th
 
 {% endhighlight %} 
 
-![](Appearance_images/Appearance_img9.png)
+![Gridbands](Appearance_images/Appearance_img9.png)
 
 
 ### Animation
