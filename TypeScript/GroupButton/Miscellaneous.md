@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Miscellaneous
+title: Miscellaneous | GroupButton | TypeScript | Syncfusion
 description: miscellaneous
 platform: TypeScript
 control: GroupButton
@@ -11,7 +11,7 @@ documentation: ug
 
 ## Show/Hide the items
 
-Particular currently showing button items can be hidden. Also it provides the options to show the hided button again. These functionalities can be achieved using **showItem** or **hideItem** method.
+Particular currently showing button items can be hidden. Also it provides the options to show the hidden button again. These functionalities can be achieved using **showItem** or **hideItem** method.
 
 **Hide the Button item based on given index**
 
