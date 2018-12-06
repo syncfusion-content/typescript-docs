@@ -11,7 +11,7 @@ documentation: ug
 
 ## Show/Hide the items
 
-Particular currently showing button items can be hided. Also it provides the options to show the hided button again. These functionalities can be achieved using **showItem** or **hideItem** method.
+Particular currently showing button items can be hidden. Also it provides the options to show the hided button again. These functionalities can be achieved using **showItem** or **hideItem** method.
 
 **Hide the Button item based on given index**
 
@@ -30,7 +30,7 @@ module GroupButtonComponent {
 
 {% endhighlight %}
 
-**Show the hided Button item based on given index**
+**Show the hidden Button item based on given index**
 
 {% highlight js %}
 
@@ -70,7 +70,7 @@ module GroupButtonComponent {
 
 {% endhighlight %}
 
-![](Miscellaneous_images/Miscellaneous_img1.jpeg)
+![Enable/Disable](Miscellaneous_images/Miscellaneous_img1.jpeg)
 
 
 ## Getting Index of given Element
