@@ -186,7 +186,7 @@ The following code example shows how to add background shapes and set template t
 
 The appearance of the labels can be customized by using the [`font`](../api/ejchart#members:series-marker-datalabel-font) and [`offset`](../api/ejchart#members:series-marker-datalabel-offset) options. The [`offset`](../api/ejchart#members:series-marker-datalabel-offset) option is used to move the labels vertically. Also, labels can be rotated by using the [`rotate`](../api/ejchart#members:series-marker-datalabel-rotate) option.
 
-The following code example shows how to rotate datalabel text and customize the font.
+The following code example shows how to rotate data label text and customize the font.
 
 {% highlight javascript %}
 

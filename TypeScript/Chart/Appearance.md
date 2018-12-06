@@ -42,22 +42,22 @@ N> The Color palette is applied to the points in accumulation type series
 
 Following are the built-in themes available in the Chart
 
-* flatlight
-* flatdark
-* gradientlight
-* gradientdark
+* flatLight
+* flatDark
+* gradientLight
+* gradientDark
 * azure
-* azuredark
+* azureDark
 * lime
-* limedark
+* limeDark
 * saffron
-* saffrondark
+* saffronDark
 * gradient-azure
-* gradient-azuredark
+* gradient-azureDark
 * gradient-lime
-* gradient-limedark
+* gradient-limeDark
 * gradient-saffron
-* gradient-saffrondark
+* gradient-saffronDark
 
 
 You can set your desired theme by using the [`theme`](../api/ejchart#members:theme) property. Flat light is the default theme used in the Chart.

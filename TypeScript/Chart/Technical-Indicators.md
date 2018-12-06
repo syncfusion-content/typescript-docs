@@ -79,7 +79,7 @@ Also, you can add data to the indicator directly by using the [`dataSource`](../
 
 ### Accumulation Distribution
 
-To create an Accumulation Distribution indicator, set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"accumulationdistribution"**. Accumulation Distribution require **‘volume’** field additionally with the [`dataSource`](../api/ejchart#members:indicators-datasource) to calculate the signal line.
+To create an Accumulation Distribution indicator, set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"accumulationDistribution"**. Accumulation Distribution require **‘volume’** field additionally with the [`dataSource`](../api/ejchart#members:indicators-datasource) to calculate the signal line.
 
 {% highlight javascript %}
 
@@ -116,7 +116,7 @@ To create an Accumulation Distribution indicator, set the [`indicators.type`](..
 
 ### Average True Range (ATR)
 
-You can create an ATR indicator by setting the [`indicators.type`](../api/ejchart#members:indicators-type) as **"atr"** in the [`indicators`](../api/ejchart#members:indicators). 
+You can create an ATR indicator by setting the [`indicators.type`](../api/ejchart#members:indicators-type) as **"ATR"** in the [`indicators`](../api/ejchart#members:indicators). 
 
 {% highlight javascript %}
 
@@ -139,7 +139,7 @@ You can create an ATR indicator by setting the [`indicators.type`](../api/ejchar
 
 ### Bollinger Band 
 
-Bollinger Band indicator is created by setting the [`indicators.type`](../api/ejchart#members:indicators-type) as **"bollingerband"**. It contains three lines, namely upper band, lower band and signal line. Bollinger Band default value of the period is 14 and standardDeviations is 2.
+Bollinger Band indicator is created by setting the [`indicators.type`](../api/ejchart#members:indicators-type) as **"bollingerBand"**. It contains three lines, namely upper band, lower band and signal line. Bollinger Band default value of the period is 14 and standardDeviations is 2.
 
 {% highlight javascript %}
 
@@ -163,7 +163,7 @@ Bollinger Band indicator is created by setting the [`indicators.type`](../api/ej
 
 ### Exponential Moving Average (EMA)
 
-To render an EMA indicator, you have to set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"ema"**.  
+To render an EMA indicator, you have to set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"EMA"**.  
 
 {% highlight javascript %}
 
@@ -260,7 +260,7 @@ By using the [`macdType`](../api/ejchart#members:indicators-macdtype) enumeratio
 
 ### Relative Strength Index (RSI)
 
-To render the RSI indicator, set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"rsi"**. It contains three lines, namely upper band, lower band and signal line. Upper and lower band always render at value 70 and 30 respectively and signal line is calculated based on the **RSI** formula.
+To render the RSI indicator, set the [`indicators.type`](../api/ejchart#members:indicators-type) as **"RSI"**. It contains three lines, namely upper band, lower band and signal line. Upper and lower band always render at value 70 and 30 respectively and signal line is calculated based on the **RSI** formula.
 
 {% highlight javascript %}
 
@@ -285,7 +285,7 @@ To render the RSI indicator, set the [`indicators.type`](../api/ejchart#members:
 
 ### Simple Moving Average (SMA)
 
-To render the SMA indicator, you should specify the [`indicators.type`](../api/ejchart#members:indicators-type) as **"sma"**.  
+To render the SMA indicator, you should specify the [`indicators.type`](../api/ejchart#members:indicators-type) as **"SMA"**.  
 
 {% highlight javascript %}
 
@@ -333,7 +333,7 @@ For the Stochastic indicator, you need to set the [`indicators.type`](../api/ejc
 
 ### Triangular Moving Average (TMA)
 
-To render the TMA indicator, you should specify the [`indicators.type`](../api/ejchart#members:indicators-type) as **"tma"**. 
+To render the TMA indicator, you should specify the [`indicators.type`](../api/ejchart#members:indicators-type) as **"TMA"**. 
 
 {% highlight javascript %}
 

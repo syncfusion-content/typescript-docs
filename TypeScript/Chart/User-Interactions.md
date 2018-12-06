@@ -515,7 +515,7 @@ Trackball tooltip template is used to display the tooltip in customized template
 
 ## Highlight
 
-EjChart provides highlighting support for the series and data points on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejchart#members:series-highlightsettings-enable) property to *true* in the [`highlightsettings`](../api/ejchart#members:series-highlightsettings) of the series.
+EjChart provides highlighting support for the series and data points on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejchart#members:series-highlightsettings-enable) property to *true* in the [`highlightSettings`](../api/ejchart#members:series-highlightsettings) of the series.
 
 N> When hovering mouse on the data points, the corresponding series legend also will be highlighted.
 
@@ -544,7 +544,7 @@ N> When hovering mouse on the data points, the corresponding series legend also 
 
 ### Highlight Mode
 
-You can set three different highlight mode for the highlighting data point and series by using the [`mode`](../api/ejchart#members:series-highlightsettings-mode) property of the [`highlightsettings`](../api/ejchart#members:series-highlightsettings).
+You can set three different highlight mode for the highlighting data point and series by using the [`mode`](../api/ejchart#members:series-highlightsettings-mode) property of the [`highlightSettings`](../api/ejchart#members:series-highlightsettings).
 
 * Series
 * Points
@@ -1181,7 +1181,7 @@ We can able to select the point/series programmatically on chart load, by settin
 
 ## Data Editing
 
-EjChart provides support to change the location of the rendered points. This can be done by dragging the point and dropping it on another location in chart. To enable the data editing, set the [`enable`] (../api/ejchart#members:series-dragSettings-enable) property to true in the [`dragSettings`](../api/ejchart#members:series-dragSettings) of the series.
+EjChart provides support to change the location of the rendered points. This can be done by dragging the point and dropping it on another location in chart. To enable the data editing, set the [`enable`](../api/ejchart#members:series-dragSettings-enable) property to true in the [`dragSettings`](../api/ejchart#members:series-dragSettings) of the series.
 
 {% highlight javascript %}
 
@@ -1200,7 +1200,7 @@ EjChart provides support to change the location of the rendered points. This can
 
 ### Customize Dragging direction
 
-To drag the point along x and y axes, you can specify [`type`] (../api/ejchart#members:series-dragSettings-type) as xy in dragSettings. And to drag along x axis alone, specify the type as x and to drag along y axis, specify type as y.
+To drag the point along x and y axes, you can specify [`type`](../api/ejchart#members:series-dragSettings-type) as xy in dragSettings. And to drag along x axis alone, specify the type as x and to drag along y axis, specify type as y.
 
 {% highlight javascript %}
 

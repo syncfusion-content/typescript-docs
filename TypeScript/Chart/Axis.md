@@ -52,7 +52,7 @@ module ChartComponent {
 
 ### Place labels on ticks
 
-Labels in the category axis can be placed on the ticks by setting the [`labelPlacement`](../api/ejchart#members:primaryxaxis-labelplacement) property of axis to the **onticks**. The default value of the [`labelPlacement`](../api/ejchart#members:primaryxaxis-valuetype) property is **betweenticks** i.e. labels are placed between the ticks, by default.
+Labels in the category axis can be placed on the ticks by setting the [`labelPlacement`](../api/ejchart#members:primaryxaxis-labelplacement) property of axis to the **onTicks**. The default value of the [`labelPlacement`](../api/ejchart#members:primaryxaxis-valuetype) property is **betweenTicks** i.e. labels are placed between the ticks, by default.
 
 {% highlight javascript %}
 
@@ -502,7 +502,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 ## DateTime Category Axis
 
-DateTime category axis takes date time value as input but behaves like category axis. This is used to display the date time values with nonlinear intervals (used to depict the business days by skipping holidays). To use date time axis, set the [`valueType`] (../api/ejchart#members:primaryxaxis-valuetype) property of the axis to **datetimeCategory**.
+DateTime category axis takes date time value as input but behaves like category axis. This is used to display the date time values with nonlinear intervals (used to depict the business days by skipping holidays). To use date time axis, set the [`valueType`](../api/ejchart#members:primaryxaxis-valuetype) property of the axis to **datetimeCategory**.
 
 {% highlight javascript %}
 
