@@ -109,7 +109,7 @@ The following code example shows how to enable data label and set its horizontal
                 // ...
                 marker: {
                         dataLabel: {
-                      //Set text alignment to datalabel text	
+                      //Set text alignment to data label text	
                             visible: true,
                             horizontalTextAlignment: "center",
                             verticalTextAlignment: "far"
@@ -487,7 +487,7 @@ The following code example shows how to enable smart labels,
             // ...      
             //Initializing Series	
             series: [{
-                points: [{ x: 'Other Personnal', y: 94658, text: 'Other Personal, 88.47%' },
+                points: [{ x: 'Other Personal', y: 94658, text: 'Other Personal, 88.47%' },
                              { x: 'Medical care', y: 9090, text: 'Medical care, 8.49%' },
 		                     { x: 'Housing', y: 2577, text: 'Housing, 2.40%' },
                              { x: 'Transportation', y: 473, text: 'Transportation, 0.44%' },
@@ -503,7 +503,7 @@ The following code example shows how to enable smart labels,
                	       border: { width: 2, color: 'white' },
 		               type: 'pie',
                        labelPosition: "outsideExtended",
-                       //Display data label outside position and enable smartlabels
+                       //Display data label outside position and enable smart labels
                        enableSmartLabels: true
                  }],
            // ...

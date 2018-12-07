@@ -1760,7 +1760,7 @@ To create a HiLoOpenClose chart, you can set the series [`type`](../api/ejchart.
             // ...
             series: [{
                    //Set chart type to series
-                    type: 'hiloopenclose', 
+                    type: 'hiloOpenClose', 
                     //Add datasource and set xName, high and low to hilo chart
                     dataSource: chartData, 
                     xName: "month", 
@@ -1813,7 +1813,7 @@ HiLoOpenClose chart [`bullFillColor`](../api/ejchart.html#members:series-bullfil
         
             // ...
             series: [{
-                     //Change bullFill and bearFill color of hiloopenclose chart
+                     //Change bullFill and bearFill color of hiloOpenClose chart
                      bullFillColor: '#FF6600',
                      bearFillColor: '#336600',                   
                      // ...     
@@ -2370,7 +2370,7 @@ The field y requires n number of data or it should  contains minimum of five val
                              { x: "Finance", y: [26,27,28,30,32,34,35,37,35,37,45]},
                              { x: "R&D", y: [26,27,29,32,34,35,36,37,38,39,41,43,58] }
                            ],                    	
-	                type: 'boxandwhisker',                     
+	                type: 'boxAndWhisker',                     
             }] 
             //...         
         });

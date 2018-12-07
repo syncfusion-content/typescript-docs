@@ -125,7 +125,7 @@ N> Tooltip is animated only if the template is specified for tooltip.
             series: [{
                   tooltip: {
                     //Enable tooltip template animation and set duration time
-                    enableAnimation: true, duaration: "1000ms",                                      
+                    enableAnimation: true, duration: "1000ms",                                      
                     // ...
                  }
              }],

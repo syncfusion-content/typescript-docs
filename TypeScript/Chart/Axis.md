@@ -497,7 +497,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% endhighlight %} 
 
-![Additional RangePadding](/js/Chart/Axis_images/axis_img18.png)
+![Additional RangePadding](Axis_images/axis_img18.png)
 
 
 ## DateTime Category Axis
@@ -1025,7 +1025,7 @@ The [`title`](../api/ejchart#members:primaryxaxis-title) property in the axis pr
                         fontFamily : 'Segoe UI',
                         size : '16px',
                         fontWeight : 'bold' ,
-                        color : 'grey',
+                        color : 'Grey',
                     },
                     enableTrim : true,  
                     maximumTitleWidth : 80 
@@ -1511,7 +1511,7 @@ You can trim, wrap or wrapAndTrim the text if it exceeds the maximum text width 
                         { 
                           // customizing the text overflow  
                             textOverflow: “trim", 
-                            maximumtextWidth: 40                                                                   
+                            maximumTextWidth: 40                                                                   
                       }]
                      }  
               });            
