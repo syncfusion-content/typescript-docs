@@ -1813,7 +1813,7 @@ HiLoOpenClose chart [`bullFillColor`](../api/ejchart.html#members:series-bullfil
         
             // ...
             series: [{
-                     //Change bullFill and bearFill color of hiloOpenClose chart
+                     //Change bullFill and bearFill color of HiLoOpenClose chart
                      bullFillColor: '#FF6600',
                      bearFillColor: '#336600',                   
                      // ...     

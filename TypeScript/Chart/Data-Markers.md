@@ -228,7 +228,7 @@ The following code example shows how to set textPosition to display data label i
                    marker: {
                        dataLabel: {
                            visible: true,
-                         // Place the datalabel text position in the centre of the rectangle
+                         // Place the data label text position in the centre of the rectangle
                            textPosition: "middle"
                           // ...
                        } } 
