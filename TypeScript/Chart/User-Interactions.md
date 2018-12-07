@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interactions available in Essential Typescript Chart
+title: Interactions available in Syncfusion Essential Typescript Chart
 description: What are the interactions available in Chart like tooltip, crosshair, trackball, highlighting, zooming and panning, etc..,
 platform: typescript
 control: Chart
@@ -22,7 +22,7 @@ Tooltip for the data points can be enabled by using the [`visible`](../api/ejcha
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...           
             series: [{
                   
@@ -41,7 +41,7 @@ module ChartComponent {
 
 
 
-![](User-Interactions_images/User-Interactions_img1.png)
+![Point Tooltip](User-Interactions_images/User-Interactions_img1.png)
 
 ### Format the tooltip 
 
@@ -52,7 +52,7 @@ You can also use * **#series.<optionname>#** * as placeholder to display the val
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  tooltip: {
@@ -67,7 +67,7 @@ You can also use * **#series.<optionname>#** * as placeholder to display the val
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img2.png)
+![Tooltip Format](User-Interactions_images/User-Interactions_img2.png)
 
 ### Tooltip Template
 
@@ -79,7 +79,7 @@ You can also use * **#series.<optionname>#** * as place holder to display the va
 {% highlight html %}
 
 <body>
-   <div id="chartcontainer"></div>
+   <div id="chartContainer"></div>
     <!-- Create Tooltip template here -->
     <div id="Tooltip" style="display: none;">
               <div id="icon"> <div id="eficon"> </div>  </div>
@@ -91,7 +91,7 @@ You can also use * **#series.<optionname>#** * as place holder to display the va
         </div>
     </div>
 <script>
-   var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+   var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
      	// ...             
 	    series: [{
               tooltip: {
@@ -108,7 +108,7 @@ You can also use * **#series.<optionname>#** * as place holder to display the va
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img3.png)
+![Tooltip Format](User-Interactions_images/User-Interactions_img3.png)
 
 #### Tooltip template animation
 
@@ -119,13 +119,13 @@ N> Tooltip is animated only if the template is specified for tooltip.
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             series: [{
                   tooltip: {
                     //Enable tooltip template animation and set duration time
-                    enableAnimation: true, duaration: "1000ms",                                      
+                    enableAnimation: true, duration: "1000ms",                                      
                     // ...
                  }
              }],
@@ -144,7 +144,7 @@ The [`fill`](../api/ejchart#members:series-tooltip-fill) and [`border`](../api/e
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  tooltip: {
@@ -160,7 +160,7 @@ The [`fill`](../api/ejchart#members:series-tooltip-fill) and [`border`](../api/e
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img4.png)
+![Tooltip Customization](User-Interactions_images/User-Interactions_img4.png)
 
 #### Tooltip with rounded corners
 
@@ -169,7 +169,7 @@ The options [`rx`](../api/ejchart#members:series-tooltip-rx) and [`ry`](../api/e
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	        // ...             
 	        series: [{
                  tooltip: {
@@ -185,7 +185,7 @@ The options [`rx`](../api/ejchart#members:series-tooltip-rx) and [`ry`](../api/e
 {% endhighlight %}
 
 
-![](User-Interactions_images/User-Interactions_img5.png)
+![Rounded Tooltip](User-Interactions_images/User-Interactions_img5.png)
 
 
 ## Zooming and Panning
@@ -205,7 +205,7 @@ N> Pinch zooming is supported only in browsers that support multi-touch gestures
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              //  ...             
 	         //Enable zooming in chart
              zooming: {enable: true}
@@ -215,12 +215,12 @@ N> Pinch zooming is supported only in browsers that support multi-touch gestures
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img6.png)
+![Zooming](User-Interactions_images/User-Interactions_img6.png)
 
 
 After zooming the chart, a zooming toolbar will appear with options to *zoom*, *pan* and *reset*. Selecting the Pan option will allow to pan the chart and selecting the Reset option will reset the zoomed chart.
 
-![](User-Interactions_images/User-Interactions_img7.png)
+![Zooming Toolbar](User-Interactions_images/User-Interactions_img7.png)
 
 
 ### Types of zooming
@@ -230,7 +230,7 @@ The [`type`](../api/ejchart#members:zooming-type) option in zooming specifies wh
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              //  ...             
 	         zooming: {
                     enable: true,
@@ -251,7 +251,7 @@ You can choose the items displayed in the zooming toolbar by specifying the prop
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              //  ...             
 	         //Customizing zooming toolbar
 	         zooming:{	
@@ -264,7 +264,7 @@ You can choose the items displayed in the zooming toolbar by specifying the prop
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img8.png)
+![Toolbar Customization](User-Interactions_images/User-Interactions_img8.png)
 
 
 
@@ -275,7 +275,7 @@ EjChart provides scrollbar support to view the other portions of chart area whic
 {% highlight javascript %}
 
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              //  ...             
 	         //Enable zooming scrollbar  in chart
              zooming: {enable:true, enableScrollbar: true}
@@ -285,7 +285,7 @@ EjChart provides scrollbar support to view the other portions of chart area whic
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img9.png)
+![Enable Scrollbar](User-Interactions_images/User-Interactions_img9.png)
 
 ## Crosshair
 
@@ -299,7 +299,7 @@ Crosshair can be enabled by using the [`visible`](../api/ejchart#members:series-
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
             primaryXAxis:{
                 //Enable crosshairLabel to X-Axis
@@ -322,7 +322,7 @@ Crosshair can be enabled by using the [`visible`](../api/ejchart#members:series-
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img10.png)
+![Crosshair Label](User-Interactions_images/User-Interactions_img10.png)
 
 
 ### Customize the crosshair line and crosshair label
@@ -332,7 +332,7 @@ The [`fill`](../api/ejchart#members:crosshair-fill) and [`border`](../api/ejchar
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              // ...             
              primaryXAxis: {
                      //...
@@ -355,7 +355,7 @@ The [`fill`](../api/ejchart#members:crosshair-fill) and [`border`](../api/ejchar
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img11.png)
+![Crosshair Label and Line](User-Interactions_images/User-Interactions_img11.png)
 
 ## Trackball
 
@@ -368,7 +368,7 @@ Trackball can be enabled by setting the [`visible`](../api/ejchart#members:cross
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
              crosshair: {
                    visible: true,
@@ -382,7 +382,7 @@ Trackball can be enabled by setting the [`visible`](../api/ejchart#members:cross
 {% endhighlight %}
 
 
-![](User-Interactions_images/User-Interactions_img12.png)
+![Trackball Visibility](User-Interactions_images/User-Interactions_img12.png)
 
 #### Customize trackball marker and trackball line
 
@@ -391,7 +391,7 @@ Shape and size of the trackball marker can be customized by using the [`shape`](
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
              // ...
              crosshair: {
@@ -416,7 +416,7 @@ Shape and size of the trackball marker can be customized by using the [`shape`](
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img13.png)
+![Trackball Line and Marker](User-Interactions_images/User-Interactions_img13.png)
 
 
 ### Format Trackball tooltip
@@ -426,7 +426,7 @@ X and Y values displayed in the trackball tooltip are formatted based on its axi
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               primaryXAxis: {
@@ -449,7 +449,7 @@ X and Y values displayed in the trackball tooltip are formatted based on its axi
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img14.png)
+![Trackball Tooltip Format](User-Interactions_images/User-Interactions_img14.png)
 
 
 You can able to show the trackball tooltip in two modes, using trackballTooltipSettings.
@@ -460,7 +460,7 @@ You can able to show the trackball tooltip in two modes, using trackballTooltipS
 {% highlight javascript %}
 
 
-            var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+            var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
                 // ... 
                     crosshair: {
                         visible: true,
@@ -472,7 +472,7 @@ You can able to show the trackball tooltip in two modes, using trackballTooltipS
                             //Customize the trackball border, fill, rx and ry               
                                 border:{ 
                                     width:1,
-                                    color: 'grey'
+                                    color: 'Grey'
                                 },
                             rx: 3,
                             ry: 3,
@@ -484,7 +484,7 @@ You can able to show the trackball tooltip in two modes, using trackballTooltipS
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img30.png)
+![Trackball Tooltip Customization](User-Interactions_images/User-Interactions_img30.png)
 
 
 #### Trackball tooltip template:
@@ -494,7 +494,7 @@ Trackball tooltip template is used to display the tooltip in customized template
 {% highlight javascript %}
 
 
-            var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+            var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
                 // ... 
                     crosshair: {
                         visible: true,
@@ -511,18 +511,18 @@ Trackball tooltip template is used to display the tooltip in customized template
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img33.png)
+![Trackball Tooltip Template](User-Interactions_images/User-Interactions_img33.png)
 
 ## Highlight
 
-EjChart provides highlighting support for the series and data points on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejchart#members:series-highlightsettings-enable) property to *true* in the [`highlightsettings`](../api/ejchart#members:series-highlightsettings) of the series.
+EjChart provides highlighting support for the series and data points on mouse hover. To enable the highlighting option, set the [`enable`](../api/ejchart#members:series-highlightsettings-enable) property to *true* in the [`highlightSettings`](../api/ejchart#members:series-highlightsettings) of the series.
 
 N> When hovering mouse on the data points, the corresponding series legend also will be highlighted.
 
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -544,7 +544,7 @@ N> When hovering mouse on the data points, the corresponding series legend also 
 
 ### Highlight Mode
 
-You can set three different highlight mode for the highlighting data point and series by using the [`mode`](../api/ejchart#members:series-highlightsettings-mode) property of the [`highlightsettings`](../api/ejchart#members:series-highlightsettings).
+You can set three different highlight mode for the highlighting data point and series by using the [`mode`](../api/ejchart#members:series-highlightsettings-mode) property of the [`highlightSettings`](../api/ejchart#members:series-highlightsettings).
 
 * Series
 * Points
@@ -558,7 +558,7 @@ To highlight all the data points of the specified series, you can set the **"ser
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -579,7 +579,7 @@ To highlight all the data points of the specified series, you can set the **"ser
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img15.png)
+![Series Highlight](User-Interactions_images/User-Interactions_img15.png)
 
 
 **Point mode**
@@ -589,7 +589,7 @@ To highlight a single point, you can set the **"point"** value to the [`mode`](.
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -610,7 +610,7 @@ To highlight a single point, you can set the **"point"** value to the [`mode`](.
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img16.png)
+![Point Highlight](User-Interactions_images/User-Interactions_img16.png)
 
 
 **Cluster mode**
@@ -620,7 +620,7 @@ To highlight the points that corresponds to the same index in all the series, se
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -641,7 +641,7 @@ To highlight the points that corresponds to the same index in all the series, se
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img17.png)
+![Cluster Highlight](User-Interactions_images/User-Interactions_img17.png)
 
 ### Customize the highlight styles
 
@@ -650,7 +650,7 @@ To customize the highlighted series, use the [`color`](../api/ejchart#members:se
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), { 
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), { 
 	
               // ...
               series:[{
@@ -671,7 +671,7 @@ To customize the highlighted series, use the [`color`](../api/ejchart#members:se
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img18.png)
+![Highlight Customization](User-Interactions_images/User-Interactions_img18.png)
 
 
 ### Patterns to highlight
@@ -701,7 +701,7 @@ EjChart provides pattern support for highlighting the data by setting the value 
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
               // ...
               series:[{
@@ -722,7 +722,7 @@ EjChart provides pattern support for highlighting the data by setting the value 
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img19.png)
+![Highlight Pattern](User-Interactions_images/User-Interactions_img19.png)
 
 #### Custom pattern
 
@@ -741,7 +741,7 @@ To create a custom pattern for the highlighting data points, set the pattern typ
             </svg>
 <script type="text/javascript">
 
-   var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+   var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series:[{
                 highlightSettings: [{
@@ -769,7 +769,7 @@ N> When mouse is clicked on the data points, the corresponding series legend als
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
               // ...
               series:[{
@@ -806,7 +806,7 @@ To select all the data points of the specified series, you can set the **"series
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -827,7 +827,7 @@ To select all the data points of the specified series, you can set the **"series
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img20.png)
+![Series Selection](User-Interactions_images/User-Interactions_img20.png)
 
 **Point mode**
 
@@ -836,7 +836,7 @@ To highlight a single point, you can set the **"point"** value to the [`mode`](.
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
               // ...
               series:[{
@@ -857,7 +857,7 @@ To highlight a single point, you can set the **"point"** value to the [`mode`](.
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img21.png)
+![Point Selection](User-Interactions_images/User-Interactions_img21.png)
 
 
 **Cluster mode**
@@ -867,7 +867,7 @@ To select the points that corresponds to the same index in all the series, set t
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
               // ...
               series:[{
@@ -888,7 +888,7 @@ To select the points that corresponds to the same index in all the series, set t
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img22.png)
+![Cluster Selection](User-Interactions_images/User-Interactions_img22.png)
 
 
 
@@ -899,7 +899,7 @@ To fetch the selected area data points value, you can set the selectionSettings 
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
                     // ...
                     series:[{
                   
@@ -930,7 +930,7 @@ To fetch the selected area data points value, you can set the selectionSettings 
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img23.png)
+![Range Selection](User-Interactions_images/User-Interactions_img23.png)
 
 
 ### Selection Type
@@ -947,7 +947,7 @@ To select a data point or a series on mouse click based on the [`selectionSettin
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {  
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {  
 	
               // ...
               commonSeriesOptions:{
@@ -967,7 +967,7 @@ To select a data point or a series on mouse click based on the [`selectionSettin
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img24.png)
+![Single Selection](User-Interactions_images/User-Interactions_img24.png)
 
 **Multiple Type**
 
@@ -976,7 +976,7 @@ For selecting multiple data points or series on mouse click, set [`selectionSett
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), { 
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), { 
 	
               // ...
               commonSeriesOptions:{
@@ -996,7 +996,7 @@ For selecting multiple data points or series on mouse click, set [`selectionSett
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img25.png)
+![Multiple Selection](User-Interactions_images/User-Interactions_img25.png)
 
 
 ### Customizing selection styles
@@ -1006,7 +1006,7 @@ To customize the selection styles, use the [`color`](../api/ejchart#members:seri
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
               // ...
               series:[{
@@ -1028,7 +1028,7 @@ To customize the selection styles, use the [`color`](../api/ejchart#members:seri
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img26.png)
+![Selection Customization](User-Interactions_images/User-Interactions_img26.png)
 
 
 ### Patterns for selection
@@ -1058,7 +1058,7 @@ EjChart provides pattern support for the data selection by setting the value to 
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), { 
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), { 
 	
               // ...
               series:[{
@@ -1079,7 +1079,7 @@ EjChart provides pattern support for the data selection by setting the value to 
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img27.png)
+![Selection Pattern](User-Interactions_images/User-Interactions_img27.png)
 
 
 #### Custom pattern
@@ -1099,7 +1099,7 @@ To create a custom pattern for selecting the data points, set the [`pattern`](..
             </svg>
 <script type="text/javascript">
 
-   var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+   var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series:[{
                 selectionSettings: [{
@@ -1118,7 +1118,7 @@ To create a custom pattern for selecting the data points, set the [`pattern`](..
 {% endhighlight %}
 
 
-![](User-Interactions_images/User-Interactions_img28.png)
+![Custom Selection Pattern](User-Interactions_images/User-Interactions_img28.png)
 
 
 ### Handling Series Selection
@@ -1128,7 +1128,7 @@ To get the series information when selecting the specific series, subscribe to t
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	
              // ... 
               series:[{
@@ -1159,7 +1159,7 @@ We can able to select the point/series programmatically on chart load, by settin
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), { 
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), { 
 	
              // ... 
            
@@ -1176,16 +1176,16 @@ We can able to select the point/series programmatically on chart load, by settin
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img29.png)
+![Selected Point Indexes](User-Interactions_images/User-Interactions_img29.png)
 
 
 ## Data Editing
 
-EjChart provides support to change the location of the rendered points. This can be done by dragging the point and dropping it on another location in chart. To enable the data editing, set the [`enable`] (../api/ejchart#members:series-dragSettings-enable) property to true in the [`dragSettings`](../api/ejchart#members:series-dragSettings) of the series.
+EjChart provides support to change the location of the rendered points. This can be done by dragging the point and dropping it on another location in chart. To enable the data editing, set the [`enable`](../api/ejchart#members:series-dragSettings-enable) property to true in the [`dragSettings`](../api/ejchart#members:series-dragSettings) of the series.
 
 {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {	  
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {	  
       //Initializing Series
       series:[{     
               dragSettings:{     
@@ -1196,15 +1196,15 @@ EjChart provides support to change the location of the rendered points. This can
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img31.png)
+![Point Dragging](User-Interactions_images/User-Interactions_img31.png)
 
 ### Customize Dragging direction
 
-To drag the point along x and y axes, you can specify [`type`] (../api/ejchart#members:series-dragSettings-type) as xy in dragSettings. And to drag along x axis alone, specify the type as x and to drag along y axis, specify type as y.
+To drag the point along x and y axes, you can specify [`type`](../api/ejchart#members:series-dragSettings-type) as xy in dragSettings. And to drag along x axis alone, specify the type as x and to drag along y axis, specify type as y.
 
 {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
   {	  
       //Initializing Series
       series:[{     
@@ -1216,4 +1216,4 @@ To drag the point along x and y axes, you can specify [`type`] (../api/ejchart#m
 
 {% endhighlight %}
 
-![](User-Interactions_images/User-Interactions_img32.png)
+![Dragging Direction](User-Interactions_images/User-Interactions_img32.png)
