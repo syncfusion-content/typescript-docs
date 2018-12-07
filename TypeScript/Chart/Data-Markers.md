@@ -26,7 +26,7 @@ The following code example explains on how to enable series marker and add shape
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             //Adding shapes to series	
             series: [{
@@ -72,7 +72,7 @@ The following code example illustrates this,
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
                 // ...
@@ -103,7 +103,7 @@ The following code example shows how to enable data label and set its horizontal
 {% highlight javascript %}
 
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
                 // ...
@@ -148,7 +148,7 @@ The following code example shows how to add background shapes and set template t
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
                // ...
@@ -191,7 +191,7 @@ The following code example shows how to rotate data label text and customize the
 {% highlight javascript %}
 
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
              // ...
@@ -221,7 +221,7 @@ The following code example shows how to set textPosition to display data label i
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ... 
 	        series:[{
                   // ....
@@ -250,7 +250,7 @@ The following code example shows how to set the *labelPosition*,
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ... 
 	        series:[{
                    points: [{ x: 'India', y: 24, text: 'India 24%' },
@@ -295,7 +295,7 @@ The label can be wrapped for pie, doughnut, funnel, and pyramid series by settin
 
 {% highlight javascript %} 
 
-var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
         // . . .   
 
@@ -348,7 +348,7 @@ When the data is provided by using the [`points`](../api/ejchart#members:series-
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...     
             series: [{
                     // ...
@@ -392,7 +392,7 @@ When the data is bound to the series by using the [`dataSource`](../api/ejchart#
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
            // ...
             series: [{
                          //Add datasource and set xName and yName 
@@ -450,7 +450,7 @@ This feature is used to connect label and data point by using a line. It can be 
 {% highlight javascript %}
 
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
 		      // ...
@@ -483,7 +483,7 @@ The following code example shows how to enable smart labels,
 {% highlight javascript %}
 
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             //Initializing Series	
             series: [{

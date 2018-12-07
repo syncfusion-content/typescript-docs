@@ -20,7 +20,7 @@ The Chart displays different series in different colors by default. You can cust
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
             //Providing a custom palette
             palette: [ "grey", "skyblue", "orange", ],         
@@ -64,10 +64,10 @@ You can set your desired theme by using the [`theme`](../api/ejchart#members:the
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             //Using gradient theme
-            theme: "gradientlight",         
+            theme: "gradientLight",         
 
             // ...
         });
@@ -84,7 +84,7 @@ Marker, data label and fill color of each point in a series can be customized in
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
            series: [{
                 //Customizing marker and fill color of a point
@@ -119,7 +119,7 @@ N> Series border can be applied to all the series (except Line, Spline, HiLo, Hi
 
 {% highlight javascript %}
 
-  var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+  var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
             //...
             series: [{
@@ -145,7 +145,7 @@ The Chart background can be customized by using the [`background`](../api/ejchar
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
             
@@ -171,7 +171,7 @@ The Chart [`margin`](../api/ejchart#members:margin) property is used to add the 
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
             
@@ -193,7 +193,7 @@ Background image can be added to the chart by using the [`backGroundImageUrl`](.
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
             
@@ -215,7 +215,7 @@ The Chart area background can be customized by using the [`background`](../api/e
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
             
@@ -240,7 +240,7 @@ You can provide different color for alternate grid rows and columns formed by th
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
        
@@ -271,7 +271,7 @@ You can enable animation by using the [`enableAnimation`](../api/ejchart#members
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        
             // ...
        
@@ -293,7 +293,7 @@ However, you can force the chart to animate series by calling the animate method
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             series : [{
 
                  //Enabling animation of series
@@ -308,7 +308,7 @@ However, you can force the chart to animate series by calling the animate method
       function animateChart(){
 
            //Calling the animate method for dynamic animation
-           $("#chartcontainer").ejChart("animate");      
+           $("#chartContainer").ejChart("animate");      
         
       }
 

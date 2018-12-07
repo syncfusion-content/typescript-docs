@@ -22,7 +22,7 @@ You can bind the series [`dataSource`](../api/ejchart#members:indicators-datasou
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               //  ...
               //Initializing Series
               series:[{
@@ -39,7 +39,7 @@ module ChartComponent {
 
             //Initializing Indicators    
             indicators: [{
-                //Set Hilo series dataSource to indicator using seriesName
+                //Set HiLo series dataSource to indicator using seriesName
                 seriesName: "Hilo",
                 //  ...
 	     }],
@@ -56,7 +56,7 @@ Also, you can add data to the indicator directly by using the [`dataSource`](../
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //  ...
             //Initializing Indicators    
             indicators: [{
@@ -84,7 +84,7 @@ To create an Accumulation Distribution indicator, set the [`indicators.type`](..
 {% highlight javascript %}
 
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              // Initializing Series
               series:[{
                        name: "Hilo",
@@ -102,7 +102,7 @@ To create an Accumulation Distribution indicator, set the [`indicators.type`](..
                indicators: [{
                      seriesName: "Hilo",
                      //Set indicator type
-                     type: "accumulationdistribution", 
+                     type: "accumulationDistribution", 
                      //  ...
 	        }],
             // ...   
@@ -121,12 +121,12 @@ You can create an ATR indicator by setting the [`indicators.type`](../api/ejchar
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             //Initializing Indicators    
             indicators: [{
                  //Set indicator type
-                 type: "atr", 
+                 type: "ATR", 
                  //  ...
 	      }],
             // ...   
@@ -144,12 +144,12 @@ Bollinger Band indicator is created by setting the [`indicators.type`](../api/ej
 {% highlight javascript %}
 
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
              // ...             
              //Initializing Indicators    
               indicators: [{
                    //Set indicator type
-                   type: " bollingerband", 
+                   type: " bollingerBand", 
                    //  ...
 	         }],
             // ...   
@@ -168,12 +168,12 @@ To render an EMA indicator, you have to set the [`indicators.type`](../api/ejcha
 {% highlight javascript %}
 
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
                    //Set indicator type
-                   type: "ema", 
+                   type: "EMA", 
                    //  ...
 	         }],
             // ...   
@@ -192,7 +192,7 @@ Momentum Technical indicator is created by setting the [`indicators.type`](../ap
 {% highlight javascript %}
 
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
@@ -216,7 +216,7 @@ To render an MACD indicator, you have to set the [`indicators.type`](../api/ejch
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
@@ -240,7 +240,7 @@ By using the [`macdType`](../api/ejchart#members:indicators-macdtype) enumeratio
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
@@ -265,12 +265,12 @@ To render the RSI indicator, set the [`indicators.type`](../api/ejchart#members:
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
                    //Set indicator type
-                   type: "rsi",
+                   type: "RSI",
                    //  ...
 	         }],
             // ...
@@ -290,12 +290,12 @@ To render the SMA indicator, you should specify the [`indicators.type`](../api/e
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
                    //Set indicator type
-                   type: "sma",
+                   type: "SMA",
                    //  ...
 	         }],
             // ...
@@ -314,7 +314,7 @@ For the Stochastic indicator, you need to set the [`indicators.type`](../api/ejc
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...            
              //Initializing Indicators    
               indicators: [{
@@ -338,12 +338,12 @@ To render the TMA indicator, you should specify the [`indicators.type`](../api/e
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{
                    //Set indicator type
-                   type: "tma",
+                   type: "TMA",
                    //  ...
 	         }],
             // ...  
@@ -362,7 +362,7 @@ To display the indicator tooltip, use [`visible`](../api/ejchart#members:indicat
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
              //Initializing Indicators    
               indicators: [{

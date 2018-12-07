@@ -16,7 +16,7 @@ To render a Line Chart, set the series [`type`](../api/ejchart.html#members:seri
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...
             series: [{
                 //Change type and color of the series.
@@ -38,7 +38,7 @@ To change the width of the line segment, you can use the [`width`](../api/ejchar
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //...
             series: [{
                 //Change the width of line series
@@ -60,7 +60,7 @@ To render the line series with dotted lines, you can use the [`dashArray`](../ap
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  //Change dash array to display dotted or dashed lines
@@ -83,7 +83,7 @@ For customizing the start and end caps of the line segment, you can use the [`li
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  //Change line cap
@@ -106,7 +106,7 @@ You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) proper
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //...
             series: [{
                  //Change line join
@@ -129,7 +129,7 @@ You can change the color of the line segments by using the [`fill`](../api/ejcha
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a line 
@@ -156,7 +156,7 @@ To render a Step Line Chart, set the series [`type`](../api/ejchart.html#members
 {% highlight javascript %}
 
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...
             series: [{
                 //Change type and color of the series.
@@ -178,7 +178,7 @@ To change the line width, you can use the **width** property.
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //...
             series: [{
                 //Change the width of step line series
@@ -199,7 +199,7 @@ To render the step line series with dotted lines, you can use the [`dashArray`](
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  //Change dash array to display dotted or dashed lines
@@ -221,7 +221,7 @@ For customizing the start and end caps of the line segment, you can use the [`li
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                  //Change line cap
@@ -244,7 +244,7 @@ You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) proper
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //...
             series: [{
                  //Change line join
@@ -268,7 +268,7 @@ To render an Area chart, you can specify the series [`type`](../api/ejchart.html
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               
             //   ...
             series: [{
@@ -299,7 +299,7 @@ Since the RangeArea series requires two y values for a point, you have to add th
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
              //  ...
              series: [{
@@ -328,7 +328,7 @@ To render a Step Area Chart, set the [`type`](../api/ejchart.html#members:series
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
              series: [{
                // Change the series type and fill color
@@ -352,7 +352,7 @@ To render a Spline Area Chart, set the [`type`](../api/ejchart.html#members:seri
 {% highlight javascript %}
 
  
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -377,7 +377,7 @@ To render a Stacked Area Chart, set the [`type`](../api/ejchart.html#members:ser
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
              // ...
              series: [{
@@ -404,7 +404,7 @@ To render a 100% Stacked Area Chart, set the [`type`](../api/ejchart.html#member
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            //  ...        
             series: [{
@@ -428,7 +428,7 @@ To render a Column Chart, set the [`type`](../api/ejchart.html#members:series-ty
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                 //Change type and fill color of the series
@@ -454,7 +454,7 @@ You can change the color of a column by using the [`fill`](../api/ejchart.html#m
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a column
@@ -481,7 +481,7 @@ N> Width of a column also depends upon the [`columnSpacing`](../api/ejchart#memb
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		//Common settings for all series
 		commonSeriesOptions: {
@@ -514,7 +514,7 @@ Corners of the column chart can be customized by setting value to the [`cornerRa
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		//Common settings for all series
 		commonSeriesOptions: {
@@ -540,7 +540,7 @@ N> Column spacing will also affect the width of the column. For example, setting
 
 {% highlight javascript %}
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		//Common settings for all series
 		commonSeriesOptions: {
@@ -580,7 +580,7 @@ The following chart types can be rendered as cylinder in both 2D and in 3D view.
 
 {% highlight javascript %}
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
        //   ...
        series: [{
            //To change the shape of the series
@@ -608,7 +608,7 @@ Since, the RangeColumn series requires two y values for a point, add the [`high`
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             
@@ -639,7 +639,7 @@ To change the color of a range column, you can use the [`fill`](../api/ejchart.h
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a range column
@@ -665,7 +665,7 @@ To render a Stacked Column Chart, set the [`type`](../api/ejchart.html#members:s
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             
@@ -692,7 +692,7 @@ You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggro
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             
@@ -722,7 +722,7 @@ To change the color of a stacking column, you can use the [`fill`](../api/ejchar
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a stacking column
@@ -747,7 +747,7 @@ To render a 100% Stacked Column Chart, set the [`type`](../api/ejchart.html#memb
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {         
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {         
             // ...
              
             series: [{
@@ -773,7 +773,7 @@ By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup)
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             
@@ -803,7 +803,7 @@ To change the color of a 100% stacking column, you can use the [`fill`](../api/e
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a 100% stacking column
@@ -830,7 +830,7 @@ To render a bar Chart, set the [`type`](../api/ejchart.html#members:series-type)
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //  ...
             series: [{
                 //Change type and color of the series
@@ -854,7 +854,7 @@ By using the [`fill`](../api/ejchart.html#members:series-points-fill) property o
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a bar
@@ -881,7 +881,7 @@ To render a Stacked Bar Chart, set the [`type`](../api/ejchart.html#members:seri
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                 //Change type and color of the series.
@@ -906,7 +906,7 @@ You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggro
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             
@@ -936,7 +936,7 @@ You can change the color of a stacking bar by using the [`fill`](../api/ejchart.
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a stacking bar
@@ -962,7 +962,7 @@ To render a 100% Stacked Bar Chart, set the [`type`](../api/ejchart.html#members
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -984,7 +984,7 @@ By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup)
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             
@@ -1014,7 +1014,7 @@ To change the color of a 100% stacking bar, you can use the [`fill`](../api/ejch
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //   ...
             series: [{
                //  Change the color of a 100% stacking bar
@@ -1041,7 +1041,7 @@ To render a Spline Chart, set the [`type`](../api/ejchart.html#members:series-ty
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1066,7 +1066,7 @@ To change the spline segment width, you can use the [`width`](../api/ejchart.htm
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1091,7 +1091,7 @@ To render the spline series with dotted lines, you can use the [`dashArray`](../
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1117,7 +1117,7 @@ You can create a pie chart by setting the series [`type`](../api/ejchart.html#me
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1142,7 +1142,7 @@ You can use the [`pieCoefficient`](../api/ejchart.html#members:series-piecoeffic
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1167,7 +1167,7 @@ You can explode a pie segment on the chart load by using the [`explodeIndex`](..
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1192,7 +1192,7 @@ To explode all the segments of the Pie chart, you can enable the [`explodeAll`](
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1217,7 +1217,7 @@ To explode a pie segment on a mouse over, you can enable the [`explode`](../api/
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1242,7 +1242,7 @@ EjChart allows you to render all the data points/segments in the semi-pie, quart
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //  ...
             series: [{
@@ -1267,7 +1267,7 @@ To create a Doughnut chart, you can specify the series [`type`](../api/ejchart.h
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1291,7 +1291,7 @@ You can change the doughnut chart inner radius by using the [`doughnutCoefficien
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1316,7 +1316,7 @@ You can use the [`doughnutSize`](../api/ejchart.html#members:series-doughnutsize
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1341,7 +1341,7 @@ To explode a specific doughnut segment, set the index to be exploded by using th
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1366,7 +1366,7 @@ To explode all the segments, you can enable the [`explodeAll`](../api/ejchart.ht
 {% highlight javascript %}
 
 
-        $("#chartcontainer").ejChart({
+        $("#chartContainer").ejChart({
         
             // ...
             series: [{
@@ -1391,7 +1391,7 @@ To explode a doughnut segment on a mouse over, you can enable the [`explode`](..
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1416,7 +1416,7 @@ EjChart allows you to render all the data points/segments in the semi-doughnut, 
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1441,7 +1441,7 @@ EjChart provides support to render more than one series in pie and in doughnut c
 
 {% highlight javascript %}
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
          // ...             
                
          series:[{
@@ -1486,7 +1486,7 @@ To create a Pyramid chart, you can specify the series [`type`](../api/ejchart.ht
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //...
             series: [{
@@ -1510,7 +1510,7 @@ Pyramid mode has two types, *linear* and *surface* respectively. The default **"
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //...
             series: [{
@@ -1535,7 +1535,7 @@ You can control the gap between the segments by using the [`gapRatio`](../api/ej
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //...
             series: [{
@@ -1560,7 +1560,7 @@ You can explode a pyramid segment on the chart load by using the [`explodeIndex`
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             //...
             series: [{
@@ -1585,7 +1585,7 @@ You can create a funnel chart by setting the series [`type`](../api/ejchart.html
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1610,7 +1610,7 @@ Funnel segments height and width is calculated from the chart size, by default. 
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1636,7 +1636,7 @@ You can explode a funnel segment on the chart load by using the [`explodeIndex`]
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1668,7 +1668,7 @@ To create a Bubble chart, you can set the series [`type`](../api/ejchart.html#me
                // ...     
         ];
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...      
             series: [{
                    //Set chart type to series
@@ -1696,7 +1696,7 @@ To create a Scatter chart, you can set the series [`type`](../api/ejchart.html#m
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             
             // ...
             series: [{
@@ -1719,7 +1719,7 @@ You can change the scatter size by using the [`size`](../api/ejchart.html#member
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
             
@@ -1756,7 +1756,7 @@ To create a HiLoOpenClose chart, you can set the series [`type`](../api/ejchart.
             // ...    
          ];
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                    //Set chart type to series
@@ -1785,7 +1785,7 @@ You can change the HiLoOpenClose chart [`drawMode`](../api/ejchart.html#members:
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...
             series: [{
                   // ...
@@ -1809,7 +1809,7 @@ HiLoOpenClose chart [`bullFillColor`](../api/ejchart.html#members:series-bullfil
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
             // ...
             series: [{
@@ -1841,7 +1841,7 @@ You can create a Candle chart by specifying the series [`type`](../api/ejchart.h
             // .......     
        ];
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
              // ...
              series: [{
@@ -1870,7 +1870,7 @@ Candle chart [`bullFillColor`](../api/ejchart.html#members:series-bullfillcolor)
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
              // ...
              series: [{
@@ -1903,7 +1903,7 @@ HiLo chart is created by setting the series [`type`](../api/ejchart.html#members
               // ...     
         ];
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...     
             series: [{
                    //Set chart type to series
@@ -1930,7 +1930,7 @@ Polar chart is created by setting the series [`type`](../api/ejchart.html#member
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...     
             series: [{
                    //Set chart type to series
@@ -1952,7 +1952,7 @@ Polar **DrawType** property is used to change the series plotting type to *Line*
 {% highlight javascript %}
 
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...     
             series: [{
                    //Change polar series drawType
@@ -1976,7 +1976,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...     
             series: [{
                    //Enable isStacking property for stacked column polar chart
@@ -1999,7 +1999,7 @@ To create a Radar chart, you can specify the series [`type`](../api/ejchart.html
 {% highlight javascript %}
 
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -2023,7 +2023,7 @@ Radar **DrawType** property is used to change the series plotting type to *Line*
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -2048,7 +2048,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -2075,7 +2075,7 @@ N> The inline property of the **series.positiveFill** has the first priority and
 {% highlight javascript %}
 
 
-  var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+  var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -2102,7 +2102,7 @@ To display the summary of values since the last intermediate point of the waterf
 {% highlight javascript %}
 
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
             series: [{
@@ -2129,7 +2129,7 @@ The sum of all previous point in the waterfall series is displayed on enabling t
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
             series: [{
@@ -2156,7 +2156,7 @@ To customize the connector line color, width, opacity and dashArray of the water
 {% highlight javascript %}
 
 
-   var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+   var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series: [{
@@ -2184,7 +2184,7 @@ EjChart can generate Error bar for Cartesian type series *(Line, Column, Bar, Sc
 {% highlight javascript %}
 
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
        // ...
        series:[{
@@ -2210,7 +2210,7 @@ You can change the error bar rendering type using [`type`](../api/ejchart.html#m
 {% highlight javascript %}
 
 
-   var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+   var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
         // ...
         series:[{
@@ -2238,7 +2238,7 @@ To customize the error bar type, set error bar [`type`](../api/ejchart.html#memb
 {% highlight javascript %}
 
 
-  var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+  var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
          // ...
          series:[{
@@ -2270,7 +2270,7 @@ Error bar mode is used to define whether the error bar line has to be drawn *hor
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
            // ...
            series:[{
@@ -2298,7 +2298,7 @@ You can change the error bar direction to plus, minus or both side using [`error
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
          // ...
          series:[{
@@ -2327,7 +2327,7 @@ To customize the error bar cap *visibility, length, width* and *fill* color, you
 {% highlight javascript %}
 
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         
         // ...
          series:[{
@@ -2359,7 +2359,7 @@ The field y requires n number of data or it should  contains minimum of five val
 {% highlight javascript %}
 
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         {
             //...
             series:[{	
@@ -2387,7 +2387,7 @@ You can change the rendering mode of the  Box and Whisker series using the  [`bo
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             //...
             series:[{	
                     //...	 
@@ -2404,7 +2404,7 @@ Box and Whisker [`showMedian`](../api/ejchart.html#members:series-showMedian) pr
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
                //...
             series:[{
                     //...		 
@@ -2423,7 +2423,7 @@ Outlier symbol, width and height can be  customized using outlierSettings throug
 
 {% highlight javascript %}
 
-              var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+              var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
                     //...
                     series:[{
                             //...		 
@@ -2448,7 +2448,7 @@ To render the pie of pie chart, set the series [`type`](../api/ejchart.html#memb
 
 {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
  //..
 series: [{	
 	points: [
@@ -2483,7 +2483,7 @@ The points to be displayed in the second pie is decided based on the [`splitMode
 
 {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
  //..
 series: [{	
     // .. 
@@ -2503,7 +2503,7 @@ The size of the second Pie can be customized by using the [`pieOfPieCoefficient`
 
 {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
  //..
 series: [{	
     // .. 
@@ -2524,7 +2524,7 @@ The distance between the two pies in the pie of pie chart can be controlled by u
 
  {% highlight javascript %}
 
- var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+ var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
  //..
 series: [{	
     // .. 

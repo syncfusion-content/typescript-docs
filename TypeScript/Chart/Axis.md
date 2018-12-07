@@ -30,7 +30,7 @@ Category axis displays the text labels instead of numbers. To use the categorica
 
 module ChartComponent {
     $(function () {
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     primaryXAxis: {
 
         //Use categorical scale in primary X axis
@@ -56,11 +56,11 @@ Labels in the category axis can be placed on the ticks by setting the [`labelPla
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     primaryXAxis: {
 
         //Placing X-axis labels on the ticks
-        labelPlacement: 'onticks',         
+        labelPlacement: 'onTicks',         
 
         //  ...        
     },
@@ -79,7 +79,7 @@ To display the labels after a fixed interval n, you can set the [`interval`](../
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     primaryXAxis: {
 
         //Displaying labels after 2 intervals
@@ -102,7 +102,7 @@ Category axis can also plot points based on index value of data points. Index ba
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
          // ...             
          primaryXAxis: {                                  
              isIndexed: true
@@ -132,7 +132,7 @@ Numeric axis uses numerical scale and displays numbers as labels. To use numeric
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     // ...             
     primaryYAxis: {
         //Use numerical scale in primary Y axis
@@ -155,7 +155,7 @@ To customize the range of an axis, you can use the [`range`](../api/ejchart#memb
 
 {% highlight javascript %}
 
-var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     // ...             
     primaryYAxis: {
 
@@ -179,7 +179,7 @@ Axis interval can be customized by using the [`interval`](../api/ejchart#members
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     // ...             
     primaryYAxis: {
               
@@ -212,7 +212,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
                primaryYAxis: {
                
@@ -237,7 +237,7 @@ When the value of [`rangePadding`](../api/ejchart#members:primaryxaxis-rangepadd
 
 {% highlight javascript %}
 
-            var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+            var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
                primaryYAxis: {
                
@@ -269,7 +269,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% highlight javascript %}
 
-            var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+            var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
                primaryYAxis: {
                
@@ -294,7 +294,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryyaxis-range
 
 {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
                primaryYAxis: {
                
@@ -319,7 +319,7 @@ By default the Y axis will be always calculated from the value 0 for column, bar
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
         {
 	     //Initializing Primary Y Axis	
             primaryYAxis:
@@ -342,7 +342,7 @@ Date time axis uses date time scale and displays the date time values as axis la
 
 {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
             primaryXAxis: {
 
@@ -366,7 +366,7 @@ Date time axis uses date time scale and displays the date time values as axis la
  
  {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
               // ...             
             primaryXAxis: {
 
@@ -403,7 +403,7 @@ Essential Chart supports the following types of interval for date time axis.
 
 {% highlight javascript %}
 
-            var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+            var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Customizing X-axis date time range
@@ -438,7 +438,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% highlight javascript %}
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Applying none as range padding
@@ -458,7 +458,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Applying round as range padding
@@ -485,7 +485,7 @@ When the value of the [`rangePadding`](../api/ejchart#members:primaryxaxis-range
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Applying additional as range padding
@@ -506,7 +506,7 @@ DateTime category axis takes date time value as input but behaves like category 
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 	primaryXAxis: { 
 		valueType: 'datetimeCategory', 
 		// ... 
@@ -525,7 +525,7 @@ Axis range can be customized by using the [`range`](../api/ejchart#members:prima
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 range: {  //Customizing X-axis date time category range
@@ -558,7 +558,7 @@ Essential Chart supports the following types of interval for date time category 
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 			
                 intervalType: "months"        
@@ -578,7 +578,7 @@ Logarithmic axis uses logarithmic scale and it is very useful in visualizing whe
 
 {% highlight javascript %}
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Use logarithmic scale in primary X axis
@@ -602,7 +602,7 @@ Logarithmic range can be customized by using the [`range`](../api/ejchart#member
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryYAxis: {
 
                 //Customizing logarithmic range
@@ -623,7 +623,7 @@ Logarithmic base can be customized by using the [`logBase`](../api/ejchart#membe
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
            primaryYAxis: {
 
                 //Customizing logarithmic base
@@ -645,7 +645,7 @@ Logarithmic axis interval can be customized by using the [`interval`](../api/ejc
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
            primaryYAxis: {
 
                 //Customizing logarithmic interval
@@ -669,7 +669,7 @@ Numeric labels can be formatted by using the [`labelFormat`](../api/ejchart#memb
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
      
            primaryXAxis: {
 
@@ -751,7 +751,7 @@ Date time labels can be formatted by using the [`labelFormat`](../api/ejchart#me
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             primaryXAxis: {
 
                 //Formatting date time labels in date/Month name/Year format
@@ -819,7 +819,7 @@ Prefix and suffix can be added to the category labels by using the [`labelFormat
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
     primaryXAxis: {
         //...
         //Adding prefix and suffix to axis labels
@@ -844,7 +844,7 @@ Axis can be positioned anywhere in chart area using the [`crossesAt`](../api/ejc
 
 {% highlight javascript %}
 
-    var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+    var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryXAxis:
 		{
@@ -866,7 +866,7 @@ The [`crossesInAxis`](../api/ejchart#members:primaryxaxis-crossesinaxis) propert
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryXAxis:
 		{
@@ -897,7 +897,7 @@ Axis will be placed in the opposite side if value of [`crossesAt`](../api/ejchar
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryXAxis:
 		{
@@ -919,7 +919,7 @@ For crossing in a date time horizontal axis, date object should be provided as v
 
 {% highlight javascript %}
 
-     var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+     var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryYAxis:
 		{
@@ -945,7 +945,7 @@ W> String value provided for [`crossesAt`](../api/ejchart#members:primaryxaxis-c
 
 {% highlight javascript %}
 
-      var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+      var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryYAxis:
 		{
@@ -967,7 +967,7 @@ The [`showNextToAxisLine`](../api/ejchart#members:primaryxaxis-shownexttoaxislin
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
 		primaryXAxis:
 		{
@@ -991,7 +991,7 @@ Axis visibility can be controlled by using the [`visible`](../api/ejchart#member
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
            primaryYAxis: {
                    
@@ -1014,7 +1014,7 @@ The [`title`](../api/ejchart#members:primaryxaxis-title) property in the axis pr
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
            primaryXAxis: {
                       
@@ -1044,7 +1044,7 @@ You can modify the position of the axis title either inside or outside the chart
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
            primaryXAxis: {
                       
@@ -1071,7 +1071,7 @@ The [`font`](../api/ejchart#members:primaryxaxis-font) property of the axis prov
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
           primaryXAxis: {
 
@@ -1099,7 +1099,7 @@ Axis labels and ticks can be positioned inside or outside the chart area by usin
  
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
              primaryXAxis: {
 
@@ -1123,7 +1123,7 @@ Labels with long text at the edges of an axis may appear partially outside the c
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
              primaryXAxis: {
 
@@ -1152,7 +1152,7 @@ The [`majorGridLines`](../api/ejchart#members:primaryxaxis-majorgridlines) and [
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
           primaryXAxis: {
 
@@ -1183,7 +1183,7 @@ The [`majorTickLines`](../api/ejchart#members:primaryxaxis-majorticklines) and [
 
 {% highlight javascript %}
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
            primaryXAxis: {
 
@@ -1217,7 +1217,7 @@ Axis can be inversed by using the [`isInversed`](../api/ejchart#members:primaryx
 
 {% highlight javascript %}
 
-       var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+       var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
            primaryXAxis: {
 
@@ -1248,7 +1248,7 @@ The [`opposedPosition`](../api/ejchart#members:primaryxaxis-opposedposition) pro
 
 {% highlight javascript %}
 
-     $("#chartcontainer").ejChart({
+     $("#chartContainer").ejChart({
 
             primaryXAxis: {
 
@@ -1278,7 +1278,7 @@ A maximum of 3 labels are displayed for each 100 pixels in the axis, by default.
 
 {% highlight javascript %}
 
-        var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+        var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
          primaryXAxis: {
 
@@ -1306,13 +1306,13 @@ A maximum of 3 labels are displayed for each 100 pixels in the axis, by default.
 
 Multiple axes can be used in the Chart and chart area can be split into multiple panes to draw multiple series with multiple axes.
 
-![](Axis_images/axis_img40.png)
+![Multiple Axis](Axis_images/axis_img40.png)
 
 An additional horizontal or vertical axis can be added to the chart by adding an axis instance to the **axes** collection and then you can associate it to a series by specifying the name of the axis to the [`xAxisName`](../api/ejchart#members:series-xaxisname) or [`yAxisName`](../api/ejchart#members:series-yaxisname) property of the series.
 
 {% highlight javascript %}
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             // ...             
            //  Creating a secondary horizontal axis
             axes: [{
@@ -1353,7 +1353,7 @@ When the Axis labels overlap with each other based on the chart dimensions and l
 
 {% highlight javascript %}
 
-          var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+          var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
 
             // Avoid overlapping of x-axis labels
             primaryXAxis: {
@@ -1411,7 +1411,7 @@ Axis can be customized with multiple levels of labels using the [`multiLevelLabe
 
 {% highlight javascript %}       
 
-         var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+         var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             {
                 primaryXAxis:
                 {
@@ -1434,7 +1434,7 @@ The color, width and type of the border can be customized. The default border ty
 
 {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             {
                 primaryXAxis:
                 {
@@ -1458,7 +1458,7 @@ The text of the labels can be customized using the [`text`] and [`font`] propert
 
 {% highlight javascript %}
 
-             var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+             var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             {
                 primaryXAxis:
                 {
@@ -1483,7 +1483,7 @@ You can change the alignment of the text to far, near and center position using 
 
 {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             {
                 primaryXAxis:
                 {
@@ -1503,7 +1503,7 @@ You can trim, wrap or wrapAndTrim the text if it exceeds the maximum text width 
 
 {% highlight javascript %}
 
-           var chartsample = new ej.datavisualization.Chart($("#chartcontainer"), {
+           var chartSample = new ej.datavisualization.Chart($("#chartContainer"), {
             {
                 primaryXAxis:
                 {
