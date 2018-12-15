@@ -139,11 +139,11 @@ Add the following in style section,
         }
         @font-face {
             font-family: 'ej-webfont';
-            src: url(`../content/ejthemes/common-images/ejicons.eot`);
-            src: url(`../content/ejthemes/common-images/ejicons.eot#iefix`) format('embedded-opentype'), 
-                 url(`../content/ejthemes/common-images/ejicons.ttf`) format('truetype'),
-                 url(`../content/ejthemes/common-images/ejicons.woff`) format('woff'),
-                 url(`../content/ejthemes/common-images/ejicons.svg`) format('svg');
+            src: url('../content/ejthemes/common-images/ejicons.eot');
+            src: url('../content/ejthemes/common-images/ejicons.eot#iefix') format('embedded-opentype'), 
+                 url('../content/ejthemes/common-images/ejicons.ttf') format('truetype'),
+                 url('../content/ejthemes/common-images/ejicons.woff') format('woff'),
+                 url('../content/ejthemes/common-images/ejicons.svg') format('svg');
             font-weight: normal;
             font-style: normal;
             font-size: 20px;

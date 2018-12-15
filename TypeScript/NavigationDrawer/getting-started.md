@@ -41,7 +41,7 @@ The following steps guide you to add a Navigation Drawer control.
 
     {% highlight html %}
 
-        <div id="navPane">
+        <div id="navigationPane">
           <ul>
              <li data-ej-text="Home"></li>
              <li data-ej-text="People"></li>
@@ -76,7 +76,7 @@ Initialize the Navigation Drawer in ts file by using the ej.NavigationDrawer met
 
 module NavigationDrawerComponent {
     $(function () {
-        var navigationdrawerInstance = new ej.NavigationDrawer($("#navPane"), {
+        var navigationdrawerInstance = new ej.NavigationDrawer($("#navigationPane"), {
             type: "overlay",
             direction: "left",
             enableListView: true,
@@ -126,7 +126,7 @@ To open the list items by clicking on target element using the targetId property
 
 module NavigationDrawerComponent {
     $(function () {
-        var navigationdrawerInstance = new ej.NavigationDrawer($("#navPane"), {
+        var navigationdrawerInstance = new ej.NavigationDrawer($("#navigationPane"), {
            targetId: "butDrawer",
             type: "overlay",
             direction: "left",
@@ -148,7 +148,7 @@ To set the images for list items of the Navigation Drawer by using the [`data-ej
 
 {% highlight html %}
 
-   <div id="navPane">
+   <div id="navigationPane">
         <ul>
             <li data-ej-imageclass="e-icon e-home" data-ej-text="Home"></li>
             <li data-ej-imageclass="e-icon e-photo" data-ej-text="Photos"></li>
