@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Image-Configuration
+title: Syncfusion Tile Image Configuration
 description: image configuration
 platform: typescript
 control: Tile
@@ -55,7 +55,7 @@ module TileViewComponent {
 
 
 
-![](Image-Configuration_images/Image-Configuration_img1.png)
+![Image Configuration](Image-Configuration_images/Image-Configuration_img1.png)
 
 You can give images for each tile through **css** classes by using **"data-ej-imageClass”** attribute. You can define your desired styles in the specified class.
 
@@ -90,5 +90,5 @@ Add the following code inside the **script** tag.
 
 {% endhighlight %}
 
-![](Image-Configuration_images/Image-Configuration_img2.png)
+![Tile Image Configurations](Image-Configuration_images/Image-Configuration_img2.png)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting-started
+title: Syncfusion Radial Menu Getting Started
 description: getting started
 platform: Typescript
 control: RadialMenu
@@ -11,7 +11,7 @@ documentation: ug
 
 Using the following steps, you can create a Typescript **RadialMenu** control. The basic rendering of Typescript RadialMenu is achieved with default functionality.
 
-![](Getting_Started_images\Getting-Started_img1.png)
+![Getting Started](Getting_Started_images\Getting-Started_img1.png)
 
 ## Create a RadialMenu
 
@@ -188,7 +188,7 @@ You can display the Radial Menu by performing desired action on the target conte
 
 Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the following output.
 
-![](Getting_Started_images\getting-started_img2.png)
+![Displaying Radial Menu](Getting_Started_images\getting-started_img2.png)
 
 
 ## RadialMenu item functionalities
@@ -254,7 +254,7 @@ Refer to the following code example to add functionalities for each items in **c
 Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the RadialMenu control. Click **bold** item in RadialMenu control, to render the following output.
 
 
-![](Getting_Started_images\Getting_Started_img3.png)
+![Radial Menu items functionalities](Getting_Started_images\Getting_Started_img3.png)
 
 
 > _Note:> You can find the_ RadialMenu _properties from the_ [API reference](https://help.syncfusion.com/api/js/ejradialmenu) _document_ 

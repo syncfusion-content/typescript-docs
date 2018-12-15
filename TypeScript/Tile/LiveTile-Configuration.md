@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LiveTile-Configuration
+title: Syncfusion LiveTile Configuration
 description: livetile configuration
 platform: typescript
 control: Tile

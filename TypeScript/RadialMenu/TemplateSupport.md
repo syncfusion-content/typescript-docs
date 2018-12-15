@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Template Support.
+title: Syncfusion Radial Menu Template Support
 description: Template Support.
 platform: Typescript
 control: RadialMenu
@@ -186,7 +186,7 @@ Add the following in style section,
 
 The following screenshot illustrates the output,
 
-![](template-support\img1.png)
+![Template support](template-support\img1.png)
 
      N> This is the example sample for SVG icon support for Radial Menu.Like wise you can add any SVG element to it, but you need to customize and position the element individually.  
 
