@@ -42,7 +42,7 @@ Create div element and add in the body tag. To create the RadialMenu, you should
 
 {% highlight html %}
 
-    <div id="defaultradialmenu">
+    <div id="defaultRadialMenu">
         <ul>
             <li data-ej-imageurl="content/images/RadialMenu/font.png" data-ej-text="Bold" data-ej-click="bold"></li>
             <li data-ej-imageurl="content/images/RadialMenu/f1.png" data-ej-text="Italic" data-ej-click="italic"></li>
@@ -64,7 +64,7 @@ Initialize the RadialMenu  in app.ts file by using the ej.RadialMenu method.
 
     module RadialMenuComponent {
     $(function () {
-          let sample = new ej.RadialMenu($("#defaultradialmenu"));
+          let sample = new ej.RadialMenu($("#defaultRadialMenu"));
     });
     }
 
@@ -79,7 +79,7 @@ You can set the images for each item by giving the image URL with the **data-ej-
 
 {% highlight html %}
 
-    <div id="defaultradialmenu">
+    <div id="defaultRadialMenu">
         <ul>
             <li data-ej-imageurl="content/images/RadialMenu/font.png" data-ej-text="Bold" ></li>
             <li data-ej-imageurl="content/images/RadialMenu/f1.png" data-ej-text="Italic" ></li>
@@ -102,7 +102,7 @@ Refer to the following code example to add target content to the **RadialMenu**.
                         Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.
                         The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram.
                         Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants.
-                        The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusability and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.
+                        The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusable and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.
                     </p>
 
                     <p>A controller can send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document). It can also send commands to the model to update the model's state (e.g., editing a document).</p>
@@ -122,18 +122,18 @@ Add the following styles in your code.
 
 {% highlight css %}
 
-    .e-radialmenu .imageclass {
+    .e-radialmenu .imageClass {
                 background-image: url(content/images/RadialMenu/settings.png);
             }
 
-    .e-radialmenu .backimageclass {
+    .e-radialmenu .backImageClass {
                 background-image: url(content/images/RadialMenu/Back_button.png);
             }
 
     textarea {
                 padding: 10px;
             }
-    #defaultradialmenu {
+    #defaultRadialMenu {
                 pointer-events:none;
             }
     .e-radial,#defaultradialmenu_svgdiv {
@@ -150,15 +150,15 @@ You can display the Radial Menu by performing desired action on the target conte
 
     declare var rteObj: any;
     declare var data: any;
-    var radialEle = $('#defaultradialmenu'), action = 0, forRedo = 0;
-    var rteEle = $("#rteSample1");
+    var radialElement = $('#defaultRadialMenu'), action = 0, forRedo = 0;
+    var rteElement = $("#rteSample1");
     module RadialMenuComponent {
     $(function () {
 
     if (!(ej.browserInfo().name == "msie" && parseInt(ej.browserInfo().version) < 9)) {
-        var radialmenuInstance = new ej.RadialMenu($("#defaultradialmenu"), {
-            imageClass: "imageclass",
-            backImageClass: "backimageclass",
+        var radialMenuInstance = new ej.RadialMenu($("#defaultRadialMenu"), {
+            imageClass: "imageClass",
+            backImageClass: "backImageClass",
             targetElementId: "radialtarget1"
         });
     $("#radialtarget1").parent().css("position", "relative");
@@ -166,7 +166,7 @@ You can display the Radial Menu by performing desired action on the target conte
     var rteInstance = new ej.RTE($("#rteSample1"), {
         width: "100%",
         minWidth: "10px",
-        change: (e) => { radialEle.ejRadialMenu("enableItem", "Undo"); },
+        change: (e) => { radialElement.ejRadialMenu("enableItem", "Undo"); },
         select: (e) => {
             var target = $("#radialtarget1"), radialRadius = 150, radialDiameter = 2 * radialRadius,
                 // To get Iframe positions
@@ -174,8 +174,8 @@ You can display the Radial Menu by performing desired action on the target conte
                 // To set Radial Menu position within target
                 x = iframeX > target.width() - radialRadius ? target.width() - radialDiameter : (iframeX > radialRadius ? iframeX - radialRadius : 0),
                 y = iframeY > target.height() - radialRadius ? target.height() - radialDiameter : (iframeY > radialRadius ? iframeY - radialRadius : 0);
-            radialEle.ejRadialMenu("setPosition", x, y);
-            radialEle.focus();
+            radialElement.ejRadialMenu("setPosition", x, y);
+            radialElement.focus();
             $('iframe').contents().find('body').blur();
         },
         showToolbar: false,
@@ -199,7 +199,7 @@ You can set the functionalities for each item and define click function by using
 
 {% highlight html %}
 
-    <div id="defaultradialmenu">
+    <div id="defaultRadialMenu">
         <ul>
             <li data-ej-imageurl="content/images/RadialMenu/font.png" data-ej-text="Bold" data-ej-click="bold"></li>
             <li data-ej-imageurl="content/images/RadialMenu/f1.png" data-ej-text="Italic" data-ej-click="italic"></li>
@@ -216,37 +216,37 @@ Refer to the following code example to add functionalities for each items in **c
 
     function bold(e: any) {
 
-    rteObj = rteEle.data("ejRTE");
+    rteObj = rteElement.data("ejRTE");
     rteObj.executeCommand("bold");
     data = rteObj._getSelectedHtmlString() ? true : false;
     if (data) action += 1;
     forRedo = action;
-    radialEle.focus();
+    radialElement.focus();
     }
     function italic(e: any) {
-    rteObj = rteEle.data("ejRTE");
+    rteObj = rteElement.data("ejRTE");
     rteObj.executeCommand("italic");
     data = rteObj._getSelectedHtmlString() ? true : false;
     if (data) action += 1;
     forRedo = action;
-    radialEle.focus();
+    radialElement.focus();
     }
     function undo(e: any) {
-    rteObj = rteEle.data("ejRTE");
+    rteObj = rteElement.data("ejRTE");
     rteObj.executeCommand("undo");
     action -= 1;
     if (action == 0)
-        radialEle.ejRadialMenu("disableItem", "Undo");
-    radialEle.ejRadialMenu("enableItem", "Redo");
-    radialEle.focus();
+        radialElement.ejRadialMenu("disableItem", "Undo");
+    radialElement.ejRadialMenu("enableItem", "Redo");
+    radialElement.focus();
     }
     function redo(e: any) {
-    rteObj = rteEle.data("ejRTE");
+    rteObj = rteElement.data("ejRTE");
     rteObj.executeCommand("redo");
     action += 1;
-    if (forRedo == action) radialEle.ejRadialMenu("disableItem", "Redo");
-    radialEle.ejRadialMenu("enableItem", "Undo");
-    radialEle.focus();
+    if (forRedo == action) radialElement.ejRadialMenu("disableItem", "Redo");
+    radialElement.ejRadialMenu("enableItem", "Undo");
+    radialElement.focus();
     }
 
 {% endhighlight %}

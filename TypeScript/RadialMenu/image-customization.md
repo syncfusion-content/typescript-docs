@@ -18,7 +18,7 @@ You can add the page content with text-area by referring to this section.
 {% highlight html %}
 
 
-    <div id="nestedradialmenu">
+    <div id="nestedRadialMenu">
         <ul>
             <li data-ej-imageurl="http://js.syncfusion.com/UG/web/Content/radial/copy.png" data-ej-text="Copy"></li>
             <li data-ej-imageurl="http://js.syncfusion.com/UG/web/Content/radial/font.png" data-ej-text="Font">
@@ -69,13 +69,13 @@ Add the following script in your code.
 {% highlight javascript %}
 
         $(function () {
-          var radialmenuInstance = new ej.RadialMenu($("#nestedradialmenu"), {
-                imageClass: "imageclass",
-                 backImageClass: "backimageclass" });
+          var radialMenuInstance = new ej.RadialMenu($("#nestedRadialMenu"), {
+                imageClass: "imageClass",
+                 backImageClass: "backImageClass" });
         });
         
-        $("#rteSampleone").select(function (e) {
-            $('#nestedradialmenu').ejRadialMenu("show");
+        $("#rteSampleOne").select(function (e) {
+            $('#nestedRadialMenu').ejRadialMenu("show");
         });
     
 {% endhighlight %}
@@ -85,11 +85,11 @@ Add the following styles in your code.
 {% highlight css %}
 
     <style type="text/css" class="cssStyles">
-        .e-radialmenu .imageclass {
+        .e-radialmenu .imageClass {
             background-image: url(http://js.syncfusion.com/UG/web/Content/radial/main.png);
         }
 
-        .e-radialmenu .backimageclass {
+        .e-radialmenu .backImageClass {
             background-image: url(http://js.syncfusion.com/UG/web/Content/radial/Back_button.png);
         }
     </style>

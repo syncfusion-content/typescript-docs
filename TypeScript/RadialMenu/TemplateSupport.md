@@ -13,7 +13,7 @@ documentation: ug
 
  ### Add SVG to item Icon
 
-Using SVG icon will optimize the icons quality and to reduce space occupation by normal images and svg images are scalable and Zoomable. Define the text element for SVG with x and y position and code for rendering the font icons. Assign the SVG element ID to **prependTo** property.
+Using SVG icon will optimize the icons quality and to reduce space occupation by normal images and svg images are scalable and zoom. Define the text element for SVG with x and y position and code for rendering the font icons. Assign the SVG element ID to **prependTo** property.
 
 {% highlight html %}
 
@@ -25,7 +25,7 @@ Using SVG icon will optimize the icons quality and to reduce space occupation by
                             Model–view–controller (MVC) is a software architecture pattern which separates the representation of information from the user's interaction with it.
                             The model consists of application data, business rules, logic, and functions. A view can be any output representation of data, such as a chart or a diagram.
                             Multiple views of the same data are possible, such as a bar chart for management and a tabular view for accountants.
-                            The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusability and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.
+                            The controller mediates input, converting it to commands for the model or view.The central ideas behind MVC are code reusable and in addition to dividing the application into three kinds of components, the MVC design defines the interactions between them.
                         </p>
 
                         <p>A controller can send commands to its associated view to change the view's presentation of the model (e.g., by scrolling through a document). It can also send commands to the model to update the model's state (e.g., editing a document).</p>
@@ -37,7 +37,7 @@ Using SVG icon will optimize the icons quality and to reduce space occupation by
                 </div>
             </div>
         </div>
-        <div id="defaultradialmenu">
+        <div id="defaultRadialMenu">
         <ul>
             <li data-ej-prependTo="#template1" data-ej-text="Bold" data-ej-click="bold"></li>
             <li data-ej-prependTo="#template2" data-ej-text="Italic" data-ej-click="italic"></li>
@@ -66,12 +66,12 @@ Now add the following in your Script section,
 {% highlight javascript %}
 
     <script type="text/javascript">
-        var rteObj, rteEle = $("#rteSample1"), radialEle = $('#defaultradialmenu'), action = 0, forRedo = 0;
+        var rteObj, rteElement = $("#rteSample1"), radialElement = $('#defaultRadialMenu'), action = 0, forRedo = 0;
         $(function () {
-            rteEle.ejRTE({ width: "100%", minWidth: "10px", change: "rteChange", select: "radialShow", showToolbar: false, showContextMenu: false });
-            rteObj = rteEle.data("ejRTE");
-            if (!(ej.browserInfo().name == "msie" && ej.browserInfo().version < 9)) {
-                radialEle.ejRadialMenu({ imageClass: "imageclass", backImageClass: "backimageclass", targetElementId: "radialtarget1" });
+            rteElement.ejRTE({ width: "100%", minWidth: "10px", change: "rteChange", select: "radialShow", showToolbar: false, showContextMenu: false });
+            rteObj = rteElement.data("ejRTE");
+            if (!(ej.browserInfo().name == 'msie' && ej.browserInfo().version < 9)) {
+                radialElement.ejRadialMenu({ imageClass: "imageClass", backImageClass: "backImageClass", targetElementId: "radialtarget1" });
 				$("#radialtarget1").parent().css("position", "relative");
             }
             else {
@@ -79,7 +79,7 @@ Now add the following in your Script section,
             }
 			$(window).resize(function(){
 				if(ej.isMobile() && ej.isPortrait())
-					$('#defaultradialmenu').css({"left":25})
+					$('#defaultRadialMenu').css({"left":25})
 			});
         });
         function radialShow(e) {
@@ -89,41 +89,41 @@ Now add the following in your Script section,
                 // To set Radial Menu position within target
                 x = iframeX > target.width() - radialRadius ? target.width() - radialDiameter : (iframeX > radialRadius ? iframeX - radialRadius : 0),
                 y = iframeY > target.height() - radialRadius ? target.height() - radialDiameter : (iframeY > radialRadius ? iframeY - radialRadius : 0);
-            radialEle.ejRadialMenu("setPosition", x, y);
-            radialEle.focus();
+            radialElement.ejRadialMenu("setPosition", x, y);
+            radialElement.focus();
 			$('iframe').contents().find('body').blur();
         }
         function rteChange(e) {
-            radialEle.ejRadialMenu("enableItem", "Undo");
+            radialElement.ejRadialMenu("enableItem", "Undo");
         }
         function bold(e) {
             rteObj.executeCommand("bold");
             data = rteObj._getSelectedHtmlString() ? true : false;
             if (data) action += 1;
             forRedo = action;
-            radialEle.focus();
+            radialElement.focus();
         }
         function italic(e) {
             rteObj.executeCommand("italic");
             data = rteObj._getSelectedHtmlString() ? true : false;
             if (data) action += 1;
             forRedo = action;
-            radialEle.focus();
+            radialElement.focus();
         }
         function undo(e) {
             rteObj.executeCommand("undo");
             action -= 1;
             if (action == 0)
-                radialEle.ejRadialMenu("disableItem", "Undo");
-            radialEle.ejRadialMenu("enableItem", "Redo");
-            radialEle.focus();
+                radialElement.ejRadialMenu("disableItem", "Undo");
+            radialElement.ejRadialMenu("enableItem", "Redo");
+            radialElement.focus();
         }
         function redo(e) {
             rteObj.executeCommand("redo");
             action += 1;
-            if (forRedo == action) radialEle.ejRadialMenu("disableItem", "Redo");
-            radialEle.ejRadialMenu("enableItem", "Undo");
-            radialEle.focus();
+            if (forRedo == action) radialElement.ejRadialMenu("disableItem", "Redo");
+            radialElement.ejRadialMenu("enableItem", "Undo");
+            radialElement.focus();
         }
     </script>
 
@@ -134,16 +134,16 @@ Add the following in style section,
 {% highlight css %}
 
     <style>
-         .e-radialmenu .imageclass {
+         .e-radialmenu .imageClass {
             background-image: url(../content/images/RadialMenu/settings.png);
         }
         @font-face {
             font-family: 'ej-webfont';
-            src: url('../content/ejthemes/common-images/ejicons.eot');
-            src: url('../content/ejthemes/common-images/ejicons.eot#iefix') format('embedded-opentype'), 
-                 url('../content/ejthemes/common-images/ejicons.ttf') format('truetype'),
-                 url('../content/ejthemes/common-images/ejicons.woff') format('woff'),
-                 url('../content/ejthemes/common-images/ejicons.svg') format('svg');
+            src: url(`../content/ejthemes/common-images/ejicons.eot`);
+            src: url(`../content/ejthemes/common-images/ejicons.eot#iefix`) format('embedded-opentype'), 
+                 url(`../content/ejthemes/common-images/ejicons.ttf`) format('truetype'),
+                 url(`../content/ejthemes/common-images/ejicons.woff`) format('woff'),
+                 url(`../content/ejthemes/common-images/ejicons.svg`) format('svg');
             font-weight: normal;
             font-style: normal;
             font-size: 20px;
