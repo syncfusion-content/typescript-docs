@@ -144,7 +144,7 @@ module NavigationDrawerComponent {
 
 ![](Getting-Started_images/getting-started_img2.png)
 
-To set the images for list items of the Navigation Drawer by using the data-ej-imageclass property as follows.
+To set the images for list items of the Navigation Drawer by using the [`data-ej-imageclass`] property as follows.
 
 {% highlight html %}
 

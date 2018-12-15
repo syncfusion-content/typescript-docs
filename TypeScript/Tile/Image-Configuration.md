@@ -11,15 +11,15 @@ documentation: ug
 
 The **“data-ej-imagePosition”** attribute is used to adjust the position of **Tile** image at the **center** on initialization. The possible values for the “**data-ej-imagePosition”** are as follows
 
-1. center
-2. top
-3. bottom
-4. right
-5. left
-6. topleft
-7. bottomright
-8. bottomleft 
-9. fill
+1. Center
+2. Top
+3. Bottom
+4. Right
+5. Left
+6. TopLeft
+7. BottomRight
+8. BottomLeft 
+9. Fill
 
 
 

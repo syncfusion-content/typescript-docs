@@ -251,7 +251,7 @@ Refer to the following code example to add functionalities for each items in **c
 
 {% endhighlight %}
 
-Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the RadialMenu control. Click **bold** item in Radialmenu control, to render the following output.
+Run the above code and select any text inside the target. The settings icon is displayed. Click that icon to render the RadialMenu control. Click **bold** item in RadialMenu control, to render the following output.
 
 
 ![](Getting_Started_images\Getting_Started_img3.png)
