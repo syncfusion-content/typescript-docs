@@ -161,7 +161,6 @@ Add the following in style section,
             -webkit-font-smoothing: antialiased;
             /* Better Font Rendering =========== */
             -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
         }
 
         .e-bold:before {
