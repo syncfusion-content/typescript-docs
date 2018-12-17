@@ -1,6 +1,6 @@
 ---
 layout: post
-title: getting-started
+title: Syncfusion Navigation Drawer Getting Started
 description: getting started
 platform: typescript
 control: navigation drawer
@@ -41,7 +41,7 @@ The following steps guide you to add a Navigation Drawer control.
 
     {% highlight html %}
 
-        <div id="navpane">
+        <div id="navigationPane">
           <ul>
              <li data-ej-text="Home"></li>
              <li data-ej-text="People"></li>
@@ -58,8 +58,8 @@ Create the target element as follows to display the list items by clicking targe
     <div id="container">
         <div class="e-lv">
             <div class="e-header">
-                <div id="butdrawer"
-                     class="drawericon e-icon">
+                <div id="butDrawer"
+                     class="drawerIcon e-icon">
                 </div>
             </div>
         </div> 
@@ -76,7 +76,7 @@ Initialize the Navigation Drawer in ts file by using the ej.NavigationDrawer met
 
 module NavigationDrawerComponent {
     $(function () {
-        var navigationdrawerInstance = new ej.NavigationDrawer($("#navpane"), {
+        var navigationdrawerInstance = new ej.NavigationDrawer($("#navigationPane"), {
             type: "overlay",
             direction: "left",
             enableListView: true,
@@ -97,7 +97,7 @@ To set the target icon image and with the correct position as using the below me
 
     <style>
     
-      .drawericon {
+      .drawerIcon {
         background-position: center center;
         background-repeat: no-repeat;
         height: 32px;
@@ -105,7 +105,7 @@ To set the target icon image and with the correct position as using the below me
         background-size: 100% 100%;
         padding-right: 10px;
      }
-     .drawericon:before {
+     .drawerIcon:before {
         content: "\e76b";
         font-size: 28px;
         height: 26px;
@@ -115,7 +115,7 @@ To set the target icon image and with the correct position as using the below me
 
 {% endhighlight %}
 
-![](Getting-Started_images/getting-started_img1.png)
+![Getting Started](Getting-Started_images/getting-started_img1.png)
 
 To open the list items by clicking on target element using the targetId property.  
 
@@ -126,8 +126,8 @@ To open the list items by clicking on target element using the targetId property
 
 module NavigationDrawerComponent {
     $(function () {
-        var navigationdrawerInstance = new ej.NavigationDrawer($("#navpane"), {
-           targetId: "butdrawer",
+        var navigationdrawerInstance = new ej.NavigationDrawer($("#navigationPane"), {
+           targetId: "butDrawer",
             type: "overlay",
             direction: "left",
             enableListView: true,
@@ -142,13 +142,13 @@ module NavigationDrawerComponent {
   
 {% endhighlight %}
 
-![](Getting-Started_images/getting-started_img2.png)
+![Getting Started Navigation Drawer](Getting-Started_images/getting-started_img2.png)
 
-To set the images for list items of the Navigation Drawer by using the data-ej-imageclass property as follows.
+To set the images for list items of the Navigation Drawer by using the [`data-ej-imageclass`] property as follows.
 
 {% highlight html %}
 
-   <div id="navpane">
+   <div id="navigationPane">
         <ul>
             <li data-ej-imageclass="e-icon e-home" data-ej-text="Home"></li>
             <li data-ej-imageclass="e-icon e-photo" data-ej-text="Photos"></li>
@@ -211,7 +211,7 @@ You can set the images with the correct position by using the mentioned styles.
 
 {% endhighlight %}
 
-![](Getting-Started_images/getting-started_img3.png)
+![Getting Started Navigations](Getting-Started_images/getting-started_img3.png)
 
 
 N> You can find the Navigation Drawer control properties from the [API reference](https://help.syncfusion.com/api/js/ejnavigationdrawer).
