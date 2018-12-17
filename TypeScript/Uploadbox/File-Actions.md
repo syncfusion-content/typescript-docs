@@ -120,7 +120,7 @@ module UploadboxComponent {
 
 {% endhighlight %}
 
-Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**uploadfiles’** folder.
+Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**upload files’** folder.
 
 {% highlight c# %}
 

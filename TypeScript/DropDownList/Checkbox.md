@@ -118,9 +118,9 @@ The [multiSelectMode](https://help.syncfusion.com/api/js/ejdropdownlist#members:
 
 I> “multiSelectMode” property accepts both the **string** and **ej.MultiSelectMode** enum value.
 
-### Delimeter
+### Delimiter
 
-Each checked item’s text is appended to the textbox with delimiter “,” by default. This is enabled by assigning **“delimeter”** (string) or **ej.MultiSelectMode.Delimiter** (enum) value to multiSelectMode property. You can customize the delimiter option by using [delimiterChar](https://help.syncfusion.com/api/js/ejdropdownlist#members:delimiterchar) property.
+Each checked item’s text is appended to the textbox with delimiter “,” by default. This is enabled by assigning **“delimiter”** (string) or **ej.MultiSelectMode.Delimiter** (enum) value to multiSelectMode property. You can customize the delimiter option by using [delimiterChar](https://help.syncfusion.com/api/js/ejdropdownlist#members:delimiterchar) property.
 
 {% highlight html %}
 
@@ -171,7 +171,7 @@ module DropDownListComponent {
 
 ### Visual Mode
 
-When you enable this option in DropDownList widget, each checked item’s text is appended to the text box in a box model layout. This is enabled by assigning **“visualmode”** (string) or **ej.MultiSelectMode.VisualMode** (enum) value to multiSelectMode property.
+When you enable this option in DropDownList widget, each checked item’s text is appended to the text box in a box model layout. This is enabled by assigning **“visualMode”** (string) or **ej.MultiSelectMode.VisualMode** (enum) value to multiSelectMode property.
 
 {% highlight html %}
 
