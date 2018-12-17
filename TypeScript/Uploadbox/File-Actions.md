@@ -50,7 +50,7 @@ saveFiles.ashx
 
     public void ProcessRequest(HttpContext context)
     {
-        string targetFolder = HttpContext.Current.Server.MapPath("uploadfiles");
+        string targetFolder = HttpContext.Current.Server.MapPath("upload-files");
         if (!Directory.Exists(targetFolder))
         {
             Directory.CreateDirectory(targetFolder);
@@ -120,7 +120,7 @@ module UploadboxComponent {
 
 {% endhighlight %}
 
-Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**upload files’** folder.
+Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**upload-files’** folder.
 
 {% highlight c# %}
 
@@ -133,7 +133,7 @@ removeFiles.ashx
     {
         System.Collections.Specialized.NameValueCollection s = context.Request.Params;
         string fileName = s["fileNames"];
-        string targetFolder = HttpContext.Current.Server.MapPath("uploadfiles");
+        string targetFolder = HttpContext.Current.Server.MapPath("upload-files");
         if (!Directory.Exists(targetFolder))
         {
             Directory.CreateDirectory(targetFolder);

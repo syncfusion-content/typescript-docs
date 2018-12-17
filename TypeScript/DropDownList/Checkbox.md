@@ -171,7 +171,7 @@ module DropDownListComponent {
 
 ### Visual Mode
 
-When you enable this option in DropDownList widget, each checked item’s text is appended to the text box in a box model layout. This is enabled by assigning **“visualMode”** (string) or **ej.MultiSelectMode.VisualMode** (enum) value to multiSelectMode property.
+When you enable this option in DropDownList widget, each checked item’s text is appended to the text box in a box model layout. This is enabled by assigning **“visualmode”** (string) or **ej.MultiSelectMode.VisualMode** (enum) value to multiSelectMode property.
 
 {% highlight html %}
 
