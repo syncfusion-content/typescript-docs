@@ -140,8 +140,7 @@ Add the following in style section,
         @font-face {
             font-family: 'ej-webfont';
             src: url('../content/ejthemes/common-images/icons.eot');
-            src: url('../content/ejthemes/common-images/icons.eot#fix') format('embedded-opentype'), 
-                 url('../content/ejthemes/common-images/icons.ttf') format('truetype'),
+            src: url('../content/ejthemes/common-images/icons.ttf') format('truetype'),
                  url('../content/ejthemes/common-images/icons.woff') format('woff'),
                  url('../content/ejthemes/common-images/icons.svg') format('svg');
             font-weight: normal;
