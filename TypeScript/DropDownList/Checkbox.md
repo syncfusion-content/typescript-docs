@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CheckBox with DropDownList widget
+title: CheckBox with Syncfusion DropDownList widget
 description: Describes about Checkbox functionalities in DropDownList widget
 platform: Typescript
 control: DropDownList
@@ -55,7 +55,7 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](Checkbox_images/Checkbox_img1.jpeg)
+![DropDownList with Checkbox functionality](Checkbox_images/Checkbox_img1.jpeg)
 
 N> if you want to showcase the DropDownList with default checked items on data binding, specify selected field with Boolean values.
 
@@ -107,7 +107,7 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](Checkbox_images/Checkbox_img2.jpeg)
+![DropDownList with Checkbox functionality](Checkbox_images/Checkbox_img2.jpeg)
 
 ## Selection Modes
 
@@ -118,9 +118,9 @@ The [multiSelectMode](https://help.syncfusion.com/api/js/ejdropdownlist#members:
 
 I> “multiSelectMode” property accepts both the **string** and **ej.MultiSelectMode** enum value.
 
-### Delimeter
+### Delimiter
 
-Each checked item’s text is appended to the textbox with delimiter “,” by default. This is enabled by assigning **“delimeter”** (string) or **ej.MultiSelectMode.Delimiter** (enum) value to multiSelectMode property. You can customize the delimiter option by using [delimiterChar](https://help.syncfusion.com/api/js/ejdropdownlist#members:delimiterchar) property.
+Each checked item’s text is appended to the textbox with delimiter “,” by default. This is enabled by assigning **“delimiter”** (string) or **ej.MultiSelectMode.Delimiter** (enum) value to multiSelectMode property. You can customize the delimiter option by using [delimiterChar](https://help.syncfusion.com/api/js/ejdropdownlist#members:delimiterchar) property.
 
 {% highlight html %}
 
@@ -167,7 +167,7 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](Checkbox_images/Checkbox_img3.jpeg)
+![DropDownList with Checkbox functionality](Checkbox_images/Checkbox_img3.jpeg)
 
 ### Visual Mode
 
@@ -217,7 +217,7 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](Checkbox_images/Checkbox_img4.jpeg)
+![DropDownList with Checkbox functionality](Checkbox_images/Checkbox_img4.jpeg)
 
 ## Check/Uncheck All
 
