@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-Started
+title: Getting-Started | ColorPicker | TypeScript | Syncfusion
 description: Getting Started
 platform: TypeScript
 control: ColorPicker
@@ -23,7 +23,7 @@ To create a ColorPicker, add a `input` element with the HTML `id` attribute and 
 
 {% highlight html %}
 
-        <input id="colorpick" type="text" />
+        <input id="ColorPicker" type="text" />
         <script src="app.js"></script>
 
 {% endhighlight %}
@@ -40,7 +40,7 @@ To create a ColorPicker, add a `input` element with the HTML `id` attribute and 
         /// <reference path="ej.web.all.d.ts" />
 
         module ColorPickerComponent {
-            var colorPickObj = new ej.ColorPicker($("#colorpick"), {
+            var colorPickObj = new ej.ColorPicker($("#ColorPicker"), {
                     value: "#278787"
                 })
         }
@@ -48,10 +48,10 @@ To create a ColorPicker, add a `input` element with the HTML `id` attribute and 
 {% endhighlight %}
 
 
-* Now build your application, so that the **app.ts** file will compiled and automtically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the aplication.
+* Now build your application, so that the **app.ts** file will compiled and automatically generated the **app.js** file which is added to your project (User have nothing to do with this file). Now, whatever code changes that you make in **app.ts** file will be reflected in app.js file by compiling     build the application.
 
 
 Execution of above code will render the following output.
 
-![](getting-started_images/getting-started_img1.png)
+![Creating an ColorPicker in TypeScript](getting-started_images/getting-started_img1.png)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Appearance-and-Styling
+title: Appearance-and-Styling | Syncfusion
 description: appearance and styling
 platform: Typescript
 control: Tab Control
@@ -82,7 +82,7 @@ Add following **CSS** for header image customization.
 
 The following screenshot illustrates the **Tab** with the customized header image. 
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img1.png)
+![header](Appearance-and-Styling_images/Appearance-and-Styling_img1.png)
 
 Header Image Customization
 {:.caption}
@@ -134,7 +134,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with Rounded corner.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img2.png) 
+![Rounded](Appearance-and-Styling_images/Appearance-and-Styling_img2.png) 
 
 
 ## Enable/Disable
@@ -184,7 +184,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with disabled format.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img3.png) 
+![disabled](Appearance-and-Styling_images/Appearance-and-Styling_img3.png) 
 
 
  ## Enabling Reload Icon
@@ -233,12 +233,12 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with **Reload** icon.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img4.png) 
+![Reload](Appearance-and-Styling_images/Appearance-and-Styling_img4.png) 
 
 
 ## Collapsible Tabs
 
-You can collapse the **Tab** content by enabling the ‘**collapsible’** property to ‘**true**’. When the property is set to ‘**true**’ then click the active **Tab** header, the **Tab** contents are hided. By default, the property value is set to ‘**false**’.
+You can collapse the **Tab** content by enabling the ‘**collapsible’** property to ‘**true**’. When the property is set to ‘**true**’ then click the active **Tab** header, the **Tab** contents are hidden. By default, the property value is set to ‘**false**’.
 
 The following code example is used to render the **Tab** widget with customized collapsible mode.
 
@@ -282,7 +282,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with customized collapsible mode.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img5.png) 
+![collapsible](Appearance-and-Styling_images/Appearance-and-Styling_img5.png) 
 
 
 ## Adjusting Tab Size
@@ -336,7 +336,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with customized height and height adjust mode.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img6.png) 
+![height](Appearance-and-Styling_images/Appearance-and-Styling_img6.png) 
 
 
 
@@ -388,7 +388,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** with customized width.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img7.png) 
+![width](Appearance-and-Styling_images/Appearance-and-Styling_img7.png) 
 
 
 ## Theme
@@ -472,7 +472,7 @@ Add the following styles
 
 The following screenshot illustrates the **Tab** with customized style.
 
-![](Appearance-and-Styling_images/Appearance-and-Styling_img8.png) 
+![customize](Appearance-and-Styling_images/Appearance-and-Styling_img8.png) 
 
 
 

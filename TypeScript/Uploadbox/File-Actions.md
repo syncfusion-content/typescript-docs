@@ -1,6 +1,6 @@
 ---
 layout: post
-title: File-Actions
+title: Syncfusion UploadBox File-Actions
 description: file actions
 platform: Typescript
 control: Uploadbox
@@ -50,7 +50,7 @@ saveFiles.ashx
 
     public void ProcessRequest(HttpContext context)
     {
-        string targetFolder = HttpContext.Current.Server.MapPath("uploadfiles");
+        string targetFolder = HttpContext.Current.Server.MapPath("upload-files");
         if (!Directory.Exists(targetFolder))
         {
             Directory.CreateDirectory(targetFolder);
@@ -86,7 +86,7 @@ saveFiles.ashx
 
 The following screenshot displays the output. 
 
-![](File-Actions_images/File-Actions_img1.png) 
+![UploadBox with save file action](File-Actions_images/File-Actions_img1.png) 
 
 ## Remove File Action 
 
@@ -120,7 +120,7 @@ module UploadboxComponent {
 
 {% endhighlight %}
 
-Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**uploadfiles’** folder.
+Configure the handlers to remove the file from the target location. From that location, the file is searched and removed from the ‘**upload-files’** folder.
 
 {% highlight c# %}
 
@@ -133,7 +133,7 @@ removeFiles.ashx
     {
         System.Collections.Specialized.NameValueCollection s = context.Request.Params;
         string fileName = s["fileNames"];
-        string targetFolder = HttpContext.Current.Server.MapPath("uploadfiles");
+        string targetFolder = HttpContext.Current.Server.MapPath("upload-files");
         if (!Directory.Exists(targetFolder))
         {
             Directory.CreateDirectory(targetFolder);
@@ -162,7 +162,7 @@ removeFiles.ashx
 
 The following screenshot displays the output. 
 
-![](File-Actions_images/File-Actions_img2.png) 
+![UploadBox with remove file action](File-Actions_images/File-Actions_img2.png) 
 
 ##  Auto Upload
 
@@ -201,5 +201,5 @@ The following screenshot displays the output.
 
 
 
-![](File-Actions_images/File-Actions_img3.png) 
+![UploadBox with autoupload](File-Actions_images/File-Actions_img3.png) 
 

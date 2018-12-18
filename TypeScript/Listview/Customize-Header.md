@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Customize-Header
+title: Syncfusion Customize-Header
 description: customize header
 platform: Typescript
 control: ListView
@@ -9,9 +9,9 @@ documentation: ug
 
 # Customize Header
 
-In **ListView**, you can enable the built-in **Header** support. To show or hide the **Header** in **ListView**, use the **data-ej-showheader** attribute. By default, **ListView** is rendered with the **Header**. You can set the title for the **Header** by using the **data-ej-headertitle** attribute.
+In **ListView**, you can enable the built-in **Header** support. To show or hide the **Header** in **ListView**, use the [`data-ej-showheader`] attribute. By default, **ListView** is rendered with the **Header**. You can set the title for the **Header** by using the [`data-ej-headertitle`]attribute.
 
-In some cases, for the purpose of navigation, you may want to show the **Back** button in **ListView Header**. To achieve this, **data-ej-showheaderbackbutton** attribute is used. By default, **ListView** is not rendered with the header back button in parent page. To customize the text shown in **ListView Header Back** button, the attribute **data-ej-headerbackbuttontext** is used. 
+In some cases, for the purpose of navigation, you may want to show the **Back** button in **ListView Header**. To achieve this, [`data-ej-showheaderbackbutton`] attribute is used. By default, **ListView** is not rendered with the header back button in parent page. To customize the text shown in **ListView Header Back** button, the attribute [`data-ej-headerbackbuttontext`] is used. 
 
 Refer the following code example.
 
@@ -20,7 +20,7 @@ Refer the following code example.
 {% highlight html %}
 
 
-        <div id="defaultlistview">
+        <div id="defaultListView">
         <ul>
             <li data-ej-text="Artwork"></li>
             <li data-ej-text="Abstract"></li>
@@ -46,7 +46,7 @@ Add the following script in your code.
 
 module ListComponent {
     $(function () {
-        var sample = new ej.ListView($("#defaultlistview"), {
+        var sample = new ej.ListView($("#defaultListView"), {
                 showHeader:true,
                 showHeaderBackButton:true, 
                 headerBackButtonText :"Menu",
@@ -61,5 +61,5 @@ module ListComponent {
 
 Run the code to get the following output
 
-![](Customize-Header_images/Customize-Header_img1.png) 
+![Header](Customize-Header_images/Customize-Header_img1.png) 
 

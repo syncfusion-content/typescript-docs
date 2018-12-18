@@ -1,6 +1,6 @@
 ---
 layout: post
-title: image-customization
+title: Syncfusion Radial Menu Image Customization
 description: image customization
 platform: Typescript
 control: RadialMenu
@@ -11,14 +11,14 @@ documentation: ug
 
 You can customize the **Radial Menu’s** Center and Back images by using the **ImageClass** and **BackImageClass** properties. Every menu item can be added with image using **url** property. By using this **data-ej-imageClass** attribute, you can customize the **Radial Menu** center image. 
 
-Sub-Items are also supported in the **Radial Menu**. To navigate Sub-Items, click the arrows in the outer ring and it displays the corresponding sub-items group. Clicking the center button when a sub-items group is shown, displays the items on the previous level. Nested **Radial Menu** has the second level back button. In this case, you can use the **data-ej-backImageClass** attribute to change your second level back button. **BackImageClass** is used to customize the **nestedRadialmenu** back image. Refer to the following code example.
+Sub-Items are also supported in the **Radial Menu**. To navigate Sub-Items, click the arrows in the outer ring and it displays the corresponding sub-items group. Clicking the center button when a sub-items group is shown, displays the items on the previous level. Nested **Radial Menu** has the second level back button. In this case, you can use the **data-ej-backImageClass** attribute to change your second level back button. **BackImageClass** is used to customize the **nestedRadialMenu** back image. Refer to the following code example.
 
 You can add the page content with text-area by referring to this section.
 
 {% highlight html %}
 
 
-    <div id="nestedradialmenu">
+    <div id="nestedRadialMenu">
         <ul>
             <li data-ej-imageurl="http://js.syncfusion.com/UG/web/Content/radial/copy.png" data-ej-text="Copy"></li>
             <li data-ej-imageurl="http://js.syncfusion.com/UG/web/Content/radial/font.png" data-ej-text="Font">
@@ -69,13 +69,13 @@ Add the following script in your code.
 {% highlight javascript %}
 
         $(function () {
-          var radialmenuInstance = new ej.RadialMenu($("#nestedradialmenu"), {
-                imageClass: "imageclass",
-                 backImageClass: "backimageclass" });
+          var radialMenuInstance = new ej.RadialMenu($("#nestedRadialMenu"), {
+                imageClass: "imageClass",
+                 backImageClass: "backImageClass" });
         });
         
-        $("#rteSampleone").select(function (e) {
-            $('#nestedradialmenu').ejRadialMenu("show");
+        $("#rteSampleOne").select(function (e) {
+            $('#nestedRadialMenu').ejRadialMenu("show");
         });
     
 {% endhighlight %}
@@ -85,11 +85,11 @@ Add the following styles in your code.
 {% highlight css %}
 
     <style type="text/css" class="cssStyles">
-        .e-radialmenu .imageclass {
+        .e-radialmenu .imageClass {
             background-image: url(http://js.syncfusion.com/UG/web/Content/radial/main.png);
         }
 
-        .e-radialmenu .backimageclass {
+        .e-radialmenu .backImageClass {
             background-image: url(http://js.syncfusion.com/UG/web/Content/radial/Back_button.png);
         }
     </style>
@@ -101,14 +101,14 @@ Add the following styles in your code.
 
 The following screenshot illustrates the output.
 
-![](image-customization_images\image-customization_img1.png)
+![Image customizations](image-customization_images\image-customization_img1.png)
 
 Radial Menu - Image Customization – Main menu
 {:.caption}
 
 When you click the arrow, it navigates to the child item as illustrated in the following screenshot.
 
-![](image-customization_images\image-customization_img2.png)
+![Radial Menu Image customizations](image-customization_images\image-customization_img2.png)
 
 Radial Menu- Image Customization – Child menu 
 {:.caption}
