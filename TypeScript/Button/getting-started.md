@@ -1,13 +1,13 @@
 ---
 layout: post
-title: create a simple Button in TypeScript
-description: create a simple Button in TypeScript
+title: create a simple Button in TypeScript | Syncfusion
+description: Learn here about getting started with the Syncfusion TypeScript Button control, its elements, and more.
 platform: TypeScript
 control: Overview
 documentation: ug
 ---
 
-## Create a simple Button in TypeScript
+# Create a simple Button in TypeScript
 
 You can create a **TypeScript** application with the help of the given [Typescript Getting Started Documentation](https://help.syncfusion.com/js/typescript).
 
@@ -66,5 +66,5 @@ The following screenshot illustrates the **Button** control with text, size and 
 
 
 
-![](getting-started_images/Getting-Started_img1.JPG)
+![Button Control in TypeScript](getting-started_images/Getting-Started_img1.JPG)
 
