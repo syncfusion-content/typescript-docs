@@ -66,5 +66,5 @@ The following screenshot illustrates the **Button** control with text, size and 
 
 
 
-![](getting-started_images/Getting-Started_img1.JPG)
+![Button Control in TypeScript](getting-started_images/Getting-Started_img1.JPG)
 
