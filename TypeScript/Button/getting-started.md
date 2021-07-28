@@ -1,13 +1,13 @@
 ---
 layout: post
-title: create a simple Button in TypeScript | Syncfusion
+title: Getting started with Typescript Button Control | Syncfusion
 description: Learn here about getting started with the Syncfusion TypeScript Button control, its elements, and more.
 platform: TypeScript
 control: Overview
 documentation: ug
 ---
 
-# Create a simple Button in TypeScript
+# Getting started with Typescript Button
 
 You can create a **TypeScript** application with the help of the given [Typescript Getting Started Documentation](https://help.syncfusion.com/js/typescript).
 
@@ -44,7 +44,7 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
 ## Configuring Button Properties
 
-This section encompasses the details on how you can configure the Button control in your application and customize it with various properties such as various size, resizing the**Button** according to your requirement.
+This section encompasses the details on how you can configure the [Typescript Button control](https://www.syncfusion.com/javascript-ui-controls/js-button) in your application and customize it with various properties such as various size, resizing the**Button** according to your requirement.
 
 To render the button with required text, size and with rounded corner add the following code example in your TS file.
 
