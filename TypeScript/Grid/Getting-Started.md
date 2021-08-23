@@ -207,7 +207,7 @@ module GridComponent {
 
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img1.png)
+![Getting-started_images1](Getting-started_images/Getting-started_img1.png)
 {:.image }
 
 
@@ -245,7 +245,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img2.png)
+![Getting-started_images2](Getting-started_images/Getting-started_img2.png)
 {:.image }
 
 ## Enable Paging
@@ -284,7 +284,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img3.png)
+![Getting-started_images3](Getting-started_images/Getting-started_img3.png)
 {:.image }
 
 N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
@@ -327,7 +327,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img4.png)
+![Getting-started_images4](Getting-started_images/Getting-started_img4.png)
 {:.image }
 
 ## Enable Grouping
@@ -368,7 +368,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img5.png)
+![Getting-started_images5](Getting-started_images/Getting-started_img5.png)
 {:.image }
 
 Refer to the following code example for initial grouping.
@@ -408,7 +408,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img6.png)
+![Getting-started_images6](Getting-started_images/Getting-started_img6.png)
 {:.image }
 
 
@@ -459,7 +459,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img7.png)
+![Getting-started_images7](Getting-started_images/Getting-started_img7.png)
 {:.image }
 
 
