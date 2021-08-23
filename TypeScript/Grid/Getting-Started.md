@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Getting started for Typescript Grid
-description: How to create the Grid, data bind, enable paging, grouping, filtering and add TypeScript
+title: Getting started with Typescript Grid Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential TypeScript Grid Control, its elements, and more.
 platform: Typescript
 control: Grid
 documentation: ug
 ---
-# Getting started
+# Getting started with Typescript Grid
 
 Before we start with the Grid,for common getting started of TypeScript please refer [this page](https://help.syncfusion.com/js/typescript) provides general information regarding integrating Syncfusion widget's.
 
@@ -169,7 +169,7 @@ Finally build your application, so that the “grid.js” file is automatically 
 
 ## Create a Grid
 
- The grid can be created from a HTML `DIV` element with the HTML `id` attribute set to it and define these steps in “index.html” page.
+ The TypeScript grid can be created from a HTML `DIV` element with the HTML `id` attribute set to it and define these steps in “index.html” page.
 
 {% highlight html %}
 
