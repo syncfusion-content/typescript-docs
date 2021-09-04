@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started | CheckBox | TypesScript | Syncfusion
-description: Getting Started
+title: Getting Started with TypesScript CheckBox Control | Syncfusion
+description: Learn here about getting started with Syncfusion TypesScript CheckBox Control, its elements, and more.
 platform: TypeScript
 control: CheckBox
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypesScript CheckBox
 
 This section discloses the details on how to render and configure a CheckBox component in a TypeScript application.
 
@@ -116,5 +116,5 @@ tsc
 This command compiles the app.ts file to generate a JS file named app.js file. 
 Refer the app.js file in index.html and browse the html file to see the following output.
 
-![](Getting-Started_images/checkbox.png) 
+![Getting-Started_images](Getting-Started_images/checkbox.png) 
 

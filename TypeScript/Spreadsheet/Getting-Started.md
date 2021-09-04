@@ -1,15 +1,15 @@
 ---
-title: Getting Started for Typescript Spreadsheet
-description: How to create a Spreadsheet with data source, apply format and export it as excel file.
+title: Getting Started with Typescript Spreadsheet Control | Syncfusion
+description: Learn here about getting started with Syncfusion TypesScript Spreadsheet Control, its elements, and more.
 platform: Typescript
 control: Spreadsheet
 documentation: Ug
 keywords: 
 ---
 
-# Getting started
+# Getting started with Typescript Spreadsheet
 
-This section explains you the steps required to populate the Spreadsheet with data, format, and export it as excel file. This section covers only the minimal features that you need to know to get started with the Spreadsheet.
+This section explains you the steps required to populate the Typescript Spreadsheet with data, format, and export it as excel file. This section covers only the minimal features that you need to know to get started with the Spreadsheet.
 
 ## Adding Script Reference
 
@@ -86,7 +86,7 @@ Finally build your application, so that the “app.js” file is automatically g
 
 Now, the Spreadsheet is rendered with default row and column count.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![Getting-Started_images1](Getting-Started_images/Getting-Started_img1.png)
 
 ## Populate Spreadsheet with data
 
@@ -105,7 +105,7 @@ module SpreadsheetComponent {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![Getting-Started_images2](Getting-Started_images/Getting-Started_img2.png)
 
 ## Apply Conditional Formatting 
 
@@ -128,11 +128,11 @@ module SpreadsheetComponent {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![Getting-Started_images3](Getting-Started_images/Getting-Started_img3.png)
 
 ## Export Spreadsheet as Excel File
 
-The Spreadsheet can save its data, style, format into an excel file. To enable save option in Spreadsheet set `allowExporting` option in `exportSettings` as `true`. Since Spreadsheet uses server side helper to save documents set `excelUrl` in `exportSettings` option. The following code example illustrates this,
+The Typescript Spreadsheet can save its data, style, format into an excel file. To enable save option in Spreadsheet set `allowExporting` option in `exportSettings` as `true`. Since Spreadsheet uses server side helper to save documents set `excelUrl` in `exportSettings` option. The following code example illustrates this,
 
 {% highlight js %}
 
