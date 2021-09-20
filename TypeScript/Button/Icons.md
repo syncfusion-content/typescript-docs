@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Icons
-description: icons
+title: TypeScript Icons Library | Syncfusion
+description: Learn here all about introduction of Syncfusion Essential TypeScript Icons Library, its elements, and more.
 platform: TypeScript
 control: Button
 documentation: ug
 ---
 
-# Icons
+# TypeScript Icons Library
 
 The **Essential Studio for JavaScript** provide icons library that contains the number of in-built icons that can be applied for CSS class names to elements and refer “ej.widgets.all.core.min.css” file. Use the following syntax to apply class names.
 
@@ -48,7 +48,7 @@ module ButtonComponent {
 
 Execute the above code to render the following output.
 
-![](Icons_images/Icons_img1.png)
+![Icons_images1](Icons_images/Icons_img1.png)
 
 Icon library used in button component
 {:.caption}
@@ -65,7 +65,7 @@ List of icons
             e-unpin
         </td>
         <td>
-            <img src="Icons_images\Icons_img2.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img2.png" alt="Icons_images2" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -73,7 +73,7 @@ List of icons
             e-pin
         </td>
         <td>
-            <img src="Icons_images\Icons_img3.png" alt="" width="14pt" height="16pt">
+            <img src="Icons_images\Icons_img3.png" alt="Icons_images3" width="14pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -81,7 +81,7 @@ List of icons
             e-upload
         </td>
         <td>
-            <img src="Icons_images\Icons_img4.png" alt="" width="17pt" height="15pt">
+            <img src="Icons_images\Icons_img4.png" alt="Icons_images4" width="17pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -89,7 +89,7 @@ List of icons
             e-reload
         </td>
         <td>
-            <img src="Icons_images\Icons_img5.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img5.png" alt="Icons_images5" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ List of icons
             e-collapse
         </td>
         <td>
-            <img src="Icons_images\Icons_img6.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img6.png" alt="Icons_images6" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -105,7 +105,7 @@ List of icons
             e-cancel
         </td>
         <td>
-            <img src="Icons_images\Icons_img7.png" alt="" width="15pt" height="18pt">
+            <img src="Icons_images\Icons_img7.png" alt="Icons_images7" width="15pt" height="18pt">
         </td>
     </tr>
     <tr>
@@ -113,7 +113,7 @@ List of icons
             e-expand
         </td>
         <td>
-            <img src="Icons_images\Icons_img8.png" alt="" width="16pt" height="10pt">
+            <img src="Icons_images\Icons_img8.png" alt="Icons_images8" width="16pt" height="10pt">
         </td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@ List of icons
             e-minimize
         </td>
         <td>
-            <img src="Icons_images\Icons_img9.png" alt="" width="16pt" height="10pt">
+            <img src="Icons_images\Icons_img9.png" alt="Icons_images9" width="16pt" height="10pt">
         </td>
     </tr>
     <tr>
@@ -129,7 +129,7 @@ List of icons
             e-login
         </td>
         <td>
-            <img src="Icons_images\Icons_img10.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img10.png" alt="Icons_images10" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -137,7 +137,7 @@ List of icons
             e-orientationlanscape
         </td>
         <td>
-            <img src="Icons_images\Icons_img11.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img11.png" alt="Icons_images11" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -145,7 +145,7 @@ List of icons
             e-alignleft
         </td>
         <td>
-            <img src="Icons_images\Icons_img12.png" alt="" width="15pt" height="16pt">
+            <img src="Icons_images\Icons_img12.png" alt="Icons_images12" width="15pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -153,7 +153,7 @@ List of icons
             e-aligncenter
         </td>
         <td>
-            <img src="Icons_images\Icons_img13.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img13.png" alt="Icons_images13" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -161,7 +161,7 @@ List of icons
             e-alignright
         </td>
         <td>
-            <img src="Icons_images\Icons_img14.png" alt="" width="15pt" height="16pt">
+            <img src="Icons_images\Icons_img14.png" alt="Icons_images14" width="15pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -169,7 +169,7 @@ List of icons
             e-alignjustify
         </td>
         <td>
-            <img src="Icons_images\Icons_img15.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img15.png" alt="Icons_images15" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -177,7 +177,7 @@ List of icons
             e-alignnone
         </td>
         <td>
-            <img src="Icons_images\Icons_img16.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img16.png" alt="Icons_images16" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -185,7 +185,7 @@ List of icons
             e-filterset
         </td>
         <td>
-            <img src="Icons_images\Icons_img17.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img17.png" alt="Icons_images17" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -193,7 +193,7 @@ List of icons
             e-filternone
         </td>
         <td>
-            <img src="Icons_images\Icons_img18.png" alt="" width="11pt" height="13pt">
+            <img src="Icons_images\Icons_img18.png" alt="Icons_images18" width="11pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -201,7 +201,7 @@ List of icons
             e-arrowheadup-2x
         </td>
         <td>
-            <img src="Icons_images\Icons_img19.png" alt="" width="14pt" height="13pt">
+            <img src="Icons_images\Icons_img19.png" alt="Icons_images19" width="14pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -209,7 +209,7 @@ List of icons
             e-arrowheaddown-2x
         </td>
         <td>
-            <img src="Icons_images\Icons_img20.png" alt="" width="12pt" height="14pt">
+            <img src="Icons_images\Icons_img20.png" alt="Icons_images20" width="12pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -217,7 +217,7 @@ List of icons
             e-arrowheadleft-2x
         </td>
         <td>
-            <img src="Icons_images\Icons_img21.png" alt="" width="10pt" height="12pt">
+            <img src="Icons_images\Icons_img21.png" alt="Icons_images21" width="10pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -225,7 +225,7 @@ List of icons
             e-arrowheadright-2x
         </td>
         <td>
-            <img src="Icons_images\Icons_img22.png" alt="" width="10pt" height="14pt">
+            <img src="Icons_images\Icons_img22.png" alt="Icons_images22" width="10pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -233,7 +233,7 @@ List of icons
             e-numbering
         </td>
         <td>
-            <img src="Icons_images\Icons_img23.png" alt="" width="14pt" height="16pt">
+            <img src="Icons_images\Icons_img23.png" alt="Icons_images23" width="14pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -241,7 +241,7 @@ List of icons
             e-bullets
         </td>
         <td>
-            <img src="Icons_images\Icons_img24.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img24.png" alt="Icons_images24" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -249,7 +249,7 @@ List of icons
             e-maximize
         </td>
         <td>
-            <img src="Icons_images\Icons_img25.png" alt="" width="13pt" height="12pt">
+            <img src="Icons_images\Icons_img25.png" alt="Icons_images25" width="13pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -257,7 +257,7 @@ List of icons
             e-delete
         </td>
         <td>
-            <img src="Icons_images\Icons_img26.png" alt="" width="12pt" height="17pt">
+            <img src="Icons_images\Icons_img26.png" alt="Icons_images26" width="12pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -265,7 +265,7 @@ List of icons
             e-scroll
         </td>
         <td>
-            <img src="Icons_images\Icons_img27.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img27.png" alt="Icons_images27" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -273,7 +273,7 @@ List of icons
             e-right-scroll
         </td>
         <td>
-            <img src="Icons_images\Icons_img28.png" alt="" width="16pt" height="16pt">
+            <img src="Icons_images\Icons_img28.png" alt="Icons_images28" width="16pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -281,7 +281,7 @@ List of icons
             e-search
         </td>
         <td>
-            <img src="Icons_images\Icons_img29.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img29.png" alt="Icons_images29" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -289,7 +289,7 @@ List of icons
             e-mediaback
         </td>
         <td>
-            <img src="Icons_images\Icons_img30.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img30.png" alt="Icons_images30" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -297,7 +297,7 @@ List of icons
             e-mediaforward
         </td>
         <td>
-            <img src="Icons_images\Icons_img31.png" alt="" width="11pt" height="14pt">
+            <img src="Icons_images\Icons_img31.png" alt="Icons_images31" width="11pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -305,7 +305,7 @@ List of icons
             e-medianext
         </td>
         <td>
-            <img src="Icons_images\Icons_img32.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img32.png" alt="Icons_images32" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -313,7 +313,7 @@ List of icons
             e-mediaprev
         </td>
         <td>
-            <img src="Icons_images\Icons_img33.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img33.png" alt="Icons_images33" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -321,7 +321,7 @@ List of icons
             e-mediaeject
         </td>
         <td>
-            <img src="Icons_images\Icons_img34.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img34.png" alt="Icons_images34" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -329,7 +329,7 @@ List of icons
             e-mediaclose
         </td>
         <td>
-            <img src="Icons_images\Icons_img35.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img35.png" alt="Icons_images35" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -337,7 +337,7 @@ List of icons
             e-mediapause
         </td>
         <td>
-            <img src="Icons_images\Icons_img36.png" alt="" width="12pt" height="13pt">
+            <img src="Icons_images\Icons_img36.png" alt="Icons_images36" width="12pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -345,7 +345,7 @@ List of icons
             e-mediaplay
         </td>
         <td>
-            <img src="Icons_images\Icons_img37.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img37.png" alt="Icons_images37" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -353,7 +353,7 @@ List of icons
             e-righttick
         </td>
         <td>
-            <img src="Icons_images\Icons_img38.png" alt="" width="15pt" height="12pt">
+            <img src="Icons_images\Icons_img38.png" alt="Icons_images38" width="15pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -361,7 +361,7 @@ List of icons
             e-smile
         </td>
         <td>
-            <img src="Icons_images\Icons_img39.png" alt="" width="16pt" height="16pt">
+            <img src="Icons_images\Icons_img39.png" alt="Icons_images39" width="16pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -369,7 +369,7 @@ List of icons
             e-information
         </td>
         <td>
-            <img src="Icons_images\Icons_img40.png" alt="" width="16pt" height="15pt">
+            <img src="Icons_images\Icons_img40.png" alt="Icons_images40" width="16pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -377,7 +377,7 @@ List of icons
             e-left-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img41.png" alt="" width="12pt" height="14pt">
+            <img src="Icons_images\Icons_img41.png" alt="Icons_images41" width="12pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -385,7 +385,7 @@ List of icons
             e-right-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img42.png" alt="" width="10pt" height="13pt">
+            <img src="Icons_images\Icons_img42.png" alt="Icons_images42" width="10pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -393,7 +393,7 @@ List of icons
             e-file-delete
         </td>
         <td>
-            <img src="Icons_images\Icons_img43.png" alt="" width="12pt" height="17pt">
+            <img src="Icons_images\Icons_img43.png" alt="Icons_images43" width="12pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -401,7 +401,7 @@ List of icons
             e-file-percentage-success
         </td>
         <td>
-            <img src="Icons_images\Icons_img44.png" alt="" width="15pt" height="12pt">
+            <img src="Icons_images\Icons_img44.png" alt="Icons_images44" width="15pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -409,7 +409,7 @@ List of icons
             e-file-cancel
         </td>
         <td>
-            <img src="Icons_images\Icons_img45.png" alt="" width="11pt" height="13pt">
+            <img src="Icons_images\Icons_img45.png" alt="Icons_images45" width="11pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -417,7 +417,7 @@ List of icons
             e-file-percentage-failed
         </td>
         <td>
-            <img src="Icons_images\Icons_img46.png" alt="" width="11pt" height="13pt">
+            <img src="Icons_images\Icons_img46.png" alt="Icons_images46" width="11pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -425,7 +425,7 @@ List of icons
             e-file-retry
         </td>
         <td>
-            <img src="Icons_images\Icons_img47.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img47.png" alt="Icons_images47" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -433,7 +433,7 @@ List of icons
             e-resize-handle
         </td>
         <td>
-            <img src="Icons_images\Icons_img48.png" alt="" width="12pt" height="14pt">
+            <img src="Icons_images\Icons_img48.png" alt="Icons_images48" width="12pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -441,7 +441,7 @@ List of icons
             e-down-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img49.png" alt="" width="14pt" height="12pt">
+            <img src="Icons_images\Icons_img49.png" alt="Icons_images49" width="14pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -449,7 +449,7 @@ List of icons
             e-time
         </td>
         <td>
-            <img src="Icons_images\Icons_img50.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img50.png" alt="Icons_images50" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -457,7 +457,7 @@ List of icons
             e-up-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img51.png" alt="" width="12pt" height="12pt">
+            <img src="Icons_images\Icons_img51.png" alt="Icons_images51" width="12pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -465,7 +465,7 @@ List of icons
             e-date
         </td>
         <td>
-            <img src="Icons_images\Icons_img52.png" alt="" width="14pt" height="17pt">
+            <img src="Icons_images\Icons_img52.png" alt="Icons_images52" width="14pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -473,7 +473,7 @@ List of icons
             e-datetime
         </td>
         <td>
-            <img src="Icons_images\Icons_img53.png" alt="" width="16pt" height="18pt">
+            <img src="Icons_images\Icons_img53.png" alt="Icons_images53" width="16pt" height="18pt">
         </td>
     </tr>
     <tr>
@@ -481,7 +481,7 @@ List of icons
             e-collapse-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img54.png" alt="" width="13pt" height="11pt">
+            <img src="Icons_images\Icons_img54.png" alt="Icons_images54" width="13pt" height="11pt">
         </td>
     </tr>
     <tr>
@@ -489,7 +489,7 @@ List of icons
             e-expand-arrow
         </td>
         <td>
-            <img src="Icons_images\Icons_img55.png" alt="" width="12pt" height="14pt">
+            <img src="Icons_images\Icons_img55.png" alt="Icons_images55" width="12pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -497,7 +497,7 @@ List of icons
             e-restore
         </td>
         <td>
-            <img src="Icons_images\Icons_img56.png" alt="" width="16pt" height="19pt">
+            <img src="Icons_images\Icons_img56.png" alt="Icons_images56" width="16pt" height="19pt">
         </td>
     </tr>
     <tr>
@@ -505,7 +505,7 @@ List of icons
             e-plus
         </td>
         <td>
-            <img src="Icons_images\Icons_img57.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img57.png" alt="Icons_images57" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -513,7 +513,7 @@ List of icons
             e-minus
         </td>
         <td>
-            <img src="Icons_images\Icons_img58.png" alt="" width="16pt" height="10pt">
+            <img src="Icons_images\Icons_img58.png" alt="Icons_images58" width="16pt" height="10pt">
         </td>
     </tr>
     <tr>
@@ -521,7 +521,7 @@ List of icons
             e-handup
         </td>
         <td>
-            <img src="Icons_images\Icons_img59.png" alt="" width="12pt" height="14pt">
+            <img src="Icons_images\Icons_img59.png" alt="Icons_images59" width="12pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -529,7 +529,7 @@ List of icons
             e-clock
         </td>
         <td>
-            <img src="Icons_images\Icons_img60.png" alt="" width="13pt" height="11pt">
+            <img src="Icons_images\Icons_img60.png" alt="Icons_images60" width="13pt" height="11pt">
         </td>
     </tr>
     <tr>
@@ -537,7 +537,7 @@ List of icons
             e-cursor
         </td>
         <td>
-            <img src="Icons_images\Icons_img61.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img61.png" alt="Icons_images61" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -545,7 +545,7 @@ List of icons
             e-hyperlink
         </td>
         <td>
-            <img src="Icons_images\Icons_img62.png" alt="" width="20pt" height="12pt">
+            <img src="Icons_images\Icons_img62.png" alt="Icons_images62" width="20pt" height="12pt">
         </td>
     </tr>
     <tr>
@@ -553,7 +553,7 @@ List of icons
             e-hyperlinkbreak
         </td>
         <td>
-            <img src="Icons_images\Icons_img63.png" alt="" width="20pt" height="14pt">
+            <img src="Icons_images\Icons_img63.png" alt="Icons_images63" width="20pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -561,7 +561,7 @@ List of icons
             e-settings
         </td>
         <td>
-            <img src="Icons_images\Icons_img64.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img64.png" alt="Icons_images64" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -569,7 +569,7 @@ List of icons
             e-shoppingcart
         </td>
         <td>
-            <img src="Icons_images\Icons_img65.png" alt="" width="16pt" height="17pt">
+            <img src="Icons_images\Icons_img65.png" alt="Icons_images65" width="16pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -577,7 +577,7 @@ List of icons
             e-palette
         </td>
         <td>
-            <img src="Icons_images\Icons_img66.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img66.png" alt="Icons_images66" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -585,7 +585,7 @@ List of icons
             e-warningmessage
         </td>
         <td>
-            <img src="Icons_images\Icons_img67.png" alt="" width="15pt" height="16pt">
+            <img src="Icons_images\Icons_img67.png" alt="Icons_images67" width="15pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -593,7 +593,7 @@ List of icons
             e-cut
         </td>
         <td>
-            <img src="Icons_images\Icons_img68.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img68.png" alt="Icons_images68" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -601,7 +601,7 @@ List of icons
             e-copy
         </td>
         <td>
-            <img src="Icons_images\Icons_img69.png" alt="" width="14pt" height="17pt">
+            <img src="Icons_images\Icons_img69.png" alt="Icons_images69" width="14pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -609,7 +609,7 @@ List of icons
             e-paste
         </td>
         <td>
-            <img src="Icons_images\Icons_img70.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img70.png" alt="Icons_images70" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -617,7 +617,7 @@ List of icons
             e-edit
         </td>
         <td>
-            <img src="Icons_images\Icons_img71.png" alt="" width="18pt" height="13pt">
+            <img src="Icons_images\Icons_img71.png" alt="Icons_images71" width="18pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -625,7 +625,7 @@ List of icons
             e-swapleft
         </td>
         <td>
-            <img src="Icons_images\Icons_img72.png" alt="" width="16pt" height="15pt">
+            <img src="Icons_images\Icons_img72.png" alt="Icons_images72" width="16pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -633,7 +633,7 @@ List of icons
             e-swapright
         </td>
         <td>
-            <img src="Icons_images\Icons_img73.png" alt="" width="16pt" height="15pt">
+            <img src="Icons_images\Icons_img73.png" alt="Icons_images73" width="16pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -641,7 +641,7 @@ List of icons
             e-swapup
         </td>
         <td>
-            <img src="Icons_images\Icons_img74.png" alt="" width="16pt" height="17pt">
+            <img src="Icons_images\Icons_img74.png" alt="Icons_images74" width="16pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -649,7 +649,7 @@ List of icons
             e-swapdown
         </td>
         <td>
-            <img src="Icons_images\Icons_img75.png" alt="" width="16pt" height="17pt">
+            <img src="Icons_images\Icons_img75.png" alt="Icons_images75" width="16pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -657,7 +657,7 @@ List of icons
             e-zoomin
         </td>
         <td>
-            <img src="Icons_images\Icons_img76.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img76.png" alt="Icons_images76" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -665,7 +665,7 @@ List of icons
             e-zoomout
         </td>
         <td>
-            <img src="Icons_images\Icons_img77.png" alt="" width="16pt" height="17pt">
+            <img src="Icons_images\Icons_img77.png" alt="Icons_images77" width="16pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -673,7 +673,7 @@ List of icons
             e-star
         </td>
         <td>
-            <img src="Icons_images\Icons_img78.png" alt="" width="12pt" height="11pt">
+            <img src="Icons_images\Icons_img78.png" alt="Icons_images78" width="12pt" height="11pt">
         </td>
     </tr>
     <tr>
@@ -681,7 +681,7 @@ List of icons
             e-home
         </td>
         <td>
-            <img src="Icons_images\Icons_img79.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img79.png" alt="Icons_images79" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -689,7 +689,7 @@ List of icons
             e-clipboard
         </td>
         <td>
-            <img src="Icons_images\Icons_img80.png" alt="" width="14pt" height="18pt">
+            <img src="Icons_images\Icons_img80.png" alt="Icons_images80" width="14pt" height="18pt">
         </td>
     </tr>
     <tr>
@@ -697,7 +697,7 @@ List of icons
             e-userlogin
         </td>
         <td>
-            <img src="Icons_images\Icons_img81.png" alt="" width="15pt" height="14pt">
+            <img src="Icons_images\Icons_img81.png" alt="Icons_images81" width="15pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -705,7 +705,7 @@ List of icons
             e-dataexport
         </td>
         <td>
-            <img src="Icons_images\Icons_img82.png" alt="" width="19pt" height="15pt">
+            <img src="Icons_images\Icons_img82.png" alt="Icons_images82" width="19pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -713,7 +713,7 @@ List of icons
             e-arrowheadright
         </td>
         <td>
-            <img src="Icons_images\Icons_img83.png" alt="" width="14pt" height="15pt">
+            <img src="Icons_images\Icons_img83.png" alt="Icons_images83" width="14pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -721,7 +721,7 @@ List of icons
             e-arrowheaddown
         </td>
         <td>
-            <img src="Icons_images\Icons_img84.png" alt="" width="13pt" height="14pt">
+            <img src="Icons_images\Icons_img84.png" alt="Icons_images84" width="13pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -729,7 +729,7 @@ List of icons
             e-undo
         </td>
         <td>
-            <img src="Icons_images\Icons_img85.png" alt="" width="13pt" height="15pt">
+            <img src="Icons_images\Icons_img85.png" alt="Icons_images85" width="13pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -737,7 +737,7 @@ List of icons
             e-redo
         </td>
         <td>
-            <img src="Icons_images\Icons_img86.png" alt="" width="16pt" height="13pt">
+            <img src="Icons_images\Icons_img86.png" alt="Icons_images86" width="16pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -745,7 +745,7 @@ List of icons
             e-bold
         </td>
         <td>
-            <img src="Icons_images\Icons_img87.png" alt="" width="14pt" height="14pt">
+            <img src="Icons_images\Icons_img87.png" alt="Icons_images87" width="14pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -753,7 +753,7 @@ List of icons
             e-italic
         </td>
         <td>
-            <img src="Icons_images\Icons_img88.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img88.png" alt="Icons_images88" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -761,7 +761,7 @@ List of icons
             e-underline
         </td>
         <td>
-            <img src="Icons_images\Icons_img89.png" alt="" width="17pt" height="17pt">
+            <img src="Icons_images\Icons_img89.png" alt="Icons_images89" width="17pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -769,7 +769,7 @@ List of icons
             e-strikethrough
         </td>
         <td>
-            <img src="Icons_images\Icons_img90.png" alt="" width="16pt" height="14pt">
+            <img src="Icons_images\Icons_img90.png" alt="Icons_images90" width="16pt" height="14pt">
         </td>
     </tr>
     <tr>
@@ -777,7 +777,7 @@ List of icons
             e-font
         </td>
         <td>
-            <img src="Icons_images\Icons_img91.png" alt="" width="15pt" height="15pt">
+            <img src="Icons_images\Icons_img91.png" alt="Icons_images91" width="15pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -785,7 +785,7 @@ List of icons
             e-rarrowdown
         </td>
         <td>
-            <img src="Icons_images\Icons_img92.png" alt="" width="11pt" height="13pt">
+            <img src="Icons_images\Icons_img92.png" alt="Icons_images92" width="11pt" height="13pt">
         </td>
     </tr>
     <tr>
@@ -793,7 +793,7 @@ List of icons
             e-rarrowleft
         </td>
         <td>
-            <img src="Icons_images\Icons_img93.png" alt="" width="16pt" height="15pt">
+            <img src="Icons_images\Icons_img93.png" alt="Icons_images93" width="16pt" height="15pt">
         </td>
     </tr>
     <tr>
@@ -801,7 +801,7 @@ List of icons
             e-rarrowup
         </td>
         <td>
-            <img src="Icons_images\Icons_img94.png" alt="" width="14pt" height="11pt">
+            <img src="Icons_images\Icons_img94.png" alt="Icons_images94" width="14pt" height="11pt">
         </td>
     </tr>
     <tr>
@@ -809,7 +809,7 @@ List of icons
             e-rarrowright
         </td>
         <td>
-            <img src="Icons_images\Icons_img95.png" alt="" width="14pt" height="16pt">
+            <img src="Icons_images\Icons_img95.png" alt="Icons_images95" width="14pt" height="16pt">
         </td>
     </tr>
     <tr>
@@ -817,7 +817,7 @@ List of icons
             e-calender
         </td>
         <td>
-            <img src="Icons_images\Icons_img96.png" alt="" width="14pt" height="17pt">
+            <img src="Icons_images\Icons_img96.png" alt="Icons_images96" width="14pt" height="17pt">
         </td>
     </tr>
     <tr>
@@ -825,7 +825,7 @@ List of icons
             e-save
         </td>
         <td>
-            <img src="Icons_images\Icons_img97.png" alt="" width="17pt" height="16pt">
+            <img src="Icons_images\Icons_img97.png" alt="Icons_images97" width="17pt" height="16pt">
         </td>
     </tr>
 </table>

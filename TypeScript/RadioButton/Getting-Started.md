@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started RadioButton | Typescript | Syncfusion
-description: Getting Started
+title: Getting Started with Typescript RadioButton Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential TypeScript RadioButton Control, its elements, and more.
 platform: TypeScript
 control: RadioButton
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with Typescript RadioButton
 
 This section discloses the details on how to render and configure a RadioButton component in a TypeScript application.
 
@@ -100,4 +100,4 @@ tsc
 This command compiles the app.ts file to generate a JS file named app.js file. 
 Refer the app.js file in index.html and browse the HTML file to see the following output.
 
-![](Getting-Started_images/radiobutton.png) 
+![Getting_Started_image](Getting-Started_images/radiobutton.png) 

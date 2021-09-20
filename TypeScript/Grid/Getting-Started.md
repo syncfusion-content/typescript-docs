@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Getting started for Typescript Grid
-description: How to create the Grid, data bind, enable paging, grouping, filtering and add TypeScript
+title: Getting started with Typescript Grid Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential TypeScript Grid Control, its elements, and more.
 platform: Typescript
 control: Grid
 documentation: ug
 ---
-# Getting started
+# Getting started with Typescript Grid
 
 Before we start with the Grid,for common getting started of TypeScript please refer [this page](https://help.syncfusion.com/js/typescript) provides general information regarding integrating Syncfusion widget's.
 
@@ -169,7 +169,7 @@ Finally build your application, so that the “grid.js” file is automatically 
 
 ## Create a Grid
 
- The grid can be created from a HTML `DIV` element with the HTML `id` attribute set to it and define these steps in “index.html” page.
+ The TypeScript grid can be created from a HTML `DIV` element with the HTML `id` attribute set to it and define these steps in “index.html” page.
 
 {% highlight html %}
 
@@ -207,7 +207,7 @@ module GridComponent {
 
 {% endhighlight %}
 
-![](Getting-started_images/Getting-started_img1.png)
+![Getting-started_images1](Getting-started_images/Getting-started_img1.png)
 {:.image }
 
 
@@ -245,7 +245,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img2.png)
+![Getting-started_images2](Getting-started_images/Getting-started_img2.png)
 {:.image }
 
 ## Enable Paging
@@ -284,7 +284,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img3.png)
+![Getting-started_images3](Getting-started_images/Getting-started_img3.png)
 {:.image }
 
 N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
@@ -327,7 +327,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img4.png)
+![Getting-started_images4](Getting-started_images/Getting-started_img4.png)
 {:.image }
 
 ## Enable Grouping
@@ -368,7 +368,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img5.png)
+![Getting-started_images5](Getting-started_images/Getting-started_img5.png)
 {:.image }
 
 Refer to the following code example for initial grouping.
@@ -408,7 +408,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img6.png)
+![Getting-started_images6](Getting-started_images/Getting-started_img6.png)
 {:.image }
 
 
@@ -459,7 +459,7 @@ module GridComponent {
 {% endhighlight %}
 
 
-![](Getting-started_images/Getting-started_img7.png)
+![Getting-started_images7](Getting-started_images/Getting-started_img7.png)
 {:.image }
 
 
