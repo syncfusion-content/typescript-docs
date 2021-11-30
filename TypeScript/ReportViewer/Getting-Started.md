@@ -28,7 +28,7 @@ The important step you need to do is to copy the ej.web.all.d.ts file into your 
 
 You can find the ej.web.all.d.ts file in the following location,
 
-(installed location)\Syncfusion\Essential Studio\{{ site.releaseversion }}\JavaScript\assets\typescript
+(installed location)\Syncfusion\Essential Studio\19.1.0.63\JavaScript\assets\typescript
 
 Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.d.ts file in your TypeScript application, which can be downloaded from [here](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
@@ -41,11 +41,11 @@ Add the scripts and CSS references to the “index.html” page as the order men
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+    <link href="http://cdn.syncfusion.com/19.1.0.63/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js" type="text/javascript"></script>
     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-    <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
+    <script src="http://cdn.syncfusion.com/19.1.0.63/js/web/ej.web.all.min.js" type="text/javascript"></script>
     <script src="app.js"></script>
 </head>
 <body>
@@ -91,7 +91,7 @@ module ReportViewerComponent {
 
 {% endhighlight %}
 
-N> Default RDL Report will be rendered, which is used in the online service. You can obtain sample rdl/rdlc files from Syncfusion installed location (%userprofile%\AppData\Local\Syncfusion\EssentialStudio\{{ site.releaseversion }}\Common\Data\ejReportTemplate).
+N> Default RDL Report will be rendered, which is used in the online service. You can obtain sample rdl/rdlc files from Syncfusion installed location (%userprofile%\AppData\Local\Syncfusion\EssentialStudio\19.1.0.63\Common\Data\ejReportTemplate).
 
 ### Run the Application
 
