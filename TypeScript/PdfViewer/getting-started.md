@@ -1,13 +1,13 @@
 ---
-title: Getting Started for Typescript PDF viewer
-description: PDF viewer 
+title: Getting Started with TypeScript PDF Viewer Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript PDF Viewer Control, its elements, and more.
 platform: Typescript
 control: PDF viewer
 documentation: ug
 keywords: ejPdfViewer, PDF viewer, js pdfviewer
 ---
 
-# Getting Started
+# Getting Started with TypeScript PDF Viewer
 
 This section explains briefly about how to integrate a PDF viewer control in your TypeScript web application.
 
@@ -86,5 +86,5 @@ module PdfViewerComponent {
 
 N> Default PDF document will be rendered in the PDF viewer control, which is used in the online service.
 
-![](getting-started_images/pdfviewer.png)
+![TypeScript PDF Viewer Getting Started](getting-started_images/pdfviewer.png)
 
