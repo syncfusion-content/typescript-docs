@@ -318,7 +318,7 @@ You can edit any of the fields pertaining to a single record of data and apply i
 
 Using this template support, you can edit the fields that are not bound to grid columns.
 
-To edit the records using Inline template form, set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `inlineformtemplate` and specify the template ID to [`editSettings.inlineFormTemplateID`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-inlineformtemplateid "editSettings.inlineFormTemplateID") property.
+To edit the records using Inline template form, set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `inlineformtemplate` and specify the template ID to [`editSettings.inlineFormTemplateID`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-inlineformtemplateid) property.
 
 While using template form, you can change the HTML elements to appropriate JS controls based on the column type. This can be achieved by using [`actionComplete`](https://help.syncfusion.com/api/js/ejgrid#events:actioncomplete "actionComplete") event of grid.
 
