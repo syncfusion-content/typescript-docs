@@ -1,13 +1,13 @@
 ---
-title: Getting Started for TypeScript Diagram
-description: How to create a Diagram with nodes, connectors.
+title: Getting Started with TypeScript Diagram Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript Diagram Control, its elements, and more.
 platform: TypeScript
 control: Diagram
 documentation: ug
 keywords: ejdiagram, js diagram, diagram
 ---
 
-# Getting started
+# Getting started with TypeScript Diagram
 
 This section explains briefly about how to create a **Diagram** control in your application with **TypeScript**.
 
@@ -67,7 +67,7 @@ $(function () {
 
 This creates an empty diagram as shown in image
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![TypeScript Initialize Diagram](Getting-Started_images/Getting-Started_img1.png)
 
 ## Populate Diagram with nodes and connectors
 
@@ -115,4 +115,4 @@ function createLabel(options : any) {
 
 {% endhighlight %}
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![TypeScript Diagram with nodes and connectors](Getting-Started_images/Getting-Started_img2.png)
