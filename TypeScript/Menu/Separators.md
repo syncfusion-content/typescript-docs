@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Separators
-description: separators
+title: Separators in Typescript Menu Control | Syncfusion
+description: Learn here about separators in Syncfusion Essential Typescript Menu Control, its elements, features and more.
 platform: Typescript
 control: Menu
 documentation: ug
 ---
 
-# Separators
+# Separators in Typescript Menu
 
 Menu can also contain separators that are horizontal bars between menu items. You cannot select a separator. Separators are somewhat similar to [borders](http://docs.oracle.com/javase/tutorial/uiswing/components/border.html), except that they are genuine components and, as such, are drawn inside a control, rather than around the edges of the **Menu** control. **enableSeparator** is the property that is used to display the separators in the **Menu** control. It accepts the Boolean type value. Its default value is true. 
 
@@ -91,10 +91,10 @@ module MenuComponent {
 
 The following screenshot displays the output for the above code. 
 
-![](Separators_images/Separators_img2.png) 
+![Typescript Menu Separators](Separators_images/Separators_img2.png) 
 
 
-# Separators for Context Menu
+## Separators for Context Menu
 
 We can add the separators for particular ContextMenu items by including **e-separator** class in the required **LI** elements. Add the following code to display ContextMenu with separator lines.
 
@@ -153,6 +153,6 @@ We can add the separators for particular ContextMenu items by including **e-sepa
 
 The following screenshot displays the output for the above code. 
 
-![](Separators_images/Separators_img3.png) 
+![Typescript Menu Separators for Context Menu](Separators_images/Separators_img3.png) 
 
 
