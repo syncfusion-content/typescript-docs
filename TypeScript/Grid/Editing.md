@@ -6,7 +6,7 @@ platform: Typescript
 control: Grid
 documentation: ug
 --- 
-# Editing
+# Editing in Typescript Grid
 
 The grid control has support for the dynamic insertion, updating and deletion of records. You can start the edit action either by double clicking the particular row or by selecting the required row and clicking on Edit icon in toolbar. Similarly, you can add new record to grid either by clicking on insert icon in toolbar or on an external button which is bound to call [`addRecord`](https://help.syncfusion.com/api/js/ejgrid#methods:addrecord "addRecord") method of grid.  `Save` and `Cancel` while on edit mode is possible using respective toolbar icon in grid.
 
@@ -56,7 +56,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img1.png)
+![Typescript Grid Toolbar with edit option](Editing_images/Editing_img1.png)
 
 
 ## Cell edit type and its params
@@ -153,7 +153,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img2.png)
+![Typescript Grid Cell edit type](Editing_images/Editing_img2.png)
 
 
 ## Cell Edit Template
@@ -212,7 +212,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img3.png)
+![Typescript Grid Cell Edit Template](Editing_images/Editing_img3.png)
 
 
 ## Edit Modes
@@ -263,7 +263,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img4.png)
+![Typescript Grid Inline](Editing_images/Editing_img4.png)
 
 
 ### Inline Form
@@ -309,7 +309,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img5.png)
+![Typescript Grid Inline Form](Editing_images/Editing_img5.png)
 
 
 ### Inline Template Form
@@ -318,7 +318,7 @@ You can edit any of the fields pertaining to a single record of data and apply i
 
 Using this template support, you can edit the fields that are not bound to grid columns.
 
-To edit the records using Inline template form, set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `inlineformtemplate` and specify the template ID to [`editSettings.inlineFormTemplateID`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-inlineformtemplateid "editSettings.inlineFormTemplateID") property.
+To edit the records using Inline template form, set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `inlineformtemplate` and specify the template ID to [`editSettings.inlineFormTemplateID`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-inlineformtemplateid) property.
 
 While using template form, you can change the HTML elements to appropriate JS controls based on the column type. This can be achieved by using [`actionComplete`](https://help.syncfusion.com/api/js/ejgrid#events:actioncomplete "actionComplete") event of grid.
 
@@ -405,13 +405,13 @@ function complete(args: ej.Grid.ActionCompleteEventArgs) {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img6.png)
+![Typescript Grid Inline Template Form](Editing_images/Editing_img6.png)
 
 {:caption}
 Before the template elements are converted to JS controls
 
 
-![](Editing_images/Editing_img7.png)
+![Typescript Grid Before the template](Editing_images/Editing_img7.png)
 {:caption}
 After the template elements are converted to JS controls using actionComplete event 
 
@@ -460,7 +460,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img8.png)
+![Typescript Grid Dialog](Editing_images/Editing_img8.png)
 
 
 ### Dialog Template Form
@@ -553,11 +553,11 @@ function complete(args: ej.Grid.ActionCompleteEventArgs) {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img9.png)
+![Typescript Grid](Editing_images/Editing_img9.png)
 {:caption}
 Before the template elements are converted to JS controls
 
-![](Editing_images/Editing_img10.png)
+![Typescript Grid](Editing_images/Editing_img10.png)
 {:caption}
 After the template elements are converted to JS controls using actionComplete event 
 
@@ -608,7 +608,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img11.png)
+![Typescript Grid External Form](Editing_images/Editing_img11.png)
 
 
 Form Position:
@@ -660,7 +660,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img12.png)
+![Typescript Grid Form Position](Editing_images/Editing_img12.png)
 
 
 ### External Template Form
@@ -756,11 +756,11 @@ function complete(args: ej.Grid.ActionCompleteEventArgs) {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img13.png)
+![Typescript Grid](Editing_images/Editing_img13.png)
 {:caption}
 Before the template elements are converted to JS controls
 
-![](Editing_images/Editing_img14.png)
+![Typescript Grid](Editing_images/Editing_img14.png)
 {:caption}
 After the template elements are converted to JS controls using actionComplete event
 
@@ -810,7 +810,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img15.png)
+![Typescript Grid Batch and Excel like](Editing_images/Editing_img15.png)
 
 
 ## Confirmation messages
@@ -860,7 +860,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img16.png)
+![Typescript Grid Confirmation messages](Editing_images/Editing_img16.png)
 
 
 To show delete confirm dialog while deleting a record, set [`showDeleteConfirmDialog`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-showdeleteconfirmdialog "showDeleteConfirmDialog") as true.
@@ -907,7 +907,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img17.png)
+![Typescript Grid](Editing_images/Editing_img17.png)
 
 
 ## Column Validation
@@ -1040,7 +1040,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img18.png)
+![Typescript Grid jQuery Validation](Editing_images/Editing_img18.png)
 
 N> 1. Refer this [Knowledge Base link](https://www.syncfusion.com/kb/6817/how-to-perform-server-side-validation-in-grid) to perform server side validation in Grid.
 
@@ -1100,7 +1100,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img19.png)
+![Typescript Grid Custom Validation](Editing_images/Editing_img19.png)
 
 
 ## Persisting data in Server
@@ -1189,7 +1189,7 @@ The grid actions (sorting, filtering, paging, searching, and aggregates) details
 
 Please refer the below screen shot.
 
-![](Editing_images/Editing_img20.png)
+![Typescript Grid](Editing_images/Editing_img20.png)
 
 
 Also, using 'DataOperations' helper class you can perform grid action at server side. The built-in methods that we have provided in the DataOperations class are listed below.
@@ -1331,7 +1331,7 @@ public ActionResult Insert(EditableOrder value)
 The newly added record details are bound to the 'value' parameter. Please refer to the below image.
 
 
-![](Editing_images/Editing_img21.png)
+![Typescript Grid Insert Record](Editing_images/Editing_img21.png)
 
 
 ### Update Record:
@@ -1351,7 +1351,7 @@ public ActionResult Update(EditableOrder value)
 
 The updated record details are bound to the 'value' parameter. Please refer to the below image.
 
-![](Editing_images/Editing_img22.png)
+![Typescript Grid Update Record](Editing_images/Editing_img22.png)
 
 
 ### Delete Record:
@@ -1371,7 +1371,7 @@ public ActionResult Remove(int key)
 
 The deleted record primary key value is bound to the 'key' parameter. Please refer the below image.
 
-![](Editing_images/Editing_img23.png)
+![Typescript Grid Delete Record](Editing_images/Editing_img23.png)
 
 
 ### CRUD URL:
@@ -1436,7 +1436,7 @@ public ActionResult CrudUpdate(EditableOrder value, string action, int key)
 
 Please refer to the below image to know about the action parameter
 
-![](Editing_images/Editing_img24.png)
+![Typescript Grid CRUD URL](Editing_images/Editing_img24.png)
 
 
 N> If you specify `insertUrl` along with `CrudUrl` then while adding `insertUrl` only called.
@@ -1507,7 +1507,7 @@ public ActionResult BatchUpdate(string action, List<EditableOrder> added, List<E
 
 Please refer to the below image for more information about batch parameters
 
-![](Editing_images/Editing_img25.png)
+![Typescript Grid Batch URL](Editing_images/Editing_img25.png)
 
 
 ## Adding New Row Position
@@ -1554,7 +1554,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img26.png)
+![Typescript Grid New Row Position](Editing_images/Editing_img26.png)
 
 
 ## Render with blank row for easy add new
@@ -1603,7 +1603,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img27.png)
+![Typescript Grid Render with blank row](Editing_images/Editing_img27.png)
 
 
 N> 1. If it is remote, then the newly added record is placed based on the index from current view data. 
@@ -1655,5 +1655,5 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](Editing_images/Editing_img28.png)
+![Typescript Grid Default column values on add new](Editing_images/Editing_img28.png)
 
