@@ -1,12 +1,12 @@
 ---
 layout: post
 title: DataBinding with Grid widget for Syncfusion Essential Typescript
-description: How to bind in-memory JSON and remote web services in Grid
+description: How to bind in-memory JSON and remote web services in Syncfusion Typescript Grid Control, its elements, and more.
 platform: Typescript
 control: Grid
 documentation: ug
 --- 
-# Data binding
+# Data binding in Typescript Grid
 
 The Grid control uses [`ej.DataManager`](https://help.syncfusion.com/js/datamanager/overview# "ej.DataManager") which supports both RESTful JSON data services binding and local JSON array binding.  The [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") property can be assigned either with the instance of [`ej.DataManger`](https://help.syncfusion.com/api/js/ejdatamanager# "ej.DataManager") or JSON data array collection. It supports different kinds of data binding methods such as
 
@@ -47,7 +47,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](dataBinding_images/dataBinding_img1.png)
+![Typescript Grid Local Data](dataBinding_images/dataBinding_img1.png)
 
 
 N> 1. There is no in-built support to bind the XML data to the grid. But you can achieve this requirement with the help of [custom adaptor](https://help.syncfusion.com/js/datamanager/data-adaptors#custom-adaptor) concept. 
@@ -90,6 +90,6 @@ module GridComponent {
 	
 The following output is displayed as a result of the above code example.
 
-![](dataBinding_images/dataBinding_img2.png)
+![Typescript Grid dataBinding](dataBinding_images/dataBinding_img2.png)
 
 N> By default, if no adaptor is specified for [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") and only the url link is mentioned it will consider as ODataService. 
