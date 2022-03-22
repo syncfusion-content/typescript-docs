@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Filtering with Grid widget for Syncfusion Essential Typescript
-description: How to enable filtering and its functionalities
+description: How to enable filtering and its functionalities in Syncfusion Typescript Grid Control, its elements, and more.
 platform: Typescript
 control: Grid
 documentation: ug
 --- 
-# Filtering
+# Filtering in Typescript Grid
 
 Filtering helps to view particular or related records from dataSource which meets a given filtering criteria. To enable filter, set `allowFiltering` as `true`. 
 
@@ -53,7 +53,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img1.png)
+![Typescript Grid Filtering](filtering_images/filtering_img1.png)
 
 
 ## Menu filter
@@ -100,19 +100,19 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img2.png)
+![Typescript Grid Menu filter](filtering_images/filtering_img2.png)
 {:caption}
 Numeric Filter
 
-![](filtering_images/filtering_img3.png)
+![Typescript Grid Numeric Filter](filtering_images/filtering_img3.png)
 {:caption}
 String Filter
 
-![](filtering_images/filtering_img4.png)
+![Typescript Grid String Filter](filtering_images/filtering_img4.png)
 {:caption}
 Date Filter
 
-![](filtering_images/filtering_img5.png)
+![Typescript Grid Date Filter](filtering_images/filtering_img5.png)
 
 Boolean Filter
 
@@ -149,7 +149,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img6.png)
+![Typescript Grid  Excel like filter](filtering_images/filtering_img6.png)
 
 
 ### Checkbox list generation:
@@ -188,7 +188,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img7.png)
+![Typescript Grid Checkbox list generation](filtering_images/filtering_img7.png)
 
 
 ### Add current selection to filter checkbox:
@@ -197,7 +197,7 @@ When filtering is done multiple times on the same column then the previously fil
 
 The following image describes the above mentioned behavior.
 
-![](filtering_images/filtering_img12.png)
+![Typescript Grid filter checkbox](filtering_images/filtering_img12.png)
 
 
 ### Case Sensitivity
@@ -230,7 +230,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img8.png)
+![Typescript Grid Case Sensitivity](filtering_images/filtering_img8.png)
 
 
 ## Filter bar
@@ -401,7 +401,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img9.png)
+![Typescript Grid Filter bar](filtering_images/filtering_img9.png)
 
 
 Filter bar modes:
@@ -443,7 +443,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img10.png)
+![Typescript Grid Filter bar message](filtering_images/filtering_img10.png)
 
 
 ## Filter Operators
@@ -673,6 +673,6 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](filtering_images/filtering_img11.png)
+![Typescript Grid After Filtering](filtering_images/filtering_img11.png)
 {:caption}
 After Filtering
