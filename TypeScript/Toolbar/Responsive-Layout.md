@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Responsive-Layout
-description: responsive layout
+title: Responsive Layout in TypeScript Toolbar Control | Syncfusion
+description: Learn here about responsive layout in Syncfusion Essential TypeScript Toolbar Control, its elements, and more.
 platform: TypeScript
 control: Toolbar
 documentation: ug
 ---
 
-# Responsive Layout
+# Responsive Layout in TypeScript Toolbar
 
 **Responsive Layout** is aimed at crafting sites to provide an optimal viewing experience easy reading and navigation with a minimum of resizing, panning, and scrolling—across a wide range of devices (from mobile phones to desktop computer monitors). You can achieve **Responsive Layout** by using default functionality of **Toolbar** with **isResponsive** as **true** and also you need to give **Toolbar** width as in percentage value and add **ej.responsive.css** file in this sample. **CDN** link for the responsive CSS file is as follows.
 
@@ -200,7 +200,7 @@ module ToolbarComponent {
 
 Execute the above code to render the following output.
 
-![](Responsive-Layout_images/Responsive-Layout.png)
+![TypeScript Toolbar Responsive Layout](Responsive-Layout_images/Responsive-Layout.png)
 
 
 ## responsiveType:Inline
@@ -223,7 +223,7 @@ We can set the responsiveType property to inline to display the overflown toolba
 
 While setting inline responsiveType the following output will be displayed.
 
-![](Responsive-Layout_images/Responsive-Layout-img2.png)
+![TypeScript Toolbar responsiveType Inline](Responsive-Layout_images/Responsive-Layout-img2.png)
 
 ## responsiveType:Popup
 
@@ -246,4 +246,4 @@ We can set the responsiveType property to popup to display the overflown toolbar
 
 While setting popup as responsiveType the  following output will be displayed.
 
-![](Responsive-Layout_images/Responsive-Layout.png)
+![TypeScript Toolbar responsiveType Popup](Responsive-Layout_images/Responsive-Layout.png)
