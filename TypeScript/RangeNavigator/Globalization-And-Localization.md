@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Globalization-And-Localization
-description: Globalization And Localization
+title: Globalization & Localization in TypeScript RangeNavigator | Syncfusion
+description: Learn here about Globalization and Localization in Syncfusion Essential TypeScript RangeNavigator Control, its elements, and more.
 platform: typescript
 control: RangeNavigator
 documentation: ug
 ---
 
 
-### Globalization & Localization
+# Globalization and Localization in TypeScript RangeNavigator
 
 **RangeNavigator** supports Localization and Globalization to customize the labels based on a culture specific to a country. The culture defines specific information for the number formats, week and month names, date and time formats etc. 
 
-#### Localization
+## Localization
 
 **Localization** is the process of customizing the user interface based on a culture specific to a particular country or region in order to display regional data.  The culture is represented by a unique string, for example, ―en-US‖ for U.S. English and ―fr-FR‖ for French (common), this is achieved by creating a JavaScript file “**rangeNavigatorSource.fr-FR.js**” and setting the equivalent word as illustrated in the following code sample.
 
@@ -57,9 +57,9 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
 
 
 
-![](Globalization-And-Localization_images/Globalization-And-Localization_img1.png) 
+![TypeScript RangeNavigator localization and globalization](Globalization-And-Localization_images/Globalization-And-Localization_img1.png) 
 
-#### RTL
+### RTL
 
 **Right-to-Left** or **RTL** describes the ability of application to handle and responds you to communicate with a right-to-left language, like Arabic or Japanese. **enableRTL** property is used to change the rendering format  to **"Right to Left"**, by default it renders from **"Left to Right"** in **RangeNavigator**.
 
@@ -77,7 +77,7 @@ var sample = new ej.datavisualization.RangeNavigator($("#RangeNavigator"), {
 
 
 
-![](Globalization-And-Localization_images/Globalization-And-Localization_img2.png) 
+![TypeScript RangeNavigator RTL](Globalization-And-Localization_images/Globalization-And-Localization_img2.png) 
 
 
 

@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Data-binding
-description: data binding
+title: Data binding in TypeScript Menu Control | Syncfusion
+description: Learn here about data binding in Syncfusion Essential TypeScript Menu Control, its elements, and more.
 platform: Typescript
 control: Menu
 documentation: ug
 ---
 
-# Data binding
+# Data binding in TypeScript Menu
 
 Data binding enables you to synchronize the elements with different sources of data. You can bind data using two ways, Local data and remote data. 
 
-##Field Members
+## Field Members
 
 Field is a property that includes the object type. Fields are used to bind the data source and it includes following field members to make binding easier.
 
@@ -66,7 +66,7 @@ imageUrl</td><td>
 Specifies the image URL to “img” tag inside item list. </td></tr>
 </table>
 
-##Local data
+### Local data
 
 To define the local data to the **Menu** control, map the user-defined **JSON** data names with its appropriate dataSource column names.
 
@@ -146,7 +146,7 @@ module MenuComponent {
 
 The following screenshot displays the output of the above code.
 
-![](Data-binding_images/Data-binding_img1.png) 
+![TypeScript Menu data binding](Data-binding_images/Data-binding_img1.png) 
 
 
 ## Remote data
@@ -198,4 +198,4 @@ Add the following code in your **HTML** page.
 
 The following screenshot displays the output of the above code. 
 
-![](Data-binding_images/Data-binding_img2.png) 
+![TypeScript Menu remote data](Data-binding_images/Data-binding_img2.png) 
