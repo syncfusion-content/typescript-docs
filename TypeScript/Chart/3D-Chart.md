@@ -42,7 +42,7 @@ module ChartComponent {
 {% endhighlight %}
 
 
-![Typescript Chart 3D Column Chart](3D-Chart_images/3D-Chart_img1.png)
+![Typescript Chart 3D Column Chart](3D-Chart_images/Column_Chart_img1.png)
 
 
 ## 3D Bar Chart
@@ -68,7 +68,7 @@ You can create a 3D Bar Chart by setting the series [`type`](../api/ejchart#memb
 {% endhighlight %}
 
 
-![Typescript Chart 3D Bar Chart](3D-Chart_images/3D-Chart_img2.png)
+![Typescript Chart 3D Bar Chart](3D-Chart_images/Bar_Chart_img2.png)
 
 
 ## 3D Stacked Column Chart
@@ -98,7 +98,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![Typescript Chart 3D Stacked Column Chart](3D-Chart_images/3D-Chart_img3.png)
+![Typescript Chart 3D Stacked Column Chart](3D-Chart_images/Stacked_Column_Chart_img3.png)
 
 
 ## 3D 100% Stacked Column Chart
@@ -128,7 +128,7 @@ Stacking Column 3DChart is rendered by specifying the series [`type`](../api/ejc
 {% endhighlight %}
 
 
-![Typescript Chart 3D 100% Stacked Column Chart](3D-Chart_images/3D-Chart_img4.png)
+![Typescript Chart 3D Stacked Column Chart](3D-Chart_images/Stacked_Column_Chart_img4.png)
 
 
 ## 3D Stacked Bar Chart
@@ -158,7 +158,7 @@ To create Stacking Bar 3DChart, set the series [`type`](../api/ejchart#members:s
 {% endhighlight %}
 
 
-![Typescript Chart 3D Stacked Bar Chart](3D-Chart_images/3D-Chart_img5.png)
+![Typescript Chart 3D Stacked Bar Chart](3D-Chart_images/Stacked_Bar_Chart_img5.png)
 
 
 ## 3D 100% Stacked Bar Chart
@@ -188,7 +188,7 @@ You can create 100% Stacking Bar 3DChart by setting the series [`type`](../api/e
 {% endhighlight %}
 
 
-![Typescript Chart 3D 100% Stacked Bar Chart](3D-Chart_images/3D-Chart_img6.png)
+![Typescript Chart 3D Stacked Bar Chart](3D-Chart_images/Stacked_Bar_Chart_img6.png)
 
 
 ## 3D Pie Chart
@@ -214,7 +214,7 @@ To render the Pie Chart in 3D view, enable the **enbel3D** option in the chart a
 {% endhighlight %}
 
 
-![Typescript Chart 3D Pie Chart](3D-Chart_images/3D-Chart_img7.png)
+![Typescript Chart 3D Pie Chart](3D-Chart_images/Pie_Chart_img7.png)
 
 ## 3D Doughnut Chart
 
@@ -239,7 +239,7 @@ To render the Doughnut Chart in 3D view, enable the **enbel3D** option in the ch
 {% endhighlight %}
 
 
-![Typescript Chart 3D Doughnut Chart](3D-Chart_images/3D-Chart_img8.png)
+![Typescript Chart 3D Doughnut Chart](3D-Chart_images/Doughnut_Chart_img8.png)
 
 
 ## Configure 3D Chart
@@ -261,7 +261,7 @@ To render the EjChart in 3D view, set the [`enable3D`](../api/ejchart#members:en
 {% endhighlight %}
 
 
-![Typescript Chart 3D View](3D-Chart_images/3D-Chart_img9.png)
+![Typescript Chart 3D View](3D-Chart_images/Chart_img9.png)
 
 
 
@@ -283,7 +283,7 @@ To render the EjChart in 3D view, set the [`enable3D`](../api/ejchart#members:en
 {% endhighlight %}
 
 
-![Typescript Chart Placing Bar / Column kind of series side-by-side](3D-Chart_images/3D-Chart_img10.png)
+![Typescript Chart Placing Bar / Column kind of series side-by-side](3D-Chart_images/Placing_Bar_Chart_img10.png)
 
 
 ### Setting Axis Wall Size
@@ -303,7 +303,7 @@ In 3DChart, Cartesian axes lines are represented as walls and it defines the wid
 {% endhighlight %}
 
 
-![Typescript Chart Setting Axis Wall Size](3D-Chart_images/3D-Chart_img11.png)
+![Typescript Chart Setting Axis Wall Size](3D-Chart_images/Setting_Axis_Wall_Size_Chart_img11.png)
 
 
 ### 3D Depth
@@ -323,7 +323,7 @@ By using the [`depth`](../api/ejchart#members:depth) property, you can view the 
 {% endhighlight %}
 
 
-![Typescript Chart 3D Depth](3D-Chart_images/3D-Chart_img12.png)
+![Typescript Chart 3D Depth](3D-Chart_images/Depth_Chart_img12.png)
 
 
 ### Rotating and Tilting 3D Chart
@@ -351,7 +351,7 @@ To spin the 3D Chart on mouse dragging, enable [`enableRotation`](../api/ejchart
 {% endhighlight %}
 
 
-![Typescript Chart Rotating and Tilting 3D Chart](3D-Chart_images/3D-Chart_img13.png)
+![Typescript Chart Rotating and Tilting 3D Chart](3D-Chart_images/Rotating_and_Tilting_Chart_img13.png)
 
 
 ### PerspectiveAngle	
@@ -372,4 +372,4 @@ The [`perspectiveAngle`](../api/ejchart#members:perspectiveangle) specifies the 
 {% endhighlight %}
 
 
-![Typescript Chart PerspectiveAngle](3D-Chart_images/3D-Chart_img14.png)
+![Typescript Chart PerspectiveAngle](3D-Chart_images/PerspectiveAngle_Chart_img14.png)
