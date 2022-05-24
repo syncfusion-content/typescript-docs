@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Dropdown-Button
-description: dropdown button
+title: Dropdown Button in TypeScript Split Button Control | Syncfusion
+description: Learn here about dropdown button in Syncfusion Essential TypeScript Split Button Control, its elements, and more.
 platform: TypeScript
 control: Split Button
 documentation: ug
 ---
 
-# Dropdown Button
+# Dropdown Button in TypeScript Split Button
 
 You can change the **Split Button** as **Dropdown Button** that consists of a single button that when clicked displays a drop-down list of mutually exclusive items. You can achieve this by using default functionality of **Split Button** with **buttonMode** as **ej.ButtonMode.Dropdown**. Initially the **targetID** is a mandatory one.
 
@@ -49,5 +49,5 @@ module SplitButtonComponent {
 
 Execute the above code to render the following output.
 
-![](Dropdown-Button_images/Dropdown-Button_img1.png) 
+![TypeScript Split Button Dropdown Button](Dropdown-Button_images/Dropdown-Button_img1.png) 
 
