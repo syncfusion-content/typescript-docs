@@ -1,17 +1,17 @@
 ---
 layout: post
-title: Tree-Node
-description: tree node
+title: Tree Node support in TypeScript TreeView Control | Syncfusion
+description: Learn here about tree node support in Syncfusion Essential TypeScript TreeView Control, its elements, and more.
 platform: Typescript
 control: TreeView
 documentation: ug
 ---
 
-# Tree Node
+# Tree Node in TypeScript TreeView
 
 TreeView node is structured with expand/collapse arrow, checkbox, image and text as shown in below.
 
-![](/js/TreeView/Tree-Node_images/Tree-Node_img1.png)
+![TypeScript TreeView Tree Node](Tree-Node_images/Tree-Node_img1.png)
 
 
 Also TreeView node object holds the following properties.
