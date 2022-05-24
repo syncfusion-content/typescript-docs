@@ -1,15 +1,14 @@
 ---
-
 layout: post
-title: Load on demand in DropDownList widget 
-description: Describes about the load on demand in DropDownList widget 
+title: Load on demand in TypeScript DropDownList widget | Syncfusion
+description: Describes about the load on demand in Syncfusion Essential TypeScript DropDownList widget, its elements, features, and more.
 platform: Typescript
 control: DropDownList
 documentation: ug
 keywords: DropDownList, loadOnDemand
 ---
 
-## Load On Demand
+# Load On Demand in TypeScript DropDownList
 
 Load on demand feature allows the DropDownList items load on request from the service/database, during only on click the DropDown icon or DropDownList. This functionality helps to improve performance on control initial rendering time. Because data items load on request. 
 
@@ -46,4 +45,4 @@ module DropDownListComponent {
 
 {% endhighlight %}
 
-![](LoadOnDemand_images/loadondemand.png)
+![TypeScript DropDownList LoadOnDemand](LoadOnDemand_images/loadondemand.png)
