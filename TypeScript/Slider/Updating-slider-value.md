@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Updating-slider-value
-description: updating slider value
+title: Updating slider value in TypeScript Slider Control | Syncfusion
+description: Learn here about updating slider value in Syncfusion Essential TypeScript Slider Control, its elements, and more.
 platform: Typescript
 control: Slider
 documentation: ug
 ---
 
-# Updating slider value
+# Updating slider value in TypeScript Slider
 
 **Slider** widget includes an option to specify/update its value. And also you can specify the starting and ending value for the **Slider** using the **minValue** and **maxValue** properties.
 
@@ -66,7 +66,7 @@ module SliderComponent {
 Execute the above code example to render the following output.
 
 
-![](Updating-slider-value_images/Updating-slider-value_img1.png) 
+![TypeScript Slider Updating slider value](Updating-slider-value_images/Updating-slider-value_img1.png) 
 
 ## MinValue
 
@@ -122,7 +122,7 @@ module SliderComponent {
 
 Execute the above code example to render the following output.
 
-![](Updating-slider-value_images/Updating-slider-value_img2.png)
+![TypeScript Slider MaxValue MinValue](Updating-slider-value_images/Updating-slider-value_img2.png)
 
 In the above example, for **Default Slider** the slider value starts from “40” (min value) and ends in “80” (max value), so the slider handle is placed at the center of the Slider while specifying the value as “60”.
 
@@ -172,4 +172,4 @@ module SliderComponent {
 
 Execute the above code example to render the following output.
 
-![](Button-Support_images/Button-Support_img1.png)
+![TypeScript Slider Enabling Buttons](Button-Support_images/Button-Support_img1.png)
