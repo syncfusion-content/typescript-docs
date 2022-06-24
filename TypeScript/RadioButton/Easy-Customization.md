@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Easy-Customization
-description: easy customization
+title: Easy Customization in TypeScript RadioButton Control | Syncfusion
+description: Learn here about easy customization in Syncfusion Essential TypeScript RadioButton Control, its elements, and more.
 platform: TypeScript
 control: RadioButton
 documentation: ug
 ---
 
-# Easy Customization
+# Easy Customization in TypeScript RadioButton
 
 ## Checked status
 
@@ -85,7 +85,7 @@ The following image is displayed as the output for the above steps.
 
 
 
-![](Easy-Customization_images/Easy-Customization_img1.png) 
+![TypeScript RadioButton Easy Customization](Easy-Customization_images/Easy-Customization_img1.png) 
 
 ## Text
 
@@ -160,7 +160,7 @@ Configure the CSS styles to align the radio buttons.
 
 The following image is displayed as the output for the above steps.
 
-![](Easy-Customization_images/Easy-Customization_img2.png) 
+![TypeScript RadioButton Text](Easy-Customization_images/Easy-Customization_img2.png) 
 
 ## Size
 
@@ -280,7 +280,7 @@ Configure the CSS styles to align the radio buttons.
 
 The following image is displayed as the output for the above steps.
 
-![](Easy-Customization_images/Easy-Customization_img3.png) 
+![TypeScript RadioButton Size](Easy-Customization_images/Easy-Customization_img3.png) 
 
 
 ## RTL Support 
@@ -361,5 +361,5 @@ The following image is displayed as the output for the above steps.
 
 
 
-![](Easy-Customization_images/Easy-Customization_img4.png) 
+![TypeScript RadioButton RTL Support](Easy-Customization_images/Easy-Customization_img4.png) 
 

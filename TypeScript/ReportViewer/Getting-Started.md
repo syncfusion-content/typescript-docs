@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started
-description: getting started
+title: Getting Started with TypeScript ReportViewer Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript ReportViewer Control, its elements, and more.
 platform: Typescript
 control: ReportViewer
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypeScript ReportViewer
 
 This section explains briefly about how to create a ReportViewer in your web application Typescript.
 
@@ -15,7 +15,7 @@ This section explains briefly about how to create a ReportViewer in your web ap
 
 Open Visual Studio and create a new project by clicking New Project. Select the Typescript category, choose the HTML Application with TypeScript template, and then click OK. The following screenshot displays the Project Creation Wizard.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![TypeScript ReportViewer Getting Started](Getting-Started_images/Getting-Started_img1.png) 
 
 Project Creation Wizard
 {:.caption}
@@ -97,7 +97,7 @@ N> Default RDL Report will be rendered, which is used in the online service. You
 
 Run the sample application and you can see the ReportViewer on the page as displayed in the following screenshot.
 
-![](Getting-Started_images/Getting-Started_img2.png) 
+![TypeScript ReportViewer with Grouping Aggregate Report](Getting-Started_images/Getting-Started_img2.png) 
 
 ReportViewer with Grouping Aggregate Report
 {:.caption}
@@ -142,7 +142,7 @@ module ReportViewerComponent {
 
 3. Run the application and you can see the ReportViewer on the page as displayed in the following screenshot.
 
-   ![](Getting-Started_images/Getting-Started_img3.png) 
+   ![TypeScript ReportViewer Load SSRS Server Reports](Getting-Started_images/Getting-Started_img3.png) 
    
    Report from SSRS
    {:.caption}
@@ -200,7 +200,7 @@ N> Default RDLC Report will be rendered, which is used in the online service.
 
 3. Run the application and you can see the ReportViewer on the page as displayed in the following screenshot.
 
-   ![](Getting-Started_images/Getting-Started_img4.png) 
+   ![TypeScript ReportViewer Load RDLC Reports](Getting-Started_images/Getting-Started_img4.png) 
    
    Area Chart RDLC Report
    {:.caption}
