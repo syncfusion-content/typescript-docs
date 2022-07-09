@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How to - DropDownList widget
-description: How To Section in DropDownList widget
+title: How to section in TypeScript DropDownList Control | Syncfusion
+description: Learn here about How To Section in Syncfusion Essential TypeScript DropDownList widget, its elements, and more.
 platform: Typescript
 control: DropDownList
 documentation: ug
 keywords: DropDownList, dropdown, Adding Items, Set Focus, custommization
 ---
 
-# How To
+# How To section in TypeScript DropDownList
 
 ## Set focus to control initially?
 
@@ -131,7 +131,7 @@ Bind the select event and you can retrieve the value from args.value.
 
 The following screenshot will exhibit the select event arguments details,
 
-![](HowTo_images/HowTo_img1.jpeg)
+![TypeScript DropDownList How To section](HowTo_images/HowTo_img1.jpeg)
 
 ## Append custom HTML in DropDownList popup outside the scroller part?
 
@@ -199,7 +199,7 @@ You can use [headerTemplate](https://help.syncfusion.com/api/js/ejdropdownlist#m
 
 The following screenshot exhibits the output of the above code,
 
-![](HowTo_images/HowTo_img2.jpeg)
+![TypeScript DropDownList To remove the items](HowTo_images/HowTo_img2.jpeg)
 
 ## To remove the items from DropDownList?
 
@@ -239,10 +239,10 @@ Removing an entry from DropdownList is demonstrated in the below given sample.
 The following screenshot exhibits the output of above code:
 
 Before removing an item:
-![](HowTo_images/Image1.JPG)
+![TypeScript DropDownList before removing an item](HowTo_images/Image1.JPG)
 
 After removing an item:
-![](HowTo_images/Image2.JPG)
+![TypeScript DropDownList after removing an item](HowTo_images/Image2.JPG)
 
 ## Select the image rather than the text from the DropDownList when the template concept is used?
 
@@ -330,7 +330,7 @@ Apply the following styles
 
 {% endhighlight %}
 
-![](HowTo_images/customValue.jpg)
+![TypeScript DropDownList customValue](HowTo_images/customValue.jpg)
 
 N> This scenarios, will be suits for the single select mode in the DropDownList.
 
@@ -367,7 +367,7 @@ This can be achieved, by adding the attributes directly to the input element if 
  } 
 {% endhighlight %}
 
- ![](HowTo_images/htmlAttr.png)
+ ![TypeScript DropDownList htmlAttr](HowTo_images/htmlAttr.png)
  
 ## Add tooltip on hovering the DropDownList’s items?
  
@@ -562,7 +562,7 @@ Method 1: Setting custom delimiter Character
     
 {% endhighlight %}
 
-![](HowTo_images/Json1.jpg)
+![TypeScript DropDownList json](HowTo_images/Json1.jpg)
 
 Method 2: Using Visual Mode
 
@@ -591,5 +591,5 @@ Method 2: Using Visual Mode
 }
  {% endhighlight %}
 
-![](HowTo_images/Json2.jpg)   
+![TypeScript DropDownList json using visual mode](HowTo_images/Json2.jpg)   
     
