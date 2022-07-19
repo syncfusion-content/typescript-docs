@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Tab
-description: tab 
+title: Tab in TypeScript Ribbon Control | Syncfusion
+description: Learn here about tab support in Syncfusion Essential TypeScript Ribbon Control, its elements, and more.
 documentation: ug
 platform: Typescript
 keywords: ribbon tab
 ---
 
-# Tab
+# Tab in TypeScript Ribbon
 
 Tab is a collection of control [`groups`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-groups) which enables you to organize related commands into single view.  Tabs can be added to Ribbon using [`tabs`](https://help.syncfusion.com/api/js/ejribbon#members:tabs) property. [`id`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-id) & [`text`](https://help.syncfusion.com/api/js/ejribbon#members:tabs-text) properties are used to set unique ID and header text to Tab.
 The manipulation of given text tab in the ribbon control can be done by using  [`addTab`](https://help.syncfusion.com/api/js/ejribbon#methods:addtab), [`removeTab`](https://help.syncfusion.com/api/js/ejribbon#methods:removetab), [`hideTab`](https://help.syncfusion.com/api/js/ejribbon#methods:hidetab),
@@ -86,4 +86,4 @@ module RibbonComponent {
    
 {% endhighlight %}
 
-![](Tab_images/Tab_img1.png)
+![TypeScript Ribbon tab](Tab_images/Tab_img1.png)

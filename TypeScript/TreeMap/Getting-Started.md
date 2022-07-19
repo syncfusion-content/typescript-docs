@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started
+title: Getting Started with TypeScript TreeMap Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript TreeMap Control, its elements, and more.
 platform: typescript
 control: TreeMap
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypeScript TreeMap
 
 * This section explains briefly about how to create a TreeMap in your application with TypeScript.
 * Here you can learn how to configure a TreeMap control in a real-time scenario where it is used to visually represent the percentage of growth in population in each continent. 
 * It also provides a walk-through on some of the customization features available in TreeMap control.
 
-![](Getting-Started_images/Getting-Started_img1.png)
+![TypeScript TreeMap Getting Started](Getting-Started_images/Getting-Started_img1.png)
 
 ## Create a TreeMap 
 
@@ -108,7 +108,7 @@ module TreeMapComponent {
 
 The following image displays a TreeMap with default properties using the above code. 
 
-![](Getting-Started_images/Getting-Started_img2.png)
+![TypeScript TreeMap GroupTreeMap Items using Levels](Getting-Started_images/Getting-Started_img2.png)
 
 ## GroupTreeMap Items using Levels
 
@@ -140,7 +140,7 @@ The following code sample explains how to group TreeMap Items using ‘Levels’
 
 The following screenshot displays grouping of TreeMapItems using Levels.
 
-![](Getting-Started_images/Getting-Started_img3.png)
+![TypeScript TreeMap Customize TreeMap Appearance by Range](Getting-Started_images/Getting-Started_img3.png)
 
 
 
@@ -179,7 +179,7 @@ The following code sample explains how to customize TreeMap Appearance by Range.
 
 The following screenshot displays customized TreeMap Appearance by Range
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![TypeScript TreeMap Enable Tooltip](Getting-Started_images/Getting-Started_img4.png)
 
 ## Enable Tooltip
 
@@ -218,7 +218,7 @@ $(function () {
 
 The following screenshot displays the TreeMap when the Tooltip is enabled.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![TypeScript TreeMap Legend](Getting-Started_images/Getting-Started_img5.png)
 
 ## Legend
 
@@ -265,5 +265,5 @@ The following code sample displays how to add labels for legend in a TreeMap.
 
 The following screenshot displays the TreeMap when Labels are enabled.
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![TypeScript TreeMap Label for Legend](Getting-Started_images/Getting-Started_img6.png)
 
