@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting Started for DropDownList
-description: Getting Started for DropDownList
+title: Getting Started with TypeScript DropDownList Control | Syncfusion
+description: Learn here about Getting Started with Syncfusion Essential TypeScript DropDownList Control, its elements, and more.
 platform: Typescript
 control: DropDownList
 documentation: ug
 keywords: DropDownList, Populating data
 ---
 
-# Getting Started
+# Getting Started with TypeScript DropDownList
 
 The external script dependencies of the DropDownList widget are,
 
@@ -101,7 +101,7 @@ The DropDownList can be created from a HTML ‘input’ element with the HTML 'i
 
 {% endhighlight %}
 
-![](Getting-Started-images/Getting-Started_img1.jpeg)
+![TypeScript DropDownList Populating data](Getting-Started-images/Getting-Started_img1.jpeg)
 
 ## Populating data
 
@@ -134,7 +134,7 @@ The DropDownList can be bounded to both local array and remote data services .Yo
       }
 {% endhighlight %}
 	
-![](Getting-Started-images/Getteing-Started_img2.jpeg)
+![TypeScript DropDownList Setting Dimensions](Getting-Started-images/Getteing-Started_img2.jpeg)
 
 ## Setting Dimensions
 

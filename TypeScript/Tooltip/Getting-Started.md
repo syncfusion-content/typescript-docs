@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting started for Tooltip
-description: How to create the Tooltip in Typescript
+title: Getting started with TypeScript Tooltip Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript Tooltip Control, its elements, and more.
 platform: Typescript
 control: Tooltip
 documentation: ug
 keywords : ejTooltip, Tooltip, js Tooltip, Tooltip widget
 ---
-# Getting started
+# Getting started with TypeScript Tooltip
 
 ## Preparing HTML document
 
@@ -111,7 +111,7 @@ Apply the following style sheet
     
 {% endhighlight %}
 
-![](Getteing-Started_images/Getteing-Started_img1.jpeg)
+![TypeScript Tooltip Setting Dimensions](Getteing-Started_images/Getteing-Started_img1.jpeg)
 
 ## Setting Dimensions
 
@@ -188,5 +188,5 @@ Apply the following styles to show the Tooltip.
     
 {% endhighlight %}
 
-![](Getteing-Started_images/Getteing-Started_img2.jpeg)
+![TypeScript Tooltip Tooltip Appearance](Getteing-Started_images/Getteing-Started_img2.jpeg)
 
