@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Keyboard Navigation
-description: Keyboard Navigation support
+title: Keyboard Navigation in TypeScript File Explorer Control | Syncfusion
+description: Learn here about Keyboard Navigation support in Syncfusion TypeScript File Explorer Control, its elements, and more.
 platform: Typescript
 control: File Explorer
 documentation: ug
 ---
 
-# Keyboard Navigation
+# Keyboard Navigation in TypeScript File Explorer
 
 The FileExplorer control can be fully accessible with the help of keyboard shortcuts and it can be allowed by specifying [allowKeyboardNavigation](https://help.syncfusion.com/api/js/ejfileexplorer#members:allowkeyboardnavigation) as true. The below table shows the list of keyboard shortcuts to access the FileExplorer control. 
 
