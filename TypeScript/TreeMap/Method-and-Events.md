@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Methods and Events
-description: methods and events in treemap
+title: Methods and Events in TypeScript TreeMap Control | Syncfusion
+description: Learn here about Methods and Events in Syncfusion Essential TypeScript TreeMap Control, its elements, and more.
 platform: typescript
 control: TreeMap
 documentation: ug
 ---
 
-## Methods
+# Methods and Events in TypeScript TreeMap
 
-### refresh()
+## refresh()
 
 
 Method to reload treemap with updated values.

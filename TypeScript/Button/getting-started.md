@@ -62,7 +62,7 @@ To render the button with required text, size and with rounded corner add the fo
 {%endhighlight%}
 
 
-The following screenshot illustrates the **Button** control with text, size and rounded corner properties.
+The following screenshot illustrates the TypeScript **Button** control with text, size and rounded corner properties.
 
 
 
