@@ -77,7 +77,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![TypeScript Ribbon toolTip](/Screen-Tips_images/Screen-Tips_img1.png)
+![TypeScript Ribbon toolTip](Screen-Tips_images/Screen-Tips_img1.png)
 
 ## Custom Tooltip
 
@@ -318,7 +318,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![TypeScript Ribbon screen tips](/Screen-Tips_images/Screen-Tips_img3.png)
+![TypeScript Ribbon screen tips](Screen-Tips_images/Screen-Tips_img3.png)
 
 ### For Expand Pin
 
