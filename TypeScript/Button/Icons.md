@@ -1,13 +1,13 @@
 ---
 layout: post
-title: TypeScript Icons Library | Syncfusion
+title: Icons in TypeScript Button Control | Syncfusion
 description: Learn here all about introduction of Syncfusion Essential TypeScript Icons Library, its elements, and more.
 platform: TypeScript
 control: Button
 documentation: ug
 ---
 
-# TypeScript Icons Library
+# Icons in TypeScript Button
 
 The **Essential Studio for JavaScript** provide icons library that contains the number of in-built icons that can be applied for CSS class names to elements and refer “ej.widgets.all.core.min.css” file. Use the following syntax to apply class names.
 
