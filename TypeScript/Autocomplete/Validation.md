@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Validation in TypeScript AutoComplete widget | Syncfusion
-description: Getting started with validation for the TypeScript AutoComplete control its elements and more.
+description: Learn here about getting started with Syncfusion TypeScript AutoComplete control, its elements, and more.
 platform: TypeScript
 control: AutoComplete
 documentation: ug
