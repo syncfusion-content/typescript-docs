@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Validation in TypeScript AutoComplete widget
-description: How to use jQuery validation for the TypeScript AutoComplete control.
+title: Validation in TypeScript AutoComplete widget | Syncfusion
+description: Getting started with validation for the TypeScript AutoComplete control its elements and more.
 platform: TypeScript
 control: AutoComplete
 documentation: ug
 keywords: ejautocomplete, autocomplete widget, autocomplete ui, ej autocomplete
 ---
 
-## Validation in TypeScript AutoComplete
+# Validation in TypeScript AutoComplete
 
 You can validate the Autocomplete value on form submission by applying “validationRules” and “validationMessage” to the Autocomplete. 
 
