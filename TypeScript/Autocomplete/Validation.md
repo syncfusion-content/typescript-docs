@@ -8,7 +8,7 @@ documentation: ug
 keywords: ejautocomplete, autocomplete widget, autocomplete ui, ej autocomplete
 ---
 
-# Validation in TypeScript AutoComplete
+## Validation in TypeScript AutoComplete
 
 You can validate the Autocomplete value on form submission by applying “validationRules” and “validationMessage” to the Autocomplete. 
 
