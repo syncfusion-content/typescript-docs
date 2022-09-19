@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Labels
-description: labels
+title: Labels in Typescript Linear Gauge  Control | Syncfusion
+description: Learn here all about Labels support in Syncfusion Essential Typescript Linear Gauge control, its elements, and more.
 platform: typescript
 control: Linear Gauge
 documentation: ug
 ---
 
-# Labels
+# Labels in Typescript Linear Gauge
 
 Labels are units that are used to display the values in the scales. You can customize Labels with the properties like`angle`, `color`, `font`, `opacity`, etc.
 
@@ -79,7 +79,7 @@ module LinearGaugeComponent {
 Execute the above code to render the following output.
 
 
-![](Labels_images/Labels_img1.png)
+![Typescript Linear Gauge label customization](Labels_images/Labels_img1.png)
 
 ## Unit text and Positioning
 
@@ -150,7 +150,7 @@ $ (function () {
 Execute the above code to render the following output.
 
 
-![](Labels_images/Labels_img2.png)
+![Typescript Linear Gauge unit text and positioning](Labels_images/Labels_img2.png)
 
 
 

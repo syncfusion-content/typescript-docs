@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  onDemand
-description: onDemand
+title: on Demand in Typescript Ribbon Control | Syncfusion
+description: Learn here all about on Demand support in Syncfusion Essential Typescript Ribbon control, its elements, and more.
 documentation: ug
 platform: Typescript
 keywords: onDemand
 ---
 
-# Load on Demand
+# Load on Demand in Typescript Ribbon
 
 Set [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enableondemand) as true to enable load tab and backstage contents dynamically. Loading content on demand improves the initial rendering time of the ribbon by rendering tab and backstage content when tabs and backstage items are clicked.
  
@@ -172,7 +172,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](On_Demand_images/onDemand_img1.png)
+![Typescript Ribbon load on demand](On_Demand_images/onDemand_img1.png)
 
 # Initially Collapsible
 
@@ -341,4 +341,4 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](On_Demand_images/onDemand_img2.png)
+![Typescript Ribbon initially collapsible](On_Demand_images/onDemand_img2.png)
