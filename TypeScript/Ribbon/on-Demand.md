@@ -1,7 +1,7 @@
 ---
 layout: post
-title: on Demand in Typescript Ribbon Control | Syncfusion
-description: Learn here all about on Demand support in Syncfusion Essential Typescript Ribbon control, its elements, and more.
+title: Load on Demand in Typescript Ribbon Control | Syncfusion
+description: Learn here all about Load on Demand support in Syncfusion Essential Typescript Ribbon control, its elements, and more.
 documentation: ug
 platform: Typescript
 keywords: onDemand
