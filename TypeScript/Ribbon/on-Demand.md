@@ -174,7 +174,7 @@ module RibbonComponent {
 
 ![Typescript Ribbon load on demand](On_Demand_images/onDemand_img1.png)
 
-# Initially Collapsible
+## Initially Collapsible
 
 Set [`collapsible'](https://help.syncfusion.com/api/js/ejribbon#members:collapsible) as true to render ribbon control in collapsed state, which results ribbon tabs to render without any content initially.
 While using initially collapsible ribbon with [`enableOnDemand`](https://help.syncfusion.com/api/js/ejribbon#members:enableondemand) feature improves the performance by reducing initial loading time of ribbon.
