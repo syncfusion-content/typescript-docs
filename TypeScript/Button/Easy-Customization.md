@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Easy-Customization
-description: easy customization
+title: Easy-Customization in Typescript Button | Syncfusion
+description: Learn here all about Easy-Customization support in Syncfusion Essential Typescript Button control, its elements, and more.
 platform: TypeScript
 control: Button
 documentation: ug
 ---
 
-# Easy Customization
+# Easy-Customization in Typescript Button 
 
 Button is used in all applications. Button size, content and content location is varied according to each application. Here you can see some customizable option for button that can perform easily. 
 
@@ -134,7 +134,7 @@ module ButtonComponent {
 
 Execute the above code to render the following output.
 
-![](Easy-Customization_images/Easy-Customization_img1.png)
+![Typescript Button button size](Easy-Customization_images/Easy-Customization_img1.png)
 
 
 ## Content Type
@@ -326,7 +326,7 @@ module ButtonComponent {
 
 Execute the above code to render the following output.
 
-![](Easy-Customization_images/Easy-Customization_img2.png) 
+![Typescript Button  content type](Easy-Customization_images/Easy-Customization_img2.png) 
 
 
 ## Image Position
@@ -502,7 +502,7 @@ module ButtonComponent {
 
 Execute the above code to render the following output.
 
-![](Easy-Customization_images/Easy-Customization_img3.png)
+![Typescript Button image position](Easy-Customization_images/Easy-Customization_img3.png)
 
 
 ## Theme support
@@ -637,5 +637,5 @@ Configure the **CSS** styles to apply on buttons.
 
 Execute the above code to render the following output.
 
-![](Easy-Customization_images/Easy-Customization_img4.png)
+![Typescript Button theme support](Easy-Customization_images/Easy-Customization_img4.png)
 
