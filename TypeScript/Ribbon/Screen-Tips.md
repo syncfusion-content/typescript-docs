@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  Screen Tips
-description: screen tips
+title: Screen Tips in TypeScript Ribbon Control | Syncfusion
+description: Learn here about screen tips in Syncfusion Essential TypeScript Ribbon Control, its elements, and more.
 documentation: ug
 platform: Typescript
+control: Ribbon
 keywords: screen tips,ribbon screen tips
 ---
 
-# Screen Tips
+# Screen Tips in TypeScript Ribbon
 
 ScreenTip/Tooltip is used to reduce the controls related Help that are needed to the end user to do control related actions.
 
@@ -76,7 +77,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](/jScreen-Tips_images/Screen-Tips_img1.png)
+![TypeScript Ribbon toolTip](Screen-Tips_images/Screen-Tips_img1.png)
 
 ## Custom Tooltip
 
@@ -164,7 +165,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](Screen-Tips_images/Screen-Tips_img2.png)
+![TypeScript Ribbon tips](Screen-Tips_images/Screen-Tips_img2.png)
 
 ### For Gallery
 
@@ -317,7 +318,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](/js/Ribbon/Screen-Tips_images/Screen-Tips_img3.png)
+![TypeScript Ribbon screen tips](Screen-Tips_images/Screen-Tips_img3.png)
 
 ### For Expand Pin
 
@@ -386,7 +387,7 @@ module RibbonComponent {
 }
 {% endhighlight %}
 
-![](Screen-Tips_images/Screen-Tips_img4.png)
+![TypeScript Ribbon expand pin](Screen-Tips_images/Screen-Tips_img4.png)
 
 ### For Collapse Pin
 
@@ -458,7 +459,7 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](Screen-Tips_images/Screen-Tips_img5.png)
+![TypeScript Ribbon collapse pin](Screen-Tips_images/Screen-Tips_img5.png)
 
 ### For GroupExpander
 
@@ -532,4 +533,4 @@ module RibbonComponent {
 
 {% endhighlight %}
 
-![](Screen-Tips_images/Screen-Tips_img6.png)
+![TypeScript Ribbon group expander](Screen-Tips_images/Screen-Tips_img6.png)
