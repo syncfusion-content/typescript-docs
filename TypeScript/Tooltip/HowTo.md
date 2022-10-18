@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How To section of Tooltip widget 
-description: How To section of Tooltip widget
+title: How To section in Typescript Tooltip Control | Syncfusion
+description: Learn here all about How To section in Syncfusion Essential Typescript Tooltip control, its elements, and more.
 platform: Typescript
 control: Tooltip
 documentation: ug
 keywords : ejTooltip, Tooltip,Tooltip widget
 ---
 
-# How To
+# How To section in Typescript Tooltip
 
 ## Use AJAX to generate the Tooltip’s content
 
@@ -176,7 +176,7 @@ Defines the style for the tooltip layout and table as follows.
     
 {% endhighlight %}
 
-![](HowTo_images/ajax.png)
+![Style in Typescript Tooltip](HowTo_images/ajax.png)
 
 ## Integration with the Slider control
 
@@ -260,7 +260,7 @@ function onStop(args){
         
 {% endhighlight %}
 
-![](HowTo_images/slider.png)
+![Integration with the slider in Typescript Tooltip](HowTo_images/slider.png)
 
 ## Tip(arrow) customization
 
@@ -317,7 +317,7 @@ Defines the style for the tip as follow as
     
 {% endhighlight %}
 
-![](HowTo_images/tip.png)
+![Tip Customization in Typescript Tooltip](HowTo_images/tip.png)
 
 ## Initialize Tooltip for the target element
 
@@ -377,7 +377,7 @@ The example below demonstrates how to create a Tooltip for multiple targets elem
     
 {% endhighlight %}
 
-![](Target_images/target.png)
+![Initial Target Elements in Typescript Tooltip](Target_images/target.png)
 
 Apply the following styles to the form element.
 
