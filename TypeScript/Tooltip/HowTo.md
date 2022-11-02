@@ -1,14 +1,14 @@
 ---
 layout: post
-title: How To section in Typescript Tooltip Control | Syncfusion
-description: Learn here all about How To section in Syncfusion Essential Typescript Tooltip control, its elements, and more.
+title: How To Section in Typescript Tooltip Control | Syncfusion
+description: Learn here all about how to section in Syncfusion Essential Typescript Tooltip control, its elements, and more.
 platform: Typescript
 control: Tooltip
 documentation: ug
 keywords : ejTooltip, Tooltip,Tooltip widget
 ---
 
-# How To section in Typescript Tooltip
+# How To Section in Typescript Tooltip
 
 ## Use AJAX to generate the Tooltip’s content
 
@@ -260,7 +260,7 @@ function onStop(args){
         
 {% endhighlight %}
 
-![Integration with the slider in Typescript Tooltip](HowTo_images/slider.png)
+![Integration with the Slider in Typescript Tooltip](HowTo_images/slider.png)
 
 ## Tip(arrow) customization
 
