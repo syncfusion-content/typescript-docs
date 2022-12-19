@@ -1,13 +1,13 @@
 ---
 layout: post
-title: create a simple Scroller in TypeScript
-description: create a simple Scroller in TypeScript
+title: Create a simple Scroller in TypeScript | Syncfusion
+description: Learn here about creating a simple Scroller Control support in Syncfusion TypeScript, its elements, and more
 platform: TypeScript
 control: Overview
 documentation: ug
 ---
 
-## Create a simple Scroller in TypeScript
+# Create a simple Scroller in TypeScript 
 
 You can create a **TypeScript** application with the help of the given [https://help.syncfusion.com/js/typescript](https://help.syncfusion.com/js/typescript).
 
@@ -70,4 +70,4 @@ Create an **HTML** page and add the scripts references in the order, mentioned
 
 You can execute the above code example to display the **Scroller** control.
 
-![](getting-started_images/getting-started_img1.png)
+![Getting Started in TypeScript Scroller](getting-started_images/getting-started_img1.png)
