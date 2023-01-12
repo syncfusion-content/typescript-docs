@@ -7,7 +7,7 @@ control: NuGet Packages
 documentation: ug
 ---
 
-# NuGet Packages
+# NuGet Packages in Typescript
 
 NuGet is a package manager for the .NET framework. The NuGet client tools simplify the process of installing and upgrading packages. This can be used to automatically add files and references to your Visual Studio projects.
 
@@ -21,7 +21,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
 
 2. Navigate to **WEB(Essential JS1)**, click the Copy URL label under JavaScript platform to copy the Syncfusion JavaScript platform NuGet feed to clipboard or directly use the following URL: 
 
-    [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript) 
+    [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript) 
 
     ![NuGet feed URL](NuGet_Packages_Images/img1.png)
 
@@ -42,7 +42,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
     **Name:** Name of the package listed in the available package sources.
     
     **Source:** Syncfusion JavaScript NuGet Feed URL      
-    [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
+    [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
 5.	Click the **Update** button to add the name and source details to package sources. 
 
@@ -64,7 +64,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
    
     **Name:** Enter the name (For e.g., Syncfusion TypeScript Packages).
    
-    **Location:** Enter the following URL – [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
+    **Location:** Enter the following URL – [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
     ![Syncfusion TypeScript Packages](NuGet_Packages_Images/img5.png)
  
@@ -114,7 +114,7 @@ To reference the Syncfusion TypeScript component using the Package Manager Conso
     Install-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped
 
     #install specified package in default project with specified Package Source
-    Install-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped -Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+    Install-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped -Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
 
     #install specified package in specified project 
     Install-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped -ProjectName SyncfusionDemoApplication
@@ -162,10 +162,10 @@ The NuGet Command Line Interface (CLI), nuget.exe, provides the full extent of N
 
     ~~~
     #For Windows platform
-    nuget.exe Sources Add –Name “Syncfusion Source” –Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+    nuget.exe Sources Add –Name “Syncfusion Source” –Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
 
     #For MAC/Linux platform
-    mono nuget.exe Sources Add –Name “Syncfusion Source” –Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+    mono nuget.exe Sources Add –Name “Syncfusion Source” –Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
     ~~~
 
 ### NuGet installation
@@ -192,7 +192,7 @@ nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped”
 nuget.exe install “C:\Users\SyncfusionApplication\package.config”
 
 #install specific Syncfusion TypeScript NuGet package with Syncfusion JavaScript NuGet feed for Windows 
-nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped” –Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped” –Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
 
 #install specific package for Mac and Linux 
 mono nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped”
@@ -201,7 +201,7 @@ mono nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped”
 mono nuget.exe install “C:\Users\SyncfusionApplication\package.config”
 
 #install specific Syncfusion TypeScript NuGet package with Syncfusion JavaScript NuGet feed for Mac and Linux 
-mono nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped” –Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+mono nuget.exe install “Syncfusion.Ej.Web.TypeScript.DefinitelyTyped” –Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
 ~~~
 
 ## Upgrading NuGet packages
@@ -256,7 +256,7 @@ To update the installed Syncfusion TypeScript NuGet packages using the Package M
     Update-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped
 
     #Update specified package in default project with specified Package Source
-    Update-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped –Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript” 
+    Update-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped –Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript” 
 
     #Update specified package in specified project 
     Update-Package Syncfusion.Ej.Web.TypeScript.DefinitelyTyped -ProjectName SyncfusionDemoApplication
@@ -294,7 +294,7 @@ Using the NuGet CLI, all the NuGet packages in the project can be updated to the
     nuget update “C:\Users\SyncfusionApplication\package.config”
 
     #Update all NuGet packages from specified Packages Source
-    nuget update -Source “http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
+    nuget update -Source “https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript”
     ~~~
 
     N> Update command is not working as expected in Mono (Mac and Linux) and projects using PackageReference format.
