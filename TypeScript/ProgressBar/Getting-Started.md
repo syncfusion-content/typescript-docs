@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started
+title: Getting Started with TypeScript ProgressBar Control | Syncfusion
+description: Learn here all about Getting Started in Syncfusion Essential TypeScript ProgressBar control, its elements, and more.
 platform: TypeScript
 control: ProgressBar
 documentation: ug
 keywords: ejprogressbar, js progressbar, progressbar
 ---
 
-# Getting Started
+# Getting Started with TypeScript ProgressBar
 
 This section briefly describes how to create a **ProgressBar** control using **TypeScript** and learn its features.
 **Essential TypeScript** **ProgressBar** displays a **ProgressBar** within a web page that allows you to show the progress of an event. Here, you can learn how to customize the progress and color of the **ProgressBar** in a real-time application to indicate the strength of the password, where the progress changes with respect to the change in length of the password. This helps you to validate the password is typed. 
@@ -16,7 +16,7 @@ This section briefly describes how to create a **ProgressBar** control using **T
 The following screenshot shows the **ProgressBar.**
 
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with TypeScript ProgressBar](Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create a ProgressBar
 
@@ -97,7 +97,7 @@ Here, you can initialize the properties of the **ProgressBar** such as height, v
 
 The following screenshot displays a **ProgressBar** control.
 
-![](Getting-Started_images/Getting-Started_img2.png) 
+![Create ProgressBar in TypeScript](Getting-Started_images/Getting-Started_img2.png) 
 
 Include the following code within the **&lt;head&gt;** tag to change the page layout.
 
@@ -193,11 +193,11 @@ You can change themes or appearance of the ProgressBar as required.
 
 The final output is displayed as follows.
 
-![](Getting-Started_images/Getting-Started_img3.png) 
+![Start Properties in TypeScript ProgressBar](Getting-Started_images/Getting-Started_img3.png) 
 
-![](Getting-Started_images/Getting-Started_img4.png) 
+![Complete Properties in TypeScript ProgressBar](Getting-Started_images/Getting-Started_img4.png) 
 
-![](Getting-Started_images/Getting-Started_img5.png) 
+![Change Properties in TypeScript ProgressBar](Getting-Started_images/Getting-Started_img5.png) 
 
 You can also bind an event at the start and finish of a ProgressBar by using the start, complete and change properties of the ProgressBar.
 

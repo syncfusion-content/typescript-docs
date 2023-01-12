@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Columns with Grid widget for Syncfusion Essential Typescript
-description: How to define the columns and its features
+title: Columns in TypeScript Grid Control | Syncfusion
+description: Learn here all about Column support in Syncfusion Essential TypeScript Grid control, its elements, and more.
 platform: Typescript
 control: Grid
 documentation: ug
 --- 
-# Columns
+# Columns in Essential TypeScript Grid
 
 Column definitions are used as the [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") schema in Grid and it plays vital role in rendering column values in required format. Grid operations such as sorting, filtering, editing would be performed based on the column definitions. The [`field`](https://help.syncfusion.com/api/js/ejgrid#members:columns-field "field") property of the [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") is necessary to map the datasource values in Grid columns.
 
@@ -60,7 +60,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](columns_images/columns_img1.png)
+![Column Template in TypeScript Grid](columns_images/columns_img1.png)
 
 ## Command Column
 
@@ -119,7 +119,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](columns_images/columns_img17.png)
+![Default Action Button in TypeScript Grid](columns_images/columns_img17.png)
 
 
 ### Custom buttons
@@ -169,7 +169,7 @@ function onClick(args) {
 
 The following output is displayed as a result of the above code example.
 
-![](columns_images/columns_img18.png)
+![Custom Buttons in TypeScript Grid](columns_images/columns_img18.png)
 
 
 ## Column Chooser
@@ -211,7 +211,7 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](columns_images/columns_img19.png)
+![Column Chooser in TypeScript Grid](columns_images/columns_img19.png)
 
 
 ## Foreign Key Column
@@ -261,4 +261,4 @@ module GridComponent {
 
 The following output is displayed as a result of the above code example.
 
-![](columns_images/columns_img20.png)
+![Foreign Key Column in TypeScript Grid](columns_images/columns_img20.png)
