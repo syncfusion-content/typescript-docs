@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Indicators | Circular Gauge | TypeScript | Syncfusion
-description: Learn here more about indicators support in Syncfusion Essential TypeScript Circular Gauge Control, its elements, and more
+title: Indicators in TypeScript Circular Gauge control | Syncfusion
+description: Learn here more about indicators support in Syncfusion Essential TypeScript Circular Gauge Control, its elements, and more.
 platform: typescript
 control: Circular Gauge
 documentation: ug

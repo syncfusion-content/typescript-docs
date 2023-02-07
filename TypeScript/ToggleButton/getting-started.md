@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting-started  | ToggleButton | TypeScript | Syncfusion
+title: Getting started with TypeScript ToggleButton control | Syncfusion
 description: Learn here more about Getting Started with Syncfusion Essential TypeScript ToggleButton Control, its elements, and more
 platform: TypeScript
 control: ToggleButton
