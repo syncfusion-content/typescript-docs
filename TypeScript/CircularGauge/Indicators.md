@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Indicators
-description: indicators
+title: Indicators in TypeScript Circular Gauge control | Syncfusion
+description: Learn here more about indicators support in Syncfusion Essential TypeScript Circular Gauge Control, its elements, and more.
 platform: typescript
 control: Circular Gauge
 documentation: ug
 ---
 
-# Indicators
+# Indicators in TypeScript Circular Gauge
 
 Indicators simply indicates the current status of the pointer. `indicators` are in several formats such as in shape format, textual format and image format.
 
@@ -51,7 +51,7 @@ Indicators collection is directly added to the scale object. Refer the following
 
 Execute the above code to render the following output.
 
-![](Indicators_images/Indicators_img1.png)
+![Adding Indicator Collection in TypeScript Circular Gauge](Indicators_images/Indicators_img1.png)
 
 ## Basic Customization
 
@@ -109,7 +109,7 @@ $(function () {
 
 Execute the above code to render the following output.
 
-![](Indicators_images/Indicators_img2.png)
+![Basic Customization in TypeScript Circular Gauge](Indicators_images/Indicators_img2.png)
 
 ## State Ranges
 
@@ -178,7 +178,7 @@ $(function () {
 
 Execute the above code to render the following output.
 
-![](Indicators_images/Indicators_img3.png)
+![State Ranges in TypeScript Circular Gauge](Indicators_images/Indicators_img3.png)
 
 ## Multiple Indicators
 
@@ -264,5 +264,5 @@ $(function () {
 
 Execute the above code to render the following output.
 
-![](Indicators_images/Indicators_img4.png)
+![Multiple Indicators in TypeScript Circular Gauge](Indicators_images/Indicators_img4.png)
 
