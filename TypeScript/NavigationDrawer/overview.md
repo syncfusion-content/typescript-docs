@@ -1,13 +1,13 @@
 ---
 layout: post
-title: overview
-description: overview
+title: Overview | Typescript | Navigation Drawer | Syncfusion
+description: Learn here about overview in Syncfusion Essential in Typescript Navigation Drawer Control, its elements, and more.
 platform: typescript
 control: Navigation Drawer
 documentation: ug
 ---
 
-# Overview
+# Overview in Typescript Navigation Drawer
 
 The Typescript Navigation Drawer control is a sliding panel, which displays the list of view options. By default, the list of view options is not visible, but you can display it onto the left/right side of the window screen by clicking with the desired target icon.
 

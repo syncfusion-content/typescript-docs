@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started 
+title: Getting Started with Typescript Tab Control | Syncfusion
+description: Learn here more about getting started with Syncfusion Essential Typescript Tab Control Control, its elements, and more.
 platform: Typescript
 control: Tab Control
 documentation: ug
 keywords: ejtab, js tab, tab
 ---
 
-# Getting Started 
+# Getting Started with Typescript Tab Control
 
 This section explains briefly about how to create a **Tab** Control in your application with **JavaScript**. The **Essential JavaScript Tab** control is an interface that displays the content in multiple sections. Each **TabPanel** consists of **HeaderText** or **HeaderTemplate** as well as a **ContentTemplate**. **Tab** is useful for a dashboard that is having limited space. The following section guides you to on-demand customize the **Tab** for displaying Hotel menu items, its rating details and ingredients.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create Tab Control
 
@@ -68,7 +68,7 @@ module TabComponent {
 
 The following screen shot illustrates the **Tab** control with Header.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img2.png) 
+![Create Tab Control in Typescript](/js/Tab/Getting-Started_images/Getting-Started_img2.png) 
 
 ## Configure Content
 
@@ -141,7 +141,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** content with rating control. 
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img3.png) 
+![Create the Rating in Typscript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img3.png) 
 
 ## AJAX Content Load (Load On Demand) 
 
@@ -252,11 +252,11 @@ module TabComponent {
 
 At the time of AJAX call, the content fetched from external file referenced location is illustrated in the following screenshot.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img5.png) 
+![AJAX Content Load in Typscrit Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img5.png) 
 
 The following screenshot illustrates the First **Tab** with the sub **Tab** control using Load on Demand.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img6.png) 
+![Sub Tab with AJAX Content in Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img6.png) 
 
 ## Orientation Change
 
@@ -287,7 +287,7 @@ module TabComponent {
 
 The following screenshot illustrates the sub **Tab** with vertical orientation.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img7.png) 
+![Orientation Change Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img7.png) 
 
 ## Header Image Customization
 
@@ -329,7 +329,7 @@ The following code example is used to add the header image for the root **Tab** 
 
 The following screenshot illustrates the **Tab** with the customized header image.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img8.png) 
+![Header Image Customization Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img8.png) 
 
 ## Configuring Contents to remaining Tab items
 
@@ -457,4 +457,4 @@ module TabComponent {
 
 The following screenshot illustrates you the second **Tab** contents in **Tab** and the final hotel menu with rating, description and ingredients of the item in the Tab interface.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img9.png) 
+![Configuring Contents in Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img9.png) 
