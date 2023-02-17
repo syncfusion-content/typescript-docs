@@ -213,7 +213,7 @@ The Load On Demand supported HTML file content (chickenDelite.html)
 
 N> In Load On Demand, when the external files are referred from local the following error occurs.
 
-XMLHttpRequest cannot load [http://js.syncfusion.com/UG/Web/Tab-Content/cornSpainach.html?_=1399883825133](http://js.syncfusion.com/UG/Web/Tab-Content/cornSpainach.html?_=1399883825133). No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+XMLHttpRequest cannot load [https://ej2.syncfusion.com/home/javascript.html#platform](https://ej2.syncfusion.com/home/javascript.html#platform). No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 
 To avoid these errors, the external files are hosted in the server to run this application.
 
