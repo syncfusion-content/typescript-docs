@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started 
+title: Getting Started with TypeScript Tab Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript Tab Control, its elements, and more.
 platform: Typescript
 control: Tab Control
 documentation: ug
 keywords: ejtab, js tab, tab
 ---
 
-# Getting Started 
+# Getting Started with TypeScript Tab
 
 This section explains briefly about how to create a **Tab** Control in your application with **JavaScript**. The **Essential JavaScript Tab** control is an interface that displays the content in multiple sections. Each **TabPanel** consists of **HeaderText** or **HeaderTemplate** as well as a **ContentTemplate**. **Tab** is useful for a dashboard that is having limited space. The following section guides you to on-demand customize the **Tab** for displaying Hotel menu items, its rating details and ingredients.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img1.png) 
+![TypeScript Tab create control](Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create Tab Control
 
@@ -68,7 +68,7 @@ module TabComponent {
 
 The following screen shot illustrates the **Tab** control with Header.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img2.png) 
+![TypeScript Tab Configure Content](Getting-Started_images/Getting-Started_img2.png) 
 
 ## Configure Content
 
@@ -141,7 +141,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** content with rating control. 
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img3.png) 
+![TypeScript Tab AJAX Content Load](Getting-Started_images/Getting-Started_img3.png) 
 
 ## AJAX Content Load (Load On Demand) 
 
@@ -213,7 +213,7 @@ The Load On Demand supported HTML file content (chickenDelite.html)
 
 N> In Load On Demand, when the external files are referred from local the following error occurs.
 
-XMLHttpRequest cannot load [http://js.syncfusion.com/UG/Web/Tab-Content/cornSpainach.html?_=1399883825133](http://js.syncfusion.com/UG/Web/Tab-Content/cornSpainach.html?_=1399883825133). No 'Access-Control-Allow-Origin' header is present on the requested resource. 
+XMLHttpRequest cannot load [https://ej2.syncfusion.com/home/javascript.html#platform](https://ej2.syncfusion.com/home/javascript.html#platform). No 'Access-Control-Allow-Origin' header is present on the requested resource. 
 
 To avoid these errors, the external files are hosted in the server to run this application.
 
@@ -252,11 +252,11 @@ module TabComponent {
 
 At the time of AJAX call, the content fetched from external file referenced location is illustrated in the following screenshot.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img5.png) 
+![TypeScript Tab AJAX call](Getting-Started_images/Getting-Started_img5.png) 
 
 The following screenshot illustrates the First **Tab** with the sub **Tab** control using Load on Demand.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img6.png) 
+![TypeScript Tab Orientation Change](Getting-Started_images/Getting-Started_img6.png) 
 
 ## Orientation Change
 
@@ -287,7 +287,7 @@ module TabComponent {
 
 The following screenshot illustrates the sub **Tab** with vertical orientation.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img7.png) 
+![TypeScript Tab Header Image Customization](Getting-Started_images/Getting-Started_img7.png) 
 
 ## Header Image Customization
 
@@ -329,7 +329,7 @@ The following code example is used to add the header image for the root **Tab** 
 
 The following screenshot illustrates the **Tab** with the customized header image.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img8.png) 
+![TypeScript Tab Configuring Contents](Getting-Started_images/Getting-Started_img8.png) 
 
 ## Configuring Contents to remaining Tab items
 
@@ -457,4 +457,4 @@ module TabComponent {
 
 The following screenshot illustrates you the second **Tab** contents in **Tab** and the final hotel menu with rating, description and ingredients of the item in the Tab interface.
 
-![](/js/Tab/Getting-Started_images/Getting-Started_img9.png) 
+![TypeScript Tab content declaration](Getting-Started_images/Getting-Started_img9.png) 
