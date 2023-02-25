@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Syncfusion Radial Menu Getting Started
-description: getting started
+title: Getting Started with TypeScript RadialMenu Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential TypeScript RadialMenu Control, its elements, and more.
 platform: Typescript
 control: RadialMenu
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypeScript RadialMenu
 
 Using the following steps, you can create a Typescript **RadialMenu** control. The basic rendering of Typescript RadialMenu is achieved with default functionality.
 
