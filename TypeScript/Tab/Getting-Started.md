@@ -12,7 +12,7 @@ keywords: ejtab, js tab, tab
 
 This section explains briefly about how to create a **Tab** Control in your application with **JavaScript**. The **Essential JavaScript Tab** control is an interface that displays the content in multiple sections. Each **TabPanel** consists of **HeaderText** or **HeaderTemplate** as well as a **ContentTemplate**. **Tab** is useful for a dashboard that is having limited space. The following section guides you to on-demand customize the **Tab** for displaying Hotel menu items, its rating details and ingredients.
 
-![Getting Started with Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img1.png) 
+![Getting Started with Typescript Tab Control](Getting-Started_images/Getting-Started_img1.png) 
 
 ## Create Tab Control
 
@@ -68,7 +68,7 @@ module TabComponent {
 
 The following screen shot illustrates the **Tab** control with Header.
 
-![Create Tab Control in Typescript](/js/Tab/Getting-Started_images/Getting-Started_img2.png) 
+![Create Tab Control in Typescript](Getting-Started_images/Getting-Started_img2.png) 
 
 ## Configure Content
 
@@ -141,7 +141,7 @@ module TabComponent {
 
 The following screenshot illustrates the **Tab** content with rating control. 
 
-![Create the Rating in Typscript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img3.png) 
+![Create the Rating in Typscript Tab Control](Getting-Started_images/Getting-Started_img3.png) 
 
 ## AJAX Content Load (Load On Demand) 
 
@@ -252,11 +252,11 @@ module TabComponent {
 
 At the time of AJAX call, the content fetched from external file referenced location is illustrated in the following screenshot.
 
-![AJAX Content Load in Typscrit Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img5.png) 
+![AJAX Content Load in Typscrit Tab Control](Getting-Started_images/Getting-Started_img5.png) 
 
 The following screenshot illustrates the First **Tab** with the sub **Tab** control using Load on Demand.
 
-![Sub Tab with AJAX Content in Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img6.png) 
+![Sub Tab with AJAX Content in Typescript Tab Control](Getting-Started_images/Getting-Started_img6.png) 
 
 ## Orientation Change
 
@@ -287,7 +287,7 @@ module TabComponent {
 
 The following screenshot illustrates the sub **Tab** with vertical orientation.
 
-![Orientation Change Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img7.png) 
+![Orientation Change Typescript Tab Control](Getting-Started_images/Getting-Started_img7.png) 
 
 ## Header Image Customization
 
@@ -329,7 +329,7 @@ The following code example is used to add the header image for the root **Tab** 
 
 The following screenshot illustrates the **Tab** with the customized header image.
 
-![Header Image Customization Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img8.png) 
+![Header Image Customization Typescript Tab Control](Getting-Started_images/Getting-Started_img8.png) 
 
 ## Configuring Contents to remaining Tab items
 
@@ -457,4 +457,4 @@ module TabComponent {
 
 The following screenshot illustrates you the second **Tab** contents in **Tab** and the final hotel menu with rating, description and ingredients of the item in the Tab interface.
 
-![Configuring Contents in Typescript Tab Control](/js/Tab/Getting-Started_images/Getting-Started_img9.png) 
+![Configuring Contents in Typescript Tab Control](Getting-Started_images/Getting-Started_img9.png) 
