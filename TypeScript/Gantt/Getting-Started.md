@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting-Started
-description: getting started
+title: Getting Started with Typescript Gantt Control | Syncfusion
+description: Learn here about getting started with Syncfusion Essential Typescript Gantt Control, its elements, and more.
 platform: Typescript
 control: Gantt
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with Typescript Gantt
 
 This section explains briefly about how to create a Gantt chart in your application with TypeScript.
 
@@ -17,7 +17,7 @@ To get started Syncfusion TypeScript application refer [`this`](https://help.syn
 
 In this tutorial, you can learn how to create a simple Gantt chart, add tasks or subtasks, and set relationship between tasks during the design phase of a software project. The following screenshot displays the desired output after completing this tutorial,
 
-![](Getting-Started_images/Getting-Started_img4.png)
+![Create your first Gantt in TypeScript](Getting-Started_images/Getting-Started_img4.png)
 
 It is necessary to copy the ej.web.all.d.ts file into your project and then need to refer it in your TypeScript application (app.ts file), so that you will get the intelliSense support and also the compile time type-checking.
 
@@ -124,7 +124,7 @@ module GanttComponent {
 
 A Gantt chart is created as shown in the following screen shot.
 
-![](Getting-Started_images/Getting-Started_img5.png)
+![Initialize in Typescript Gantt ](Getting-Started_images/Getting-Started_img5.png)
 
 ## Enable Toolbar
 
@@ -150,7 +150,7 @@ module GanttComponent {
 
 The following screen shot displays a Tool bar in Gantt chart control:
 
-![](Getting-Started_images/Getting-Started_img6.png)
+![Enable toolbar in Typescript Gantt](Getting-Started_images/Getting-Started_img6.png)
 
 N>  Add, edit, delete, indent and outdent options are enabled when enabling the allowEditing, allowAdding, allowDelete, allowIndent and allowOutdent properties in the edit Options.
 
@@ -223,7 +223,7 @@ module GanttComponent {
 
 The following screen shot displays a Gantt chart control with Enable Editing options.
 
-![](Getting-Started_images/Getting-Started_img7.png)
+![Predecessor editing in Typescript Gantt](Getting-Started_images/Getting-Started_img7.png)
 
 N>  Both cellEditing and  normal  editing operations are performed through double-click action.
 
@@ -249,7 +249,7 @@ module GanttComponent {
 
 The following screen shot displays Gantt chart in which Context menu option is enabled:
 
-![](Getting-Started_images/Getting-Started_img8.png)
+![Enable context menu in Typescript Gantt](Getting-Started_images/Getting-Started_img8.png)
 
 ## Enable Column Menu
 
@@ -273,7 +273,7 @@ module GanttComponent {
 
 The following screen shot displays Gantt chart in which column chooser option is enabled:
 
-![](Getting-Started_images/Getting-Started_img11.png)
+![Enable column menu in Typescript Gantt](Getting-Started_images/Getting-Started_img11.png)
 
 ## Provide tasks relationship
 
@@ -307,7 +307,7 @@ module GanttComponent {
 
 The following screenshot displays the relationship between tasks.
 
-![](Getting-Started_images/Getting-Started_img9.png)
+![Provide task relationship in in Typescript Gantt](Getting-Started_images/Getting-Started_img9.png)
 
 ## Provide Resources
 
@@ -355,7 +355,7 @@ module GanttComponent {
 
 The following screenshot displays resource allocation for tasks in Gantt chart.
 
-![](Getting-Started_images/Getting-Started_img10.png)
+![Provide resources in Typescript Gantt](Getting-Started_images/Getting-Started_img10.png)
 
 By following these steps, you have learned how to provide data source to Gantt chart, how to configure Gantt to set task relationships, assign resources for each task, and add toolbar with necessary buttons.
 
@@ -382,4 +382,4 @@ module GanttComponent {
 
 The following screen shot displays Gantt chart in which highlight weekends is disabled:
 
-![](Getting-Started_images/Getting-Started_img12.png)
+![Highlight weekend in Typescript Gantt](Getting-Started_images/Getting-Started_img12.png)
