@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Layout
-description: layout
+title: Layout support in TypeScript TreeMap Control | Syncfusion
+description: Learn here all about layout support in Syncfusion Essential TypeScript TreeMap Control, its elements, and more.
 platform: typescript
 control: TreeMap
 documentation: ug
 ---
 
-# Layout
+# Layout support in TypeScript TreeMap
 
 You can decide on the visual representation of nodes belonging to all the treemap levels using the `itemsLayoutMode` property of the TreeMap.
 
@@ -47,7 +47,7 @@ module treeMapcomponent {
 
 
 
-![](Layout_images/Layout_img1.png)
+![TypeScript TreeMap Squarified](Layout_images/Layout_img1.png)
 
 Try it: [Squarified](http://jsplayground.syncfusion.com/q1pc13k3)
 
@@ -72,7 +72,7 @@ Try it: [Squarified](http://jsplayground.syncfusion.com/q1pc13k3)
 
 
 
-![](Layout_images/Layout_img2.png)
+![TypeScript TreeMap SliceAndDiceAuto](Layout_images/Layout_img2.png)
 
 Try it: [SliceAndDiceAuto](http://jsplayground.syncfusion.com/eotkjoag)
 
@@ -97,7 +97,7 @@ Try it: [SliceAndDiceAuto](http://jsplayground.syncfusion.com/eotkjoag)
 
 
 
-![](Layout_images/Layout_img3.png)
+![TypeScript TreeMap SliceAndDiceHorizontal](Layout_images/Layout_img3.png)
 
 Try it: [SliceAndDiceHorizontal](http://jsplayground.syncfusion.com/hrvachsi)
 
@@ -122,6 +122,6 @@ Try it: [SliceAndDiceHorizontal](http://jsplayground.syncfusion.com/hrvachsi)
 
 
 
-![](Layout_images/Layout_img4.png)
+![TypeScript TreeMap SliceAndDiceVertical](Layout_images/Layout_img4.png)
 
 Try it: [SliceAndDiceVertical](http://jsplayground.syncfusion.com/brtks3m2)
