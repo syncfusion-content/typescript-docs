@@ -84,7 +84,7 @@ var population_data = [
                    { Continent: "Africa", Region: "Southern Africa", Growth: 0.91, Population: 60425000 }
         ];
      {% endhighlight %}
-   N> Population data is referred from [List of continents by population](http://en.wikipedia.org/wiki/List_of_continents_by_population)
+   N> Population data is referred from [List of continents by population](https://en.wikipedia.org/wiki/List_of_continents_and_continental_subregions_by_population)
  
 3.The size of an object can be calculated by using the **WeightValuePath** of TreeMap
  
