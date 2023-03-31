@@ -1,13 +1,13 @@
 ---
 layout: post
-title: customize-direction
-description: customize direction
+title: Customize direction in TypeScript Navigation Drawer Control | Syncfusion
+description: Learn here about customize direction in Syncfusion Essential TypeScript Navigation Drawer Control, its elements, and more.
 platform: typescript
 control: Navigation Drawer
 documentation: ug
 ---
 
-## Customize Direction
+# Customize Direction in TypeScript Navigation Drawer
 
 By using this property you can set the drawer to be open from right to left direction or left to right direction. The possible direction values are Right, Left and the default value is Left. Refer to the following code example.
 
@@ -49,5 +49,5 @@ module NavigationDrawerComponent {
 
 The following screenshot displays the output by swiping from right to left at the right side end of the screen.
 
-![](customize-direction_images\customize-direction_img1.png)
+![TypeScript Navigation Drawer customize direction](customize-direction_images\customize-direction_img1.png)
 
