@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Multiple columns in AutoComplete widget for Essential JS
-description: How to assign multiple column values into the AutoComplete suggestion items.
+title: Multiple columns in TypeScript AutoComplete Control | Syncfusion
+description: Learn here about Multiple columns in Syncfusion Essential TypeScript AutoComplete Control, its elements, and more.
 platform: TypeScript
 control: AutoComplete
 documentation: ug
 keywords: ejautocomplete, autocomplete widget, autocomplete ui
 ---
 
-# Multiple Columns
+# Multiple Columns in TypeScript AutoComplete
 
 The Autocomplete adds support for selecting multiple columns in the dropdown list. This multiple column options can be enabled and customized through the [MultiColumnSettings](https://help.syncfusion.com/api/js/ejautocomplete#members:multiColumnSettings) property.
  
@@ -76,4 +76,4 @@ In AutoComplete Multiple Column searched value is updated to autocomplete input 
 N> Here [stringFormat](https://help.syncfusion.com/api/js/ejautocomplete#members:multiColumnSettings-stringFormat) is “{0} ({1}) ({2})” so the search will be based on column indices 0, 1 and 2.
 
 
-![](multicolumn_images\multicolumn_img1.png)
+![TypeScript AutoComplete multicolumn](multicolumn_images\multicolumn_img1.png)
