@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Template support in AutoComplete widget for Essential JS
-description: Customizes the appearance of the suggestion list using a template
+title: Template support in TypeScript AutoComplete Control | Syncfusion
+description: Learn here about Template support in Syncfusion Essential TypeScript AutoComplete Control, its elements, and more.
 platform: TypeScript
 control: AutoComplete
 documentation: ug
 keywords: ejautocomplete, autocomplete widget, autocomplete ui,ej autocomplete
 ---
 
-# Templates
+# Templates in TypeScript AutoComplete
 
 The suggestion list can be customized based on different needs using templates. The desired templates can be defined using the “template” property.
 
@@ -41,7 +41,7 @@ module AutocompleteComponent{
 
 {% endhighlight %}
 
-![](template_images\template_img1.png)
+![TypeScript AutoComplete template](template_images\template_img1.png)
 
 
 
