@@ -255,7 +255,7 @@ Also you can get all the expanded nodes index in tree by using [getExpandedNodes
 
 You can able to prevent multiple expand of TreeView nodes by specifying [enableMultipleExpand](https://help.syncfusion.com/api/js/ejtreeview#members:enablemultipleexpand) as false.
 
-For example, if you want to allow only one node to be expanded in TreeView at a time. Refer the sample [here](http://jsplayground.syncfusion.com/zdtud5yw#).
+For example, if you want to allow only one node to be expanded in TreeView at a time. Refer the sample [here](https://jsplayground.syncfusion.com/zdtud5yw).
 
 {% highlight js %}
 

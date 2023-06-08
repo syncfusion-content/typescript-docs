@@ -65,7 +65,7 @@ module TreeViewComponent {
 
 {% endhighlight %}
 
-For more details about multiple selection in TreeView, refer the sample [here](http://jsplayground.syncfusion.com/Sync_wuoxgu3q).
+For more details about multiple selection in TreeView, refer the sample [here](https://jsplayground.syncfusion.com/Sync_wuoxgu3q).
 
 ## Select Nodes
 

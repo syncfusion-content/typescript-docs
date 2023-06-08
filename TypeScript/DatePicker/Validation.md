@@ -8,7 +8,7 @@ documentation: ug
 ---
 # Validation
 
-DatePicker is a form control and therefore its value to be validated before processing. Client side validation provides a better user experience by responding quickly at browser level. Most common client side validation plugin is [jQuery Validation](http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js). 
+DatePicker is a form control and therefore its value to be validated before processing. Client side validation provides a better user experience by responding quickly at browser level. Most common client side validation plugin is [jQuery Validation](https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js). 
 
 DatePicker supports this validation by built-in, so you can do client validation with simple steps to validate and respond validation message. The jQuery validate plugin rules and custom methods can be used in the DatePicker control with the help of two properties,[validationRules](https://help.syncfusion.com/api/js/ejdatepicker#members:validationrules) and [validationMessage](https://help.syncfusion.com/api/js/ejdatepicker#members:validationmessage). 
 
