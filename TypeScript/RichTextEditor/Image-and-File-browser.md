@@ -95,7 +95,7 @@ You can resize an image by manually select an image, and drag a handle until the
 
 ![](ImageandFilebrowser_images/ImageandFilebrowser_img4.png)
 
-N> Set the default height and width of the Images which was inserted into the RTE text area in “change” event of RTE - {{'[Link](http://jsplayground.syncfusion.com/Sync_rghpsadi)'| markdownify }}
+N> Set the default height and width of the Images which was inserted into the RTE text area in “change” event of RTE - {{'[Link](https://jsplayground.syncfusion.com/Sync_rghpsadi)'| markdownify }}
 
 ### Set Width and Height
 

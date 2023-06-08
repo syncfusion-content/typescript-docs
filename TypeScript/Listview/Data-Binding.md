@@ -70,7 +70,7 @@ Run the code to get the following output
 
 ### OData
 
-OData is a standardized protocol for creating and consuming the data. You can retrieve data from [OData service](http://www.odata.org/) by using **ej.DataManager**.
+OData is a standardized protocol for creating and consuming the data. You can retrieve data from [OData service](https://www.odata.org/) by using **ej.DataManager**.
 Here the **CustomerID** field is mapped with text property of the field object. The queries can be created using **ej.Query()**.
 
 

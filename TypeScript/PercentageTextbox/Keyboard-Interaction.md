@@ -75,7 +75,7 @@ module EditorComponent {
 
 {% endhighlight %}
 
-Run the above example and press [Access key](http://en.wikipedia.org/wiki/Access_key) **+ j** key to focus the **PercentageTextBox** widget. Perform provided functionality by using keyboard shortcuts.
+Run the above example and press [Access key](https://en.wikipedia.org/wiki/Access_key) **+ j** key to focus the **PercentageTextBox** widget. Perform provided functionality by using keyboard shortcuts.
 
 
 

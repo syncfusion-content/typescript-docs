@@ -38,7 +38,7 @@ Create the UL elements to render both the parent and the child ListBox widget as
 
 
 
-The parent child relationship should be defined in data sources of both the list boxes. I.e. both data sources should contain a common field for mapping (just like [primary key and foreign key definitions](https://msdn.microsoft.com/en-IN/library/ms179610.aspx)). 
+The parent child relationship should be defined in data sources of both the list boxes. I.e. both data sources should contain a common field for mapping (just like [primary key and foreign key definitions](https://learn.microsoft.com/en-us/sql/relational-databases/tables/primary-and-foreign-key-constraints?redirectedfrom=MSDN)). 
 
 Create the ListBox widgets as below. 
 
