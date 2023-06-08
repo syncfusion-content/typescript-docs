@@ -12,8 +12,8 @@ keywords: DropDownList, Populating data
 
 The external script dependencies of the DropDownList widget are,
 
-* [jQuery 1.7.1](http://jquery.com/) and later versions.
-* [jQuery.easing](http://gsgd.co.uk/sandbox/jquery/easing/) - to support the animation effects.
+* [jQuery 1.7.1](https://jquery.com/) and later versions.
+* [jQuery.easing](https://gsgd.co.uk/sandbox/jquery/easing/) - to support the animation effects.
 
 And the internal script dependencies of the DropDownList widget are:
 
@@ -50,7 +50,7 @@ And the internal script dependencies of the DropDownList widget are:
 
 For getting started you can use the ‘ej.web.all.min.js’ file, which encapsulates all the 'ej' controls and frameworks in one single file.<br/> 
 
-For themes, you can use the ‘ej.web.all.min.css’ CDN link from the snippet given. To add the themes in your application, please refer [this link](http://help.syncfusion.com/js/theming-in-essential-javascript-components#adding-specific-theme-to-your-application).
+For themes, you can use the ‘ej.web.all.min.css’ CDN link from the snippet given. To add the themes in your application, please refer [this link](https://help.syncfusion.com/js/theming-in-essential-javascript-components#adding-specific-theme-to-your-application).
 
 ## Creating DropDownList in Typescript
 
@@ -105,7 +105,7 @@ The DropDownList can be created from a HTML ‘input’ element with the HTML 'i
 
 ## Populating data
 
-The DropDownList can be bounded to both local array and remote data services .You can bind data to DropDownList through services or local data using  [dataSource](http://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property 
+The DropDownList can be bounded to both local array and remote data services .You can bind data to DropDownList through services or local data using  [dataSource](https://help.syncfusion.com/js/api/ejdropdownlist#members:datasource) property 
  
 {% highlight html %}
 
@@ -192,7 +192,7 @@ PopupWidth and popupHeight can be used to create a fixed size popup list.
 	
 ## Setting and Getting Value
 
-You can select single or multiple values from DropDownList widget. To assign a value initially to the DropDownList, you can use [value](http://help.syncfusion.com/js/api/ejdropdownlist#members:value) property.
+You can select single or multiple values from DropDownList widget. To assign a value initially to the DropDownList, you can use [value](https://help.syncfusion.com/js/api/ejdropdownlist#members:value) property.
 
 N> To select multiple items based on index, refer [here](functionalities#selection).
 

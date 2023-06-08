@@ -135,7 +135,7 @@ The following screenshot will exhibit the select event arguments details,
 
 ## Append custom HTML in DropDownList popup outside the scroller part?
 
-Create a custom HTML element and insert it after popup wrapper. Detailed sample is given [here](http://jsplayground.syncfusion.com/ey2mpity)
+Create a custom HTML element and insert it after popup wrapper. Detailed sample is given [here](https://jsplayground.syncfusion.com/ey2mpity)
 
 ## Add check all option in popup list?
 
