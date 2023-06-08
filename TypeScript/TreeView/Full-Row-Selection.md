@@ -63,4 +63,4 @@ var localData = [
 }
 {% endhighlight %}
 
-For more details about full row selection in TreeView, refer the sample [here](http://js.syncfusion.com/demos/web/#!/bootstrap/treeview/fullrowselect).
+For more details about full row selection in TreeView, refer the sample [here](https://ej2.syncfusion.com/home/#!/bootstrap/treeview/fullrowselect).

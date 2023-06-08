@@ -59,7 +59,7 @@ In the above code, `ej.web.all.min.js` script reference has been added for demon
 
 #### Preparing Shape Data
 
-The Shape Data collection describing geographical shape information can be obtained from [GEOJSON format shapes](http://www.syncfusion.com/uploads/user/uploads/Maps_GeoJSON.zip). 
+The Shape Data collection describing geographical shape information can be obtained from [GEOJSON format shapes](https://www.syncfusion.com/uploads/user/uploads/Maps_GeoJSON.zip). 
 
 In this example, USA shape is used as shape data by utilizing the `United States of America.json` file in the following folder structure obtained from downloaded Maps_GeoJSON folder.
 

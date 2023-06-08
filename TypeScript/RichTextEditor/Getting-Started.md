@@ -15,8 +15,8 @@ This section helps to understand the getting started of RTE control with the ste
 
 Create a new HTML file and include the below code
 
-Add link to the CSS file from the specific theme folder to your HTML file within the head section. Refer the built-in available themes from [here](http://helpjs.syncfusion.com/js/theming-in-essential-javascript-components#). 
-Also add links to the [CDN](http://helpjs.syncfusion.com/js/cdn#) Script files along with the other external dependencies as depicted below,
+Add link to the CSS file from the specific theme folder to your HTML file within the head section. Refer the built-in available themes from [here](https://helpjs.syncfusion.com/js/theming-in-essential-javascript-components). 
+Also add links to the [CDN](https://helpjs.syncfusion.com/js/cdn) Script files along with the other external dependencies as depicted below,
 
 {% highlight html %}
 <head>
@@ -28,7 +28,7 @@ Also add links to the [CDN](http://helpjs.syncfusion.com/js/cdn#) Script files a
 </head>
 {% endhighlight %}
 
-N> Uncompressed version of the required library files are available for the development or debugging purpose which can be generated from the custom script [here](http://csg.syncfusion.com/#). Also to reduce the file size further please use [GZip](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en#text-compression-with-gzip) compression in your server.
+N> Uncompressed version of the required library files are available for the development or debugging purpose which can be generated from the custom script [here](https://csg.syncfusion.com/). Also to reduce the file size further please use [GZip](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/?hl=en#text-compression-with-gzip) compression in your server.
 
 ## Control Initialization
 
@@ -115,5 +115,5 @@ To retrieve the editor contents,
 var currentValue = $("#texteditor").ejRTE("model.value");
 {% endhighlight %}
 
-You can find sample to quick start with the editor [here](http://jsplayground.syncfusion.com/Sync_nenmojvz#).
+You can find sample to quick start with the editor [here](https://jsplayground.syncfusion.com/Sync_nenmojvz).
 

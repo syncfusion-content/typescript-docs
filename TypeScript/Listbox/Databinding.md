@@ -117,7 +117,7 @@ Here the CustomerID field is mapped with text property of the field object. The 
 
 
 
-[ASP.NET Web API](https://msdn.microsoft.com/en-us/library/hh833994%28v=vs.108%29.aspx) is a Framework for building HTTP services. You can retrieve data from ASP.NET Web API by using [ej.DataManager](https://help.syncfusion.com/js/datamanager/getting-started).
+[ASP.NET Web API](https://learn.microsoft.com/en-us/previous-versions/aspnet/hh833994(v=vs.108)?redirectedfrom=MSDN) is a Framework for building HTTP services. You can retrieve data from ASP.NET Web API by using [ej.DataManager](https://help.syncfusion.com/js/datamanager/getting-started).
 
 
 

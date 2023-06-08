@@ -200,7 +200,7 @@ Show or Hide method may receive an optional 'callback' parameter, which represen
 
 {% endhighlight %}
 
-N> Show or Hide method can also receive an optional parameter “effect name”, (e.g any easing effect name) which specifies the type of effect taken place when showing/hiding of the tooltip, please refer to the following link for online demo - [link](http://jsplayground.syncfusion.com/Sync_sz1250aa).
+N> Show or Hide method can also receive an optional parameter “effect name”, (e.g any easing effect name) which specifies the type of effect taken place when showing/hiding of the tooltip, please refer to the following link for online demo - [link](https://jsplayground.syncfusion.com/Sync_sz1250aa).
 
 ## Modernize the tooltip’s content
 

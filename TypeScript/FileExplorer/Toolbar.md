@@ -291,7 +291,7 @@ module ExplorerComponent {
 
 From the [toolbar items](#toolbar-items) you can see the list of built-in tools to perform the operations. Along with this built-in tools, you can add your custom tool with the custom functionality.
 
-You can find an online demo sample of FileExplorer with custom tool from [here](http://js.syncfusion.com/demos/web/#!/azure/fileexplorer/CustomTool).
+You can find an online demo sample of FileExplorer with custom tool from [here](https://ej2.syncfusion.com/home/#!/azure/fileexplorer/CustomTool).
 
 {% highlight javascript %}
 

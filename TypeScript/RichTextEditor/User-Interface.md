@@ -29,7 +29,7 @@ However, in most integrations, it's desirable to change the toolbar configuratio
 </table>
 
 N> By default, when you tab from the textbox to the RTE, the first tools in the Toolbar of RTE will get focus not in the text area. <BR>
-But we can able to focus the RTE text area by setting the tab index attribute as -1 to avoid the focus on RTE toolbar when we tab from textbox to RTE - {{'[Demo](http://jsplayground.syncfusion.com/Sync_1rlmhqbz)'| markdownify }}
+But we can able to focus the RTE text area by setting the tab index attribute as -1 to avoid the focus on RTE toolbar when we tab from textbox to RTE - {{'[Demo](https://jsplayground.syncfusion.com/Sync_1rlmhqbz)'| markdownify }}
 
 
 ## Toolbar Items

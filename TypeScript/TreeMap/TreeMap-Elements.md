@@ -84,7 +84,7 @@ module treeMapcomponent {
 
 ![](TreeMap-Elements_images/TreeMap-Elements_img1.png)
 
-Try it: [Legend Label](http://jsplayground.syncfusion.com/yaaqbnna)
+Try it: [Legend Label](https://jsplayground.syncfusion.com/yaaqbnna)
 
 
 ### Interactive Legend
@@ -123,7 +123,7 @@ You can provide the left and right labels to interactive legend by using `leftLa
 
 ![](TreeMap-Elements_images/Interactive_Legend.png)
 
-Try it: [Interactive_Legend](http://jsplayground.syncfusion.com/0mfsg1pp)
+Try it: [Interactive_Legend](https://jsplayground.syncfusion.com/0mfsg1pp)
 
 
 ## Header
@@ -159,7 +159,7 @@ You can set headers for each level by setting the `showHeader` property of the e
 
 ![](TreeMap-Elements_images/TreeMap-Elements_img2.png)
 
-Try it: [Treemap Header](http://jsplayground.syncfusion.com/vaas20hr)
+Try it: [Treemap Header](https://jsplayground.syncfusion.com/vaas20hr)
 
 ## Customizing the header
 
@@ -238,7 +238,7 @@ You can also set labels for the leaf nodes by setting the `showLabels` property 
 
 ![](TreeMap-Elements_images/TreeMap-Elements_img3.png)
 
-Try it: [Treemap Label](http://jsplayground.syncfusion.com/ms0n0uuk)
+Try it: [Treemap Label](https://jsplayground.syncfusion.com/ms0n0uuk)
 
 ## Customizing the Overflow labels
 

@@ -12,7 +12,7 @@ keywords: ejautocomplete, autocomplete widget, autocomplete ui, ej autocomplete
 
 You can validate the Autocomplete value on form submission by applying “validationRules” and “validationMessage” to the Autocomplete. 
 
-N> [jquery.validate.min](http://cdn.syncfusion.com/js/assets/external/jquery.validate.min.js) script file should be referred for validation, for more details, refer [here](http://jqueryvalidation.org/documentation).
+N> [jquery.validate.min](https://cdn.syncfusion.com/js/assets/external/jquery.validate.min.js) script file should be referred for validation, for more details, refer [here](https://jqueryvalidation.org/documentation).
 
 ### Validation Rules
 

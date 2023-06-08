@@ -203,4 +203,4 @@ N> Images for this sample are available in (installed location)\Syncfusion\Essen
 	
 ![](RenderingMode_images/RenderingMode_img1.jpeg)
 
-N> Any EJ widget can be embedded in the target element but the default action of that widget should be prevented in order to create custom actions. To show a sample, integration with [TreeView](https://help.syncfusion.com/api/js/ejtreeview) widget is demonstrated [here](http://jsplayground.syncfusion.com/Sync_t4ife2xh).
+N> Any EJ widget can be embedded in the target element but the default action of that widget should be prevented in order to create custom actions. To show a sample, integration with [TreeView](https://help.syncfusion.com/api/js/ejtreeview) widget is demonstrated [here](https://jsplayground.syncfusion.com/Sync_t4ife2xh).
