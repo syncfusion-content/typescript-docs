@@ -65,5 +65,5 @@ Hovers the last node of the TreeView<br/><br/></td></tr>
 Esc<br/><br/></td><td>
 Focus out the edit state<br/><br/></td></tr>
 </table>
-For more details about keyboard support, refer the sample [here](http://jsplayground.syncfusion.com/fank2psv#).
+For more details about keyboard support, refer the sample [here](https://jsplayground.syncfusion.com/fank2psv).
 

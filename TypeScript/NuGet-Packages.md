@@ -21,7 +21,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
 
 2. Navigate to **WEB(Essential JS1)**, click the Copy URL label under JavaScript platform to copy the Syncfusion JavaScript platform NuGet feed to clipboard or directly use the following URL: 
 
-    [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript) 
+    [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript) 
 
     ![NuGet feed URL](NuGet_Packages_Images/img1.png)
 
@@ -42,7 +42,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
     **Name:** Name of the package listed in the available package sources.
     
     **Source:** Syncfusion JavaScript NuGet Feed URL      
-    [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
+    [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
 5.	Click the **Update** button to add the name and source details to package sources. 
 
@@ -64,7 +64,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
    
     **Name:** Enter the name (For e.g., Syncfusion TypeScript Packages).
    
-    **Location:** Enter the following URL – [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
+    **Location:** Enter the following URL – [https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](https://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
     ![Syncfusion TypeScript Packages](NuGet_Packages_Images/img5.png)
  

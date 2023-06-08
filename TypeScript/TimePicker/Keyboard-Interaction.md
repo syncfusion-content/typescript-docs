@@ -136,7 +136,7 @@ module TimePickerComponent {
 
 {% endhighlight %}
 
-Run the code sample, press **[Access key](http://en.wikipedia.org/wiki/Access_key) + J** to focus in the **TimePicker** widget that enables it and you can navigate using arrow keys and Esc key to close the popup.
+Run the code sample, press **[Access key](https://en.wikipedia.org/wiki/Access_key) + J** to focus in the **TimePicker** widget that enables it and you can navigate using arrow keys and Esc key to close the popup.
 
 
 

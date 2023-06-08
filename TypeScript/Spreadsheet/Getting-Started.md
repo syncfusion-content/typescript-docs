@@ -47,7 +47,7 @@ Add the scripts references in the order mentioned in the following code example.
 
 {% endhighlight %}
 
-In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](http://csg.syncfusion.com/) utility to generate a custom script file with the required widgets for deployment purpose.
+In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](https://csg.syncfusion.com/) utility to generate a custom script file with the required widgets for deployment purpose.
 
 **Note:**
 

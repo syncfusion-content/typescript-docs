@@ -158,7 +158,7 @@ module TreeViewComponent {
 
 N>  If you want to display nodes in Root level, exclude **parentId** attribute or specify **“0”** in corresponding value.
 
-To find the complete details about fields, refer the sample [here](http://jsplayground.syncfusion.com/iyhtz2bm#).
+To find the complete details about fields, refer the sample [here](https://jsplayground.syncfusion.com/iyhtz2bm).
 
 ## Local Data
 
@@ -304,7 +304,7 @@ When using remote data binding, the adaptor of [ej.DataManager](https://help.syn
 
 ### OData
 
-**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](http://www.odata.org/#) data to TreeView in two ways using DataManager.
+**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](https://www.odata.org/) data to TreeView in two ways using DataManager.
 
 * Passing OData service link to DataManager
 
@@ -425,7 +425,7 @@ While expanding the parent node
 After expanding the parent node
 {:.caption}
 
-For more details about load on demand for local data source, refer the sample [here](http://jsplayground.syncfusion.com/5mnzloq0).
+For more details about load on demand for local data source, refer the sample [here](https://jsplayground.syncfusion.com/5mnzloq0).
 
 
 For remote data source, TreeView loads the first level nodes initially. While expand the node from TreeView, the data manager passes the query to the controller. Based on this query, you can filter the data from table and return to TreeView.
