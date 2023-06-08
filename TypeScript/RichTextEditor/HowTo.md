@@ -66,7 +66,7 @@ module RTEComponent {
 
 {% endhighlight %}
 
-In the above sample, you can see that we have added two Google web fonts (“Roboto” and “Great vibes”) to ejRTE. [Demo Link](http://jsplayground.syncfusion.com/Sync_ce43lcpy)
+In the above sample, you can see that we have added two Google web fonts (“Roboto” and “Great vibes”) to ejRTE. [Demo Link](https://jsplayground.syncfusion.com/Sync_ce43lcpy)
 
 ## Increase RTE max word count 
 

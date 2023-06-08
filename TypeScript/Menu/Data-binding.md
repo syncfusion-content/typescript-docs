@@ -157,7 +157,7 @@ DataManager is used to manage relational data in **JavaScript**. DataManager 
 
 <https://help.syncfusion.com/js/datamanager>
 
-In the following example, [http://mvc.syncfusion.com/Services/Northwnd.svc/](http://mvc.syncfusion.com/Services/Northwnd.svc/) is used as the **URL**. This acts as web service that is located in the **Syncfusion** server. The web service with the name Northwind.svc is used here.
+In the following example, [https://mvc.syncfusion.com/Services/Northwnd.svc/](https://mvc.syncfusion.com/Services/Northwnd.svc/) is used as the **URL**. This acts as web service that is located in the **Syncfusion** server. The web service with the name Northwind.svc is used here.
 
 Add the following code in your **HTML** page.
 
