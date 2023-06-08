@@ -107,4 +107,4 @@ module TreeViewComponent {
 
 {% endhighlight %}
 
-For more details about multiple drag and drop in TreeView, refer the sample [here](http://jsplayground.syncfusion.com/Sync_1mo2awgk).
+For more details about multiple drag and drop in TreeView, refer the sample [here](https://jsplayground.syncfusion.com/Sync_1mo2awgk).

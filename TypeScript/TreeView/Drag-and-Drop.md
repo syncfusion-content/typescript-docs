@@ -228,7 +228,7 @@ module TreeViewComponent {
 
 {% endhighlight %}
 
-For more details about drag and drop between TreeView, refer the sample [here](http://jsplayground.syncfusion.com/40z0fek2#). 
+For more details about drag and drop between TreeView, refer the sample [here](https://jsplayground.syncfusion.com/40z0fek2). 
 
 ## Auto Node Structuring
 
@@ -328,7 +328,7 @@ module TreeViewComponent {
 
 {% endhighlight %}
 
-For more details about drag and drop between TreeView, refer the sample [here](http://jsplayground.syncfusion.com/u0vqjm0e#). 
+For more details about drag and drop between TreeView, refer the sample [here](https://jsplayground.syncfusion.com/u0vqjm0e). 
 
 N>  Auto node structure applicable for well-structured node object.
 
