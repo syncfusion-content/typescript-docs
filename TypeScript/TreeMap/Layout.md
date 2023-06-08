@@ -49,7 +49,7 @@ module treeMapcomponent {
 
 ![TypeScript TreeMap Squarified](Layout_images/Layout_img1.png)
 
-Try it: [Squarified](http://jsplayground.syncfusion.com/q1pc13k3)
+Try it: [Squarified](https://jsplayground.syncfusion.com/q1pc13k3)
 
 ## SliceAndDiceAuto
 
@@ -74,7 +74,7 @@ Try it: [Squarified](http://jsplayground.syncfusion.com/q1pc13k3)
 
 ![TypeScript TreeMap SliceAndDiceAuto](Layout_images/Layout_img2.png)
 
-Try it: [SliceAndDiceAuto](http://jsplayground.syncfusion.com/eotkjoag)
+Try it: [SliceAndDiceAuto](https://jsplayground.syncfusion.com/eotkjoag)
 
 ## SliceAndDiceHorizontal
 
@@ -99,7 +99,7 @@ Try it: [SliceAndDiceAuto](http://jsplayground.syncfusion.com/eotkjoag)
 
 ![TypeScript TreeMap SliceAndDiceHorizontal](Layout_images/Layout_img3.png)
 
-Try it: [SliceAndDiceHorizontal](http://jsplayground.syncfusion.com/hrvachsi)
+Try it: [SliceAndDiceHorizontal](https://jsplayground.syncfusion.com/hrvachsi)
 
 ## SliceAndDiceVertical
 
@@ -124,4 +124,4 @@ Try it: [SliceAndDiceHorizontal](http://jsplayground.syncfusion.com/hrvachsi)
 
 ![TypeScript TreeMap SliceAndDiceVertical](Layout_images/Layout_img4.png)
 
-Try it: [SliceAndDiceVertical](http://jsplayground.syncfusion.com/brtks3m2)
+Try it: [SliceAndDiceVertical](https://jsplayground.syncfusion.com/brtks3m2)

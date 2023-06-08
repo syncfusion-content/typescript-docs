@@ -78,7 +78,7 @@ module treeMapcomponent {
 
 ![](TreeMapLevels_images/TreeMapLevels_img1.png)
 
-Try it: [FlatLevel](http://jsplayground.syncfusion.com/plnqu1fu)
+Try it: [FlatLevel](https://jsplayground.syncfusion.com/plnqu1fu)
 
 ## Hierarchical Level
 
@@ -124,4 +124,4 @@ Try it: [FlatLevel](http://jsplayground.syncfusion.com/plnqu1fu)
 
 ![](TreeMapLevels_images/TreeMapLevels_img2.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/bootstrap/treemap/hierarchical) here to view our online demo sample with Hierarchical levels.
+[Click](https://ej2.syncfusion.com/home/#!/bootstrap/treemap/hierarchical) here to view our online demo sample with Hierarchical levels.
