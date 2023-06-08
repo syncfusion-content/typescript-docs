@@ -29,7 +29,7 @@ Add the scripts and CSS references to the “index.html” page as the order men
 
 The Grid control has the following list of external JavaScript dependencies.
 
-* [jQuery](http://jquery.com/) 1.7.1 and later versions
+* [jQuery](https://jquery.com/) 1.7.1 and later versions
 
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates.
 
@@ -160,9 +160,9 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
 {% endhighlight %}
 
-N> In production, we highly recommend you to use our [custom script generator](https://help.syncfusion.com/js/custom-script-generator)  to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [GZip compression](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer?hl=en) in your server.
+N> In production, we highly recommend you to use our [custom script generator](https://help.syncfusion.com/js/custom-script-generator)  to create custom script file with required controls and its dependencies only. Also to reduce the file size further please use [GZip compression](https://web.dev/optimizing-content-efficiency-optimize-encoding-and-transfer/?hl=en) in your server.
 
-For themes, you can use the `ej.web.all.min.css` CDN link from the code example given. To add the themes in your application, please refer to [this link](http://help.syncfusion.com/js/theming-in-essential-javascript-components).In addition to that, refer the grid.js file in the script section.
+For themes, you can use the `ej.web.all.min.css` CDN link from the code example given. To add the themes in your application, please refer to [this link](https://help.syncfusion.com/js/theming-in-essential-javascript-components).In addition to that, refer the grid.js file in the script section.
 
 Finally build your application, so that the “grid.js” file is automatically generated and got added to your project (User have nothing to do with this file). Now, whatever code changes that you make in grid.ts file will be reflected in grid.js file automatically.
 
@@ -213,7 +213,7 @@ module GridComponent {
 
 ## Data Binding
 
-[`Data binding`](http://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning an array of JavaScript objects to the [`dataSource`](http://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
+[`Data binding`](https://help.syncfusion.com/js/grid/data-binding) in the grid is achieved by assigning an array of JavaScript objects to the [`dataSource`](https://help.syncfusion.com/js/api/ejgrid#members:columns-datasource) property. Refer to the following code example.
 
 {% highlight html %}
 
@@ -250,7 +250,7 @@ module GridComponent {
 
 ## Enable Paging
 
-[`Paging`](http://help.syncfusion.com/js/grid/paging) can be enabled by setting the [`allowPaging`](http://help.syncfusion.com/js/api/ejgrid#members:allowpaging) to true. The Paging feature in Grid offers complete navigation support to easily switch between the pages, using the page bar available at the bottom of the Grid control
+[`Paging`](https://help.syncfusion.com/js/grid/paging) can be enabled by setting the [`allowPaging`](https://help.syncfusion.com/js/api/ejgrid#members:allowpaging) to true. The Paging feature in Grid offers complete navigation support to easily switch between the pages, using the page bar available at the bottom of the Grid control
 
 {% highlight html %}
 
@@ -287,12 +287,12 @@ module GridComponent {
 ![Getting-started_images3](Getting-started_images/Getting-started_img3.png)
 {:.image }
 
-N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](http://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
+N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](https://help.syncfusion.com/js/api/ejgrid#members:pagesettings-pagesize) property. When it is not given the default values for `pageSize` and `pageCount` are 12 and 8 respectively.
 
 
 ## Enable Filtering
 
-[`Filtering`](/js/grid/filter) can be enabled by setting the [`allowFiltering`] (https://help.syncfusion.com/js/api/ejgrid#members:allowfiltering) to be `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using `filterType` of [`filterSetting`](http://help.syncfusion.com/js/api/ejgrid#members:filtersettings) property.
+[`Filtering`](/js/grid/filter) can be enabled by setting the [`allowFiltering`] (https://help.syncfusion.com/js/api/ejgrid#members:allowfiltering) to be `true`. By default, the filter bar row is displayed to perform filtering, you can change the filter type by using `filterType` of [`filterSetting`](https://help.syncfusion.com/js/api/ejgrid#members:filtersettings) property.
 
 {% highlight html %}
 
@@ -332,7 +332,7 @@ module GridComponent {
 
 ## Enable Grouping
 
-[`Grouping`](/js/grid/grouping) can be enabled by setting the [`allowGrouping`](http://help.syncfusion.com/js/api/ejgrid#members:allowgrouping) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the `groupedColumns` of [`groupSettings`](http://help.syncfusion.com/js/api/ejgrid#members:groupsettings-groupedcolumns) property. 
+[`Grouping`](/js/grid/grouping) can be enabled by setting the [`allowGrouping`](https://help.syncfusion.com/js/api/ejgrid#members:allowgrouping) to `true`.  Columns can be grouped dynamically by drag and drop the grid column header to the group drop area. The initial grouping can be done by adding required column names in the `groupedColumns` of [`groupSettings`](https://help.syncfusion.com/js/api/ejgrid#members:groupsettings-groupedcolumns) property. 
 
 
 {% highlight html %}
@@ -414,7 +414,7 @@ module GridComponent {
 
 ## Add Summaries
 
-[`Summaries`](http://help.syncfusion.com/js/grid/summary) can be added by setting the [`showSummary`](http://help.syncfusion.com/js/api/ejgrid#members:showsummary) to true and adding required summary rows and columns in the [`summaryRows`](http://help.syncfusion.com/js/api/ejgrid#members:summaryrows) property. For demonstration, Freight column's sum value is displayed as summary.
+[`Summaries`](https://help.syncfusion.com/js/grid/summary) can be added by setting the [`showSummary`](https://help.syncfusion.com/js/api/ejgrid#members:showsummary) to true and adding required summary rows and columns in the [`summaryRows`](https://help.syncfusion.com/js/api/ejgrid#members:summaryrows) property. For demonstration, Freight column's sum value is displayed as summary.
 
 {% highlight html %}
 

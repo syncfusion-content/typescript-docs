@@ -73,7 +73,7 @@ To bind remote data to Kanban Control, you can assign a service data as an insta
 
 ### OData
 
-OData is a standardized protocol for creating and consuming data. You can provide the [`OData service`](http://www.odata.org/) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager) class and then you can assign it to Kanban [`dataSource`](https://help.syncfusion.com/api/js/ejkanban#members:datasource).
+OData is a standardized protocol for creating and consuming data. You can provide the [`OData service`](https://www.odata.org/) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager) class and then you can assign it to Kanban [`dataSource`](https://help.syncfusion.com/api/js/ejkanban#members:datasource).
 
 The following code example describes the above behavior.
 
