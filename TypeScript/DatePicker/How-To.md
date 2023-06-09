@@ -10,11 +10,11 @@ documentation: ug
 
 ## Customizing template with range selection between two DatePicker. 
 
-You can customize the date field to emphasize the particular dates in DatePicker calendar with help of [specialDates](https://help.syncfusion.com/api/js/ejdatepicker#members:specialdates) and set the date range using [minDate](https://help.syncfusion.com/api/js/ejdatepicker#members:mindate) and [maxDate](https://help.syncfusion.com/api/js/ejdatepicker#members:maxdate) property. Refer the sample from the link [Hotel Booking](http://jsplayground.syncfusion.com/bdr5k4cg#) to know how to customize date with date range.
+You can customize the date field to emphasize the particular dates in DatePicker calendar with help of [specialDates](https://help.syncfusion.com/api/js/ejdatepicker#members:specialdates) and set the date range using [minDate](https://help.syncfusion.com/api/js/ejdatepicker#members:mindate) and [maxDate](https://help.syncfusion.com/api/js/ejdatepicker#members:maxdate) property. Refer the sample from the link [Hotel Booking](https://jsplayground.syncfusion.com/bdr5k4cg) to know how to customize date with date range.
 
 ## Localize DatePicker with browser specific culture
 
-You can get the browser culture name at page load or document ready state. Based on the culture name, DatePicker can be initiated with that specific culture value by assigning to [locale](https://help.syncfusion.com/api/js/ejdatepicker#members:locale) property. Refer the sample from the link [Browser Specific Culture](http://www.syncfusion.com/kb/4904/datepicker-control-culture-have-to-change-based-on-the-browser-language#) to create DatePicker with browser specific culture.
+You can get the browser culture name at page load or document ready state. Based on the culture name, DatePicker can be initiated with that specific culture value by assigning to [locale](https://help.syncfusion.com/api/js/ejdatepicker#members:locale) property. Refer the sample from the link [Browser Specific Culture](https://support.syncfusion.com/kb/article/4702/how-to-change-the-culture-of-the-datepicker-control-based-on-the-browser-language) to create DatePicker with browser specific culture.
 
 ## Disable specific dates to restrict user
 

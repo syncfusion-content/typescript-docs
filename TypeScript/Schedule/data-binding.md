@@ -266,7 +266,7 @@ module ScheduleComponent {
 
 ## Binding Remote Data Service
 
-The appointment data can be bound to the Scheduler through the [Odata](http://www.odata.org) remote services, where the service URL is mapped with [Data manager](/js/datamanager/overview) and then configured to the Schedule dataSource API.
+The appointment data can be bound to the Scheduler through the [Odata](https://www.odata.org/) remote services, where the service URL is mapped with [Data manager](/js/datamanager/overview) and then configured to the Schedule dataSource API.
 
 {% highlight html %}
 
@@ -301,7 +301,7 @@ module ScheduleComponent {
 
 ## OData V4
 
-The OData v4 is an improved version of OData protocols and the DataManager can also retrieve and consume appointment data from [OData v4](http://www.odata.org/documentation) services.
+The OData v4 is an improved version of OData protocols and the DataManager can also retrieve and consume appointment data from [OData v4](https://www.odata.org/documentation) services.
 
 {% highlight html %}
 

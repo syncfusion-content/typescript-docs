@@ -25,7 +25,7 @@ Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.
 
 The Kanban control has the following list of external JavaScript dependencies.
 
-* [`jQuery 1.7.1`](http://jquery.com) and later versions
+* [`jQuery 1.7.1`](https://jquery.com/) and later versions
 * [`jsRender`](https://github.com/borismoore/jsrender) - to render the templates
 
 ## Adding Script Reference
@@ -222,7 +222,7 @@ The Kanban can be created from a HTML `DIV` element with the HTML `id` attribute
 
 ## Data Binding
 
-`Data binding` in the Kanban is achieved by using the [`ej.DataManager`](http://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding. To set the data source to Kanban, the `dataSource` property is assigned with the instance of the `ej.DataManger`. 
+`Data binding` in the Kanban is achieved by using the [`ej.DataManager`](https://help.syncfusion.com/js/datamanager/overview) that supports both RESTful JSON data services binding and local JSON array binding. To set the data source to Kanban, the `dataSource` property is assigned with the instance of the `ej.DataManger`. 
 
 {% highlight html %}
 
@@ -321,7 +321,7 @@ N>  `fields.primaryKey` field is mandatory for “Drag and Drop” ,”Selection
 
 ## Adding Filters
 
-Filters allows to filter the collection of cards from `dataSource` which meets the predefined `query` in the filters collection. To enable filtering, define `filterSettings` collection with display `text` and [`ej.Query`](http://help.syncfusion.com/js/datamanager/query).
+Filters allows to filter the collection of cards from `dataSource` which meets the predefined `query` in the filters collection. To enable filtering, define `filterSettings` collection with display `text` and [`ej.Query`](https://help.syncfusion.com/js/datamanager/query).
  
 {% highlight html %}
 

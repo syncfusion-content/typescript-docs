@@ -159,7 +159,7 @@ The following methods, used to retrieve the items from the DropDownList.
     </tr>
 </table>
 
-I> When multiSelectMode is enabled in a DropDownList and selected items having same text but its value is different means, the items can be selected. Please refer the online [link](http://jsplayground.syncfusion.com/Sync_5fgywhmb)
+I> When multiSelectMode is enabled in a DropDownList and selected items having same text but its value is different means, the items can be selected. Please refer the online [link](https://jsplayground.syncfusion.com/Sync_5fgywhmb)
 
 ### Using value or text
 

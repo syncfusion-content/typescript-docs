@@ -52,7 +52,7 @@ module treeMapcomponent {
 
 ![](Customization_images/Customization_img1.png)
 
-Try it: [UniColorMapping](http://jsplayground.syncfusion.com/2v542ver)
+Try it: [UniColorMapping](https://jsplayground.syncfusion.com/2v542ver)
 
 ### Range Color Mapping
 
@@ -82,7 +82,7 @@ You can group the leaf nodes based on the range of the data’s color values. Yo
 
 ![](Customization_images/Customization_img2.png)
 
-Try it: [RangeColorMapping](http://jsplayground.syncfusion.com/cbcyugjn)
+Try it: [RangeColorMapping](https://jsplayground.syncfusion.com/cbcyugjn)
 
 ### Desaturation Color Mapping
 
@@ -110,7 +110,7 @@ You can differentiate all the leaf nodes using the `desaturation color mapping` 
 
 ![](Customization_images/Customization_img3.png)
 
-Try it: [DesaturationColorMapping](http://jsplayground.syncfusion.com/qoh2upwr)
+Try it: [DesaturationColorMapping](https://jsplayground.syncfusion.com/qoh2upwr)
 
 ## Tooltip
 
@@ -184,7 +184,7 @@ You can customize the **Leaf level TreeMap items** using `leafItemSettings`. In 
 
 ![](Customization_images/Customization_img4.png)
 
-Try it: [LeafItemSettings](http://jsplayground.syncfusion.com/gec0w4gb)
+Try it: [LeafItemSettings](https://jsplayground.syncfusion.com/gec0w4gb)
 
 ## Border Brush
 

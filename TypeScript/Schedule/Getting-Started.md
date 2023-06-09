@@ -60,7 +60,7 @@ Add links to the [CDN](/js/cdn) Script files of the other required external depe
 
 {% endhighlight %}
 
-N> Uncompressed version of library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](http://csg.syncfusion.com).
+N> Uncompressed version of library files are also available which is used for development or debugging purpose and can be generated from the custom script [here](https://csg.syncfusion.com/).
 
 N> The content of `app.js` file reference in the above script section is automatically generated from the `app.ts` file, when the typescript application is compiled.
 

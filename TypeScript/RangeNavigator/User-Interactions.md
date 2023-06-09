@@ -45,7 +45,7 @@ module RangeComponent {
 ![](User-Interactions_images/User-Interactions_img1.png) 
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/rangenavigator/highlight) here to view the highlight and selections online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/rangenavigator/highlight) here to view the highlight and selections online demo sample.
 
 ### Customize the highlight style
 
@@ -104,7 +104,7 @@ EjRangeNavigator provides selection supports to the intervals by, clicking and d
 ![](User-Interactions_images/User-Interactions_img3.png) 
 
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/rangenavigator/highlight) here to view the highlight and selections online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/rangenavigator/highlight) here to view the highlight and selections online demo sample.
 
 ### Customize the selection style
 
@@ -174,4 +174,4 @@ To customize the selected intervals, use color, border and opacity options in th
 
 ![](User-Interactions_images/User-Interactions_img5.png)
 
-[Click](http://js.syncfusion.com/demos/web/#!/azure/rangenavigator/scrollbar) here to view scrollbar online demo sample.
+[Click](https://ej2.syncfusion.com/home/#!/azure/rangenavigator/scrollbar) here to view scrollbar online demo sample.

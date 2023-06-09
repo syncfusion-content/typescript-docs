@@ -1042,7 +1042,7 @@ The following output is displayed as a result of the above code example.
 
 ![Typescript Grid jQuery Validation](Editing_images/Editing_img18.png)
 
-N> 1. Refer this [Knowledge Base link](https://www.syncfusion.com/kb/6817/how-to-perform-server-side-validation-in-grid) to perform server side validation in Grid.
+N> 1. Refer this [Knowledge Base link](https://support.syncfusion.com/kb/article/6216/how-to-perform-server-side-validation-in-grid) to perform server side validation in Grid.
 
 ### Custom Validation
 
