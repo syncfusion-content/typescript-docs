@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting Started | TimePicker | TypeScript | Syncfusion
-description: Getting Started
+title: Getting Started with TypeScript TimePicker Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential TypeScript TimePicker control, its elements, and more.
 platform: TypeScript
 control: TimePicker
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypeScript Timepicker
 
 This section explains you how to render and configure TimePicker component in a TypeScript application.
 
