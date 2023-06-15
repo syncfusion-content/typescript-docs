@@ -66,7 +66,7 @@ You should get the private Syncfusion JavaScript NuGet feed URL to install or up
    
     **Location:** Enter the following URL – [http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript](http://nuget.syncfusion.com/nuget_javascript/nuget/getsyncfusionpackages/javascript).
 
-    ![Syncfusion TypeScript Packages ](nuget_packages_images/typescript-nuget-packages-syncfusion-source.png)
+    ![Syncfusion TypeScript Packages](nuget_packages_images/typescript-nuget-packages-syncfusion-source.png)
  
 5.	Now, click **Add Source** and then click **OK**.
 
