@@ -11,7 +11,7 @@ documentation: ug
 
 ## Line Chart
 
-To render a Line Chart, set the series [`type`](../api/ejchart.html#members:series-type) as **"line"** in the chart series. To change the line segment color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Line Chart, set the series [`type`](../api/js/ejchart#members:series-type) as **"line"** in the chart series. To change the line segment color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
