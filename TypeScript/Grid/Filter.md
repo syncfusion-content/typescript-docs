@@ -41,7 +41,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -79,7 +79,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -133,7 +133,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSorting: true,
@@ -159,7 +159,7 @@ By default, the checkbox list is generated from distinct values of the filter co
 Also on checkbox list generation, if the number of distinct values are greater than 1000, then the excel filter will display only first 1000 values and show "Not all items shown" label to ensure the best performance on rendering and searching. However this limit has been customized according to your requirement by setting [`filterSettings.maxFilterChoices`](https://help.syncfusion.com/api/js/ejgrid#members:filtersettings-maxfilterchoices "filterSettings.maxFilterChoices") with required limit in integer.
 
 N> 1. Using excel filter events you can change the dataSource of the checkbox list. 
-N> 2. [`ej.Query`](https://help.syncfusion.com/api/js/ejquery# "ej.Query") of checkbox list can also be changed using excel filter events.
+N> 2. [`ej.Query`](https://help.syncfusion.com/api/js/ejquery "ej.Query") of checkbox list can also be changed using excel filter events.
 
 The following code example describes the above behavior.
 
@@ -174,7 +174,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSorting: true,
@@ -217,7 +217,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -388,7 +388,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging : true,
             allowFiltering : true,
@@ -430,7 +430,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -448,7 +448,7 @@ The following output is displayed as a result of the above code example.
 
 ## Filter Operators
 
-The grid controls uses filter operators from [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "ej.DataManager"), which are used at the time of filtering.
+The grid controls uses filter operators from [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager "ej.DataManager"), which are used at the time of filtering.
 
 List of Column type and Filter operators
 
@@ -607,7 +607,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: new ej.DataManager(window["gridData"]),
             allowPaging: true,
             allowFiltering: true,

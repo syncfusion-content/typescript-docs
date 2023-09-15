@@ -8,7 +8,7 @@ documentation: ug
 --- 
 # Data binding in Typescript Grid
 
-The Grid control uses [`ej.DataManager`](https://help.syncfusion.com/js/datamanager/overview# "ej.DataManager") which supports both RESTful JSON data services binding and local JSON array binding.  The [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") property can be assigned either with the instance of [`ej.DataManger`](https://help.syncfusion.com/api/js/ejdatamanager# "ej.DataManager") or JSON data array collection. It supports different kinds of data binding methods such as
+The Grid control uses [`ej.DataManager`](https://help.syncfusion.com/js/datamanager/overview "ej.DataManager") which supports both RESTful JSON data services binding and local JSON array binding.  The [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") property can be assigned either with the instance of [`ej.DataManger`](https://help.syncfusion.com/api/js/ejdatamanager "ej.DataManager") or JSON data array collection. It supports different kinds of data binding methods such as
 
 1. Local data
 2. Remote data
@@ -34,7 +34,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
 			columns: ["OrderID", "EmployeeID", "ShipCity", "ShipCountry", "Freight"]   
@@ -51,7 +51,7 @@ The following output is displayed as a result of the above code example.
 
 
 N> 1. There is no in-built support to bind the XML data to the grid. But you can achieve this requirement with the help of [custom adaptor](https://help.syncfusion.com/js/datamanager/data-adaptors#custom-adaptor) concept. 
-N> 2. Refer this [Knowledge Base link](https://www.syncfusion.com/kb/3377/how-to-process-xml-data-from-server-using-datamanager-and-bound-to-grid) for bounding XML data to grid using custom adaptor. 
+N> 2. Refer this [Knowledge Base link](https://support.syncfusion.com/kb/article/3562/how-to-process-xml-data-from-server-using-datamanager-and-bound-to-aspnet-mvc-grid?isInternalRefresh=False) for bounding XML data to grid using custom adaptor. 
 
 ## Remote Data
 
@@ -59,7 +59,7 @@ To bind remote data to Grid Control, you can assign a service data as an instanc
 
 ### OData
 
-OData is a standardized protocol for creating and consuming data. You can provide the [OData service](https://www.odata.org/) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") class and then you can assign it to Grid [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
+OData is a standardized protocol for creating and consuming data. You can provide the [OData service](https://www.odata.org) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") class and then you can assign it to Grid [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
 
 The following code example describes the above behavior.
 
@@ -92,4 +92,4 @@ The following output is displayed as a result of the above code example.
 
 ![Typescript Grid dataBinding](dataBinding_images/dataBinding_img2.png)
 
-N> By default, if no adaptor is specified for [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") and only the url link is mentioned it will consider as ODataService. 
+N> By default, if no adaptor is specified for [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager "DataManager") and only the url link is mentioned it will consider as ODataService. 

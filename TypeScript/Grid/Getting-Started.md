@@ -29,7 +29,7 @@ Add the scripts and CSS references to the “index.html” page as the order men
 
 The Grid control has the following list of external JavaScript dependencies.
 
-* [jQuery](https://jquery.com/) 1.7.1 and later versions
+* [jQuery](https://jquery.com) 1.7.1 and later versions
 
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates.
 
@@ -147,8 +147,8 @@ To get started, you can use the `ej.web.all.min.js` file that encapsulates all t
 
     <!-- Essential Studio for JavaScript  script references -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
-    <script src="http://cdn.syncfusion.com/14.4.0.15/js/web/ej.web.all.min.js"> </script>
+    <script src="https://cdn.syncfusion.com/js/assets/external/jsrender.min.js"></script>
+    <script src="https://cdn.syncfusion.com/14.4.0.15/js/web/ej.web.all.min.js"> </script>
 
     <!-- Add your custom scripts here -->
     <script type="text/javascript" src="grid.js"></script>    <!--Also refer grid.js file here -->
@@ -235,7 +235,7 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-          //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+          //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
           dataSource: window["gridData"];  
           columns: ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"];
       });
@@ -272,7 +272,7 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
@@ -314,7 +314,7 @@ N> Pager settings can be customized by using the `pageSize` of [`pageSettings`](
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
@@ -355,7 +355,7 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
@@ -394,7 +394,7 @@ Refer to the following code example for initial grouping.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,
@@ -436,7 +436,7 @@ module GridComponent {
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             columns : ["OrderID", "EmployeeID", "CustomerID", "ShipCountry", "Freight"],
             allowPaging: true,

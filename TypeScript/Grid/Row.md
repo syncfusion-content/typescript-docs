@@ -42,7 +42,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.employeeView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.employeeView" is referred from 'https://help.syncfusion.com/js/grid/paging'
             dataSource: window["employeeView"],
             detailsTemplate: "#tabGridContents",
             detailsDataBound: detailGridData,
@@ -53,7 +53,7 @@ module GridComponent {
 function detailGridData(e: ej.Grid.DetailsDataBoundEventArgs) {
     // Here you can get the parent details from "data". EmployeeID is the unique column value in parent row.
     var filteredData = e.rowData["EmployeeID"];
-    // the datasource "window.ordersView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+    // the datasource "window.ordersView" is referred from 'https://help.syncfusion.com/js/grid/paging'
     var data = new ej.DataManager(window["ordersView"]).executeLocal(new ej.Query().where("EmployeeID", ej.FilterOperators.equal, parseInt(filteredData), true).take(5)); // form the query to filter the detail row data by using EmployeeID column value.
     //detailsElement contains all the elements which are mentioned in the template.
     // Here the detailGrid element is changed as ejGrid control
@@ -140,7 +140,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.employeeView" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.employeeView" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: new ej.DataManager(window["employeeView"]).executeLocal(new ej.Query().take(2)),
             rowTemplate: "#templateData", // row template
             columns: [
@@ -180,7 +180,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            // the datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js' 
+            // the datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform' 
             dataSource: window["gridData"],
             allowPaging: true,
             allowRowDragAndDrop: true,
@@ -225,7 +225,7 @@ module GridComponent {
     $(function () {
         var dataManager = new ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Orders/");
         var gridInstance = new ej.Grid($("#Grid"), {
-            // the datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js' 
+            // the datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform' 
             dataSource: window["gridData"],
             allowPaging: true,
             allowRowDragAndDrop: true,
@@ -311,7 +311,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            // the datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'            
+            // the datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform.js'            
             dataSource: new ej.DataManager(window["gridData"]),
             allowPaging: true,
             allowRowDragAndDrop: true,

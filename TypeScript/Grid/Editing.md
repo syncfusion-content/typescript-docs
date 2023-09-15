@@ -12,7 +12,7 @@ The grid control has support for the dynamic insertion, updating and deletion of
 
 Deletion of the record is possible by selecting the required row and clicking on Delete icon in toolbar. 
 
-The primary key for the data source should be defined in [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, for editing to work properly. In [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, particular primary column's [`isPrimaryKey`](https://help.syncfusion.com/api/js/ejgrid#members:columns-isprimarykey "isPrimaryKey") property should be set to `true`. Refer to the Knowledge base [link](http://www.syncfusion.com/kb/2675/cant-edit-any-row-except-the-first-row-in-grid# "link") for more information.
+The primary key for the data source should be defined in [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, for editing to work properly. In [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, particular primary column's [`isPrimaryKey`](https://help.syncfusion.com/api/js/ejgrid#members:columns-isprimarykey "isPrimaryKey") property should be set to `true`. Refer to the Knowledge base [link](https://support.syncfusion.com/kb/article/2934/cant-edit-any-row-except-the-first-row-in-grid?isInternalRefresh=False "link") for more information.
 
 N> 1. In grid, the primary key column will be automatically set to read only while editing the row, but you can specify primary key column value while adding a new record.
 
@@ -37,7 +37,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -63,12 +63,12 @@ The following output is displayed as a result of the above code example.
 
 The edit type of bound column can be customized using [`editType`](https://help.syncfusion.com/api/js/ejgrid#members:columns-edittype "editType") property of [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns"). The following Essential JavaScript controls are supported built-in by [`editType`](https://help.syncfusion.com/api/js/ejgrid#members:columns-edittype "editType"). You can set the [`editType`](https://help.syncfusion.com/api/js/ejgrid#members:columns-edittype "editType") based on specific data type of the column. 
 
-* [`CheckBox`](https://help.syncfusion.com/api/js/ejcheckbox# "CheckBox") control for boolean data type.
-* [`NumericTextBox`](https://help.syncfusion.com/api/js/ejtextboxes# "NumericTextBox") control for integers, double, and decimal data types.
+* [`CheckBox`](https://help.syncfusion.com/api/js/ejcheckbox "CheckBox") control for boolean data type.
+* [`NumericTextBox`](https://help.syncfusion.com/api/js/ejtextboxes "NumericTextBox") control for integers, double, and decimal data types.
 * `InputTextBox` control for string data type.
-* [`DatePicker`](https://help.syncfusion.com/api/js/ejdatepicker# "DatePicker") control for date data type.
-* [`DateTimePicker`](https://help.syncfusion.com/api/js/ejdatetimepicker# "DateTimePicker") control for date-time data type.
-* [`DropDownList`](https://help.syncfusion.com/api/js/ejdropdownlist# "DropDownList") control for list of data type.
+* [`DatePicker`](https://help.syncfusion.com/api/js/ejdatepicker "DatePicker") control for date data type.
+* [`DateTimePicker`](https://help.syncfusion.com/api/js/ejdatetimepicker "DateTimePicker") control for date-time data type.
+* [`DropDownList`](https://help.syncfusion.com/api/js/ejdropdownlist "DropDownList") control for list of data type.
 
 
 
@@ -132,7 +132,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -177,7 +177,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -236,7 +236,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -283,7 +283,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -374,7 +374,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -433,7 +433,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -521,7 +521,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -578,7 +578,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -633,7 +633,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -721,7 +721,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -768,7 +768,7 @@ After the template elements are converted to JS controls using actionComplete ev
 
 Users can start editing by clicking a cell and typing data into it. Edited cell will be marked while navigating to next cell or any other row, so that you know which fields or cells has been edited. Set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `batch` to enable batch editing.
 
-N> Refer the KB [link](http://www.syncfusion.com/kb/3016/how-to-suppress-grid-confirmation-messages# "link") for "How to suppress grid confirmation messages" in batch mode.
+N> Refer the KB [link](https://support.syncfusion.com/kb/article/3065/how-to-suppress-grid-confirmation-messages?isInternalRefresh=False "link") for "How to suppress grid confirmation messages" in batch mode.
 
 The following code example describes the above behavior.
 
@@ -783,7 +783,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -832,7 +832,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -880,7 +880,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -1013,7 +1013,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -1073,7 +1073,7 @@ module GridComponent {
             return false;
         }, "Customer ID must be 5 characters");
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -1527,7 +1527,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,
@@ -1576,7 +1576,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,
@@ -1628,7 +1628,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,

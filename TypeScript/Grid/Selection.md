@@ -42,7 +42,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging : true,
             allowSelection : true,
@@ -79,7 +79,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             columns: [
@@ -117,7 +117,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSelection: true,
@@ -156,7 +156,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSelection: true,
@@ -190,7 +190,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSelection: true,
@@ -224,7 +224,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging : true,
             allowSelection : true,
@@ -261,7 +261,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
+            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
             dataSource: window["gridData"],
             allowPaging: true,
             enableRowHover: false,
