@@ -14,7 +14,7 @@ You can customize the date field to emphasize the particular dates in DatePicker
 
 ## Localize DatePicker with browser specific culture
 
-You can get the browser culture name at page load or document ready state. Based on the culture name, DatePicker can be initiated with that specific culture value by assigning to [locale](https://help.syncfusion.com/api/js/ejdatepicker#members:locale) property. Refer the sample from the link [Browser Specific Culture](https://support.syncfusion.com/kb/article/4702/how-to-change-the-culture-of-the-datepicker-control-based-on-the-browser-language) to create DatePicker with browser specific culture.
+You can get the browser culture name at page load or document ready state. Based on the culture name, DatePicker can be initiated with that specific culture value by assigning to [locale](https://help.syncfusion.com/api/js/ejdatepicker#members:locale) property. Refer the sample from the link [Browser Specific Culture](https://support.syncfusion.com/kb/article/4702/how-to-change-the-culture-of-the-datepicker-control-in-javascript?isInternalRefresh=False) to create DatePicker with browser specific culture.
 
 ## Disable specific dates to restrict user
 

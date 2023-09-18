@@ -45,9 +45,9 @@ Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.
 <!DOCTYPE html>
 <html>
 <head>
-        <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+        <link href="https://cdn.syncfusion.com{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-        <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
+        <script src="https://cdn.syncfusion.com{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
         <script src="app.js"></script> 
 </head>
 <body>
@@ -56,7 +56,7 @@ Apart from ej.web.all.d.ts file, it is also necessary to make use of the jquery.
 
 {% endhighlight %}
 
-In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](http://csg.syncfusion.com/# "") utility to generate a custom script file with the required widgets for deployment purpose.
+In the above code, `ej.web.all.min.js` script reference has been added for demonstration purpose. It is not recommended to use this for deployment purpose, as its file size is larger since it contains all the widgets. Instead, you can use [CSG](https://csg.syncfusion.com "") utility to generate a custom script file with the required widgets for deployment purpose.
 
 3.Create a <div> tag.
 	
