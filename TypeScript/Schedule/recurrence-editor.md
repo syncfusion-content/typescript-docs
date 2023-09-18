@@ -16,7 +16,7 @@ To render the Recurrence Editor control as a separate widget, the following list
 
 * [jQuery](https://jquery.com/) - 1.7.1 and later versions
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates
-* [jQuery.easing](https://gsgd.co.uk/sandbox/jquery/easing) - to support animation effects in the components
+* [jQuery.easing](https://gsgd.co.uk/sandbox/jquery/easing/) - to support animation effects in the components
 
 The other required internal dependencies are tabulated below,
 

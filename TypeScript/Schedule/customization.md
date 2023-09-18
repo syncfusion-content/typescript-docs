@@ -681,7 +681,7 @@ function cancel() {
 
 ## Scheduler Customization using queryCellInfo
 
-It is possible to format and customize almost every child elements of scheduler such as work cells, header cells, time cells and so on using [queryCellInfo ](/api/js/ejschedule#events:appointmentwindowopen) event.
+It is possible to format and customize almost every child elements of scheduler such as work cells, header cells, time cells and so on using [queryCellInfo ](/api/js/ejschedule#events:querycellinfo) event.
 
 The following code snippet shows how to customize the appointment and work cells based on the query cell info event.
 
