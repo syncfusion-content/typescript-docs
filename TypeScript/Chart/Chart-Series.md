@@ -11,7 +11,7 @@ documentation: ug
 
 ## Multiple Series
 
-In EjChart, you can add multiple series object in the [`series`](../api/ejchart.html#members:series) options. The series are rendered in the order it is added to the [`series`](../api/ejchart.html#members:series) option, by default. You can change this order by using the [`zOrder`](../api/ejchart.html#members:series-zorder) option.  
+In EjChart, you can add multiple series object in the [`series`](../api/js/ejchart#members:series) options. The series are rendered in the order it is added to the [`series`](../api/js/ejchart#members:series) option, by default. You can change this order by using the [`zOrder`](../api/ejchart.html#members:series-zorder) option.  
 
 {% highlight javascript %}
 
