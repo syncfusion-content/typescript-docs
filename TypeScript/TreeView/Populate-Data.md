@@ -97,7 +97,7 @@ module TreeViewComponent {
 
        { id: 1, text: "Item 1", expanded: true, nodeProperty: { class: "textBlue", value: "Item 1" } },
 
-       { id: 2, text: "Item 2", linkProperty: { class: "textUnderline", href: "http://www.syncfusion.com", target: "_blank" } },
+       { id: 2, text: "Item 2", linkProperty: { class: "textUnderline", href: "https://www.syncfusion.com", target: "_blank" } },
 
        { id: 3, text: "Item 3", selected: true, spriteImage: "mail-icon sprite-calendar" },
 
@@ -300,15 +300,15 @@ module TreeViewComponent {
 
 ## Remote Data
 
-When using remote data binding, the adaptor of [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager#) plays vital role in processing queries to make them suitable to sends along with data request and also process the response data from the server.
+When using remote data binding, the adaptor of [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager) plays vital role in processing queries to make them suitable to sends along with data request and also process the response data from the server.
 
 ### OData
 
-**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](https://www.odata.org/) data to TreeView in two ways using DataManager.
+**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](https://www.odata.org) data to TreeView in two ways using DataManager.
 
 * Passing OData service link to DataManager
 
-You can provide the OData service URL directly to the [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager#) class and then we can assign it to TreeView dataSource.
+You can provide the OData service URL directly to the [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager) class and then we can assign it to TreeView dataSource.
 
 {% highlight html %}
 
@@ -326,9 +326,9 @@ You can provide the OData service URL directly to the [ej.DataManager](https://h
  
 
 module TreeViewComponent {
-        var parentData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
+        var parentData = ej.DataManager("https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
 
-        childData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
+        childData = ej.DataManager("https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
 
         $(function () {
 
@@ -449,7 +449,7 @@ module TreeViewComponent {
     $(function () {
     // DataManager creation
     var dataManger = ej.DataManager({
-        url: "http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
+        url: "https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
     });
     // Query creation
     var query = ej.Query().from("Categories").select("CategoryID,CategoryName").take(3);

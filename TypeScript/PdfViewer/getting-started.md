@@ -75,7 +75,7 @@ Initialize the PDF viewer in app.ts file by using the `ej.PdfViewer` method.
 module PdfViewerComponent {
     $(function () {
         var viewer = new ej.PdfViewer($("#pdfviewer1"), {
-            serviceUrl: "http://js.syncfusion.com/ejservices/api/PdfViewer",
+            serviceUrl: "https://ej2.syncfusion.com/home/javascript.html#platform",
             isResponsive: true
         });
     });
