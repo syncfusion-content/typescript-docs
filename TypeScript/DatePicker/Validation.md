@@ -18,7 +18,7 @@ Refer the below jQuery validation plugin script after jQuery script reference.
 
 {% highlight html %}
 
-     <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 
 {% endhighlight %}
 
