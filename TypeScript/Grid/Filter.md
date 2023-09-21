@@ -41,7 +41,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -79,7 +79,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -133,7 +133,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSorting: true,
@@ -174,7 +174,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowSorting: true,
@@ -217,7 +217,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -388,7 +388,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging : true,
             allowFiltering : true,
@@ -430,7 +430,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
             allowFiltering: true,
@@ -607,7 +607,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: new ej.DataManager(window["gridData"]),
             allowPaging: true,
             allowFiltering: true,

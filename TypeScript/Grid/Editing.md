@@ -37,7 +37,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -132,7 +132,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -177,7 +177,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: { showToolbar: true, toolbarItems: ["add", "edit", "delete", "update", "cancel"] },
             editSettings: { allowEditing: true, allowAdding: true, allowDeleting: true },
@@ -236,7 +236,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -283,7 +283,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -374,7 +374,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -433,7 +433,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -521,7 +521,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -578,7 +578,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -633,7 +633,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -721,7 +721,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -783,7 +783,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -832,7 +832,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -880,7 +880,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -998,7 +998,7 @@ equalTo</td><td>
 Requires the element to be the same as another.</td></tr>
 </table>
 
-Grid supports all the standard validation methods of jQuery, please refer to the jQuery validation documentation [link](http://jqueryvalidation.org/documentation/# "link") for more information.
+Grid supports all the standard validation methods of jQuery, please refer to the jQuery validation documentation [link](https://jqueryvalidation.org/documentation/ "link") for more information.
 
 The following code example describes the above behavior.
 
@@ -1013,7 +1013,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -1073,7 +1073,7 @@ module GridComponent {
             return false;
         }, "Customer ID must be 5 characters");
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             toolbarSettings: {
                 showToolbar: true,
@@ -1107,7 +1107,7 @@ The following output is displayed as a result of the above code example.
 
 Edited data can be persisted in database using RESTful web services. 
 
-All the CRUD operations in grid are done through DataManager. DataManager have an option to bind all the CRUD related data in server side. Please refer to the ['link'](https://help.syncfusion.com/js/datamanager/overview# "link") to know about the DataManager.
+All the CRUD operations in grid are done through DataManager. DataManager have an option to bind all the CRUD related data in server side. Please refer to the ['link'](https://help.syncfusion.com/js/datamanager/overview "link") to know about the DataManager.
 
 For you information ODataAdaptor persist data in server as per OData protocol.
 
@@ -1115,7 +1115,7 @@ In the below section, we have explained how to get the edited data details at th
 
 ### URL Adaptor
 
-You can use the `UrlAdaptor` of [`ejDataManger`](https://help.syncfusion.com/api/js/ejdatamanager# "ejDataManger") when binding datasource from remote data. At initial load of Grid, using URL property of DataManager, data are fetched from remote data and bound to Grid. You can map CRUD operation in Grid to Server-Side Controller action using the properties `insertUrl`, `removeUrl`, `updateUrl`, `crudUrl` and `batchUrl`.
+You can use the `UrlAdaptor` of [`ejDataManger`](https://help.syncfusion.com/api/js/ejdatamanager "ejDataManger") when binding datasource from remote data. At initial load of Grid, using URL property of DataManager, data are fetched from remote data and bound to Grid. You can map CRUD operation in Grid to Server-Side Controller action using the properties `insertUrl`, `removeUrl`, `updateUrl`, `crudUrl` and `batchUrl`.
 
 The following code example describes the above behavior.
 
@@ -1527,7 +1527,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,
@@ -1576,7 +1576,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,
@@ -1628,7 +1628,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window.gridData" is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
                 dataSource: window["gridData"],
                 toolbarSettings: {
                     showToolbar: true,

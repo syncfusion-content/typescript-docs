@@ -34,7 +34,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            //The datasource "window['gridData'] is referred from 'https://ej2.syncfusion.com/home/javascript.html#platform'
+            //The datasource "window['gridData'] is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'
             dataSource: window["gridData"],
             allowPaging: true,
 			columns: ["OrderID", "EmployeeID", "ShipCity", "ShipCountry", "Freight"]   
@@ -55,11 +55,11 @@ N> 2. Refer this [Knowledge Base link](https://support.syncfusion.com/kb/article
 
 ## Remote Data
 
-To bind remote data to Grid Control, you can assign a service data as an instance of [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") to the [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") property.
+To bind remote data to Grid Control, you can assign a service data as an instance of [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager "DataManager") to the [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "dataSource") property.
 
 ### OData
 
-OData is a standardized protocol for creating and consuming data. You can provide the [OData service](https://www.odata.org) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager# "DataManager") class and then you can assign it to Grid [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
+OData is a standardized protocol for creating and consuming data. You can provide the [OData service](https://www.odata.org) URL directly to the [`ej.DataManager`](https://help.syncfusion.com/api/js/ejdatamanager "DataManager") class and then you can assign it to Grid [`dataSource`](https://help.syncfusion.com/api/js/ejgrid#members:datasource "datasource").
 
 The following code example describes the above behavior.
 
