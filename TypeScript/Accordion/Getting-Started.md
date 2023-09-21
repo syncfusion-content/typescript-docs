@@ -29,9 +29,9 @@ Create an **HTML** page and add the scripts references in the order mentioned 
      <!DOCTYPE html>
      <html>
      <head>
-        <link href="https://cdn.syncfusion.com{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
+        <link href="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/bootstrap-theme/ej.web.all.min.css" rel="stylesheet" />
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-        <script src="https://cdn.syncfusion.com{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
+        <script src="http://cdn.syncfusion.com/{{ site.releaseversion }}/js/web/ej.web.all.min.js" type="text/javascript"></script>
         <script src="app.js"></script> 
      </head>
      <body>

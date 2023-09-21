@@ -326,9 +326,9 @@ You can provide the OData service URL directly to the [ej.DataManager](https://h
  
 
 module TreeViewComponent {
-        var parentData = ej.DataManager("https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
+        var parentData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Categories"),
 
-        childData = ej.DataManager("https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
+        childData = ej.DataManager("http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/Products");
 
         $(function () {
 
@@ -449,7 +449,7 @@ module TreeViewComponent {
     $(function () {
     // DataManager creation
     var dataManger = ej.DataManager({
-        url: "https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
+        url: "http://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/"
     });
     // Query creation
     var query = ej.Query().from("Categories").select("CategoryID,CategoryName").take(3);
