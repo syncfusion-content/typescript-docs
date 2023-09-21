@@ -11,7 +11,7 @@ documentation: ug
 
 ## Title
 
-By using the title option, you can add the [`text`](../api/ejchart.html#members:title-text) as well as customize its [`border`](../api/ejchart.html#members:title-border),  [`background`](../api/ejchart.html#members:title-background) color and [`font`](../api/ejchart.html#members:title-font).
+By using the title option, you can add the [`text`](../api/js/ejchart#members:title-text) as well as customize its [`border`](../api/js/ejchart#members:title-border),  [`background`](../api/js/ejchart#members:title-background) color and [`font`](../api/js/ejchart#members:title-font).
 
 {% highlight javascript %}
 /// <reference path="tsfiles/jquery.d.ts" />
@@ -85,7 +85,7 @@ We can trim, wrap and wrapAndTrim to the chart title using textOverflow property
 
 ### Title Alignment
 
-You can change the title alignment to *center*, *far* and *near* by using the [`textAlignment`](../api/ejchart.html#members:title-textalignment) property of the chart title. 
+You can change the title alignment to *center*, *far* and *near* by using the [`textAlignment`](../api/js/ejchart#members:title-textalignment) property of the chart title. 
 
 {% highlight javascript %}
 
@@ -111,7 +111,7 @@ You can change the title alignment to *center*, *far* and *near* by using the [`
 
 ## Add Subtitle to the chart
 
-By using the subTitle option, you can add the [`subTitle`](../api/ejchart.html#members:title-subtitle) to the chart title and customize its [`border`](../api/ejchart.html#members:title-subtitle-border),  [`background`](../api/ejchart.html#members:title-subtitle-background) color and [`font`](../api/ejchart.html#members:title-subtitle-font). 
+By using the subTitle option, you can add the [`subTitle`](../api/js/ejchart#members:title-subtitle) to the chart title and customize its [`border`](../api/js/ejchart#members:title-subtitle-border),  [`background`](../api/js/ejchart#members:title-subtitle-background) color and [`font`](../api/js/ejchart#members:title-subtitle-font). 
 
 {% highlight javascript %}
 
@@ -184,7 +184,7 @@ We can trim, wrap and wrapAndTrim to the chart subtitle using textOverflow prope
 
 ### Subtitle Alignment
 
-You can change the subtitle alignment to *center*, *far* and *near* by using the [`textAlignment`](../api/ejchart.html#members:title-subtitle-textalignment) property of the subTitle.
+You can change the subtitle alignment to *center*, *far* and *near* by using the [`textAlignment`](../api/js/ejchart#members:title-subtitle-textalignment) property of the subTitle.
 
 {% highlight javascript %}
 
