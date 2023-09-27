@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Easy-customization | TypeScript Checkbox | Syncfusion
+title: Easy-customization in TypeScript Checkbox | Syncfusion
 description: Learn here about easy customization in Syncfusion Essential TypeScript Checkbox Control, its elements, and more.
 platform: TypeScript
 control: Checkbox
