@@ -1,5 +1,5 @@
 ---
-title: Accessing shared folder in Typescript FileExplorer | Syncfusion
+title: Access shared folder in Typescript FileExplorer Control | Syncfusion
 description: Learn here about accessing shared folder option in Syncfusion Essential Typescript FileExplorer Control, its elements, and more.
 platform: Typescript
 control: FileExplorer
