@@ -120,7 +120,7 @@ module TreeViewComponent {
 
 {% endhighlight %}
 
-N>  Existing TreeView instance can be created by [jQuery.data()](https://api.jquery.com/jQuery.data/) and you can control the API’s of TreeView behavior.
+N>  Existing TreeView instance can be created by [jQuery.data()](https://api.jquery.com/jQuery.data/#) and you can control the API’s of TreeView behavior.
 
 To edit the node text, you can use [updateText](https://help.syncfusion.com/api/js/ejtreeview#methods:updatetext) method as shown below code example. 
 

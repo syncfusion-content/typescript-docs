@@ -304,7 +304,7 @@ When using remote data binding, the adaptor of [ej.DataManager](https://help.syn
 
 ### OData
 
-**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](https://www.odata.org) data to TreeView in two ways using DataManager.
+**OData** is a standardized protocol for creating and consuming data. You can bind [oData service](https://www.odata.org/) data to TreeView in two ways using DataManager.
 
 * Passing OData service link to DataManager
 
