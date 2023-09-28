@@ -311,7 +311,7 @@ The following code example describes the above behavior.
 module GridComponent {
     $(function () {
         var gridInstance = new ej.Grid($("#Grid"), {
-            // the datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js.js'            
+            // the datasource "window.gridData" is referred from 'http://js.syncfusion.com/demos/web/scripts/jsondata.min.js'            
             dataSource: new ej.DataManager(window["gridData"]),
             allowPaging: true,
             allowRowDragAndDrop: true,

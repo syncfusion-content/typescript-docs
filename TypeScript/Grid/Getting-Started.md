@@ -29,7 +29,7 @@ Add the scripts and CSS references to the “index.html” page as the order men
 
 The Grid control has the following list of external JavaScript dependencies.
 
-* [jQuery](https://jquery.com) 1.7.1 and later versions
+* [jQuery](https://jquery.com/) 1.7.1 and later versions
 
 * [jsRender](https://github.com/borismoore/jsrender) - to render the templates.
 
