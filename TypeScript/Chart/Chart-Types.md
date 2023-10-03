@@ -56,7 +56,7 @@ To change the width of the line segment, you can use the [`width`](../api/ejchar
 
 ### Dashed lines
 
-To render the line series with dotted lines, you can use the [`dashArray`](../api/ejchart.html#members:series-dasharray) option of the series.
+To render the line series with dotted lines, you can use the [`dashArray`](../api/js/ejchart#members:series-dasharray) option of the series.
 
 {% highlight javascript %}
 
@@ -78,7 +78,7 @@ To render the line series with dotted lines, you can use the [`dashArray`](../ap
 
 ### Changing the line cap
 
-For customizing the start and end caps of the line segment, you can use the [`lineCap`](../api/ejchart.html#members:series-linecap) property.  
+For customizing the start and end caps of the line segment, you can use the [`lineCap`](../api/js/ejchart#members:series-linecap) property.  
 
 {% highlight javascript %}
 
@@ -101,7 +101,7 @@ For customizing the start and end caps of the line segment, you can use the [`li
 
 ### Changing the line join
 
-You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) property to specify how two intersecting line segments should be joined.
+You can use the [`lineJoin`](../api/js/ejchart#members:series-linejoin) property to specify how two intersecting line segments should be joined.
 
 {% highlight javascript %}
 
@@ -124,7 +124,7 @@ You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) proper
 
 ### MultiColor Line
 
-You can change the color of the line segments by using the [`fill`](../api/ejchart.html#members:series-points-fill) property of the each [`points`](../api/ejchart.html#members:series-points) in the series.
+You can change the color of the line segments by using the [`fill`](../api/js/ejchart#members:series-points-fill) property of the each [`points`](../api/js/ejchart#members:series-points) in the series.
 
 {% highlight javascript %}
 
@@ -151,7 +151,7 @@ You can change the color of the line segments by using the [`fill`](../api/ejcha
  
 ## Step Line Chart
 
-To render a Step Line Chart, set the series [`type`](../api/ejchart.html#members:series-type) as **"stepline"** in the chart series. To change the StepLine segment color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Step Line Chart, set the series [`type`](../api/js/ejchart#members:series-type) as **"stepline"** in the chart series. To change the StepLine segment color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -195,7 +195,7 @@ To change the line width, you can use the **width** property.
 
 ### Dashed lines
 
-To render the step line series with dotted lines, you can use the [`dashArray`](../api/ejchart.html#members:series-dasharray) option of the series.
+To render the step line series with dotted lines, you can use the [`dashArray`](../api/js/ejchart#members:series-dasharray) option of the series.
 
 {% highlight javascript %}
 
@@ -216,7 +216,7 @@ To render the step line series with dotted lines, you can use the [`dashArray`](
 
 ### Changing the line cap
 
-For customizing the start and end caps of the line segment, you can use the [`lineCap`](../api/ejchart.html#members:series-linecap) property.  
+For customizing the start and end caps of the line segment, you can use the [`lineCap`](../api/js/ejchart#members:series-linecap) property.  
 
 {% highlight javascript %}
 
@@ -239,7 +239,7 @@ For customizing the start and end caps of the line segment, you can use the [`li
 
 ### Changing the line join
 
-You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) property to specify how two intersecting line segments should be joined.
+You can use the [`lineJoin`](../api/js/ejchart#members:series-linejoin) property to specify how two intersecting line segments should be joined.
 
 {% highlight javascript %}
 
@@ -263,7 +263,7 @@ You can use the [`lineJoin`](../api/ejchart.html#members:series-linejoin) proper
 
 ## Area Chart
 
-To render an Area chart, you can specify the series [`type`](../api/ejchart.html#members:series-type) as **"area"** in the chart series. To change the Area color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render an Area chart, you can specify the series [`type`](../api/js/ejchart#members:series-type) as **"area"** in the chart series. To change the Area color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -288,13 +288,13 @@ To render an Area chart, you can specify the series [`type`](../api/ejchart.html
 
 ## Range Area Chart
 
-To render a Range Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"rangeArea"** in the chart series. To change the RangeArea color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Range Area Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"rangeArea"** in the chart series. To change the RangeArea color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
 
-Since the RangeArea series requires two y values for a point, you have to add the [`high`](../api/ejchart.html#members:series-high) and [`low`](../api/ejchart.html#members:series-low) value. High and Low value specifies the maximum and minimum range of the points.
+Since the RangeArea series requires two y values for a point, you have to add the [`high`](../api/js/ejchart#members:series-high) and [`low`](../api/js/ejchart#members:series-low) value. High and Low value specifies the maximum and minimum range of the points.
 
-* When you are using the [`points`](../api/ejchart.html#members:series-points) option, specify the high and low values by using the [`high`](../api/ejchart.html#members:series-points-high) and [`low`](../api/ejchart.html#members:series-points-low) option of the point.
+* When you are using the [`points`](../api/js/ejchart#members:series-points) option, specify the high and low values by using the [`high`](../api/js/ejchart#members:series-points-high) and [`low`](../api/ejchart.html#members:series-points-low) option of the point.
 
-* When you are using the [`dataSource`](../api/ejchart.html#members:series-datasource) option to assign the data, map the fields from the dataSource that contain high and low values by using the [`series.high`](../api/ejchart.html#members:series-high) and [`series.low`](../api/ejchart.html#members:series-low) options. 
+* When you are using the [`dataSource`](../api/js/ejchart#members:series-datasource) option to assign the data, map the fields from the dataSource that contain high and low values by using the [`series.high`](../api/js/ejchart#members:series-high) and [`series.low`](../api/js/ejchart#members:series-low) options. 
 
 {% highlight javascript %}
 
@@ -323,7 +323,7 @@ Since the RangeArea series requires two y values for a point, you have to add th
 
 ## Step Area Chart
 
-To render a Step Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stepArea"** in the chart series. To change the StepArea color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Step Area Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stepArea"** in the chart series. To change the StepArea color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -347,7 +347,7 @@ To render a Step Area Chart, set the [`type`](../api/ejchart.html#members:series
 
 ## Spline Area Chart
 
-To render a Spline Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"splineArea"** in the chart series. To change the SplineArea color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Spline Area Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"splineArea"** in the chart series. To change the SplineArea color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -372,7 +372,7 @@ To render a Spline Area Chart, set the [`type`](../api/ejchart.html#members:seri
 
 ## Stacked Area Chart
 
-To render a Stacked Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingArea"** in the chart series. To change the StackingArea color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Stacked Area Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingArea"** in the chart series. To change the StackingArea color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -399,7 +399,7 @@ To render a Stacked Area Chart, set the [`type`](../api/ejchart.html#members:ser
 
 ## 100% Stacked Area Chart  
 
-To render a 100% Stacked Area Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingArea100"** in the chart series. To change the StackingArea100 color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.   
+To render a 100% Stacked Area Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingArea100"** in the chart series. To change the StackingArea100 color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.   
 
 {% highlight javascript %}
 
@@ -423,7 +423,7 @@ To render a 100% Stacked Area Chart, set the [`type`](../api/ejchart.html#member
 
 ## Column Chart
 
-To render a Column Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"column"** in the chart series. To change the color of the column series, you can use the [`fill`](../api/ejchart.html#members:series-fill) property.  
+To render a Column Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"column"** in the chart series. To change the color of the column series, you can use the [`fill`](../api/js/ejchart#members:series-fill) property.  
 
 {% highlight javascript %}
 
@@ -449,7 +449,7 @@ To render a Column Chart, set the [`type`](../api/ejchart.html#members:series-ty
 
 ### Change a point color
 
-You can change the color of a column by using the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point.
+You can change the color of a column by using the [`fill`](../api/js/ejchart#members:series-fill) property of the point.
 
 {% highlight javascript %}
 
@@ -475,9 +475,9 @@ You can change the color of a column by using the [`fill`](../api/ejchart.html#m
 
 ### Column width customization
 
-Width of the column type series can be customized by using the [`columnWidth`](../api/ejchart#members:series-columnwidth) property. Default value of [`columnWidth`](../api/ejchart#members:series-columnwidth) is 0.7. Value ranges from 0 to 1. Here 1 corresponds to 100% of available width and 0 corresponds to 0% of available width.
+Width of the column type series can be customized by using the [`columnWidth`](../api/js/ejchart#members:series-columnwidth) property. Default value of [`columnWidth`](../api/js/ejchart#members:series-columnwidth) is 0.7. Value ranges from 0 to 1. Here 1 corresponds to 100% of available width and 0 corresponds to 0% of available width.
 
-N> Width of a column also depends upon the [`columnSpacing`](../api/ejchart#members:series-columnspacing) property, because [`columnSpacing`](../api/ejchart#members:series-columnSpacing) will reduce the space available for drawing a column. This is also applicable for StackingColumn, StackingColumn100, Bar, StackingBar, StackingBar100, RangeColumn, HiLo, HiLoOpenClose, Candle and Waterfall charts.
+N> Width of a column also depends upon the [`columnSpacing`](../api/js/ejchart#members:series-columnspacing) property, because [`columnSpacing`](../api/js/ejchart#members:series-columnspacing) will reduce the space available for drawing a column. This is also applicable for StackingColumn, StackingColumn100, Bar, StackingBar, StackingBar100, RangeColumn, HiLo, HiLoOpenClose, Candle and Waterfall charts.
 
 {% highlight javascript %}
 
@@ -534,7 +534,7 @@ Corners of the column chart can be customized by setting value to the [`cornerRa
 
 ### Spacing between column series
 
-Spacing between column type series can be customized using the [`columnSpacing`](../api/ejchart#members:series-columnspacing) property. Default value of [`columnSpacing`](../api/ejchart#members:series-columnspacing) is 0. Value ranges from 0 to 1. Here 1 corresponds to 100% available space and 0 corresponds to 0% available space.
+Spacing between column type series can be customized using the [`columnSpacing`](../api/js/ejchart#members:series-columnspacing) property. Default value of [`columnSpacing`](../api/js/ejchart#members:series-columnspacing) is 0. Value ranges from 0 to 1. Here 1 corresponds to 100% available space and 0 corresponds to 0% available space.
 
 N> Column spacing will also affect the width of the column. For example, setting 20% spacing and 100% width will render columns with 80% of total width. This is also applicable for StackingColumn, StackingColumn100, Bar, StackingBar, StackingBar100, RangeColumn, HiLo, HiLoOpenClose, Candle and Waterfall charts.
 
@@ -571,7 +571,7 @@ N> Column spacing will also affect the width of the column. For example, setting
 
 ### Cylindrical Chart
 
-To render a cylindrical chart, set the [`columnFacet`](../api/ejchart.html#members:series-columnfacet) property as "cylinder" in the chart series along with the series type. 
+To render a cylindrical chart, set the [`columnFacet`](../api/js/ejchart#members:series-columnfacet) property as "cylinder" in the chart series along with the series type. 
 
 The following chart types can be rendered as cylinder in both 2D and in 3D view.
 
@@ -597,13 +597,13 @@ The following chart types can be rendered as cylinder in both 2D and in 3D view.
 
 ## RangeColumn Chart
 
-To render a Range Column Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"rangeColumn"** in the chart series. To change the RangeColumn color, use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Range Column Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"rangeColumn"** in the chart series. To change the RangeColumn color, use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
-Since, the RangeColumn series requires two y values for a point, add the [`high`](../api/ejchart.html#members:series-high) and [`low`](../api/ejchart.html#members:series-low) value. High and Low value specifies the maximum and minimum range of the points.
+Since, the RangeColumn series requires two y values for a point, add the [`high`](../api/js/ejchart#members:series-high) and [`low`](../api/js/ejchart#members:series-low) value. High and Low value specifies the maximum and minimum range of the points.
 
-* When you are using the [`points`](../api/ejchart.html#members:series-points) option, specify the high and low values by using the [`high`](../api/ejchart.html#members:series-points-high) and [`low`](../api/ejchart.html#members:series-points-low) option of the point.
+* When you are using the [`points`](../api/js/ejchart#members:series-points) option, specify the high and low values by using the [`high`](../api/js/ejchart#members:series-points-high) and [`low`](../api/ejchart.html#members:series-points-low) option of the point.
 
-* When you are using the [`dataSource`](../api/ejchart.html#members:series-datasource) option to assign the data, you have to map the fields from the dataSource that contains high and low values by using the [`series.high`](../api/ejchart.html#members:series-high) and [`series.low`](../api/ejchart.html#members:series-low) options.  
+* When you are using the [`dataSource`](../api/js/ejchart#members:series-datasource) option to assign the data, you have to map the fields from the dataSource that contains high and low values by using the [`series.high`](../api/js/ejchart#members:series-high) and [`series.low`](../api/js/ejchart#members:series-low) options.  
 
 {% highlight javascript %}
 
@@ -634,7 +634,7 @@ Since, the RangeColumn series requires two y values for a point, add the [`high`
 
 ### Change a point color 
 
-To change the color of a range column, you can use the [`fill`](../api/ejchart.html#members:series-points-fill) property of point. 
+To change the color of a range column, you can use the [`fill`](../api/js/ejchart#members:series-points-fill) property of point. 
 
 {% highlight javascript %}
 
@@ -660,7 +660,7 @@ To change the color of a range column, you can use the [`fill`](../api/ejchart.h
 
 ## Stacked Column Chart
 
-To render a Stacked Column Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingColumn"** in the chart series. To change the StackingColumn color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Stacked Column Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingColumn"** in the chart series. To change the StackingColumn color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -687,7 +687,7 @@ To render a Stacked Column Chart, set the [`type`](../api/ejchart.html#members:s
 
 ### Cluster / Group stacked columns
 
-You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup) property to group the stacked columns. Columns with same group name are stacked on top of each other.
+You can use the [`stackingGroup`](../api/js/ejchart#members:series-stackinggroup) property to group the stacked columns. Columns with same group name are stacked on top of each other.
 
 {% highlight javascript %}
 
@@ -718,7 +718,7 @@ You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggro
 
 ### Change a point color
 
-To change the color of a stacking column, you can use the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point. 
+To change the color of a stacking column, you can use the [`fill`](../api/js/ejchart#members:series-points-fill) property of the point. 
 
 {% highlight javascript %}
 
@@ -743,7 +743,7 @@ To change the color of a stacking column, you can use the [`fill`](../api/ejchar
 
 ## 100% Stacked Column Chart    
 
-To render a 100% Stacked Column Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingColumn100"** in the chart series. To change the StackingColumn100 color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a 100% Stacked Column Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingColumn100"** in the chart series. To change the StackingColumn100 color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -768,7 +768,7 @@ To render a 100% Stacked Column Chart, set the [`type`](../api/ejchart.html#memb
 
 ### Cluster / Group 100% stacked columns
 
-By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup) property, you can group the 100% stacking columns. Columns with same group name are stacked on top of each other. 
+By using the [`stackingGroup`](../api/js/ejchart#members:series-stackinggroup) property, you can group the 100% stacking columns. Columns with same group name are stacked on top of each other. 
 
 {% highlight javascript %}
 
@@ -799,7 +799,7 @@ By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup)
 
 ### Change a point color
 
-To change the color of a 100% stacking column, you can use the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point. 
+To change the color of a 100% stacking column, you can use the [`fill`](../api/js/ejchart#members:series-points-fill) property of the point. 
 
 {% highlight javascript %}
 
@@ -825,7 +825,7 @@ To change the color of a 100% stacking column, you can use the [`fill`](../api/e
 
 ## Bar Chart
 
-To render a bar Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"bar"** in the chart series. To change the bar color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a bar Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"bar"** in the chart series. To change the bar color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -850,7 +850,7 @@ To render a bar Chart, set the [`type`](../api/ejchart.html#members:series-type)
 
 ### Change the color of a bar
 
-By using the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point, you can change the specific point of the series. 
+By using the [`fill`](../api/js/ejchart#members:series-points-fill) property of the point, you can change the specific point of the series. 
 
 {% highlight javascript %}
 
@@ -876,7 +876,7 @@ By using the [`fill`](../api/ejchart.html#members:series-points-fill) property o
 
 ## Stacked Bar Chart
 
-To render a Stacked Bar Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingBar"** in the chart series. To change the StackingBar color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Stacked Bar Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingBar"** in the chart series. To change the StackingBar color, you can use the [`fill`](../api/js/ejchart#members:series-points-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -901,7 +901,7 @@ To render a Stacked Bar Chart, set the [`type`](../api/ejchart.html#members:seri
 
 ### Cluster / Group stacked bars
 
-You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup) property to group the stacking bars with the same group name. 
+You can use the [`stackingGroup`](../api/js/ejchart#members:series-stackinggroup) property to group the stacking bars with the same group name. 
 
 {% highlight javascript %}
 
@@ -932,7 +932,7 @@ You can use the [`stackingGroup`](../api/ejchart.html#members:series-stackinggro
 
 ### Change a point color
 
-You can change the color of a stacking bar by using the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point.
+You can change the color of a stacking bar by using the [`fill`](../api/js/ejchart#members:series-points-fill) property of the point.
 
 {% highlight javascript %}
 
@@ -957,7 +957,7 @@ You can change the color of a stacking bar by using the [`fill`](../api/ejchart.
 
 ## 100% Stacked Bar Chart
 
-To render a 100% Stacked Bar Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"stackingBar100"** in the chart series. To change the StackingBar100 color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a 100% Stacked Bar Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"stackingBar100"** in the chart series. To change the StackingBar100 color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -979,7 +979,7 @@ To render a 100% Stacked Bar Chart, set the [`type`](../api/ejchart.html#members
 
 ![StackedBar100](Chart-Types_images/Chart-Types_img32.png)
 
-By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup) property, you can group the 100% stacking bars with the same group name. 
+By using the [`stackingGroup`](../api/js/ejchart#members:series-stackinggroup) property, you can group the 100% stacking bars with the same group name. 
 
 {% highlight javascript %}
 
@@ -1010,7 +1010,7 @@ By using the [`stackingGroup`](../api/ejchart.html#members:series-stackinggroup)
 
 ### Change a point color
 
-To change the color of a 100% stacking bar, you can use the [`fill`](../api/ejchart.html#members:series-points-fill) property of the point. 
+To change the color of a 100% stacking bar, you can use the [`fill`](../api/js/ejchart#members:series-points-fill) property of the point. 
 
 {% highlight javascript %}
 
@@ -1036,7 +1036,7 @@ To change the color of a 100% stacking bar, you can use the [`fill`](../api/ejch
 
 ## Spline Chart
 
-To render a Spline Chart, set the [`type`](../api/ejchart.html#members:series-type) as **"spline"** in the chart series. To change the Spline segment color, you can use the [`fill`](../api/ejchart.html#members:series-fill) property of the series.
+To render a Spline Chart, set the [`type`](../api/js/ejchart#members:series-type) as **"spline"** in the chart series. To change the Spline segment color, you can use the [`fill`](../api/js/ejchart#members:series-fill) property of the series.
 
 {% highlight javascript %}
 
@@ -1086,7 +1086,7 @@ To change the spline segment width, you can use the [`width`](../api/ejchart.htm
 
 ### Dashed lines
 
-To render the spline series with dotted lines, you can use the [`dashArray`](../api/ejchart.html#members:series-dasharray) option of the series.
+To render the spline series with dotted lines, you can use the [`dashArray`](../api/js/ejchart#members:series-dasharray) option of the series.
 
 {% highlight javascript %}
 
@@ -1111,7 +1111,7 @@ To render the spline series with dotted lines, you can use the [`dashArray`](../
 
 ## Pie Chart
 
-You can create a pie chart by setting the series [`type`](../api/ejchart.html#members:series-type) as **"pie"** in the chart series.
+You can create a pie chart by setting the series [`type`](../api/js/ejchart#members:series-type) as **"pie"** in the chart series.
 
 
 {% highlight javascript %}
@@ -1137,7 +1137,7 @@ You can create a pie chart by setting the series [`type`](../api/ejchart.html#me
 
 ### Change the pie size
 
-You can use the [`pieCoefficient`](../api/ejchart.html#members:series-piecoefficient) property to change the diameter of the Pie chart with respect to the plot area. It ranges from 0 to 1 and the default value is **0.8**.
+You can use the [`pieCoefficient`](../api/js/ejchart#members:series-piecoefficient) property to change the diameter of the Pie chart with respect to the plot area. It ranges from 0 to 1 and the default value is **0.8**.
 
 {% highlight javascript %}
 
@@ -1162,7 +1162,7 @@ You can use the [`pieCoefficient`](../api/ejchart.html#members:series-piecoeffic
 
 ### Explode a pie segment
 
-You can explode a pie segment on the chart load by using the [`explodeIndex`](../api/ejchart.html#members:series-explodeIndex) of the series.
+You can explode a pie segment on the chart load by using the [`explodeIndex`](../api/js/ejchart#members:series-explodeindex) of the series.
 
 {% highlight javascript %}
 
@@ -1187,7 +1187,7 @@ You can explode a pie segment on the chart load by using the [`explodeIndex`](..
 
 ### Explode all the segments
 
-To explode all the segments of the Pie chart, you can enable the [`explodeAll`](../api/ejchart.html#members:series-explodeall) property.
+To explode all the segments of the Pie chart, you can enable the [`explodeAll`](../api/js/ejchart#members:series-explodeall) property.
 
 {% highlight javascript %}
 
@@ -1212,7 +1212,7 @@ To explode all the segments of the Pie chart, you can enable the [`explodeAll`](
 
 ### Explode a pie segment on mouse over
 
-To explode a pie segment on a mouse over, you can enable the [`explode`](../api/ejchart.html#members:series-explode) property of the series.
+To explode a pie segment on a mouse over, you can enable the [`explode`](../api/js/ejchart#members:series-explode) property of the series.
 
 {% highlight javascript %}
 
@@ -1237,7 +1237,7 @@ To explode a pie segment on a mouse over, you can enable the [`explode`](../api/
 
 ### Sector of Pie
 
-EjChart allows you to render all the data points/segments in the semi-pie, quarter-pie or in any sector by using the [`startAngle`](../api/ejchart.html#members:series-startangle) and [`endAngle`](../api/ejchart.html#members:series-endangle) options.
+EjChart allows you to render all the data points/segments in the semi-pie, quarter-pie or in any sector by using the [`startAngle`](../api/js/ejchart#members:series-startangle) and [`endAngle`](../api/js/ejchart#members:series-endangle) options.
 
 {% highlight javascript %}
 
@@ -1262,7 +1262,7 @@ EjChart allows you to render all the data points/segments in the semi-pie, quart
 
 ## Doughnut Chart
 
-To create a Doughnut chart, you can specify the series [`type`](../api/ejchart.html#members:series-type) as **"doughnut"** in the chart series.
+To create a Doughnut chart, you can specify the series [`type`](../api/js/ejchart#members:series-type) as **"doughnut"** in the chart series.
 
 {% highlight javascript %}
 
@@ -1286,7 +1286,7 @@ To create a Doughnut chart, you can specify the series [`type`](../api/ejchart.h
 
 ### Change Doughnut inner radius
 
-You can change the doughnut chart inner radius by using the [`doughnutCoefficient`](../api/ejchart.html#members:series-doughnutcoefficient) with respect to the plot area. It ranges from 0 to 1 and the default value is **0.4**.
+You can change the doughnut chart inner radius by using the [`doughnutCoefficient`](../api/js/ejchart#members:series-doughnutcoefficient) with respect to the plot area. It ranges from 0 to 1 and the default value is **0.4**.
 
 {% highlight javascript %}
 
@@ -1311,7 +1311,7 @@ You can change the doughnut chart inner radius by using the [`doughnutCoefficien
 
 ### Change the doughnut size
 
-You can use the [`doughnutSize`](../api/ejchart.html#members:series-doughnutsize) property to change the diameter of the Doughnut chart with respect to the plot area. It ranges from 0 to 1 and the default value is **0.8**.
+You can use the [`doughnutSize`](../api/js/ejchart#members:series-doughnutsize) property to change the diameter of the Doughnut chart with respect to the plot area. It ranges from 0 to 1 and the default value is **0.8**.
 
 {% highlight javascript %}
 
@@ -1336,7 +1336,7 @@ You can use the [`doughnutSize`](../api/ejchart.html#members:series-doughnutsize
 
 ### Explode a doughnut segment
 
-To explode a specific doughnut segment, set the index to be exploded by using the [`explodeIndex`](../api/ejchart.html#members:series-explodeIndex) option of the series.
+To explode a specific doughnut segment, set the index to be exploded by using the [`explodeIndex`](../api/js/ejchart#members:series-explodeindex) option of the series.
 
 {% highlight javascript %}
 
@@ -1361,7 +1361,7 @@ To explode a specific doughnut segment, set the index to be exploded by using th
 
 ### Explode all the segments
 
-To explode all the segments, you can enable the [`explodeAll`](../api/ejchart.html#members:series-explodeall) property of the series.
+To explode all the segments, you can enable the [`explodeAll`](../api/js/ejchart#members:series-explodeall) property of the series.
 
 {% highlight javascript %}
 
@@ -1386,7 +1386,7 @@ To explode all the segments, you can enable the [`explodeAll`](../api/ejchart.ht
 
 ### Explode a doughnut segment on mouse over
 
-To explode a doughnut segment on a mouse over, you can enable the [`explode`](../api/ejchart.html#members:series-explode) property of the series.
+To explode a doughnut segment on a mouse over, you can enable the [`explode`](../api/js/ejchart#members:series-explode) property of the series.
 
 {% highlight javascript %}
 
@@ -1411,7 +1411,7 @@ To explode a doughnut segment on a mouse over, you can enable the [`explode`](..
 
 ### Sector of Doughnut
 
-EjChart allows you to render all the data points/segments in the semi-doughnut, quarter- doughnut or in any sector by using the [`startAngle`](../api/ejchart.html#members:series-startangle) and [`endAngle`](../api/ejchart.html#members:series-endangle) options.
+EjChart allows you to render all the data points/segments in the semi-doughnut, quarter- doughnut or in any sector by using the [`startAngle`](../api/js/ejchart#members:series-startangle) and [`endAngle`](../api/js/ejchart#members:series-endangle) options.
 
 {% highlight javascript %}
 
@@ -1481,7 +1481,7 @@ In the Multiple Pie chart, the start and end angle property is also supported.
 
 ## Pyramid Chart
 
-To create a Pyramid chart, you can specify the series [`type`](../api/ejchart.html#members:series-type) as **"pyramid"** in the chart series.  
+To create a Pyramid chart, you can specify the series [`type`](../api/js/ejchart#members:series-type) as **"pyramid"** in the chart series.  
 
 {% highlight javascript %}
 
@@ -1530,7 +1530,7 @@ Pyramid mode has two types, *linear* and *surface* respectively. The default **"
 
 ### Gap between the segments
 
-You can control the gap between the segments by using the [`gapRatio`](../api/ejchart.html#members:series-gapratio) option of the series. Its ranges from 0 to 1.
+You can control the gap between the segments by using the [`gapRatio`](../api/js/ejchart#members:series-gapratio) option of the series. Its ranges from 0 to 1.
 
 {% highlight javascript %}
 
@@ -1555,7 +1555,7 @@ You can control the gap between the segments by using the [`gapRatio`](../api/ej
 
 ### Explode a pyramid segment
 
-You can explode a pyramid segment on the chart load by using the [`explodeIndex`](../api/ejchart.html#members:series-explodeIndex) of the series.
+You can explode a pyramid segment on the chart load by using the [`explodeIndex`](../api/js/ejchart#members:series-explodeindex) of the series.
 
 {% highlight javascript %}
 
@@ -1580,7 +1580,7 @@ You can explode a pyramid segment on the chart load by using the [`explodeIndex`
 
 ## Funnel Chart
 
-You can create a funnel chart by setting the series [`type`](../api/ejchart.html#members:series-type) as **"funnel"** in the chart series.  
+You can create a funnel chart by setting the series [`type`](../api/js/ejchart#members:series-type) as **"funnel"** in the chart series.  
 
 {% highlight javascript %}
 
@@ -1605,7 +1605,7 @@ You can create a funnel chart by setting the series [`type`](../api/ejchart.html
 
 ### Change the funnel width and height
 
-Funnel segments height and width is calculated from the chart size, by default. You can change this height and width directly without changing the chart size by using the [`funnelHeight`](../api/ejchart.html#members:series-funnelheight) and [`funnelWidth`](../api/ejchart.html#members:series-funnelwidth) property of the series.
+Funnel segments height and width is calculated from the chart size, by default. You can change this height and width directly without changing the chart size by using the [`funnelHeight`](../api/js/ejchart#members:series-funnelheight) and [`funnelWidth`](../api/js/ejchart#members:series-funnelwidth) property of the series.
 
 {% highlight javascript %}
 
@@ -1631,7 +1631,7 @@ Funnel segments height and width is calculated from the chart size, by default. 
 
 ### Explode a funnel segment
 
-You can explode a funnel segment on the chart load by using the [`explodeIndex`](../api/ejchart.html#members:series-explodeIndex) of the series.
+You can explode a funnel segment on the chart load by using the [`explodeIndex`](../api/js/ejchart#members:series-explodeindex) of the series.
 
 {% highlight javascript %}
 
@@ -1656,7 +1656,7 @@ You can explode a funnel segment on the chart load by using the [`explodeIndex`]
 
 ## Bubble Chart
 
-To create a Bubble chart, you can set the series [`type`](../api/ejchart.html#members:series-type) as **"bubble"** in the chart series. Bubble chart requires 3 fields (*x, y and size*) to plot a point. Here, **size** is used to specify the size of each bubble segment. 
+To create a Bubble chart, you can set the series [`type`](../api/js/ejchart#members:series-type) as **"bubble"** in the chart series. Bubble chart requires 3 fields (*x, y and size*) to plot a point. Here, **size** is used to specify the size of each bubble segment. 
 
 {% highlight javascript %}
 
@@ -1691,7 +1691,7 @@ To create a Bubble chart, you can set the series [`type`](../api/ejchart.html#me
 
 ## Scatter
 
-To create a Scatter chart, you can set the series [`type`](../api/ejchart.html#members:series-type) as **"scatter"**’ in the chart series. 
+To create a Scatter chart, you can set the series [`type`](../api/js/ejchart#members:series-type) as **"scatter"**’ in the chart series. 
 
 {% highlight javascript %}
 
@@ -1714,7 +1714,7 @@ To create a Scatter chart, you can set the series [`type`](../api/ejchart.html#m
 
 ### Customize the scatter chart
 
-You can change the scatter size by using the [`size`](../api/ejchart.html#members:series-marker-size) property of the series marker. And you can change the scatter color by using the series [`fill`](../api/ejchart.html#members:series-fill) property. 
+You can change the scatter size by using the [`size`](../api/js/ejchart#members:series-marker-size) property of the series marker. And you can change the scatter color by using the series [`fill`](../api/js/ejchart#members:series-fill) property. 
 
 {% highlight javascript %}
 
@@ -1743,7 +1743,7 @@ You can change the scatter size by using the [`size`](../api/ejchart.html#member
 
 ## HiLoOpenClose Chart 
 
-To create a HiLoOpenClose chart, you can set the series [`type`](../api/ejchart.html#members:series-type) as **"hiloOpenClose"** in the chart series. HiLoOpenClose chart requires 5 fields ([`x`](../api/ejchart.html#members:series-points-x), [`high`](../api/ejchart.html#members:series-high), [`low`](../api/ejchart.html#members:series-low), [`open`](../api/ejchart.html#members:series-open) and [`close`](../api/ejchart.html#members:series-close)) to plot a segment.  
+To create a HiLoOpenClose chart, you can set the series [`type`](../api/js/ejchart#members:series-type) as **"hiloOpenClose"** in the chart series. HiLoOpenClose chart requires 5 fields ([`x`](../api/js/ejchart#members:series-points-x), [`high`](../api/js/ejchart#members:series-high), [`low`](../api/js/ejchart#members:series-low), [`open`](../api/js/ejchart#members:series-open) and [`close`](../api/js/ejchart#members:series-close)) to plot a segment.  
 
 
 {% highlight javascript %}
@@ -1780,7 +1780,7 @@ To create a HiLoOpenClose chart, you can set the series [`type`](../api/ejchart.
 
 ### DrawMode
 
-You can change the HiLoOpenClose chart [`drawMode`](../api/ejchart.html#members:series-drawmode) to [`open`](../api/ejchart.html#members:series-open), [`close`](../api/ejchart.html#members:series-close) or *both*. The default value of [`drawMode`](../api/ejchart.html#members:series-drawmode) is **"both"**. 
+You can change the HiLoOpenClose chart [`drawMode`](../api/ejchart.html#members:series-drawmode) to [`open`](../api/js/ejchart#members:series-open), [`close`](../api/js/ejchart#members:series-close) or *both*. The default value of [`drawMode`](../api/ejchart.html#members:series-drawmode) is **"both"**. 
 
 {% highlight javascript %}
 
@@ -1804,7 +1804,7 @@ You can change the HiLoOpenClose chart [`drawMode`](../api/ejchart.html#members:
 
 ### Bull and Bear Color	
 
-HiLoOpenClose chart [`bullFillColor`](../api/ejchart.html#members:series-bullfillcolor) is used to specify a fill color for the segments that indicates an increase in stock price in the measured time interval and [`bearFillColor`](../api/ejchart.html#members:series-bearfillcolor) is used to specify a fill color for the segments that indicates a decrease in the stock price in the measured time interval. 
+HiLoOpenClose chart [`bullFillColor`](../api/js/ejchart#members:series-bullfillcolor) is used to specify a fill color for the segments that indicates an increase in stock price in the measured time interval and [`bearFillColor`](../api/js/ejchart#members:series-bearfillcolor) is used to specify a fill color for the segments that indicates a decrease in the stock price in the measured time interval. 
 
 {% highlight javascript %}
 
@@ -1829,7 +1829,7 @@ HiLoOpenClose chart [`bullFillColor`](../api/ejchart.html#members:series-bullfil
 
 ## Candle
 
-You can create a Candle chart by specifying the series [`type`](../api/ejchart.html#members:series-type) as **"candle"** in the chart series. Candle chart requires 5 fields ([`x`](../api/ejchart.html#members:series-points-x), [`high`](../api/ejchart.html#members:series-high), [`low`](../api/ejchart.html#members:series-low), [`open`](../api/ejchart.html#members:series-open) and [`close`](../api/ejchart.html#members:series-close)) to plot a segment.
+You can create a Candle chart by specifying the series [`type`](../api/js/ejchart#members:series-type) as **"candle"** in the chart series. Candle chart requires 5 fields ([`x`](../api/js/ejchart#members:series-points-x), [`high`](../api/js/ejchart#members:series-high), [`low`](../api/js/ejchart#members:series-low), [`open`](../api/js/ejchart#members:series-open) and [`close`](../api/js/ejchart#members:series-close)) to plot a segment.
 
 {% highlight javascript %}
 
@@ -1866,7 +1866,7 @@ You can create a Candle chart by specifying the series [`type`](../api/ejchart.h
 
 ### Bull and Bear Color
 
-Candle chart [`bullFillColor`](../api/ejchart.html#members:series-bullfillcolor) is used to specify a fill color for the segments that indicates an increase in the stock price in the measured time interval and [`bearFillColor`](../api/ejchart.html#members:series-bearfillcolor) is used to specify a fill color for the segments that indicates a decrease in the stock price in the measured time interval.
+Candle chart [`bullFillColor`](../api/js/ejchart#members:series-bullfillcolor) is used to specify a fill color for the segments that indicates an increase in the stock price in the measured time interval and [`bearFillColor`](../api/js/ejchart#members:series-bearfillcolor) is used to specify a fill color for the segments that indicates a decrease in the stock price in the measured time interval.
 
 {% highlight javascript %}
 
@@ -1890,7 +1890,7 @@ Candle chart [`bullFillColor`](../api/ejchart.html#members:series-bullfillcolor)
 
 ## HiLo
 
-HiLo chart is created by setting the series [`type`](../api/ejchart.html#members:series-type) as **"hilo"** in the chart series. HiLo chart requires 3 fields ([`x`](../api/ejchart.html#members:series-points-x), [`high`](../api/ejchart.html#members:series-high) and [`low`](../api/ejchart.html#members:series-low)) to plot a segment.  
+HiLo chart is created by setting the series [`type`](../api/js/ejchart#members:series-type) as **"hilo"** in the chart series. HiLo chart requires 3 fields ([`x`](../api/js/ejchart#members:series-points-x), [`high`](../api/js/ejchart#members:series-high) and [`low`](../api/js/ejchart#members:series-low)) to plot a segment.  
 
 {% highlight javascript %}
 
@@ -1925,7 +1925,7 @@ HiLo chart is created by setting the series [`type`](../api/ejchart.html#members
 
 ## Polar
 
-Polar chart is created by setting the series [`type`](../api/ejchart.html#members:series-type) as **polar** in the chart series. 
+Polar chart is created by setting the series [`type`](../api/js/ejchart#members:series-type) as **polar** in the chart series. 
 
 {% highlight javascript %}
 
@@ -1971,7 +1971,7 @@ Polar **DrawType** property is used to change the series plotting type to *Line*
 
 ### Stack columns in Polar chart
 
-By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) property, you can specify whether the column has to be stacked when the [`drawType`](../api/ejchart.html#members:series-drawtype) is column. Its default value is **false**.
+By using the [`isStacking`](../api/js/ejchart#members:series-isstacking) property, you can specify whether the column has to be stacked when the [`drawType`](../api/js/ejchart#members:series-drawtype) is column. Its default value is **false**.
 
 {% highlight javascript %}
 
@@ -1994,7 +1994,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 
 ## Radar Chart  
 
-To create a Radar chart, you can specify the series [`type`](../api/ejchart.html#members:series-type) as **"radar"** in the chart series.
+To create a Radar chart, you can specify the series [`type`](../api/js/ejchart#members:series-type) as **"radar"** in the chart series.
 
 {% highlight javascript %}
 
@@ -2043,7 +2043,7 @@ Radar **DrawType** property is used to change the series plotting type to *Line*
 
 ### Stack columns in Radar chart
 
-By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) property, you can specify whether the column has to be stacked when the [`drawType`](../api/ejchart.html#members:series-drawtype) is set as *column*. Its default value is set to **false**.
+By using the [`isStacking`](../api/js/ejchart#members:series-isstacking) property, you can specify whether the column has to be stacked when the [`drawType`](../api/js/ejchart#members:series-drawtype) is set as *column*. Its default value is set to **false**.
 
 {% highlight javascript %}
 
@@ -2068,7 +2068,7 @@ By using the [`isStacking`](../api/ejchart.html#members:series-isstacking) prope
 
 ## Waterfall Chart 
 
-For rendering a Waterfall chart, set series [`type`](../api/ejchart.html#members:series-type) as **"waterfall"** in the chart series. To change the waterfall series segment color use [`fill`](../api/ejchart.html#members:series-fill) option of series and use [`positiveFill`](../api/ejchart.html#members:series-positiveFill) property to differentiate the positive segments.
+For rendering a Waterfall chart, set series [`type`](../api/js/ejchart#members:series-type) as **"waterfall"** in the chart series. To change the waterfall series segment color use [`fill`](../api/js/ejchart#members:series-fill) option of series and use [`positiveFill`](../api/js/ejchart#members:series-positivefill) property to differentiate the positive segments.
 
 N> The inline property of the **series.positiveFill** has the first priority and override the **series.fill**.
 
@@ -2151,7 +2151,7 @@ The sum of all previous point in the waterfall series is displayed on enabling t
 
 ### ConnectorLine
 
-To customize the connector line color, width, opacity and dashArray of the waterfall series, you can use [`connectorLine`](../api/ejchart.html#members:series-connectorLine) option of series.
+To customize the connector line color, width, opacity and dashArray of the waterfall series, you can use [`connectorLine`](../api/js/ejchart#members:series-connectorline) option of series.
 
 {% highlight javascript %}
 
@@ -2178,7 +2178,7 @@ To customize the connector line color, width, opacity and dashArray of the water
 
 ## Error bar Chart 
 
-EjChart can generate Error bar for Cartesian type series *(Line, Column, Bar, Scatter, Area, Candle, HiLo, etc.)*. To render the Error bar for the series, set [`visibility`](../api/ejchart.html#members:series-errorBar-visibility) as *"visible"* to [`errorBar`](../api/ejchart.html#members:series-errorBar) in the series.
+EjChart can generate Error bar for Cartesian type series *(Line, Column, Bar, Scatter, Area, Candle, HiLo, etc.)*. To render the Error bar for the series, set [`visibility`](../api/js/ejchart#members:series-errorbar-visibility) as *"visible"* to [`errorBar`](../api/js/ejchart#members:series-errorbar) in the series.
 
 
 {% highlight javascript %}
@@ -2205,7 +2205,7 @@ EjChart can generate Error bar for Cartesian type series *(Line, Column, Bar, Sc
 
 ### Changing Error Bar Type
 
-You can change the error bar rendering type using [`type`](../api/ejchart.html#members:series-errorBar-type) *(like fixedValue, percentage, standardDeviation, standardError and custom)* option of errorBar. To change the error bar line length you can use [`verticalErrorValue`](../api/ejchart.html#members:series-errorBar-verticalErrorValue) property.
+You can change the error bar rendering type using [`type`](../api/js/ejchart#members:series-errorbar-type) *(like fixedValue, percentage, standardDeviation, standardError and custom)* option of errorBar. To change the error bar line length you can use [`verticalErrorValue`](../api/js/ejchart#members:series-errorbar-verticalerrorvalue) property.
 
 {% highlight javascript %}
 
@@ -2233,7 +2233,7 @@ You can change the error bar rendering type using [`type`](../api/ejchart.html#m
 
 #### Customizing error bar type              
 
-To customize the error bar type, set error bar [`type`](../api/ejchart.html#members:series-errorBar-type) as **"custom"** and then change the horizontal/vertical positive and negative value of error bar.
+To customize the error bar type, set error bar [`type`](../api/js/ejchart#members:series-errorbar-type) as **"custom"** and then change the horizontal/vertical positive and negative value of error bar.
 
 {% highlight javascript %}
 
@@ -2265,7 +2265,7 @@ To customize the error bar type, set error bar [`type`](../api/ejchart.html#memb
 
 ### Changing Error Bar Mode
 
-Error bar mode is used to define whether the error bar line has to be drawn *horizontally, vertically* or in *both* side.  To change the error bar mode use [`errorBar.mode`](../api/ejchart.html#members:series-errorBar-mode) option.
+Error bar mode is used to define whether the error bar line has to be drawn *horizontally, vertically* or in *both* side.  To change the error bar mode use [`errorBar.mode`](../api/js/ejchart#members:series-errorbar-mode) option.
 
 {% highlight javascript %}
 
@@ -2293,7 +2293,7 @@ Error bar mode is used to define whether the error bar line has to be drawn *hor
 
 ### Changing Error Bar Direction
 
-You can change the error bar direction to plus, minus or both side using [`errorBar.directions`](../api/ejchart.html#members:series-errorBar-directions) option.
+You can change the error bar direction to plus, minus or both side using [`errorBar.directions`](../api/js/ejchart#members:series-errorbar-direction) option.
 
 {% highlight javascript %}
 
@@ -2322,7 +2322,7 @@ You can change the error bar direction to plus, minus or both side using [`error
 
 ### Customizing Error bar cap
 
-To customize the error bar cap *visibility, length, width* and *fill* color, you can use [`cap`](../api/ejchart.html#members:series-errorBar-cap) option in the **series.errorBar**.
+To customize the error bar cap *visibility, length, width* and *fill* color, you can use [`cap`](../api/js/ejchart#members:series-errorbar-cap) option in the **series.errorBar**.
 
 {% highlight javascript %}
 
@@ -2352,7 +2352,7 @@ To customize the error bar cap *visibility, length, width* and *fill* color, you
 
 ## Box and Whisker Chart 
 
-To render a Box and Whisker Chart, set the series [`type`](../api/ejchart.html#members:series-type) as **"boxAndWhisker"**.
+To render a Box and Whisker Chart, set the series [`type`](../api/js/ejchart#members:series-type) as **"boxAndWhisker"**.
 Box and Whisker chart requires 2 fields (x and y) to plot a segment. 
 The field y requires n number of data or it should  contains minimum of five values to plot a segment.
 
@@ -2382,7 +2382,7 @@ The field y requires n number of data or it should  contains minimum of five val
 
 ### BoxPlotMode
 
-You can change the rendering mode of the  Box and Whisker series using the  [`boxPlotMode`](../api/ejchart.html#members:series-boxPlotMode) property. The default  [`boxPlotMode`](../api/ejchart.html#members:series-boxPlotMode) is **"exclusive"**.The other boxPlotModes available are `inclusive`and `normal`.
+You can change the rendering mode of the  Box and Whisker series using the  [`boxPlotMode`](../api/js/ejchart#members:series-boxplotmode) property. The default  [`boxPlotMode`](../api/js/ejchart#members:series-boxplotmode) is **"exclusive"**.The other boxPlotModes available are `inclusive`and `normal`.
 
 
 {% highlight javascript %}
@@ -2400,7 +2400,7 @@ You can change the rendering mode of the  Box and Whisker series using the  [`bo
 
 ### ShowMedian
 
-Box and Whisker [`showMedian`](../api/ejchart.html#members:series-showMedian) property is used to show the box and whisker average value. The default value of [`showMedian`](../api/ejchart.html#members:series-showMedian) is **"false"**.  
+Box and Whisker [`showMedian`](../api/js/ejchart#members:series-showmedian) property is used to show the box and whisker average value. The default value of [`showMedian`](../api/js/ejchart#members:series-showmedian) is **"false"**.  
 
 {% highlight javascript %}
 
@@ -2419,7 +2419,7 @@ Box and Whisker [`showMedian`](../api/ejchart.html#members:series-showMedian) pr
 
 ###  Customize the Outlier
 
-Outlier symbol, width and height can be  customized using outlierSettings through [`outlierSettings`](../api/ejchart.html#members:series-outliersettings) property. By default Outlier symbol is displayed as circle with a height and width of 6 pixels.
+Outlier symbol, width and height can be  customized using outlierSettings through [`outlierSettings`](../api/js/ejchart#members:series-outliersettings) property. By default Outlier symbol is displayed as circle with a height and width of 6 pixels.
 
 {% highlight javascript %}
 
@@ -2444,7 +2444,7 @@ Outlier symbol, width and height can be  customized using outlierSettings throug
 
 ## Pie Of Pie Chart
 
-To render the pie of pie chart, set the series [`type`](../api/ejchart.html#members:series-type) as **pieofpie**. Pie of pie chart is used for displaying the data of a pie slice as another pie chart. The values in the second pie is displayed based on the **splitMode**  property.
+To render the pie of pie chart, set the series [`type`](../api/js/ejchart#members:series-type) as **pieofpie**. Pie of pie chart is used for displaying the data of a pie slice as another pie chart. The values in the second pie is displayed based on the **splitMode**  property.
 
 {% highlight javascript %}
 
@@ -2474,7 +2474,7 @@ series: [{
 
 ### Split Mode and Split Value 
 
-The points to be displayed in the second pie is decided based on the [`splitMode`](../api/ejchart#members:series-splitmode) property.**SplitMode** property takes the following values. 
+The points to be displayed in the second pie is decided based on the [`splitMode`](../api/js/ejchart#members:series-splitmode) property.**SplitMode** property takes the following values. 
 * Position – Have to split the data points based on its position
 * Value – Have to split the data points based on its Y value
 * Percentage – Have to split the points based on the percentage value
@@ -2499,7 +2499,7 @@ series: [{
 
 ### Changing Pie Of Pie Size
 
-The size of the second Pie can be customized by using the [`pieOfPieCoefficient`](../api/ejchart#members:series-pieofpiecoefficient) property. The default value of pieOfPieCoefficient is **0.6**.Its value ranges from 0 to 1.
+The size of the second Pie can be customized by using the [`pieOfPieCoefficient`](../api/js/ejchart#members:series-pieofpiecoefficient) property. The default value of pieOfPieCoefficient is **0.6**.Its value ranges from 0 to 1.
 
 {% highlight javascript %}
 
@@ -2520,7 +2520,7 @@ The following screenshot represents the pie of pie series with pieOfPieCoefficie
 
 #### Customizing the Gap
 
-The distance between the two pies in the pie of pie chart can be controlled by using the [`gapWidth`](../api/ejchart#members:series-gapwidth) property. The default value is **50**.
+The distance between the two pies in the pie of pie chart can be controlled by using the [`gapWidth`](../api/js/ejchart#members:series-gapwidth) property. The default value is **50**.
 
  {% highlight javascript %}
 
