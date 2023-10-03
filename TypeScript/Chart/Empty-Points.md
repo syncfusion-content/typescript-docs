@@ -9,7 +9,7 @@ documentation: ug
 
 # Empty Points 
 
-The Data points that uses the **null** or **undefined** as value are considered as empty points. Empty data points are ignored and not plotted in the Chart. When the data is provided by using the [`points`](../api/ejchart.html#members:series-points) property, you can set the **isEmpty** to true to specify that the particular point is an empty point.
+The Data points that uses the **null** or **undefined** as value are considered as empty points. Empty data points are ignored and not plotted in the Chart. When the data is provided by using the [`points`](../api/js/ejchart#members:series-points) property, you can set the **isEmpty** to true to specify that the particular point is an empty point.
 
 {% highlight javascript %}
 
@@ -41,7 +41,7 @@ module ChartComponent {
 
 ## EmptyPointSettings
 
-You can customize the empty points visibility and change its [`displayMode`](../api/ejchart.html#members:series-emptyPointSettings-displayMode) *(gap, zero and average)* using [`emptyPointSettings`](../api/ejchart.html#members:series-emptyPointSettings) option.
+You can customize the empty points visibility and change its [`displayMode`](../api/js/ejchart#members:series-emptypointsettings-displaymode) *(gap, zero and average)* using [`emptyPointSettings`](../api/js/ejchart#members:series-emptypointsettings) option.
 
 {% highlight javascript %}
 
@@ -64,13 +64,13 @@ You can customize the empty points visibility and change its [`displayMode`](../
 ![](Empty-Points_images/Empty-Points_img2.png)
 
 
-If the [`visible`](../api/ejchart.html#members:series-emptyPointSettings-visible) property of [`emptyPointSettings`](../api/ejchart.html#members:series-emptyPointSettings) is *false*, then the empty points has been dropped and chart will be rendered without empty points.
+If the [`visible`](../api/js/ejchart#members:series-emptypointsettings-visible) property of [`emptyPointSettings`](../api/js/ejchart#members:series-emptypointsettings) is *false*, then the empty points has been dropped and chart will be rendered without empty points.
 
 ![](Empty-Points_images/Empty-Points_img3.png)
 
 ## Customizing Styles
 
-Empty points color and border can be customized using [`style`](../api/ejchart.html#members:series-emptyPointSettings-style) property of [`emptyPointSettings`](../api/ejchart.html#members:series-emptyPointSettings).
+Empty points color and border can be customized using [`style`](../api/ejchart.html#members:series-emptyPointSettings-style) property of [`emptyPointSettings`](../api/js/ejchart#members:series-emptypointsettings).
 
 {% highlight javascript %}
 

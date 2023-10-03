@@ -13,9 +13,9 @@ documentation: ug
 
 There are two ways to provide local data to chart.
 
-1. You can bind the data to the chart by using the [`dataSource`](../api/ejchart#members:series-datasource) property of the series and then you need to map the X and Y value with the [`xName`](../api/ejchart#members:series-xname) and [`yName`](../api/ejchart#members:series-yname) properties respectively.
+1. You can bind the data to the chart by using the [`dataSource`](../api/js/ejchart#members:series-datasource) property of the series and then you need to map the X and Y value with the [`xName`](../api/js/ejchart#members:series-xname) and [`yName`](../api/js/ejchart#members:series-yname) properties respectively.
 
-N> For the **OHLC** type series, you have to map four dataSource fields ([`high`](../api/ejchart#members:series-high), [`low`](../api/ejchart#members:series-low), [`open`](../api/ejchart#members:series-open) and [`close`](../api/ejchart#members:series-close)) to bind the data source and for the **bubble** series you have to map the [`size`](../api/ejchart#members:series-size) field along with the [`xName`](../api/ejchart#members:series-xname) and [`yName`](../api/ejchart#members:series-yname). 
+N> For the **OHLC** type series, you have to map four dataSource fields ([`high`](../api/js/ejchart#members:series-high), [`low`](../api/js/ejchart#members:series-low), [`open`](../api/js/ejchart#members:series-open) and [`close`](../api/js/ejchart#members:series-close)) to bind the data source and for the **bubble** series you have to map the [`size`](../api/js/ejchart#members:series-size) field along with the [`xName`](../api/js/ejchart#members:series-xname) and [`yName`](../api/js/ejchart#members:series-yname). 
 
 
 {% highlight javascript %}
@@ -47,7 +47,7 @@ N> For the **OHLC** type series, you have to map four dataSource fields ([`high`
 ![](Working-with-Data_images/Working-with-Data_img1.png)
 
 
-2.You can also plot data to chart using [`points`](../api/ejchart.html#members:series-points) option in the series. Using this property you can customize each and every point in the data.
+2.You can also plot data to chart using [`points`](../api/js/ejchart#members:series-points) option in the series. Using this property you can customize each and every point in the data.
 
 {% highlight javascript %}
 
@@ -74,7 +74,7 @@ N> For the **OHLC** type series, you have to map four dataSource fields ([`high`
 
 ## Remote Data
 
-You can bind the remote data to the chart by using the DataManager and you can use the [`query`](../api/ejchart#members:series-query) property of the series to filter the data from the dataSource.
+You can bind the remote data to the chart by using the DataManager and you can use the [`query`](../api/js/ejchart#members:series-query) property of the series to filter the data from the dataSource.
 
 
 {% highlight javascript %}
