@@ -12,7 +12,7 @@ The grid control has support for the dynamic insertion, updating and deletion of
 
 Deletion of the record is possible by selecting the required row and clicking on Delete icon in toolbar. 
 
-The primary key for the data source should be defined in [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, for editing to work properly. In [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, particular primary column's [`isPrimaryKey`](https://help.syncfusion.com/api/js/ejgrid#members:columns-isprimarykey "isPrimaryKey") property should be set to `true`. Refer to the Knowledge base [link](https://support.syncfusion.com/kb/article/2934/cant-edit-any-row-except-the-first-row-in-grid?isInternalRefresh=False "link") for more information.
+The primary key for the data source should be defined in [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, for editing to work properly. In [`columns`](https://help.syncfusion.com/api/js/ejgrid#members:columns "columns") definition, particular primary column's [`isPrimaryKey`](https://help.syncfusion.com/api/js/ejgrid#members:columns-isprimarykey "isPrimaryKey") property should be set to `true`. Refer to the Knowledge base [link](https://support.syncfusion.com/kb/article/2934/cant-edit-any-row-except-the-first-row-in-grid "link") for more information.
 
 N> 1. In grid, the primary key column will be automatically set to read only while editing the row, but you can specify primary key column value while adding a new record.
 
@@ -768,7 +768,7 @@ After the template elements are converted to JS controls using actionComplete ev
 
 Users can start editing by clicking a cell and typing data into it. Edited cell will be marked while navigating to next cell or any other row, so that you know which fields or cells has been edited. Set [`editMode`](https://help.syncfusion.com/api/js/ejgrid#members:editsettings-editmode "editMode") as `batch` to enable batch editing.
 
-N> Refer the KB [link](https://support.syncfusion.com/kb/article/3065/how-to-suppress-grid-confirmation-messages?isInternalRefresh=False "link") for "How to suppress grid confirmation messages" in batch mode.
+N> Refer the KB [link](https://support.syncfusion.com/kb/article/3065/how-to-suppress-grid-confirmation-messages "link") for "How to suppress grid confirmation messages" in batch mode.
 
 The following code example describes the above behavior.
 
@@ -998,7 +998,7 @@ equalTo</td><td>
 Requires the element to be the same as another.</td></tr>
 </table>
 
-Grid supports all the standard validation methods of jQuery, please refer to the jQuery validation documentation [link](https://jqueryvalidation.org/documentation/ "link") for more information.
+Grid supports all the standard validation methods of jQuery, please refer to the jQuery validation documentation [link](https://jqueryvalidation.org/documentation/# "link") for more information.
 
 The following code example describes the above behavior.
 
