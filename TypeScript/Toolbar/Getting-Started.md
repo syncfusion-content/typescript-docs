@@ -104,7 +104,7 @@ Initialize the Toolbar items with **UL LI** template as follows.
 
 Apply the given styles in the code table to show the **toolbar items** as follows. You can refer images from any location. In the following code sample, the images are referred from the given location.
 
-[http://js.syncfusion.com/UG/Web/Content/](http://js.syncfusion.com/UG/Web/Content/)
+[https://ej2.syncfusion.com/home/javascript.html#platform](https://ej2.syncfusion.com/home/javascript.html#platform)
 
 {% highlight css %}
 
