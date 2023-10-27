@@ -1,13 +1,13 @@
 ---
 layout: post
-title: getting-started
-description: getting started
+title: Getting Started with TypeScript Autocomplete Component | Syncfusion
+description: Learn here all about getting started with Syncfusion Essential Typescript Autocomplete component, it's elements and more details.
 platform: TypeScript
 control: AutoComplete
 documentation: ug
 ---
 
-# Getting Started
+# Getting Started with TypeScript Autocomplete Component
 
 
 
@@ -83,7 +83,7 @@ Now build your application, so that the **app.js** file is automatically gener
 
 This will render an Autocomplete with no suggestion on executing.
 
-![](getting-started_images\getting-started_img1.png)
+![TypeScript Autocomplete suggestion on executing](getting-started_images\typescript-autocomplete-getting-started.png)
 
 ## Data Binding
 
@@ -132,7 +132,7 @@ Run the above code to render the following output:
 
 
 
-![](getting-started_images\getting-started_img2.png)
+![TypeScript Autocomplete output](getting-started_images\typescript-autocomplete-output.png)
 
 ## Enable Popup Button
 
@@ -181,7 +181,7 @@ Run the above code to render the following output:
 
 
 
-![](getting-started_images\getting-started_img3.png)
+![Enable Popup Button in TypeScript Autocomplete](getting-started_images\typescript-autocomplete-popup.png)
 
 
 
