@@ -10,7 +10,7 @@ documentation: ug
 
 # Template 
 
-Tree nodes can be customized by using [template](https://help.syncfusion.com/api/js/ejtreeview#members:template) property. TreeView template option requires addition JS library called **’JsRender’**, which helps to create the structured way of tree nodes with simple codes and increased performance. To know more about JsRender - [http://www.jsviews.com/](https://www.jsviews.com/) .  
+Tree nodes can be customized by using [template](https://help.syncfusion.com/api/js/ejtreeview#members:template) property. TreeView template option requires addition JS library called **’JsRender’**, which helps to create the structured way of tree nodes with simple codes and increased performance. To know more about JsRender - [https://www.jsviews.com/](https://www.jsviews.com/) .  
 
 {% highlight js %}
 
