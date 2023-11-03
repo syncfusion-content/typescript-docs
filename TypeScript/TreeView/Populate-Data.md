@@ -97,7 +97,7 @@ module TreeViewComponent {
 
        { id: 1, text: "Item 1", expanded: true, nodeProperty: { class: "textBlue", value: "Item 1" } },
 
-       { id: 2, text: "Item 2", linkProperty: { class: "textUnderline", href: "http://www.syncfusion.com", target: "_blank" } },
+       { id: 2, text: "Item 2", linkProperty: { class: "textUnderline", href: "https://www.syncfusion.com", target: "_blank" } },
 
        { id: 3, text: "Item 3", selected: true, spriteImage: "mail-icon sprite-calendar" },
 
@@ -300,7 +300,7 @@ module TreeViewComponent {
 
 ## Remote Data
 
-When using remote data binding, the adaptor of [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager#) plays vital role in processing queries to make them suitable to sends along with data request and also process the response data from the server.
+When using remote data binding, the adaptor of [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager) plays vital role in processing queries to make them suitable to sends along with data request and also process the response data from the server.
 
 ### OData
 
@@ -308,7 +308,7 @@ When using remote data binding, the adaptor of [ej.DataManager](https://help.syn
 
 * Passing OData service link to DataManager
 
-You can provide the OData service URL directly to the [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager#) class and then we can assign it to TreeView dataSource.
+You can provide the OData service URL directly to the [ej.DataManager](https://help.syncfusion.com/api/js/ejdatamanager) class and then we can assign it to TreeView dataSource.
 
 {% highlight html %}
 
