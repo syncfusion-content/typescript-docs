@@ -301,7 +301,7 @@ module ScheduleComponent {
 
 ## OData V4
 
-The OData v4 is an improved version of OData protocols and the DataManager can also retrieve and consume appointment data from [OData v4](https://www.odata.org/documentation) services.
+The OData v4 is an improved version of OData protocols and the DataManager can also retrieve and consume appointment data from [OData v4](https://www.odata.org/documentation/) services.
 
 {% highlight html %}
 

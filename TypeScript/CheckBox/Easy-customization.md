@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Easy-customization
-description: easy customization
+title: Easy-customization in TypeScript Checkbox Control | Syncfusion
+description: Learn here about easy customization in Syncfusion Essential TypeScript Checkbox Control, its elements, and more.
 platform: TypeScript
 control: Checkbox
 documentation: ug
 ---
 
-# Easy customization
+# Easy customization in TypeScript Checkbox 
 
 ## Checked status
 
@@ -53,7 +53,7 @@ module CheckBoxComponent {
 
 Execute the above code to render the following output.
 
-![](Easy-customization_images/Easy-customization_img1.png) 
+![Checked status in TypeScript Checkbox](Easy-customization_images/Easy-customization_img1.png) 
 
 
 ## Enable Tri-State
@@ -102,7 +102,7 @@ module CheckBoxComponent {
 Execute the above code to render the following output.
 
 
-![](Easy-customization_images/Easy-customization_img2.png) 
+![Enable tri-state in TypeScript Checkbox](Easy-customization_images/Easy-customization_img2.png) 
 
 
 
@@ -200,7 +200,7 @@ module CheckBoxComponent {
 Execute the above code to render the following output.
 
 
-![](Easy-customization_images/Easy-customization_img3.png) 
+![Check state in TypeScript Checkbox](Easy-customization_images/Easy-customization_img3.png) 
 
 
 
@@ -265,7 +265,7 @@ module CheckBoxComponent {
 Execute the above code to render the following output.
 
 
-![](Easy-customization_images/Easy-customization_img4.png) 
+![CheckBox size in TypeScript](Easy-customization_images/Easy-customization_img4.png) 
 
 
 
@@ -310,7 +310,7 @@ module CheckBoxComponent {
 Execute the above code to render the following output.
 
 
-![](Easy-customization_images/Easy-customization_img5.png) 
+![Text in TypeScript Checkbox](Easy-customization_images/Easy-customization_img5.png) 
 
 
 
@@ -361,7 +361,7 @@ module CheckBoxComponent {
 Execute the above code to render the following output.
 
 
-![](Easy-customization_images/Easy-customization_img6.png) 
+![Rounded corner in TypeScript Checkbox](Easy-customization_images/Easy-customization_img6.png) 
 
 
 
