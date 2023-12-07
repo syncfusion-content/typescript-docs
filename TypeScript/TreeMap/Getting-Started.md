@@ -9,11 +9,11 @@ documentation: ug
 
 # Getting Started with TypeScript TreeMap
 
-* This section explains briefly about how to create a TreeMap in your application with TypeScript.
-* Here you can learn how to configure a TreeMap control in a real-time scenario where it is used to visually represent the percentage of growth in population in each continent. 
+* This section explains briefly about how to create a [https://www.syncfusion.com/javascript-ui-controls/js-treemap](JavaScript TreeMap) in your application with TypeScript.
+* Here you can learn how to configure a [https://www.syncfusion.com/javascript-ui-controls/js-treemap](Javacript TreeMap) control in a real-time scenario where it is used to visually represent the percentage of growth in population in each continent. 
 * It also provides a walk-through on some of the customization features available in TreeMap control.
 
-![TypeScript TreeMap Getting Started](Getting-Started_images/Getting-Started_img1.png)
+![TypeScript TreeMap Getting Started.](Getting-Started_images/typescript-treemap-getting-started.png)
 
 ## Create a TreeMap 
 
@@ -108,7 +108,7 @@ module TreeMapComponent {
 
 The following image displays a TreeMap with default properties using the above code. 
 
-![TypeScript TreeMap GroupTreeMap Items using Levels](Getting-Started_images/Getting-Started_img2.png)
+![TypeScript TreeMap GroupTreeMap Items using Levels.](Getting-Started_images/typescript-treemap-items.png)
 
 ## GroupTreeMap Items using Levels
 
@@ -140,7 +140,7 @@ The following code sample explains how to group TreeMap Items using ‘Levels’
 
 The following screenshot displays grouping of TreeMapItems using Levels.
 
-![TypeScript TreeMap Customize TreeMap Appearance by Range](Getting-Started_images/Getting-Started_img3.png)
+![TypeScript TreeMap Customize TreeMap Appearance by Range.](Getting-Started_images/typescript-treemap-appearance.png)
 
 
 
@@ -179,7 +179,7 @@ The following code sample explains how to customize TreeMap Appearance by Range.
 
 The following screenshot displays customized TreeMap Appearance by Range
 
-![TypeScript TreeMap Enable Tooltip](Getting-Started_images/Getting-Started_img4.png)
+![TypeScript TreeMap Enable Tooltip.](Getting-Started_images/typescript-treemap-tooltip.png)
 
 ## Enable Tooltip
 
@@ -218,7 +218,7 @@ $(function () {
 
 The following screenshot displays the TreeMap when the Tooltip is enabled.
 
-![TypeScript TreeMap Legend](Getting-Started_images/Getting-Started_img5.png)
+![TypeScript TreeMap Legend.](Getting-Started_images/typescript-treemap-legend.png)
 
 ## Legend
 
@@ -265,5 +265,6 @@ The following code sample displays how to add labels for legend in a TreeMap.
 
 The following screenshot displays the TreeMap when Labels are enabled.
 
-![TypeScript TreeMap Label for Legend](Getting-Started_images/Getting-Started_img6.png)
+![TypeScript TreeMap Label for Legend.](Getting-Started_images/typescript-treemap-legend-labels.png)
 
+N> You can refer to our [JavaScript TreeMap](https://www.syncfusion.com/javascript-ui-controls/js-treemap) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript TreeMap Example](https://ej2.syncfusion.com/demos/#/material/treemap/default.html) that shows you how to render and configure the TreeMao in JavaScript.
