@@ -267,4 +267,4 @@ The following screenshot displays the TreeMap when Labels are enabled.
 
 ![TypeScript TreeMap Label for Legend](Getting-Started_images/Getting-Started_img6.png)
 
-N> You can refer to our [JavaScript TreeMap](https://www.syncfusion.com/javascript-ui-controls/js-treemap) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript TreeMap](https://ej2.syncfusion.com/aspnetcore/ListView/DefaultFunctionalities#/bootstrap5) that shows you how to render and configure the TreeMap in JavaScript.
+N> You can refer to our [JavaScript TreeMap](https://www.syncfusion.com/javascript-ui-controls/js-treemap) feature tour page for its groundbreaking feature representations. You can also explore our [JavaScript TreeMap](https://ej2.syncfusion.com/demos/#/bootstrap5/treemap/default.html) that shows you how to render and configure the TreeMap in JavaScript.
