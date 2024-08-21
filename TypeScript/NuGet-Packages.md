@@ -7,7 +7,7 @@ control: NuGet Packages
 documentation: ug
 ---
 
-# NuGet Packages
+# NuGet Packages in TypeScript
 
 NuGet is a package manager for the .NET framework. The NuGet client tools simplify the process of installing and upgrading packages. This can be used to automatically add files and references to your Visual Studio projects.
 
