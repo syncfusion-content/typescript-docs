@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Getting started with Typescript DatePicker Control | Syncfusion
-description: Learn here about getting started with Syncfusion Typescript DatePicker control, its elements, and more.
+title: Getting Started with Typescript DatePicker Control | Syncfusion
+description: Learn here all about getting started with Syncfusion Typescript DatePicker component, it's elements and more details.
 platform: TypeScript
 control: DatePicker
 documentation: ug
 ---
 
-# Getting Started with Typescript DatePicker
+# Getting Started with Typescript DatePicker Component
 
 This section will explain the Getting started of the DatePicker in TypeScript application, with the step-by-step instructions.
 
