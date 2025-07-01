@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Keyboard-Navigation
-description: keyboard navigation
+title: Keyboard-Navigation | Typescript | Syncfusion
+description: Check out and learn here all about keyboard navigation in Syncfusion TypeScript Accordion and much more details.
 platform: Typescript
 control: Accordion 
 documentation: ug
@@ -108,6 +108,6 @@ module AccordionComponent {
 
 Output for Accordion widget focused and navigated to last item using Keyboard navigation is as follows.
 
-![](Keyboard-Navigation_images/Keyboard-Navigation_img1.png) 
+![Configure keyboard interaction in keyboard navigation.](Keyboard-Navigation_images/Keyboard-Navigation_img1.png) 
 
 
