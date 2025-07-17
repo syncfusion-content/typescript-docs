@@ -108,6 +108,6 @@ module AccordionComponent {
 
 Output for Accordion widget focused and navigated to last item using Keyboard navigation is as follows.
 
-![](Keyboard-Navigation_images/Keyboard-Navigation_img1.png) 
+![Configure keyboard interaction in TypeScript Accordion.](Keyboard-Navigation_images/Keyboard-Navigation_img1.png) 
 
 
