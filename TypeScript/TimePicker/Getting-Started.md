@@ -59,7 +59,7 @@ tsc
 This command compiles the app.ts file to generate a JS file named app.js file. 
 Refer the app.js file in index.html and browse the html file to see the following output.
 
-![](Getting-Started_images/Getting-Started_img1.png) 
+![run the application in TypeScript TimePicker.](Getting-Started_images/Getting-Started_img1.png) 
 
 ### Configuring Properties
 
@@ -85,4 +85,4 @@ This property specifies the list of time range to be disabled in TimePicker cont
 
 The following screenshot illustrates the output of above code.
 
-![](Getting-Started_images/Getting-Started_img3.png) 
+![disable time ranges in TypeScript TimePcker.](Getting-Started_images/Getting-Started_img3.png) 
